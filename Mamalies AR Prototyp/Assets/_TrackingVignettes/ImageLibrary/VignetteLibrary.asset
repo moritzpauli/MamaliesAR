@@ -1,0 +1,357 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: VignetteLibrary
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5628281133288395619
+  m_GuidHigh: 1661672896627627679
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5086507376251037252
+      m_GuidHigh: 1987893014349630095
+    m_SerializedTextureGuid:
+      m_GuidLow: 14169467256458377674
+      m_GuidHigh: 584966795036188152
+    m_Size: {x: 0.09114286, y: 0.046428572}
+    m_SpecifySize: 1
+    m_Name: '#0001_DS016-017_family-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5163349869871982755
+      m_GuidHigh: 1418364129688520607
+    m_SerializedTextureGuid:
+      m_GuidLow: 7323990495607398280
+      m_GuidHigh: 1149093339703024202
+    m_Size: {x: 0.08800001, y: 0.042285718}
+    m_SpecifySize: 1
+    m_Name: '#0027_DS018-019_body'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5151428275338642540
+      m_GuidHigh: 3860951215126147758
+    m_SerializedTextureGuid:
+      m_GuidLow: 17155363840077691304
+      m_GuidHigh: 7534963577264936665
+    m_Size: {x: 0.074, y: 0.04214286}
+    m_SpecifySize: 1
+    m_Name: '#0051_DS020-021_head-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5265985598032671298
+      m_GuidHigh: 194895393626786729
+    m_SerializedTextureGuid:
+      m_GuidLow: 17439307517725370182
+      m_GuidHigh: 8594838925812621801
+    m_Size: {x: 0.085857145, y: 0.05757143}
+    m_SpecifySize: 1
+    m_Name: '#0073_DS022-023_professions_headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5249086325949660027
+      m_GuidHigh: 11857853956150896016
+    m_SerializedTextureGuid:
+      m_GuidLow: 1901917432811229559
+      m_GuidHigh: 11060556534184765242
+    m_Size: {x: 0.12757143, y: 0.048857145}
+    m_SpecifySize: 1
+    m_Name: '#0103_DS026-027_stories_headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5199570115465626048
+      m_GuidHigh: 6641510262402808962
+    m_SerializedTextureGuid:
+      m_GuidLow: 9652463315775514428
+      m_GuidHigh: 4183795180363761258
+    m_Size: {x: 0.09485715, y: 0.047000002}
+    m_SpecifySize: 1
+    m_Name: '#0122_DS028-029_emotions_headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5550983051642454867
+      m_GuidHigh: 2777669123543831963
+    m_SerializedTextureGuid:
+      m_GuidLow: 2838551051708175541
+      m_GuidHigh: 16365401944233355992
+    m_Size: {x: 0.12771429, y: 0.04414286}
+    m_SpecifySize: 1
+    m_Name: '#0137_DS030-031_health'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4991664335165256820
+      m_GuidHigh: 17665385478338449835
+    m_SerializedTextureGuid:
+      m_GuidLow: 5387587836040192103
+      m_GuidHigh: 4377288698400774073
+    m_Size: {x: 0.07514286, y: 0.043}
+    m_SpecifySize: 1
+    m_Name: '#0177_DS034-035_animals'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4942749566095787272
+      m_GuidHigh: 2390198866524605098
+    m_SerializedTextureGuid:
+      m_GuidLow: 4617588241553840709
+      m_GuidHigh: 13636197955825214715
+    m_Size: {x: 0.12085715, y: 0.05114286}
+    m_SpecifySize: 1
+    m_Name: '#0224_DS040-041_farm-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4630217647085590777
+      m_GuidHigh: 2357909267386306949
+    m_SerializedTextureGuid:
+      m_GuidLow: 3721320327306667988
+      m_GuidHigh: 13641701222880219064
+    m_Size: {x: 0.09128572, y: 0.04257143}
+    m_SpecifySize: 1
+    m_Name: '#0250_DS042-043_vegetables-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5028808432159363257
+      m_GuidHigh: 17115842781783688334
+    m_SerializedTextureGuid:
+      m_GuidLow: 11836807685618196412
+      m_GuidHigh: 17965365767905135401
+    m_Size: {x: 0.070285715, y: 0.047000002}
+    m_SpecifySize: 1
+    m_Name: '#0266_DS044-045_fruit-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5268984260812956093
+      m_GuidHigh: 14628103133254744727
+    m_SerializedTextureGuid:
+      m_GuidLow: 17245535263510214496
+      m_GuidHigh: 12897942664107455384
+    m_Size: {x: 0.08271429, y: 0.05057143}
+    m_SpecifySize: 1
+    m_Name: '#0280_DS046-047_nature'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5669434052400228917
+      m_GuidHigh: 17084258405779516591
+    m_SerializedTextureGuid:
+      m_GuidLow: 4239207701588393396
+      m_GuidHigh: 16109593171357474218
+    m_Size: {x: 0.08871429, y: 0.04457143}
+    m_SpecifySize: 1
+    m_Name: '#0295_DS048-049_water'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5562655498027410661
+      m_GuidHigh: 15175987998906253742
+    m_SerializedTextureGuid:
+      m_GuidLow: 8423132201640236022
+      m_GuidHigh: 2654175412023666009
+    m_Size: {x: 0.101428576, y: 0.05514286}
+    m_SpecifySize: 1
+    m_Name: '#0312_DS050-051_summer'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5583933356646753702
+      m_GuidHigh: 11875230343460707729
+    m_SerializedTextureGuid:
+      m_GuidLow: 10188350884083839916
+      m_GuidHigh: 4508969695280512136
+    m_Size: {x: 0.09657143, y: 0.044714287}
+    m_SpecifySize: 1
+    m_Name: '#0351_DS052-053_rice'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5271321611301703321
+      m_GuidHigh: 8868841765716884124
+    m_SerializedTextureGuid:
+      m_GuidLow: 9089612943836391133
+      m_GuidHigh: 15156041530766175049
+    m_Size: {x: 0.09385715, y: 0.04857143}
+    m_SpecifySize: 1
+    m_Name: '#0363_DS054-055_traffic-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5691760075466548806
+      m_GuidHigh: 16719978053771633851
+    m_SerializedTextureGuid:
+      m_GuidLow: 13417551113616965255
+      m_GuidHigh: 6828916205047292603
+    m_Size: {x: 0.07271429, y: 0.052}
+    m_SpecifySize: 1
+    m_Name: '#0407_DS058-059_world'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5756984278024518172
+      m_GuidHigh: 10909255234560634782
+    m_SerializedTextureGuid:
+      m_GuidLow: 1609146979813498848
+      m_GuidHigh: 3937436794252283562
+    m_Size: {x: 0.08714286, y: 0.051000003}
+    m_SpecifySize: 1
+    m_Name: '#0419_DS060-061_traveling'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5232674731706974139
+      m_GuidHigh: 16294278628099982261
+    m_SerializedTextureGuid:
+      m_GuidLow: 17745417543042520505
+      m_GuidHigh: 5210864230567190968
+    m_Size: {x: 0.10157143, y: 0.03957143}
+    m_SpecifySize: 1
+    m_Name: '#0475_DS066-067_clothes'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5295198402465925339
+      m_GuidHigh: 14556844072910207417
+    m_SerializedTextureGuid:
+      m_GuidLow: 712926156423780464
+      m_GuidHigh: 15551021492159365435
+    m_Size: {x: 0.11114286, y: 0.045285717}
+    m_SpecifySize: 1
+    m_Name: '#0533_DS072-073_shopping'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5499190617230653098
+      m_GuidHigh: 12409929228591805348
+    m_SerializedTextureGuid:
+      m_GuidLow: 9413746973543647461
+      m_GuidHigh: 14917359536479443674
+    m_Size: {x: 0.12728572, y: 0.05114286}
+    m_SpecifySize: 1
+    m_Name: '#0587_DS078-079_seasons'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4725761342429071082
+      m_GuidHigh: 10492643136700137871
+    m_SerializedTextureGuid:
+      m_GuidLow: 17281503446030576338
+      m_GuidHigh: 1053721825093234922
+    m_Size: {x: 0.083571434, y: 0.045}
+    m_SpecifySize: 1
+    m_Name: '#0643_DS084-085_sport'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5075530780781277635
+      m_GuidHigh: 15805065336146144413
+    m_SerializedTextureGuid:
+      m_GuidLow: 13611031554905210246
+      m_GuidHigh: 6112492587961083896
+    m_Size: {x: 0.10128572, y: 0.048714288}
+    m_SpecifySize: 1
+    m_Name: '#0680_DS088-089_living'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4701280257528744811
+      m_GuidHigh: 17123978069581210020
+    m_SerializedTextureGuid:
+      m_GuidLow: 4347216190823431901
+      m_GuidHigh: 10161591974495629641
+    m_Size: {x: 0.10028572, y: 0.044285715}
+    m_SpecifySize: 1
+    m_Name: '#0700_DS090-091_household'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5598991999073629412
+      m_GuidHigh: 545708465045753230
+    m_SerializedTextureGuid:
+      m_GuidLow: 7896011488218538982
+      m_GuidHigh: 512711735566158041
+    m_Size: {x: 0.08028572, y: 0.049428575}
+    m_SpecifySize: 1
+    m_Name: '#0763_DS094-095_house'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5011378531472615980
+      m_GuidHigh: 13588648739449768862
+    m_SerializedTextureGuid:
+      m_GuidLow: 13493982903271728572
+      m_GuidHigh: 10333987753245492330
+    m_Size: {x: 0.097, y: 0.051285718}
+    m_SpecifySize: 1
+    m_Name: '#0776_DS096-097_garden-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4957142378234199076
+      m_GuidHigh: 10639789987872620204
+    m_SerializedTextureGuid:
+      m_GuidLow: 2000813088674735078
+      m_GuidHigh: 627363254756906953
+    m_Size: {x: 0.09442858, y: 0.052}
+    m_SpecifySize: 1
+    m_Name: '#0786_DS098-099_celebrations'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5208556320298447532
+      m_GuidHigh: 14462827495366123961
+    m_SerializedTextureGuid:
+      m_GuidLow: 14016521679610264940
+      m_GuidHigh: 16882006587575316600
+    m_Size: {x: 0.08028572, y: 0.04714286}
+    m_SpecifySize: 1
+    m_Name: '#0804_DS100-101_times'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5031062710149317269
+      m_GuidHigh: 15516775343097330305
+    m_SerializedTextureGuid:
+      m_GuidLow: 6576481511095724902
+      m_GuidHigh: 11807693476315433272
+    m_Size: {x: 0.081, y: 0.04514286}
+    m_SpecifySize: 1
+    m_Name: '#0851_DS104-105_school-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5417160596911424867
+      m_GuidHigh: 10062990612286193582
+    m_SerializedTextureGuid:
+      m_GuidLow: 9314727181586965265
+      m_GuidHigh: 13175756683265669610
+    m_Size: {x: 0.12142858, y: 0.047285717}
+    m_SpecifySize: 1
+    m_Name: '#1034_DS114-115_opposites'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5034341031814642655
+      m_GuidHigh: 18185552665113208985
+    m_SerializedTextureGuid:
+      m_GuidLow: 2217005799493574420
+      m_GuidHigh: 14532837301163069880
+    m_Size: {x: 0.11585715, y: 0.043285716}
+    m_SpecifySize: 1
+    m_Name: '#1107_DS120-121_whereexactly'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4825002464229993325
+      m_GuidHigh: 2386774455418275463
+    m_SerializedTextureGuid:
+      m_GuidLow: 10481067995443597784
+      m_GuidHigh: 5281613418558316136
+    m_Size: {x: 0.08400001, y: 0.044285715}
+    m_SpecifySize: 1
+    m_Name: '#2000_DS116-117_verbs'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5249160493381926665
+      m_GuidHigh: 10871061893929688723
+    m_SerializedTextureGuid:
+      m_GuidLow: 13250840850397061824
+      m_GuidHigh: 112141582963809353
+    m_Size: {x: 0.06857143, y: 0.050857145}
+    m_SpecifySize: 1
+    m_Name: '#2002_DS120-121_we-headline'
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4714631078791621150
+      m_GuidHigh: 4448215099253913768
+    m_SerializedTextureGuid:
+      m_GuidLow: 3793214880641972710
+      m_GuidHigh: 14857399012568148379
+    m_Size: {x: 0.07, y: 0.045853212}
+    m_SpecifySize: 1
+    m_Name: '#320_DS050-051_food'
+    m_Texture: {fileID: 0}
