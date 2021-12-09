@@ -12064,16 +12064,10 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0037_DS018-019_leg.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 2800000, guid: 8739cae3bb0e83c4e92ad1eeac34e52b, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 8739cae3bb0e83c4e92ad1eeac34e52b, type: 3}
   - m_GUID: ad13c105b6a24e2448a7ba46467c739f
     m_Address: Assets/_TrackingVignettes/ProductionImages/0044_DS018-019_muscle.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 67a442052673494419e0d056a4c51f48
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0037_DS018-019_leg.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -12084,18 +12078,12 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: f6375b2f67a861d4f8a42a50c70bde2d
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0030_DS018-019_arm.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 9cce75ae3c98677488a5d28eb232f824
     m_Address: Assets/_TrackingVignettes/ProductionImages/0039_DS018-019_toe-toes.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 2800000, guid: 9cce75ae3c98677488a5d28eb232f824, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 9cce75ae3c98677488a5d28eb232f824, type: 3}
   - m_GUID: bc04cd9283b8c4f42ac4aac7f53d5627
     m_Address: Assets/_TrackingVignettes/ProductionImages/0059_DS020-021_eye.png
     m_ReadOnly: 0
@@ -12280,8 +12268,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0030_DS018-019_arm.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 2800000, guid: f9e5c0ff7feb3ee458d6b534438956aa, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: f9e5c0ff7feb3ee458d6b534438956aa, type: 3}
   - m_GUID: c5a4a2bc00ff1764bbfc860e9742ba26
     m_Address: Assets/_TrackingVignettes/ProductionImages/0956_DS112-113_five 1.png
     m_ReadOnly: 0
@@ -14656,13 +14644,6 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0492_DS066-067_socks.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 9824529180cdf284a98b08e020ce7dfa
-    m_Address: Assets/_VoiceLines/ar/ar_0115_DS026-027_queen.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - ar
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 57cba785ff1e88c45847152a51a6808b
