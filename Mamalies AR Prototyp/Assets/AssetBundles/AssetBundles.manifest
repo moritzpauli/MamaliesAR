@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 3427063921
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: de_voicelines
+      Dependencies: {}
+    Info_1:
+      Name: en_voicelines
+      Dependencies: {}

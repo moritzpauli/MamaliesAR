@@ -1,0 +1,24 @@
+ManifestFileVersion: 0
+CRC: 2007076054
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: c40ccb8d510973b3e04b3eda620dc0c8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 9a2ca7bdbd1871f7131daf57de908e0c
+HashAppended: 0
+ClassTypes:
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/_VoiceLines/de_0005_001_hairdresser.mp3
+- Assets/_VoiceLines/de_0006_001_journalist.mp3
+- Assets/_VoiceLines/de_0007_002_friedegg.mp3
+- Assets/_VoiceLines/de_0004_001_judge.mp3
+- Assets/_VoiceLines/de_0003_001_mailman.mp3
+- Assets/_VoiceLines/de_0001_001_job.mp3
+- Assets/_VoiceLines/de_0008_002_sugar.mp3
+- Assets/_VoiceLines/de_0002_001_garbageman.mp3
+Dependencies: []

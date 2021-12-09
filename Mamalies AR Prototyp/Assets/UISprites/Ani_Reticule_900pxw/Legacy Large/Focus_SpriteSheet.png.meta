@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: adf456da0050cb74b8f861f0d8350fb9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6587265439033936104
+    second: Focus_SpriteSheet_0
+  - first:
+      213: -363654279642617250
+    second: Focus_SpriteSheet_1
+  - first:
+      213: -4012381023009866269
+    second: Focus_SpriteSheet_2
+  - first:
+      213: -8008322797650527673
+    second: Focus_SpriteSheet_3
+  - first:
+      213: 7363081813668740887
+    second: Focus_SpriteSheet_4
+  - first:
+      213: -7793497954933098092
+    second: Focus_SpriteSheet_5
+  - first:
+      213: 530778036519165693
+    second: Focus_SpriteSheet_6
+  - first:
+      213: -6620426998371915733
+    second: Focus_SpriteSheet_7
+  - first:
+      213: -441240508917862150
+    second: Focus_SpriteSheet_8
+  - first:
+      213: 3846359153575107819
+    second: Focus_SpriteSheet_9
+  - first:
+      213: -6364514642789104754
+    second: Focus_SpriteSheet_10
+  - first:
+      213: -7029695687399077686
+    second: Focus_SpriteSheet_11
+  - first:
+      213: 3449694604003027437
+    second: Focus_SpriteSheet_12
+  - first:
+      213: -2751544498733110822
+    second: Focus_SpriteSheet_13
+  - first:
+      213: -8962505454335833737
+    second: Focus_SpriteSheet_14
+  - first:
+      213: -5137010910719245735
+    second: Focus_SpriteSheet_15
+  - first:
+      213: -1763951906865148672
+    second: Focus_SpriteSheet_16
+  - first:
+      213: -6922205623793273174
+    second: Focus_SpriteSheet_17
+  - first:
+      213: -6994124545847425132
+    second: Focus_SpriteSheet_18
+  - first:
+      213: 5354326101677829434
+    second: Focus_SpriteSheet_19
+  - first:
+      213: 1417302838345308210
+    second: Focus_SpriteSheet_20
+  - first:
+      213: 801062261936118917
+    second: Focus_SpriteSheet_21
+  - first:
+      213: -1913624340424138327
+    second: Focus_SpriteSheet_22
+  - first:
+      213: -4900799413778454279
+    second: Focus_SpriteSheet_23
+  - first:
+      213: 7877200787024468682
+    second: Focus_SpriteSheet_24
+  - first:
+      213: -2062318897334953742
+    second: Focus_SpriteSheet_25
+  - first:
+      213: -2850020419612553604
+    second: Focus_SpriteSheet_26
+  - first:
+      213: 4338961783084883601
+    second: Focus_SpriteSheet_27
+  - first:
+      213: -6633649644714658502
+    second: Focus_SpriteSheet_28
+  - first:
+      213: -5447003312555218468
+    second: Focus_SpriteSheet_29
+  - first:
+      213: -8026152955905632230
+    second: Focus_SpriteSheet_30
+  - first:
+      213: 8066661672871310237
+    second: Focus_SpriteSheet_31
+  - first:
+      213: -5372885710341937281
+    second: Focus_SpriteSheet_32
+  - first:
+      213: -3448556216150377560
+    second: Focus_SpriteSheet_33
+  - first:
+      213: 4702683976125723615
+    second: Focus_SpriteSheet_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e843d6140baa6b50800000000000000
+      internalID: 6587265439033936104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ae9d00c5a04faf0800000000000000
+      internalID: -363654279642617250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ed7af3d7b82158c0800000000000000
+      internalID: -4012381023009866269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74ab06f68d8bcd090800000000000000
+      internalID: -8008322797650527673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f3dd3f5ebee2660800000000000000
+      internalID: 7363081813668740887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 499ba76d6eee7d390800000000000000
+      internalID: -7793497954933098092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 2216
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfedd41efc3bd5700800000000000000
+      internalID: 530778036519165693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b28e2a4b8b48f14a0800000000000000
+      internalID: -6620426998371915733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_8
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0307d481660e9f0800000000000000
+      internalID: -441240508917862150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_9
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec9a637543016530800000000000000
+      internalID: 3846359153575107819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_10
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8388cc27a3bca7a0800000000000000
+      internalID: -6364514642789104754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_11
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac88b796401817e90800000000000000
+      internalID: -7029695687399077686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_12
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de9ae2f07f6cfdf20800000000000000
+      internalID: 3449694604003027437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_13
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1662
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad925515bdc80d9d0800000000000000
+      internalID: -2751544498733110822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 779cfc056c8ce9380800000000000000
+      internalID: -8962505454335833737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_15
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95206433bcba5b8b0800000000000000
+      internalID: -5137010910719245735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_16
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d0e66261f2587e0800000000000000
+      internalID: -1763951906865148672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_17
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa6379b19a26fef90800000000000000
+      internalID: -6922205623793273174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_18
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978ce138c0efee90800000000000000
+      internalID: -6994124545847425132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_19
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3deb1698336e4a40800000000000000
+      internalID: 5354326101677829434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_20
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 1108
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23899ba1c654ba310800000000000000
+      internalID: 1417302838345308210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c5cad02e1fd1b00800000000000000
+      internalID: 801062261936118917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_22
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a16a7b1dc07175e0800000000000000
+      internalID: -1913624340424138327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_23
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f8ea4216ecdcfbb0800000000000000
+      internalID: -4900799413778454279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_24
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca550f6160715d60800000000000000
+      internalID: 7877200787024468682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_25
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f856c6b3eb2163e0800000000000000
+      internalID: -2062318897334953742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_26
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7e42664781b278d0800000000000000
+      internalID: -2850020419612553604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_27
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 554
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19e15ceb0c6173c30800000000000000
+      internalID: 4338961783084883601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a35f2627bca80f3a0800000000000000
+      internalID: -6633649644714658502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_29
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd925c0c85b5864b0800000000000000
+      internalID: -5447003312555218468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_30
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a181b4639606d9090800000000000000
+      internalID: -8026152955905632230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_31
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d93b0ce6d0a82ff60800000000000000
+      internalID: 8066661672871310237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_32
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f77eb48c9ecaf65b0800000000000000
+      internalID: -5372885710341937281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_33
+      rect:
+        serializedVersion: 2
+        x: 4500
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ab346484644420d0800000000000000
+      internalID: -3448556216150377560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Focus_SpriteSheet_34
+      rect:
+        serializedVersion: 2
+        x: 5400
+        y: 0
+        width: 900
+        height: 554
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd335ef092a434140800000000000000
+      internalID: 4702683976125723615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,984 @@
+fileFormatVersion: 2
+guid: ea9d0f31d9cd3f241a9f58bedbd3eac3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2136650109836139919
+    second: Sprite_Focus_460x340_30fps_0
+  - first:
+      213: 5217958585025267980
+    second: Sprite_Focus_460x340_30fps_1
+  - first:
+      213: 773075159863918417
+    second: Sprite_Focus_460x340_30fps_2
+  - first:
+      213: 367720349646485085
+    second: Sprite_Focus_460x340_30fps_3
+  - first:
+      213: 6103007249029106549
+    second: Sprite_Focus_460x340_30fps_4
+  - first:
+      213: -1205890711634331945
+    second: Sprite_Focus_460x340_30fps_5
+  - first:
+      213: 188029879305327919
+    second: Sprite_Focus_460x340_30fps_6
+  - first:
+      213: 6551460476007676049
+    second: Sprite_Focus_460x340_30fps_7
+  - first:
+      213: -4458719425578908309
+    second: Sprite_Focus_460x340_30fps_8
+  - first:
+      213: -6184823814276211899
+    second: Sprite_Focus_460x340_30fps_9
+  - first:
+      213: -7356531703527740472
+    second: Sprite_Focus_460x340_30fps_10
+  - first:
+      213: 5579516220134697393
+    second: Sprite_Focus_460x340_30fps_11
+  - first:
+      213: 6953040953525941501
+    second: Sprite_Focus_460x340_30fps_12
+  - first:
+      213: 6006476066209367696
+    second: Sprite_Focus_460x340_30fps_13
+  - first:
+      213: -7644083642074950728
+    second: Sprite_Focus_460x340_30fps_14
+  - first:
+      213: -1638318125297144612
+    second: Sprite_Focus_460x340_30fps_15
+  - first:
+      213: 2409135331882535879
+    second: Sprite_Focus_460x340_30fps_16
+  - first:
+      213: -6595659971781684398
+    second: Sprite_Focus_460x340_30fps_17
+  - first:
+      213: -4179547117403579695
+    second: Sprite_Focus_460x340_30fps_18
+  - first:
+      213: -8257849361278178277
+    second: Sprite_Focus_460x340_30fps_19
+  - first:
+      213: 5812757720764590851
+    second: Sprite_Focus_460x340_30fps_20
+  - first:
+      213: 3932456774295275039
+    second: Sprite_Focus_460x340_30fps_21
+  - first:
+      213: 4934761265554961310
+    second: Sprite_Focus_460x340_30fps_22
+  - first:
+      213: 3215702132649442572
+    second: Sprite_Focus_460x340_30fps_23
+  - first:
+      213: 8756758807221109506
+    second: Sprite_Focus_460x340_30fps_24
+  - first:
+      213: -8698818187373589659
+    second: Sprite_Focus_460x340_30fps_25
+  - first:
+      213: -134930001393429417
+    second: Sprite_Focus_460x340_30fps_26
+  - first:
+      213: 353370738500916653
+    second: Sprite_Focus_460x340_30fps_27
+  - first:
+      213: -3371946134210144813
+    second: Sprite_Focus_460x340_30fps_28
+  - first:
+      213: 7556545422320806433
+    second: Sprite_Focus_460x340_30fps_29
+  - first:
+      213: 3078876117905873153
+    second: Sprite_Focus_460x340_30fps_30
+  - first:
+      213: 3070560278848544613
+    second: Sprite_Focus_460x340_30fps_31
+  - first:
+      213: -7638714943893661254
+    second: Sprite_Focus_460x340_30fps_32
+  - first:
+      213: -4420779584081206647
+    second: Sprite_Focus_460x340_30fps_33
+  - first:
+      213: -2602007034604360273
+    second: Sprite_Focus_460x340_30fps_34
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 2
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172eae9ab081952e0800000000000000
+      internalID: -2136650109836139919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_1
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c098129efa9e96840800000000000000
+      internalID: 5217958585025267980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_2
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15ffd5013c38aba00800000000000000
+      internalID: 773075159863918417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_3
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d567c51b5b76a1500800000000000000
+      internalID: 367720349646485085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_4
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57b830402cc32b450800000000000000
+      internalID: 6103007249029106549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_5
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d6b71f69c0d34fe0800000000000000
+      internalID: -1205890711634331945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_6
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1360
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f255723dd240c9200800000000000000
+      internalID: 188029879305327919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198f27087967bea50800000000000000
+      internalID: 6551460476007676049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_8
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b654c354e427f12c0800000000000000
+      internalID: -4458719425578908309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_9
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54b90bf62871b2aa0800000000000000
+      internalID: -6184823814276211899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_10
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cb6458646958e990800000000000000
+      internalID: -7356531703527740472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_11
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b9a8afc07c6e6d40800000000000000
+      internalID: 5579516220134697393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_12
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df438af88e92e7060800000000000000
+      internalID: 6953040953525941501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_13
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 1020
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0968b46982a4b5350800000000000000
+      internalID: 6006476066209367696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b39fb87d62cae590800000000000000
+      internalID: -7644083642074950728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_15
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cdc649068568349e0800000000000000
+      internalID: -1638318125297144612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_16
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cb83b8f1d7fe6120800000000000000
+      internalID: 2409135331882535879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_17
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25390b273328774a0800000000000000
+      internalID: -6595659971781684398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_18
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dad6297a044ff5c0800000000000000
+      internalID: -4179547117403579695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_19
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ce35402c9366d80800000000000000
+      internalID: -8257849361278178277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_20
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 680
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30b259789501ba050800000000000000
+      internalID: 5812757720764590851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f16c276e994e29630800000000000000
+      internalID: 3932456774295275039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_22
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e93b2ccb93bcb7440800000000000000
+      internalID: 4934761265554961310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_23
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d39085d0870ac20800000000000000
+      internalID: 3215702132649442572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_24
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 20300386db1468970800000000000000
+      internalID: 8756758807221109506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_25
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56bc3e762f6974780800000000000000
+      internalID: -8698818187373589659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_26
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d66de0e1a02ef0800000000000000
+      internalID: -134930001393429417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_27
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 340
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da55d5e70dc67e400800000000000000
+      internalID: 353370738500916653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d517a43bd07431d0800000000000000
+      internalID: -3371946134210144813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_29
+      rect:
+        serializedVersion: 2
+        x: 460
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12a298a760e3ed860800000000000000
+      internalID: 7556545422320806433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_30
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1099633448d5aba20800000000000000
+      internalID: 3078876117905873153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_31
+      rect:
+        serializedVersion: 2
+        x: 1380
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56f113a1e42dc9a20800000000000000
+      internalID: 3070560278848544613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_32
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab910ccea35ddf590800000000000000
+      internalID: -7638714943893661254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_33
+      rect:
+        serializedVersion: 2
+        x: 2300
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9826a8cf36c36a2c0800000000000000
+      internalID: -4420779584081206647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sprite_Focus_460x340_30fps_34
+      rect:
+        serializedVersion: 2
+        x: 2760
+        y: 0
+        width: 460
+        height: 340
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fade6575360d3ebd0800000000000000
+      internalID: -2602007034604360273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
