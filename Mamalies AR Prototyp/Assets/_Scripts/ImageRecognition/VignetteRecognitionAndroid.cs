@@ -10,7 +10,7 @@ using UnityEngine.ResourceManagement.AsyncOperations;
 
 
 
-public class VignetteRecognitionBase : MonoBehaviour
+public class VignetteRecognitionAndroid : MonoBehaviour
 {
 
     //debug
