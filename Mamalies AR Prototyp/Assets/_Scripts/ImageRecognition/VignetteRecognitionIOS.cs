@@ -65,7 +65,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private float imageChangedTimer;
 
     private ARTrackedImageManager arTrackedImageManager;
-    private ARRaycastManager arRaycastManager;
     private VoiceLinePlayer voiceLinePlayer;
 
     private Vector2 screenCenter;
@@ -97,7 +96,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
         print(screenCenter);
         arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
-        arRaycastManager = GameObject.FindObjectOfType<ARRaycastManager>();
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 
