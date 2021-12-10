@@ -149,7 +149,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //trackingIndicator.transform.localScale = new Vector3(image.referenceImage.size.x, 0.01f, image.referenceImage.size.y);
             ////trackingIndicator.transform.localScale = image.transform.localScale;
             //print(trackingIndicator.transform.position);
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
             {
                 //foreach (ARRaycastHit hit in rcHits)
                 //{
