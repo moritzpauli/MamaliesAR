@@ -116,7 +116,49 @@ public class PopulateImageLibraryTest : Editor
     //}
 
 
-   
+    [MenuItem("ImgLibrary/Autopopulate with 50 Production Images")]
+    static void AutopopulateLibraryProductionNumber()
+    {
+        imageLibrary = AssetDatabase.LoadAssetAtPath<XRReferenceImageLibrary>(libraryPath);
+
+
+        imagePaths = Directory.GetFiles(rootImagePath + "/ProductionImages", "*.png");
+
+        foreach (string imageFilePath in imagePaths)
+        {
+            //Debug.Log(imageFilePath);
+            Texture2D tempTexture = (Texture2D)AssetDatabase.LoadAssetAtPath(imageFilePath, typeof(Texture2D));
+            if (Char.IsDigit(tempTexture.name[0]))
+            {
+                textures.Add(tempTexture);
+            }
+
+        }
+
+        Debug.Log("New Textures: " + textures.Count);
+
+        for (int i = imageLibrary.count - 1; i >= 0; i--)
+        {
+            if (imageLibrary[i].texture.name[0] == '0')
+            {
+                imageLibrary.RemoveAt(i);
+            }
+        }
+
+        for(int i = 0; i < 50; i++)
+        {
+            imageLibrary.Add();
+            imageLibrary.SetTexture(imageLibrary.count - 1, textures[i], false);
+            imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
+            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+            imageLibrary.SetName(imageLibrary.count - 1, textures[i].name);
+        }
+
+       
+
+        Debug.Log("Image Library Size:" + imageLibrary.count);
+        textures.Clear();
+    }
 
 
     [MenuItem("ImgLibrary/Autopopulate with Production Images")]
