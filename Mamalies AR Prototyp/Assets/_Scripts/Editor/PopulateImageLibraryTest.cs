@@ -145,7 +145,7 @@ public class PopulateImageLibraryTest : Editor
             }
         }
 
-        for(int i = 0; i < 1000; i++)
+        for(int i = 0; i < 25; i++)
         {
             imageLibrary.Add();
             imageLibrary.SetTexture(imageLibrary.count - 1, textures[i], false);
