@@ -1861,6 +1861,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1073355958}
   - component: {fileID: 1073355957}
+  - component: {fileID: 1073355960}
+  - component: {fileID: 1073355959}
   m_Layer: 0
   m_Name: AR Vignette Recognition
   m_TagString: Untagged
@@ -1884,9 +1886,6 @@ MonoBehaviour:
   trackableNameText: {fileID: 470405231}
   scanTime: 2
   animateViewfinder: 1
-  arMarkerLayer:
-    serializedVersion: 2
-    m_Bits: 64
   maxMovingImages: 1
   referenceImageLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
   trackingProgressBar: {fileID: 165585585}
@@ -1894,7 +1893,6 @@ MonoBehaviour:
   scannedImageDisplayVertical: {fileID: 253964037}
   scannedImageBackground: {fileID: 52529248}
   arCamera: {fileID: 1066785463}
-  trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
 --- !u!4 &1073355958
 Transform:
   m_ObjectHideFlags: 0
@@ -1909,6 +1907,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1073355959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073355956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15361fb17ea39154f8539673482905e4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  raycastIdText: {fileID: 778022923}
+  trackableNameText: {fileID: 470405231}
+  scanTime: 2
+  animateViewfinder: 1
+  arMarkerLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  trackingProgressBar: {fileID: 165585585}
+  scannedImageDisplayHorizontal: {fileID: 1131181905}
+  scannedImageDisplayVertical: {fileID: 253964037}
+  scannedImageBackground: {fileID: 52529248}
+  arCamera: {fileID: 1066785463}
+  trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
+--- !u!114 &1073355960
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1073355956}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 768f930a7097aa74caf27e0fd0dbb22c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  androidRecognition: {fileID: 1073355957}
+  iOSvignetteRecognition: {fileID: 1073355959}
 --- !u!1 &1114040580
 GameObject:
   m_ObjectHideFlags: 0

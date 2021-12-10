@@ -8,11 +8,8 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 
-
-
-public class VignetteRecognitionAndroid : MonoBehaviour
+public class VignetteRecognitionIOS : MonoBehaviour
 {
-
     //debug
     [SerializeField]
     private TextMeshProUGUI raycastIdText;
@@ -32,12 +29,9 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     private float scanTimer;
     [SerializeField]
     private bool animateViewfinder = false;
-
-
     [SerializeField]
-    private int maxMovingImages;
-    [SerializeField]
-    private XRReferenceImageLibrary referenceImageLibrary;
+    private LayerMask arMarkerLayer;
+
 
 
     // effects
@@ -55,6 +49,9 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     // func
     [SerializeField]
     private Camera arCamera;
+    //Ar Tracking Prefabs
+    [SerializeField]
+    private GameObject trackingMarker;
 
     //tracking process
     private bool scanCompleted = false;
@@ -82,12 +79,12 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     //image display
     private const string testingImagesPath = "Assets/_TrackingVignettes/TestingImages/";
     private const string productionImagesPath = "Assets/_TrackingVignettes/ProductionImages/";
-    private const string initialImagePath = "Assets/_TrackingVignettes/ProductionImages/initialLoad.png";
     AsyncOperationHandle<Sprite> textureHandle;
     private bool loadingData = false;
     private Sprite currentLoadedSprite;
 
-
+    //IOS tracking
+    private RaycastHit physicsRaycastHit;
 
 
     #region Initiation
@@ -131,20 +128,6 @@ public class VignetteRecognitionAndroid : MonoBehaviour
 
     }
 
-    private IEnumerator ReInstantiateImageManager()
-    {
-        //StartCoroutine(DeactivateImageManager());
-        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-
-        Destroy(arTrackedImageManager);
-        yield return new WaitForEndOfFrame();
-        arTrackedImageManager = arRaycastManager.gameObject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary = referenceImageLibrary;
-        arTrackedImageManager.maxNumberOfMovingImages = maxMovingImages;
-        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-
-    }
-
 
     /// <summary>
     /// Add or remove currently tracked images from list
@@ -153,15 +136,6 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
 
-        if (scanCompleted)
-        {
-            args.updated.Clear();
-            args.added.Clear();
-            args.removed.Clear();
-            currentTrackedImageList.Clear();
-            StartCoroutine(ReInstantiateImageManager());
-            scanCompleted = false;
-        }
 
         //addedTrackablesDebug.text = "ADDED: ";
         //updatedTrackablesDebug.text = "UPDATED: ";
@@ -186,6 +160,8 @@ public class VignetteRecognitionAndroid : MonoBehaviour
                 //    }
                 //}
 
+                UpdateTrackedObject(image);
+
 
                 if (!currentTrackedImageList.Contains(image))
                 {
@@ -208,6 +184,8 @@ public class VignetteRecognitionAndroid : MonoBehaviour
                 //Debug.Log(image.referenceImage.name + " REMOVED");
                 //currentTrackedImageList.Remove(image);
 
+                RemoveTrackedObject(image);
+
 
             }
 
@@ -221,17 +199,21 @@ public class VignetteRecognitionAndroid : MonoBehaviour
             // add image to tracked images list
             currentTrackedImageList.Add(image);
 
+            AddTrackedObject(image);
+
 
 
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-
+            trackingMarker.transform.position = image.transform.position;
 
         }
 
         foreach (ARTrackedImage image in args.removed)
         {
+
+            RemoveTrackedObject(image);
 
 
         }
@@ -239,7 +221,46 @@ public class VignetteRecognitionAndroid : MonoBehaviour
 
     }
 
+    private void AddTrackedObject(ARTrackedImage image)
+    {
+        GameObject trackedObject = Instantiate(trackingMarker);
+        trackedObject.transform.name = image.referenceImage.name;
+        trackedObject.transform.position = image.transform.position;
+        trackedObject.transform.rotation = image.transform.rotation;
+        trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
+        arTrackedImageObjectList.Add(trackedObject);
+    }
 
+    private void UpdateTrackedObject(ARTrackedImage image)
+    {
+        bool imageExists = false;
+        foreach (GameObject gObject in arTrackedImageObjectList)
+        {
+            if (gObject.name == image.referenceImage.name)
+            {
+                gObject.transform.position = image.transform.position;
+                gObject.transform.rotation = image.transform.rotation;
+                //print("Update Tracking: " + image.referenceImage.name);
+                imageExists = true;
+            }
+        }
+        if (!imageExists)
+        {
+            AddTrackedObject(image);
+        }
+    }
+
+    private void RemoveTrackedObject(ARTrackedImage image)
+    {
+        for (int i = 0; i < arTrackedImageObjectList.Count; i++)
+        {
+            if (arTrackedImageObjectList[i].name == image.referenceImage.name)
+            {
+                Destroy(arTrackedImageObjectList[i]);
+                arTrackedImageObjectList.RemoveAt(i);
+            }
+        }
+    }
 
 
     //private void PhysicsRaycastTest()
@@ -258,23 +279,20 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     private void ArRaycast()
     {
 
-        if (arRaycastManager.Raycast(screenCenter, rcHits, TrackableType.Image))
+        Ray centerRay = arCamera.ScreenPointToRay(new Vector3(screenCenter.x, screenCenter.y, 0f));
+        if (Physics.Raycast(centerRay, out physicsRaycastHit, arMarkerLayer))
         {
-
-            foreach (ARRaycastHit hit in rcHits)
+            if (raycastIdText != null)
             {
-                if (raycastIdText != null)
+                raycastIdText.text = physicsRaycastHit.transform.gameObject.GetInstanceID().ToString();
+            }
+            foreach (ARTrackedImage image in currentTrackedImageList)
+            {
+                if (image.referenceImage.name == physicsRaycastHit.transform.name)
                 {
-                    raycastIdText.text = hit.trackableId.ToString();
-                }
-                foreach (ARTrackedImage image in currentTrackedImageList)
-                {
-                    if (image.trackableId == hit.trackableId)
+                    if (trackableNameText != null)
                     {
-                        if (trackableNameText != null)
-                        {
-                            trackableNameText.text = image.referenceImage.name;
-                        }
+                        trackableNameText.text = image.referenceImage.name;
                     }
                 }
             }
@@ -285,13 +303,7 @@ public class VignetteRecognitionAndroid : MonoBehaviour
             {
                 raycastIdText.text = "NONE";
             }
-
         }
-
-
-
-
-
     }
 
     /// <summary>
@@ -301,22 +313,19 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     {
 
         tracking = false;
-        foreach (ARRaycastHit hit in rcHits)
+
+        if (physicsRaycastHit.transform != null)
         {
             foreach (ARTrackedImage image in currentTrackedImageList)
             {
-                if (image.trackableId == hit.trackableId)
+                if (image.referenceImage.name == physicsRaycastHit.transform.name)
                 {
                     tracking = true;
                     currentImage = image;
                 }
 
             }
-
         }
-
-
-
 
 
     }
@@ -463,14 +472,14 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     /// </summary>
     /// <param name="image"></param>
     private IEnumerator DisplayScannedImage(ARTrackedImage image)
-    {       
+    {
         print(image.referenceImage.name);
         // viewFinderAnimation.DeActivateViewfinder();
         scannedImageDisplayHorizontal.enabled = false;
         scannedImageDisplayVertical.enabled = false;
         scannedImageBackground.SetActive(true);
         //Texture2D imageTex = image.referenceImage.texture;
-        
+
         yield return new WaitUntil(() => loadingData == false);
         float heightRatio = (float)currentLoadedSprite.texture.height / (float)currentLoadedSprite.texture.width;
         //Rect texRect = new Rect(0, 0, currentLoadedTexture.width, currentLoadedTexture.height);
@@ -516,8 +525,4 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     #endregion
 
 
-
-
 }
-
-

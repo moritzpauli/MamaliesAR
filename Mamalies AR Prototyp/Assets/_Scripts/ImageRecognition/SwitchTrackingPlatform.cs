@@ -4,15 +4,23 @@ using UnityEngine;
 
 public class SwitchTrackingPlatform : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [SerializeField]
+    private VignetteRecognitionAndroid androidRecognition;
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField]
+    private VignetteRecognitionIOS iOSvignetteRecognition;
+
+    private void OnEnable()
     {
-        
+
+#if UNITY_ANDROID
+        androidRecognition.enabled = true;
+        iOSvignetteRecognition.enabled = false;
+#endif
+
+#if UNITY_IOS
+androidRecognition.enabled = false;
+        iOSvignetteRecognition.enabled = true;
+#endif
     }
 }

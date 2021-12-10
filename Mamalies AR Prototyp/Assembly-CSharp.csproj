@@ -118,6 +118,7 @@
     <Compile Include="Assets\_Scripts\LanguageSelection.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\_Scripts\ImageRecognition\SwitchTrackingPlatform.cs" />
+    <Compile Include="Assets\_Scripts\ImageRecognition\VignetteRecognitionIOS.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
