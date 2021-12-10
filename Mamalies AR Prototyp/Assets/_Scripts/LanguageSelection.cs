@@ -362,7 +362,7 @@ public class LanguageSelection : MonoBehaviour
 
             if (recognitionSceneName != null)
             {
-                SceneManager.LoadSceneAsync(recognitionSceneName);
+                SceneManager.LoadScene(recognitionSceneName);
             }
 
 
