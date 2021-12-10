@@ -166,6 +166,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 if (!currentTrackedImageList.Contains(image))
                 {
                     currentTrackedImageList.Add(image);
+                    AddTrackedObject(image);
                 }
                 //foreach(ARTrackedImage imgDebug in currentTrackedImageList)
                 //{
@@ -177,7 +178,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 // arTrackedImagePrefab.transform.localScale = image.transform.localScale;
 
             }
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
             {
                 //print(image.referenceImage.name + " LOST TRACKING");
                 //tracking = false;

@@ -116,7 +116,7 @@ public class PopulateImageLibraryTest : Editor
     //}
 
 
-    [MenuItem("ImgLibrary/Autopopulate with 50 Production Images")]
+    [MenuItem("ImgLibrary/Autopopulate with 25 Production Images")]
     static void AutopopulateLibraryProductionNumber()
     {
         imageLibrary = AssetDatabase.LoadAssetAtPath<XRReferenceImageLibrary>(libraryPath);
@@ -145,7 +145,7 @@ public class PopulateImageLibraryTest : Editor
             }
         }
 
-        for(int i = 0; i < 50; i++)
+        for(int i = 0; i < 25; i++)
         {
             imageLibrary.Add();
             imageLibrary.SetTexture(imageLibrary.count - 1, textures[i], false);
