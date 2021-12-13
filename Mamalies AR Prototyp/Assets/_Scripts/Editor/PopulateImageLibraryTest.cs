@@ -134,6 +134,8 @@ public class PopulateImageLibraryTest : Editor
 
         XRReferenceImageLibrary currentLibrary = new XRReferenceImageLibrary();
 
+        textures.Clear();
+
         foreach (string imageFilePath in imagePaths)
         {
             //Debug.Log(imageFilePath);

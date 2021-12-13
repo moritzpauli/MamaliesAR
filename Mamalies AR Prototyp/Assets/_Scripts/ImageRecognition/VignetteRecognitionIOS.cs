@@ -129,8 +129,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //Debug.Log(imageFilePath);
             imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
         }
+
+#if UNITY_EDITOR_OSX
+    arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
+#endif
     }
-    #endif
+#endif
 
     private void OnEnable()
     {
