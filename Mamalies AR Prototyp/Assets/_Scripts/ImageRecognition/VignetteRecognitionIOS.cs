@@ -107,7 +107,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
         print(screenCenter);
-        
+        arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 
