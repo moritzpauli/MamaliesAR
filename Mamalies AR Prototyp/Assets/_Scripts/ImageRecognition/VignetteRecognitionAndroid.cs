@@ -82,7 +82,6 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     //image display
     private const string testingImagesPath = "Assets/_TrackingVignettes/TestingImages/";
     private const string productionImagesPath = "Assets/_TrackingVignettes/ProductionImages/";
-    private const string initialImagePath = "Assets/_TrackingVignettes/ProductionImages/initialLoad.png";
     AsyncOperationHandle<Sprite> textureHandle;
     private bool loadingData = false;
     private Sprite currentLoadedSprite;

@@ -1,5 +1,7 @@
 using System.Collections;
+using System.IO;
 using System.Collections.Generic;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -75,6 +77,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private List<GameObject> arTrackedImageObjectList = new List<GameObject>();
 
+    
+
     //image display
     private const string testingImagesPath = "Assets/_TrackingVignettes/TestingImages/";
     private const string productionImagesPath = "Assets/_TrackingVignettes/ProductionImages/";
@@ -84,12 +88,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     //IOS tracking
     private RaycastHit physicsRaycastHit;
+    private string[] imageLibraryPaths;
+    [SerializeField]
+    private List<XRReferenceImageLibrary> imageLibrariesList = new List<XRReferenceImageLibrary>();
+    private const string libraryPath = "Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/";
 
+    private float raycastTimer = 0.3f;
+
+    private float cycleImageTime = 0.3f;
+    private int imgLibraryIndex = 0;
 
     #region Initiation
 
     private void Awake()
-    {
+    {       
         scanTimer = 0;
         trackingLostTimer = trackingLostTime;
         trackingProgressBar.fillAmount = 0;
@@ -99,9 +111,23 @@ public class VignetteRecognitionIOS : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 
-
     }
 
+
+    /// <summary>
+    /// execute in editor, load image libraries
+    /// </summary>
+    private void OnValidate()
+    {
+        imageLibrariesList.Clear();
+        imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
+
+        foreach (string libraryFilePath in imageLibraryPaths)
+        {
+            //Debug.Log(imageFilePath);
+            imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+        }
+    }
 
     private void OnEnable()
     {
@@ -123,9 +149,24 @@ public class VignetteRecognitionIOS : MonoBehaviour
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
+        CycleImageLibraries();
 
     }
 
+    private void CycleImageLibraries()
+    {
+        cycleImageTime -= Time.deltaTime;
+        if (cycleImageTime <= 0)
+        {
+            arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
+            imgLibraryIndex++;
+            if (imgLibraryIndex > imageLibrariesList.Count - 1)
+            {
+                imgLibraryIndex = 0;
+            }
+            cycleImageTime = 0.3f;
+        }
+    }
 
     /// <summary>
     /// Add or remove currently tracked images from list

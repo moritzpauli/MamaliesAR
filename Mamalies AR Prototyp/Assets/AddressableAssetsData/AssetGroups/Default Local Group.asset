@@ -8412,12 +8412,6 @@ MonoBehaviour:
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 309ec70e95026014983456bb26f5ee27
-    m_Address: Assets/_TrackingVignettes/ProductionImages/initialLoad.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 035bee831eb9f04408ac133d439a4819
     m_Address: Assets/_TrackingVignettes/ProductionImages/0804_DS100-101_times.png
     m_ReadOnly: 0
@@ -9230,12 +9224,6 @@ MonoBehaviour:
     m_TargetAsset: {fileID: 0}
   - m_GUID: 10a3dc5ce1c44454ca828fdc7f80a405
     m_Address: Assets/_TrackingVignettes/ProductionImages/0994_DS112-113_fourty-three.png
-    m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
-  - m_GUID: 8de6c8916dff6574294b5cbc2de6b897
-    m_Address: Assets/_TrackingVignettes/ProductionImages/RZ_Mamalies_21-12-03_48-49_20.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

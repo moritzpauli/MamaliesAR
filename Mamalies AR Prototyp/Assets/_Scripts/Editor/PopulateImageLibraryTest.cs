@@ -11,14 +11,21 @@ using UnityEditor.EditorTools;
 using System.IO;
 
 
+
+
 public class PopulateImageLibraryTest : Editor
 {
+
+
     private static XRReferenceImageLibrary imageLibrary;
     private static string libraryPath = "Assets/_TrackingVignettes/ImageLibrary/VignetteLibrary.asset";
+    private static string iOSLibraryFolder = "Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/";
     private static string rootImagePath = "Assets/_TrackingVignettes";
+    private static string iOSLibraryName = "iOSImageLibrary_";
     private static string[] imagePaths;
 
     private static List<Texture2D> textures = new List<Texture2D>();
+
 
     //[MenuItem("ImgLibrary/Remove Testing Images")]
     //static void RemoveTestingImages()
@@ -114,6 +121,52 @@ public class PopulateImageLibraryTest : Editor
     //    Debug.Log("Image Library Size:" + imageLibrary.count);
     //    textures.Clear();
     //}
+
+
+    [MenuItem("ImgLibrary/Autopopulate image Libraries IOS")]
+    static void AutopopulateLibraryProductionIOS()
+    {
+        imagePaths = Directory.GetFiles(rootImagePath + "/ProductionImages", "*.png");
+
+        int imageCounter = 0;
+
+        int libraryCounter = 0;
+
+        XRReferenceImageLibrary currentLibrary = new XRReferenceImageLibrary();
+
+        foreach (string imageFilePath in imagePaths)
+        {
+            //Debug.Log(imageFilePath);
+            Texture2D tempTexture = (Texture2D)AssetDatabase.LoadAssetAtPath(imageFilePath, typeof(Texture2D));
+            if (Char.IsDigit(tempTexture.name[0]))
+            {
+                textures.Add(tempTexture);
+            }
+
+        }
+
+        for(int i = 0; i < textures.Count; i++)
+        {
+            
+            if(imageCounter <= 0)
+            {
+                currentLibrary = new XRReferenceImageLibrary();
+                AssetDatabase.CreateAsset(currentLibrary, iOSLibraryFolder + iOSLibraryName+ libraryCounter.ToString() + ".asset");
+                imageCounter = 30;
+                libraryCounter++;
+            }
+            currentLibrary.Add();
+            currentLibrary.SetTexture(currentLibrary.count - 1, textures[i], false);
+            currentLibrary.SetSpecifySize(currentLibrary.count - 1, true);
+            currentLibrary.SetSize(currentLibrary.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+            currentLibrary.SetName(currentLibrary.count - 1, textures[i].name);
+            imageCounter--;
+
+
+        }
+
+        AssetDatabase.SaveAssets();
+    }
 
 
     [MenuItem("ImgLibrary/Autopopulate with 25 Production Images")]
