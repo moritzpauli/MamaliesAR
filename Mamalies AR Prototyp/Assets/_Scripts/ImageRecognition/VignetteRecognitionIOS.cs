@@ -113,12 +113,14 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     }
 
-
+    #if UNITY_EDITOR
     /// <summary>
     /// execute in editor, load image libraries
     /// </summary>
+
     private void OnValidate()
     {
+
         imageLibrariesList.Clear();
         imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
@@ -128,6 +130,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
         }
     }
+    #endif
 
     private void OnEnable()
     {
