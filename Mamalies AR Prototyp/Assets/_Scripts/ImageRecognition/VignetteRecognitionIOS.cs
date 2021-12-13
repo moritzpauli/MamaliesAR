@@ -107,7 +107,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
         print(screenCenter);
-        arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
+        
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 
@@ -120,7 +120,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void OnValidate()
     {
-
+        
         imageLibrariesList.Clear();
         imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
@@ -131,6 +131,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
 #if UNITY_EDITOR_OSX
+arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
 #endif
     }
