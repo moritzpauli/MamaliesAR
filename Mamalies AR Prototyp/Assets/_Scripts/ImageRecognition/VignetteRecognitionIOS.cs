@@ -167,7 +167,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 imgLibraryIndex = 0;
             }
-            cycleImageTime = 0.3f;
+            cycleImageTime = 5f;
         }
     }
 
