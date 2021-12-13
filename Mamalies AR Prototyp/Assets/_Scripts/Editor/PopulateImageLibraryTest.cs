@@ -154,7 +154,7 @@ public class PopulateImageLibraryTest : Editor
             {
                 currentLibrary = new XRReferenceImageLibrary();
                 AssetDatabase.CreateAsset(currentLibrary, iOSLibraryFolder + iOSLibraryName+ libraryCounter.ToString() + ".asset");
-                imageCounter = 100;
+                imageCounter = 30;
                 libraryCounter++;
             }
             currentLibrary.Add();

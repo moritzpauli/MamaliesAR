@@ -77,7 +77,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private List<GameObject> arTrackedImageObjectList = new List<GameObject>();
 
-    
+    private GameObject trackingManagerGameobject;
 
     //image display
     private const string testingImagesPath = "Assets/_TrackingVignettes/TestingImages/";
@@ -110,6 +110,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
+        trackingManagerGameobject = arTrackedImageManager.gameObject;
 
     }
 
@@ -157,8 +158,42 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
-        CycleImageLibraries();
+        //CycleImageLibraries();
 
+    }
+
+    public void CycleImageLibrariesManual()
+    {
+        imgLibraryIndex++;
+        if (imgLibraryIndex > imageLibrariesList.Count - 1)
+        {
+            imgLibraryIndex = 0;
+        }
+        arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];     
+    }
+
+    public void CycleImageLibrariesManualClean()
+    {
+        imgLibraryIndex++;
+        if (imgLibraryIndex > imageLibrariesList.Count - 1)
+        {
+            imgLibraryIndex = 0;
+        }
+
+        StartCoroutine(ResetTracking());
+       
+    }
+
+    private IEnumerator ResetTracking()
+    {
+        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+
+        Destroy(arTrackedImageManager);
+        yield return new WaitForEndOfFrame();
+        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        arTrackedImageManager.referenceLibrary =  imageLibrariesList[imgLibraryIndex];
+        arTrackedImageManager.maxNumberOfMovingImages = 1;
+        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
     }
 
     private void CycleImageLibraries()
