@@ -194,6 +194,11 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.referenceLibrary =  imageLibrariesList[imgLibraryIndex];
         arTrackedImageManager.maxNumberOfMovingImages = 1;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        foreach(GameObject go in arTrackedImageObjectList)
+        {
+            Destroy(go);
+        }
+        arTrackedImageObjectList.Clear();
     }
 
     private void CycleImageLibraries()
