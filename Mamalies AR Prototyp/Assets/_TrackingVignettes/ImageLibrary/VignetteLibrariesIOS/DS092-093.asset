@@ -1,0 +1,297 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS092-093
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5698375438180223678
+  m_GuidHigh: 4915618199465853096
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5576613114115430994
+      m_GuidHigh: 8967019121123195010
+    m_SerializedTextureGuid:
+      m_GuidLow: 68730384353611117
+      m_GuidHigh: 9958563018953812041
+    m_Size: {x: 0.10185715, y: 0.13357143}
+    m_SpecifySize: 1
+    m_Name: 0735_DS092-093_showercurtain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4697559416655092900
+      m_GuidHigh: 10136078836058451856
+    m_SerializedTextureGuid:
+      m_GuidLow: 10620837043739622958
+      m_GuidHigh: 16035304677479496043
+    m_Size: {x: 0.07814286, y: 0.09414286}
+    m_SpecifySize: 1
+    m_Name: 0736_DS092-093_shower
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4720728720234762336
+      m_GuidHigh: 14952042469726129573
+    m_SerializedTextureGuid:
+      m_GuidLow: 447111060089531671
+      m_GuidHigh: 3054634492733324472
+    m_Size: {x: 0.07071429, y: 0.14614287}
+    m_SpecifySize: 1
+    m_Name: 0737_DS092-093_bathrobe
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5373469187270441722
+      m_GuidHigh: 7261856986734998178
+    m_SerializedTextureGuid:
+      m_GuidLow: 4428308791167172031
+      m_GuidHigh: 108684346527619931
+    m_Size: {x: 0.07228572, y: 0.10357143}
+    m_SpecifySize: 1
+    m_Name: 0738_DS092-093_towels
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5579250731642842809
+      m_GuidHigh: 7204857628707572155
+    m_SerializedTextureGuid:
+      m_GuidLow: 16070034302309967117
+      m_GuidHigh: 9767374299075589322
+    m_Size: {x: 0.082428575, y: 0.09571429}
+    m_SpecifySize: 1
+    m_Name: 0739_DS092-093_toapplymakeup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4850193882214205584
+      m_GuidHigh: 5060581958268420500
+    m_SerializedTextureGuid:
+      m_GuidLow: 7161963774499655920
+      m_GuidHigh: 9962892389198090761
+    m_Size: {x: 0.054428574, y: 0.06571429}
+    m_SpecifySize: 1
+    m_Name: 0740_DS092-093_soap
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5617606008539699675
+      m_GuidHigh: 5648893388573003907
+    m_SerializedTextureGuid:
+      m_GuidLow: 811840209842856439
+      m_GuidHigh: 12355837473806488680
+    m_Size: {x: 0.078428574, y: 0.07471429}
+    m_SpecifySize: 1
+    m_Name: 0741_DS092-093_facecloth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5398726559164062048
+      m_GuidHigh: 18002409951978724487
+    m_SerializedTextureGuid:
+      m_GuidLow: 15070322674209907365
+      m_GuidHigh: 2747672164451285401
+    m_Size: {x: 0.099714294, y: 0.08071429}
+    m_SpecifySize: 1
+    m_Name: 0742_DS092-093_cottonstick
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5519181985532158063
+      m_GuidHigh: 16114182056152116371
+    m_SerializedTextureGuid:
+      m_GuidLow: 10715278000941180353
+      m_GuidHigh: 10838950046078290616
+    m_Size: {x: 0.09642857, y: 0.09171429}
+    m_SpecifySize: 1
+    m_Name: 0743_DS092-093_tocomb
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4866177199306841331
+      m_GuidHigh: 17139658236926342588
+    m_SerializedTextureGuid:
+      m_GuidLow: 12764449354408677007
+      m_GuidHigh: 7435244223167699722
+    m_Size: {x: 0.052857146, y: 0.09785715}
+    m_SpecifySize: 1
+    m_Name: 0744_DS092-093_toglow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4985496436879977742
+      m_GuidHigh: 7829020523540009908
+    m_SerializedTextureGuid:
+      m_GuidLow: 4784126838497162749
+      m_GuidHigh: 10457751095705615545
+    m_Size: {x: 0.06257143, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0745_DS092-093_lightbulb
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5752921127493789147
+      m_GuidHigh: 382226363245837717
+    m_SerializedTextureGuid:
+      m_GuidLow: 3698855552932753963
+      m_GuidHigh: 6882869228280887928
+    m_Size: {x: 0.06214286, y: 0.07071429}
+    m_SpecifySize: 1
+    m_Name: 0746_DS092-093_socket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5757050498503529557
+      m_GuidHigh: 521925596924592317
+    m_SerializedTextureGuid:
+      m_GuidLow: 3410459318530128897
+      m_GuidHigh: 5964599221887886793
+    m_Size: {x: 0.069571435, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0747_DS092-093_electricity
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5138939903905747655
+      m_GuidHigh: 17383000995168014259
+    m_SerializedTextureGuid:
+      m_GuidLow: 12296080201316280837
+      m_GuidHigh: 13489389231347268905
+    m_Size: {x: 0.07071429, y: 0.069714285}
+    m_SpecifySize: 1
+    m_Name: 0748_DS092-093_lightswitch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5045318643103571243
+      m_GuidHigh: 13071260692088071338
+    m_SerializedTextureGuid:
+      m_GuidLow: 17227526520547302117
+      m_GuidHigh: 13020276440113162680
+    m_Size: {x: 0.09114286, y: 0.09928572}
+    m_SpecifySize: 1
+    m_Name: 0749_DS092-093_heating
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5169372357114377193
+      m_GuidHigh: 5202043601203111573
+    m_SerializedTextureGuid:
+      m_GuidLow: 7995069123824479808
+      m_GuidHigh: 8553789635472020953
+    m_Size: {x: 0.08542857, y: 0.12257143}
+    m_SpecifySize: 1
+    m_Name: 0750_DS092-093_wardrobe
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5607157673572120366
+      m_GuidHigh: 11742611634755255474
+    m_SerializedTextureGuid:
+      m_GuidLow: 3892412663077971371
+      m_GuidHigh: 10963015576665293499
+    m_Size: {x: 0.084142864, y: 0.10285715}
+    m_SpecifySize: 1
+    m_Name: 0751_DS092-093_vacuumcleaner
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5642303619920676909
+      m_GuidHigh: 15862954267076981670
+    m_SerializedTextureGuid:
+      m_GuidLow: 18056056999651835152
+      m_GuidHigh: 15448550652600711770
+    m_Size: {x: 0.07442857, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0752_DS092-093_armchair
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5628977803654851960
+      m_GuidHigh: 3550031984412612791
+    m_SerializedTextureGuid:
+      m_GuidLow: 3379080698600424736
+      m_GuidHigh: 12893518057186592393
+    m_Size: {x: 0.12671429, y: 0.09357143}
+    m_SpecifySize: 1
+    m_Name: 0753_DS092-093_sofa
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4912183872814850552
+      m_GuidHigh: 10411720291447292545
+    m_SerializedTextureGuid:
+      m_GuidLow: 17412181977310043878
+      m_GuidHigh: 15295216094926773610
+    m_Size: {x: 0.06014286, y: 0.09542858}
+    m_SpecifySize: 1
+    m_Name: 0754_DS092-093_chair
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5000022154359753065
+      m_GuidHigh: 15994992456854301066
+    m_SerializedTextureGuid:
+      m_GuidLow: 2550340129705496149
+      m_GuidHigh: 13876926401836922315
+    m_Size: {x: 0.085, y: 0.072000004}
+    m_SpecifySize: 1
+    m_Name: 0755_DS092-093_carpet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5500388006692212623
+      m_GuidHigh: 8555689680507136645
+    m_SerializedTextureGuid:
+      m_GuidLow: 14349859648695053532
+      m_GuidHigh: 10474597078743320714
+    m_Size: {x: 0.05728572, y: 0.072000004}
+    m_SpecifySize: 1
+    m_Name: 0756_DS092-093_vase
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5395388902473903571
+      m_GuidHigh: 13593159461978613641
+    m_SerializedTextureGuid:
+      m_GuidLow: 5680305844090443873
+      m_GuidHigh: 3693476263035601816
+    m_Size: {x: 0.081857145, y: 0.07242858}
+    m_SpecifySize: 1
+    m_Name: 0757_DS092-093_remote
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5698039387341609184
+      m_GuidHigh: 15467124361743829166
+    m_SerializedTextureGuid:
+      m_GuidLow: 10508304478663016185
+      m_GuidHigh: 11057264768509316746
+    m_Size: {x: 0.05714286, y: 0.073714286}
+    m_SpecifySize: 1
+    m_Name: 0758_DS092-093_radio
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5234926941215704046
+      m_GuidHigh: 17581356191255141551
+    m_SerializedTextureGuid:
+      m_GuidLow: 7252095687125406550
+      m_GuidHigh: 16420344010858999993
+    m_Size: {x: 0.06485715, y: 0.07071429}
+    m_SpecifySize: 1
+    m_Name: 0759_DS092-093_laptop
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5087134619854472525
+      m_GuidHigh: 16788398193269512337
+    m_SerializedTextureGuid:
+      m_GuidLow: 1946786156936671722
+      m_GuidHigh: 15599430346186295066
+    m_Size: {x: 0.10928572, y: 0.078}
+    m_SpecifySize: 1
+    m_Name: 0760_DS092-093_towatchtelevision
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5089048509279239510
+      m_GuidHigh: 14518578653338550688
+    m_SerializedTextureGuid:
+      m_GuidLow: 6743172965283281588
+      m_GuidHigh: 8337388558844667129
+    m_Size: {x: 0.07214286, y: 0.078}
+    m_SpecifySize: 1
+    m_Name: 0761_DS092-093_television
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4653442507666290283
+      m_GuidHigh: 4579430926621495971
+    m_SerializedTextureGuid:
+      m_GuidLow: 10679192882847914690
+      m_GuidHigh: 17059785177933552473
+    m_Size: {x: 0.06614286, y: 0.07071429}
+    m_SpecifySize: 1
+    m_Name: 0762_DS092-093_telephone
+    m_Texture: {fileID: 0}

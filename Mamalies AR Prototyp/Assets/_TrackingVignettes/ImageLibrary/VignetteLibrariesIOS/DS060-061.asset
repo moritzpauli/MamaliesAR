@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS060-061
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5604601265694219797
+  m_GuidHigh: 11197876553935238798
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5038455012784507847
+      m_GuidHigh: 14178297867956979378
+    m_SerializedTextureGuid:
+      m_GuidLow: 8918527400617768291
+      m_GuidHigh: 14456436128196839563
+    m_Size: {x: 0.08385715, y: 0.047000002}
+    m_SpecifySize: 1
+    m_Name: 0419_DS060-061_traveling
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4717599217711612719
+      m_GuidHigh: 6659169830631977115
+    m_SerializedTextureGuid:
+      m_GuidLow: 10404568900554952400
+      m_GuidHigh: 17154570881224240088
+    m_Size: {x: 0.34428573, y: 0.143}
+    m_SpecifySize: 1
+    m_Name: 0420_DS060-061_airplane
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4646125448539578139
+      m_GuidHigh: 16295180520875837329
+    m_SerializedTextureGuid:
+      m_GuidLow: 11737700520854735555
+      m_GuidHigh: 4323421194664005515
+    m_Size: {x: 0.1687143, y: 0.10485715}
+    m_SpecifySize: 1
+    m_Name: 0421_DS060-061_tofly
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4631840458399386146
+      m_GuidHigh: 7460848182480451218
+    m_SerializedTextureGuid:
+      m_GuidLow: 17006973784024249989
+      m_GuidHigh: 18099224497874932618
+    m_Size: {x: 0.17171429, y: 0.117000006}
+    m_SpecifySize: 1
+    m_Name: 0422_DS060-061_bridge
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4993458856731685838
+      m_GuidHigh: 6178715823724607906
+    m_SerializedTextureGuid:
+      m_GuidLow: 15610827574326622500
+      m_GuidHigh: 5705159338821319864
+    m_Size: {x: 0.171, y: 0.11000001}
+    m_SpecifySize: 1
+    m_Name: 0423_DS060-061_vacation
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5392734626477114370
+      m_GuidHigh: 15523594743323109289
+    m_SerializedTextureGuid:
+      m_GuidLow: 15322453231972500842
+      m_GuidHigh: 3829488106214211225
+    m_Size: {x: 0.15314287, y: 0.08257143}
+    m_SpecifySize: 1
+    m_Name: 0424_DS060-061_holidays
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5112063864574142179
+      m_GuidHigh: 11987858469129703045
+    m_SerializedTextureGuid:
+      m_GuidLow: 14358806528011671925
+      m_GuidHigh: 9605012638177393049
+    m_Size: {x: 0.12514286, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0425_DS060-061_foreign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5250520205183112303
+      m_GuidHigh: 3548371515538394014
+    m_SerializedTextureGuid:
+      m_GuidLow: 6193749148570790137
+      m_GuidHigh: 10785694190404847656
+    m_Size: {x: 0.16214286, y: 0.22114287}
+    m_SpecifySize: 1
+    m_Name: 0426_DS060-061_tourists
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4651307724241804777
+      m_GuidHigh: 6485662595158728596
+    m_SerializedTextureGuid:
+      m_GuidLow: 5558816460119252123
+      m_GuidHigh: 12095132011112321435
+    m_Size: {x: 0.08071429, y: 0.12528571}
+    m_SpecifySize: 1
+    m_Name: 0427_DS060-061_experience
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5399399660122301433
+      m_GuidHigh: 8669381108046729914
+    m_SerializedTextureGuid:
+      m_GuidLow: 2406153723586728274
+      m_GuidHigh: 9755957610552812856
+    m_Size: {x: 0.13957143, y: 0.13928573}
+    m_SpecifySize: 1
+    m_Name: 0428_DS060-061_suitcase
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5173180553293649909
+      m_GuidHigh: 12011679723159859110
+    m_SerializedTextureGuid:
+      m_GuidLow: 8715661185538897515
+      m_GuidHigh: 12869671290810259643
+    m_Size: {x: 0.125, y: 0.123}
+    m_SpecifySize: 1
+    m_Name: 0429_DS060-061_topack
+    m_Texture: {fileID: 0}

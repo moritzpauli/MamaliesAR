@@ -1,0 +1,367 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS090-091
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5014409136382153798
+  m_GuidHigh: 17636654544597243022
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5528322583091845566
+      m_GuidHigh: 10178498126093596591
+    m_SerializedTextureGuid:
+      m_GuidLow: 12764579573728902912
+      m_GuidHigh: 7674774580795502923
+    m_Size: {x: 0.10028572, y: 0.044285715}
+    m_SpecifySize: 1
+    m_Name: 0700_DS090-091_household
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5719574523722877061
+      m_GuidHigh: 17189257594022585769
+    m_SerializedTextureGuid:
+      m_GuidLow: 7679770440057676601
+      m_GuidHigh: 17240649134692711784
+    m_Size: {x: 0.08385715, y: 0.07171429}
+    m_SpecifySize: 1
+    m_Name: 0701_DS090-091_pan
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4884067007470633461
+      m_GuidHigh: 1152840116743088513
+    m_SerializedTextureGuid:
+      m_GuidLow: 13057228226550338847
+      m_GuidHigh: 9062396165395636378
+    m_Size: {x: 0.05471429, y: 0.07171429}
+    m_SpecifySize: 1
+    m_Name: 0702_DS090-091_pot
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5220269893663611928
+      m_GuidHigh: 12536994909181419185
+    m_SerializedTextureGuid:
+      m_GuidLow: 8603241365477254049
+      m_GuidHigh: 14597052743332232840
+    m_Size: {x: 0.10371429, y: 0.11614286}
+    m_SpecifySize: 1
+    m_Name: 0703_DS090-091_dishwasher
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5402630352183003249
+      m_GuidHigh: 5867642553469392530
+    m_SerializedTextureGuid:
+      m_GuidLow: 8616517408827795273
+      m_GuidHigh: 1017930795578922090
+    m_Size: {x: 0.088142864, y: 0.12571429}
+    m_SpecifySize: 1
+    m_Name: 0704_DS090-091_fridge
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5224827588494752233
+      m_GuidHigh: 7948630629459456692
+    m_SerializedTextureGuid:
+      m_GuidLow: 1154068222383668273
+      m_GuidHigh: 18377268326333919769
+    m_Size: {x: 0.05614286, y: 0.06542858}
+    m_SpecifySize: 1
+    m_Name: 0705_DS090-091_plate
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4673283964909719883
+      m_GuidHigh: 11797110182078221460
+    m_SerializedTextureGuid:
+      m_GuidLow: 11638573512143888616
+      m_GuidHigh: 9882324709819920056
+    m_Size: {x: 0.05271429, y: 0.06542858}
+    m_SpecifySize: 1
+    m_Name: 0706_DS090-091_cup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5466465316717252287
+      m_GuidHigh: 17892295852643237802
+    m_SerializedTextureGuid:
+      m_GuidLow: 17443670914934983885
+      m_GuidHigh: 17803763373616091529
+    m_Size: {x: 0.04971429, y: 0.06885715}
+    m_SpecifySize: 1
+    m_Name: 0707_DS090-091_glass
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5282559620884881163
+      m_GuidHigh: 16135001828737917078
+    m_SerializedTextureGuid:
+      m_GuidLow: 7720568811340386971
+      m_GuidHigh: 13580524799046995883
+    m_Size: {x: 0.057857145, y: 0.06885715}
+    m_SpecifySize: 1
+    m_Name: 0708_DS090-091_todothedishes
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4746368582071382601
+      m_GuidHigh: 6413661409617422524
+    m_SerializedTextureGuid:
+      m_GuidLow: 18290380816024283493
+      m_GuidHigh: 11734192117346255416
+    m_Size: {x: 0.06471429, y: 0.06885715}
+    m_SpecifySize: 1
+    m_Name: 0709_DS090-091_todry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5469474625182363881
+      m_GuidHigh: 15954093636006955696
+    m_SerializedTextureGuid:
+      m_GuidLow: 1469379560434643142
+      m_GuidHigh: 15464008423921930570
+    m_Size: {x: 0.06571429, y: 0.08800001}
+    m_SpecifySize: 1
+    m_Name: 0710_DS090-091_dustbin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4903310474721692935
+      m_GuidHigh: 1535456636304518025
+    m_SerializedTextureGuid:
+      m_GuidLow: 15448642236835722870
+      m_GuidHigh: 3321764492370286600
+    m_Size: {x: 0.078428574, y: 0.09171429}
+    m_SpecifySize: 1
+    m_Name: 0711_DS090-091_fork
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5595802026032967125
+      m_GuidHigh: 9713433764309830050
+    m_SerializedTextureGuid:
+      m_GuidLow: 18096659529047000296
+      m_GuidHigh: 16956422972232624600
+    m_Size: {x: 0.09128572, y: 0.10457143}
+    m_SpecifySize: 1
+    m_Name: 0712_DS090-091_knife
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4742439132738579498
+      m_GuidHigh: 8206615146184613524
+    m_SerializedTextureGuid:
+      m_GuidLow: 6391896445739478642
+      m_GuidHigh: 5331812441162793819
+    m_Size: {x: 0.08214286, y: 0.09871429}
+    m_SpecifySize: 1
+    m_Name: 0713_DS090-091_spoon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5459154599879625819
+      m_GuidHigh: 377083699101950381
+    m_SerializedTextureGuid:
+      m_GuidLow: 7909457374357951267
+      m_GuidHigh: 4511273110578097048
+    m_Size: {x: 0.075428575, y: 0.085857145}
+    m_SpecifySize: 1
+    m_Name: 0714_DS090-091_teaspoon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5516411998129532027
+      m_GuidHigh: 9225614092155920568
+    m_SerializedTextureGuid:
+      m_GuidLow: 17786025540300701802
+      m_GuidHigh: 5194099174831441944
+    m_Size: {x: 0.06157143, y: 0.07271429}
+    m_SpecifySize: 1
+    m_Name: 0715_DS090-091_laundry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5693108636967332711
+      m_GuidHigh: 7736865367434759053
+    m_SerializedTextureGuid:
+      m_GuidLow: 14367872177696687549
+      m_GuidHigh: 17515349962265090010
+    m_Size: {x: 0.05471429, y: 0.07271429}
+    m_SpecifySize: 1
+    m_Name: 0716_DS090-091_todothelaundry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5464003714388463704
+      m_GuidHigh: 882699290210533005
+    m_SerializedTextureGuid:
+      m_GuidLow: 1987277554579637772
+      m_GuidHigh: 12488217738442498682
+    m_Size: {x: 0.08914286, y: 0.08042858}
+    m_SpecifySize: 1
+    m_Name: 0717_DS090-091_washingmachine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5276823418543066591
+      m_GuidHigh: 6778199676757339049
+    m_SerializedTextureGuid:
+      m_GuidLow: 15376415142242832229
+      m_GuidHigh: 11166721671085113882
+    m_Size: {x: 0.11928572, y: 0.07271429}
+    m_SpecifySize: 1
+    m_Name: 0718_DS090-091_tohangup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5061947595421922274
+      m_GuidHigh: 8666511409723161733
+    m_SerializedTextureGuid:
+      m_GuidLow: 14894571547510544581
+      m_GuidHigh: 11707377085124923386
+    m_Size: {x: 0.060000002, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0719_DS090-091_cream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5034822394200686339
+      m_GuidHigh: 8035697623955073948
+    m_SerializedTextureGuid:
+      m_GuidLow: 3631156084032182010
+      m_GuidHigh: 14381229235934645131
+    m_Size: {x: 0.089428574, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0720_DS090-091_hairbrush
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5389444272297211632
+      m_GuidHigh: 18389686275837681051
+    m_SerializedTextureGuid:
+      m_GuidLow: 11125148221905571040
+      m_GuidHigh: 8125317474276071465
+    m_Size: {x: 0.081, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0721_DS090-091_comb
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4916916600888606769
+      m_GuidHigh: 3621019234458015635
+    m_SerializedTextureGuid:
+      m_GuidLow: 3955387561441572627
+      m_GuidHigh: 9403651102396232139
+    m_Size: {x: 0.07742857, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0722_DS090-091_plug
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4753330831030745999
+      m_GuidHigh: 8513216705051516854
+    m_SerializedTextureGuid:
+      m_GuidLow: 16182695287243472597
+      m_GuidHigh: 16469351982690629832
+    m_Size: {x: 0.06342857, y: 0.075428575}
+    m_SpecifySize: 1
+    m_Name: 0723_DS090-091_toothpaste
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5286285109340795218
+      m_GuidHigh: 5136728069689682591
+    m_SerializedTextureGuid:
+      m_GuidLow: 3406109665993099838
+      m_GuidHigh: 9190481796152412795
+    m_Size: {x: 0.085285716, y: 0.075428575}
+    m_SpecifySize: 1
+    m_Name: 0724_DS090-091_toothbrush
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5024676848938218555
+      m_GuidHigh: 7080242592525759116
+    m_SerializedTextureGuid:
+      m_GuidLow: 8292444578378644564
+      m_GuidHigh: 16905583287884753641
+    m_Size: {x: 0.07271429, y: 0.075428575}
+    m_SpecifySize: 1
+    m_Name: 0725_DS090-091_tap
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5218992696846426029
+      m_GuidHigh: 18070611018725575354
+    m_SerializedTextureGuid:
+      m_GuidLow: 12935609817739575269
+      m_GuidHigh: 14058509108982686569
+    m_Size: {x: 0.09728572, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0726_DS090-091_sink
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4869950899815755020
+      m_GuidHigh: 123341190598943109
+    m_SerializedTextureGuid:
+      m_GuidLow: 16074592582459888119
+      m_GuidHigh: 14763478101386611018
+    m_Size: {x: 0.05957143, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0727_DS090-091_mirror
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5562629521666316844
+      m_GuidHigh: 9916461410731726755
+    m_SerializedTextureGuid:
+      m_GuidLow: 16335840153482343021
+      m_GuidHigh: 11081710807051814090
+    m_Size: {x: 0.085, y: 0.063285716}
+    m_SpecifySize: 1
+    m_Name: 0728_DS090-091_toiletpaper
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4844561905037194997
+      m_GuidHigh: 4401704038470218640
+    m_SerializedTextureGuid:
+      m_GuidLow: 14773068429076865694
+      m_GuidHigh: 3932117313349064523
+    m_Size: {x: 0.054857146, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0729_DS090-091_deodorant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5531705069716640014
+      m_GuidHigh: 11745932937515883709
+    m_SerializedTextureGuid:
+      m_GuidLow: 17263467542970904155
+      m_GuidHigh: 16355415531846742619
+    m_Size: {x: 0.066, y: 0.07457143}
+    m_SpecifySize: 1
+    m_Name: 0730_DS090-091_shampoo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5173214270456429797
+      m_GuidHigh: 3683235056859436182
+    m_SerializedTextureGuid:
+      m_GuidLow: 9440885501998470173
+      m_GuidHigh: 7638089287970114747
+    m_Size: {x: 0.11714286, y: 0.094000004}
+    m_SpecifySize: 1
+    m_Name: 0731_DS090-091_bathtub
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4955620633527293518
+      m_GuidHigh: 3864466539573840773
+    m_SerializedTextureGuid:
+      m_GuidLow: 15988923702607863462
+      m_GuidHigh: 13041177869715940281
+    m_Size: {x: 0.06514286, y: 0.10700001}
+    m_SpecifySize: 1
+    m_Name: 0732_DS090-091_toilet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5386274984384939391
+      m_GuidHigh: 8279534187812963492
+    m_SerializedTextureGuid:
+      m_GuidLow: 10949485820992464548
+      m_GuidHigh: 13486100525898879513
+    m_Size: {x: 0.077857144, y: 0.098000005}
+    m_SpecifySize: 1
+    m_Name: 0733_DS090-091_toiletbrush
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4842651819991146905
+      m_GuidHigh: 9724497786639692218
+    m_SerializedTextureGuid:
+      m_GuidLow: 12170001742048249594
+      m_GuidHigh: 10468774735864355962
+    m_Size: {x: 0.05957143, y: 0.098000005}
+    m_SpecifySize: 1
+    m_Name: 0734_DS090-091_scales
+    m_Texture: {fileID: 0}

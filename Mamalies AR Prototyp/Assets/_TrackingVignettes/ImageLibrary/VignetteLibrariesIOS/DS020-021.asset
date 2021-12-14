@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS020-021
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5149861678459779920
+  m_GuidHigh: 7033390459546370442
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4892032967189854112
+      m_GuidHigh: 8345697587434703800
+    m_SerializedTextureGuid:
+      m_GuidLow: 4851600366331381133
+      m_GuidHigh: 9160838287754513579
+    m_Size: {x: 0.087000005, y: 0.07357143}
+    m_SpecifySize: 1
+    m_Name: 0051_DS020-021_head-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5123406222139801244
+      m_GuidHigh: 9422401813350089862
+    m_SerializedTextureGuid:
+      m_GuidLow: 3608744852755596479
+      m_GuidHigh: 5812797187110191675
+    m_Size: {x: 0.34585717, y: 0.40085715}
+    m_SpecifySize: 1
+    m_Name: 0052_DS020-021_head
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4779005996118271940
+      m_GuidHigh: 491384261851900085
+    m_SerializedTextureGuid:
+      m_GuidLow: 14349826153884540144
+      m_GuidHigh: 16439112850080474120
+    m_Size: {x: 0.061000004, y: 0.08142857}
+    m_SpecifySize: 1
+    m_Name: 0053_DS020-021_face
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618858308560654610
+      m_GuidHigh: 18114981519134945444
+    m_SerializedTextureGuid:
+      m_GuidLow: 6558508090620668885
+      m_GuidHigh: 14298670369691946393
+    m_Size: {x: 0.081857145, y: 0.054428574}
+    m_SpecifySize: 1
+    m_Name: 0054_DS020-021_forehead
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4649495337747464388
+      m_GuidHigh: 9361611856889370791
+    m_SerializedTextureGuid:
+      m_GuidLow: 17763513178927208794
+      m_GuidHigh: 10775215574620890632
+    m_Size: {x: 0.07585715, y: 0.06928572}
+    m_SpecifySize: 1
+    m_Name: 0055_DS020-021_hair
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5379474668614556399
+      m_GuidHigh: 1753840386007728769
+    m_SerializedTextureGuid:
+      m_GuidLow: 1217143624473924560
+      m_GuidHigh: 1577930882930824219
+    m_Size: {x: 0.062000003, y: 0.049857147}
+    m_SpecifySize: 1
+    m_Name: 0056_DS020-021_eyelashes
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4884367933094439598
+      m_GuidHigh: 7587008776955652757
+    m_SerializedTextureGuid:
+      m_GuidLow: 10057843363879779490
+      m_GuidHigh: 10924292755324705978
+    m_Size: {x: 0.059857145, y: 0.063}
+    m_SpecifySize: 1
+    m_Name: 0057_DS020-021_jaw
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5440094880433144506
+      m_GuidHigh: 14154602367700410799
+    m_SerializedTextureGuid:
+      m_GuidLow: 2190136802285802264
+      m_GuidHigh: 1764116674163273784
+    m_Size: {x: 0.05657143, y: 0.08628572}
+    m_SpecifySize: 1
+    m_Name: 0058_DS020-021_chin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4625600065415489981
+      m_GuidHigh: 10069564601802510525
+    m_SerializedTextureGuid:
+      m_GuidLow: 14192113155202928018
+      m_GuidHigh: 2834521141302445098
+    m_Size: {x: 0.06214286, y: 0.05928572}
+    m_SpecifySize: 1
+    m_Name: 0059_DS020-021_eye
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5519183300810170489
+      m_GuidHigh: 2177827754941423029
+    m_SerializedTextureGuid:
+      m_GuidLow: 4351788358700225409
+      m_GuidHigh: 12055176790366406329
+    m_Size: {x: 0.052857146, y: 0.07628572}
+    m_SpecifySize: 1
+    m_Name: 0060_DS020-021_tosee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5206930881086302698
+      m_GuidHigh: 9455593996889053345
+    m_SerializedTextureGuid:
+      m_GuidLow: 9855222584436088385
+      m_GuidHigh: 13895547652911350698
+    m_Size: {x: 0.05271429, y: 0.051000003}
+    m_SpecifySize: 1
+    m_Name: 0061_DS020-021_glasses
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5589790530181381706
+      m_GuidHigh: 16304733536857974954
+    m_SerializedTextureGuid:
+      m_GuidLow: 5815465009730868493
+      m_GuidHigh: 2769628588521348858
+    m_Size: {x: 0.048714288, y: 0.06657143}
+    m_SpecifySize: 1
+    m_Name: 0062_DS020-021_nose
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4752315998120085274
+      m_GuidHigh: 3473812624513694645
+    m_SerializedTextureGuid:
+      m_GuidLow: 11850373560235239730
+      m_GuidHigh: 4983846418567732536
+    m_Size: {x: 0.05271429, y: 0.07628572}
+    m_SpecifySize: 1
+    m_Name: 0063_DS020-021_tosmell
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5121607113738788751
+      m_GuidHigh: 5930344085105708726
+    m_SerializedTextureGuid:
+      m_GuidLow: 6054171584315239156
+      m_GuidHigh: 11951805302368587865
+    m_Size: {x: 0.06285714, y: 0.06657143}
+    m_SpecifySize: 1
+    m_Name: 0064_DS020-021_smell
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4945317480925633037
+      m_GuidHigh: 17281570545212291478
+    m_SerializedTextureGuid:
+      m_GuidLow: 6130801538485644480
+      m_GuidHigh: 13797782235189208107
+    m_Size: {x: 0.052857146, y: 0.067857146}
+    m_SpecifySize: 1
+    m_Name: 0065_DS020-021_ear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5393224200682555091
+      m_GuidHigh: 12941263884440994183
+    m_SerializedTextureGuid:
+      m_GuidLow: 7198136543996494789
+      m_GuidHigh: 17793132488947165835
+    m_Size: {x: 0.05271429, y: 0.07300001}
+    m_SpecifySize: 1
+    m_Name: 0066_DS020-021_tohear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5570792810662884469
+      m_GuidHigh: 2577279895690618794
+    m_SerializedTextureGuid:
+      m_GuidLow: 16007047408785586441
+      m_GuidHigh: 6006715150275847450
+    m_Size: {x: 0.08800001, y: 0.061857145}
+    m_SpecifySize: 1
+    m_Name: 0067_DS020-021_skin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5502817532608755652
+      m_GuidHigh: 12264015795842941878
+    m_SerializedTextureGuid:
+      m_GuidLow: 12269130751852536376
+      m_GuidHigh: 12621772070600685898
+    m_Size: {x: 0.06285714, y: 0.089857146}
+    m_SpecifySize: 1
+    m_Name: 0068_DS020-021_tofeel
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5154067110909432158
+      m_GuidHigh: 3470184625197881273
+    m_SerializedTextureGuid:
+      m_GuidLow: 550627342177352033
+      m_GuidHigh: 14419712845102868875
+    m_Size: {x: 0.07057143, y: 0.05114286}
+    m_SpecifySize: 1
+    m_Name: 0069_DS020-021_teeth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5621399588561114229
+      m_GuidHigh: 16093417892858557372
+    m_SerializedTextureGuid:
+      m_GuidLow: 460717094591090117
+      m_GuidHigh: 13422680900970066010
+    m_Size: {x: 0.054428574, y: 0.06885715}
+    m_SpecifySize: 1
+    m_Name: 0070_DS020-021_tongue
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4801921589735111483
+      m_GuidHigh: 17245536660380973211
+    m_SerializedTextureGuid:
+      m_GuidLow: 11678982466429636332
+      m_GuidHigh: 10111780658336990042
+    m_Size: {x: 0.06314286, y: 0.063}
+    m_SpecifySize: 1
+    m_Name: 0071_DS020-021_mouth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5708677924305416677
+      m_GuidHigh: 10428568447841239452
+    m_SerializedTextureGuid:
+      m_GuidLow: 4702910768380056426
+      m_GuidHigh: 6131404246660357384
+    m_Size: {x: 0.066, y: 0.09414286}
+    m_SpecifySize: 1
+    m_Name: 0072_DS020-021_totaste
+    m_Texture: {fileID: 0}

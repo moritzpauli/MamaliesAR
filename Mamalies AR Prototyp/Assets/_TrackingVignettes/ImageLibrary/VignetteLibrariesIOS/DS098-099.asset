@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS098-099
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5620260760530512317
+  m_GuidHigh: 2891888208865587884
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5033207403516934930
+      m_GuidHigh: 8470490332270532742
+    m_SerializedTextureGuid:
+      m_GuidLow: 7427761928041092437
+      m_GuidHigh: 3890147921958524233
+    m_Size: {x: 0.08742858, y: 0.068}
+    m_SpecifySize: 1
+    m_Name: 0127_DS098-099_wish
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5636797334878287401
+      m_GuidHigh: 13869115409610068401
+    m_SerializedTextureGuid:
+      m_GuidLow: 3342973914963404800
+      m_GuidHigh: 5702172466936000409
+    m_Size: {x: 0.09442858, y: 0.052}
+    m_SpecifySize: 1
+    m_Name: 0786_DS098-099_celebrations
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5491823258384780379
+      m_GuidHigh: 156259354538533514
+    m_SerializedTextureGuid:
+      m_GuidLow: 16227815437917765143
+      m_GuidHigh: 5848601395977199256
+    m_Size: {x: 0.06642857, y: 0.10871429}
+    m_SpecifySize: 1
+    m_Name: 0787_DS098-099_tothank
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5114920481279414143
+      m_GuidHigh: 7845051575878023817
+    m_SerializedTextureGuid:
+      m_GuidLow: 16218763497920991597
+      m_GuidHigh: 8587412360474452138
+    m_Size: {x: 0.066285715, y: 0.07757143}
+    m_SpecifySize: 1
+    m_Name: 0788_DS098-099_present
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5160638395628526037
+      m_GuidHigh: 12997356351650775729
+    m_SerializedTextureGuid:
+      m_GuidLow: 13899311277380107851
+      m_GuidHigh: 3454250343969842331
+    m_Size: {x: 0.078428574, y: 0.07642858}
+    m_SpecifySize: 1
+    m_Name: 0789_DS098-099_great
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4626647809443919665
+      m_GuidHigh: 120837342368855684
+    m_SerializedTextureGuid:
+      m_GuidLow: 15295377754867487855
+      m_GuidHigh: 5322178660591807483
+    m_Size: {x: 0.07585715, y: 0.106571436}
+    m_SpecifySize: 1
+    m_Name: 0790_DS098-099_towish
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5153158175077719862
+      m_GuidHigh: 18192605430678292111
+    m_SerializedTextureGuid:
+      m_GuidLow: 5090318091612108888
+      m_GuidHigh: 12295732340104947113
+    m_Size: {x: 0.070857145, y: 0.10971429}
+    m_SpecifySize: 1
+    m_Name: 0791_DS098-099_birthday
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5657292062089162346
+      m_GuidHigh: 8437058026208130438
+    m_SerializedTextureGuid:
+      m_GuidLow: 17200566585628560370
+      m_GuidHigh: 2212722683185337258
+    m_Size: {x: 0.066, y: 0.11285715}
+    m_SpecifySize: 1
+    m_Name: 0792_DS098-099_tohave
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5079753415233221252
+      m_GuidHigh: 18214038597988544169
+    m_SerializedTextureGuid:
+      m_GuidLow: 6738590790914775541
+      m_GuidHigh: 11907813923621882761
+    m_Size: {x: 0.07971429, y: 0.11771429}
+    m_SpecifySize: 1
+    m_Name: 0793_DS098-099_togift
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5533544429287000931
+      m_GuidHigh: 13133336964663828625
+    m_SerializedTextureGuid:
+      m_GuidLow: 16876349297448609857
+      m_GuidHigh: 8105623143940262696
+    m_Size: {x: 0.08071429, y: 0.13657144}
+    m_SpecifySize: 1
+    m_Name: 0794_DS098-099_toget
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4746466515157907336
+      m_GuidHigh: 13288150304738497195
+    m_SerializedTextureGuid:
+      m_GuidLow: 1050629798492147744
+      m_GuidHigh: 13317242523306681704
+    m_Size: {x: 0.11514286, y: 0.10457143}
+    m_SpecifySize: 1
+    m_Name: 0795_DS098-099_fun
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4816808887026157543
+      m_GuidHigh: 10521563200912333731
+    m_SerializedTextureGuid:
+      m_GuidLow: 3707771253030849979
+      m_GuidHigh: 13689172536768664073
+    m_Size: {x: 0.101, y: 0.09771429}
+    m_SpecifySize: 1
+    m_Name: 0796_DS098-099_packaging
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5045025615452126405
+      m_GuidHigh: 17540198158448149907
+    m_SerializedTextureGuid:
+      m_GuidLow: 13516670595015006614
+      m_GuidHigh: 13659543312546705562
+    m_Size: {x: 0.07157143, y: 0.07057143}
+    m_SpecifySize: 1
+    m_Name: 0797_DS098-099_towrap
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5658400529160433328
+      m_GuidHigh: 3983456847598110395
+    m_SerializedTextureGuid:
+      m_GuidLow: 13404010879189983338
+      m_GuidHigh: 11799265003800231643
+    m_Size: {x: 0.081, y: 0.100857146}
+    m_SpecifySize: 1
+    m_Name: 0798_DS098-099_riddle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4887251267634271869
+      m_GuidHigh: 15906705497684434330
+    m_SerializedTextureGuid:
+      m_GuidLow: 3419375858436140714
+      m_GuidHigh: 1570296370329524153
+    m_Size: {x: 0.07185715, y: 0.10971429}
+    m_SpecifySize: 1
+    m_Name: 0799_DS098-099_toguess
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5650254698397944264
+      m_GuidHigh: 5241878914541713303
+    m_SerializedTextureGuid:
+      m_GuidLow: 4865105371494235287
+      m_GuidHigh: 13299019791023868971
+    m_Size: {x: 0.120571434, y: 0.11642858}
+    m_SpecifySize: 1
+    m_Name: 0800_DS098-099_halloween
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5042912657423914173
+      m_GuidHigh: 9856171063313959076
+    m_SerializedTextureGuid:
+      m_GuidLow: 1708171162244663737
+      m_GuidHigh: 17501576032544078474
+    m_Size: {x: 0.22628573, y: 0.27685717}
+    m_SpecifySize: 1
+    m_Name: 0801_DS098-099_cake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5603773842806538176
+      m_GuidHigh: 13326764796982276755
+    m_SerializedTextureGuid:
+      m_GuidLow: 18348822446461016421
+      m_GuidHigh: 12558940869486504730
+    m_Size: {x: 0.11128572, y: 0.14657144}
+    m_SpecifySize: 1
+    m_Name: 0802_DS098-099_christmas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5416560393921785245
+      m_GuidHigh: 5165498385271467418
+    m_SerializedTextureGuid:
+      m_GuidLow: 14804660526191310804
+      m_GuidHigh: 7706917332764671513
+    m_Size: {x: 0.09928572, y: 0.14214286}
+    m_SpecifySize: 1
+    m_Name: 0803_DS098-099_clown
+    m_Texture: {fileID: 0}

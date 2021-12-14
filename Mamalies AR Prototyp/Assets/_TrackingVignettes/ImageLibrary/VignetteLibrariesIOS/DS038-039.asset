@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS038-039
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5181426006739096127
+  m_GuidHigh: 8390866351455677103
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5358483855720892303
+      m_GuidHigh: 11363252524140002972
+    m_SerializedTextureGuid:
+      m_GuidLow: 17097040633186984964
+      m_GuidHigh: 12143136977034925114
+    m_Size: {x: 0.48728573, y: 0.31085715}
+    m_SpecifySize: 1
+    m_Name: 0218_DS038-039_zoo
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5760090405976935668
+      m_GuidHigh: 17573348594064134016
+    m_SerializedTextureGuid:
+      m_GuidLow: 7418743773811869209
+      m_GuidHigh: 9859217968249088938
+    m_Size: {x: 0.13985714, y: 0.09485715}
+    m_SpecifySize: 1
+    m_Name: 0219_DS038-039_wild
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4986244376556695661
+      m_GuidHigh: 14939599523835634314
+    m_SerializedTextureGuid:
+      m_GuidLow: 10039837147376975040
+      m_GuidHigh: 11008133122029842106
+    m_Size: {x: 0.1297143, y: 0.115}
+    m_SpecifySize: 1
+    m_Name: 0220_DS038-039_tobark
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5088868355703990713
+      m_GuidHigh: 4501141658274188961
+    m_SerializedTextureGuid:
+      m_GuidLow: 6954948376272766014
+      m_GuidHigh: 10437210720184818379
+    m_Size: {x: 0.09900001, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0221_DS038-039_tofly
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5208757001711117738
+      m_GuidHigh: 7775770778210490798
+    m_SerializedTextureGuid:
+      m_GuidLow: 17250100652280675852
+      m_GuidHigh: 8775928728887239897
+    m_Size: {x: 0.13971429, y: 0.13285714}
+    m_SpecifySize: 1
+    m_Name: 0222_DS038-039_tofeed
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4997183104822945594
+      m_GuidHigh: 11106345554055997579
+    m_SerializedTextureGuid:
+      m_GuidLow: 1744138840116941479
+      m_GuidHigh: 6946423308609603257
+    m_Size: {x: 0.09028572, y: 0.08771429}
+    m_SpecifySize: 1
+    m_Name: 0223_DS038-039_tobite
+    m_Texture: {fileID: 0}

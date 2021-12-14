@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS054-055
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4840766477161278714
+  m_GuidHigh: 7708749951802947463
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4886011828846145076
+      m_GuidHigh: 1356167519838658732
+    m_SerializedTextureGuid:
+      m_GuidLow: 1775757423852929331
+      m_GuidHigh: 12036136510327351195
+    m_Size: {x: 0.09357143, y: 0.046428572}
+    m_SpecifySize: 1
+    m_Name: 0363_DS054-055_traffic-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4856663316656738594
+      m_GuidHigh: 5566312276815284641
+    m_SerializedTextureGuid:
+      m_GuidLow: 6058559130670249227
+      m_GuidHigh: 3752317920771748955
+    m_Size: {x: 0.13371429, y: 0.186}
+    m_SpecifySize: 1
+    m_Name: 0364_DS054-055_traffic
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4778931328415300571
+      m_GuidHigh: 15619751258815596190
+    m_SerializedTextureGuid:
+      m_GuidLow: 7229477742184370370
+      m_GuidHigh: 7462370475245543064
+    m_Size: {x: 0.113571435, y: 0.07757143}
+    m_SpecifySize: 1
+    m_Name: 0365_DS054-055_bus
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4872003419002234900
+      m_GuidHigh: 8300369563387817880
+    m_SerializedTextureGuid:
+      m_GuidLow: 15241548066529247946
+      m_GuidHigh: 2826538176920679352
+    m_Size: {x: 0.106571436, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0366_DS054-055_car
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5182508161154156390
+      m_GuidHigh: 14697578293328841391
+    m_SerializedTextureGuid:
+      m_GuidLow: 7468331579370674801
+      m_GuidHigh: 7371268705134838714
+    m_Size: {x: 0.115428574, y: 0.081857145}
+    m_SpecifySize: 1
+    m_Name: 0367_DS054-055_tram
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4856136575887962056
+      m_GuidHigh: 15305925794994837407
+    m_SerializedTextureGuid:
+      m_GuidLow: 17069919746099748826
+      m_GuidHigh: 12778052555296526827
+    m_Size: {x: 0.113571435, y: 0.07700001}
+    m_SpecifySize: 1
+    m_Name: 0368_DS054-055_ambulance
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5127744863410001195
+      m_GuidHigh: 5561431053399012028
+    m_SerializedTextureGuid:
+      m_GuidLow: 8923036397537868582
+      m_GuidHigh: 17859547181742320600
+    m_Size: {x: 0.095571436, y: 0.064}
+    m_SpecifySize: 1
+    m_Name: 0369_DS054-055_taxi
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4746625998027051314
+      m_GuidHigh: 15544001284334836895
+    m_SerializedTextureGuid:
+      m_GuidLow: 10589303315158790764
+      m_GuidHigh: 8769129942260843336
+    m_Size: {x: 0.10471429, y: 0.074857146}
+    m_SpecifySize: 1
+    m_Name: 0370_DS054-055_drive
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5709811884726356790
+      m_GuidHigh: 15487615343482308227
+    m_SerializedTextureGuid:
+      m_GuidLow: 7999568305683231100
+      m_GuidHigh: 1596621808615833688
+    m_Size: {x: 0.09428572, y: 0.08328572}
+    m_SpecifySize: 1
+    m_Name: 0371_DS054-055_street
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4865260069895362502
+      m_GuidHigh: 14001266139897730460
+    m_SerializedTextureGuid:
+      m_GuidLow: 3370084819054024074
+      m_GuidHigh: 10034485931837852840
+    m_Size: {x: 0.17528573, y: 0.06914286}
+    m_SpecifySize: 1
+    m_Name: 0372_DS054-055_tocross
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5527087644687264690
+      m_GuidHigh: 11742453116486023593
+    m_SerializedTextureGuid:
+      m_GuidLow: 5004639285471144651
+      m_GuidHigh: 10547258446486121465
+    m_Size: {x: 0.07814286, y: 0.06642857}
+    m_SpecifySize: 1
+    m_Name: 0373_DS054-055_zebracrossing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5050255185507753477
+      m_GuidHigh: 133606884793435282
+    m_SerializedTextureGuid:
+      m_GuidLow: 6576420956577481970
+      m_GuidHigh: 3653619395678057705
+    m_Size: {x: 0.054285716, y: 0.07585715}
+    m_SpecifySize: 1
+    m_Name: 0374_DS054-055_trafficlight
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5624119351314802501
+      m_GuidHigh: 12090720411840391836
+    m_SerializedTextureGuid:
+      m_GuidLow: 12642875658919998342
+      m_GuidHigh: 18192325857444536378
+    m_Size: {x: 0.08142857, y: 0.06514286}
+    m_SpecifySize: 1
+    m_Name: 0375_DS054-055_trafficsign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5486532759803542205
+      m_GuidHigh: 6102278282352194477
+    m_SerializedTextureGuid:
+      m_GuidLow: 8720227697906448192
+      m_GuidHigh: 6411369613187383530
+    m_Size: {x: 0.08571429, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0376_DS054-055_subway
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4678078192681631566
+      m_GuidHigh: 18035151919649170099
+    m_SerializedTextureGuid:
+      m_GuidLow: 1172136844610844439
+      m_GuidHigh: 14707415463205334218
+    m_Size: {x: 0.16014287, y: 0.084142864}
+    m_SpecifySize: 1
+    m_Name: 0377_DS054-055_fireservice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618014312049103260
+      m_GuidHigh: 963226073165043377
+    m_SerializedTextureGuid:
+      m_GuidLow: 15957461687577426088
+      m_GuidHigh: 8573671960503325275
+    m_Size: {x: 0.11828572, y: 0.07557143}
+    m_SpecifySize: 1
+    m_Name: 0378_DS054-055_garbagetruck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5130945047719065442
+      m_GuidHigh: 5905486046973260727
+    m_SerializedTextureGuid:
+      m_GuidLow: 9035505396216968426
+      m_GuidHigh: 706506283957563064
+    m_Size: {x: 0.09942858, y: 0.07557143}
+    m_SpecifySize: 1
+    m_Name: 0379_DS054-055_policecar
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5000261990268768245
+      m_GuidHigh: 14326236669442187164
+    m_SerializedTextureGuid:
+      m_GuidLow: 14196485455719369709
+      m_GuidHigh: 9992791523004168760
+    m_Size: {x: 0.07114286, y: 0.084142864}
+    m_SpecifySize: 1
+    m_Name: 0380_DS054-055_crossing
+    m_Texture: {fileID: 0}

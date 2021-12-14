@@ -26,6 +26,8 @@ public class PopulateImageLibraryTest : Editor
 
     private static List<Texture2D> textures = new List<Texture2D>();
 
+    
+
 
     //[MenuItem("ImgLibrary/Remove Testing Images")]
     //static void RemoveTestingImages()
@@ -76,51 +78,50 @@ public class PopulateImageLibraryTest : Editor
     }
 
 
-    //[MenuItem("ImgLibrary/Autopopulate with Testing Images")]
-    //static void AutopopulateLibraryTesting()
-    //{
-    //    imageLibrary = AssetDatabase.LoadAssetAtPath<XRReferenceImageLibrary>(libraryPath);
+    [MenuItem("ImgLibrary/Autopopulate with Testing Images")]
+    static void AutopopulateLibraryTesting()
+    {
+        imageLibrary = AssetDatabase.LoadAssetAtPath<XRReferenceImageLibrary>(libraryPath);
 
 
-    //    imagePaths = Directory.GetFiles(rootImagePath +"/TestingImages","*.png");
+        imagePaths = Directory.GetFiles(rootImagePath + "/TestingImages", "*.png");
 
-    //    foreach (string imageFilePath in imagePaths)
-    //    {
-    //        //Debug.Log(imageFilePath);
-    //        Texture2D tempTexture = (Texture2D)AssetDatabase.LoadAssetAtPath(imageFilePath, typeof(Texture2D));
+        foreach (string imageFilePath in imagePaths)
+        {
+            //Debug.Log(imageFilePath);
+            Texture2D tempTexture = (Texture2D)AssetDatabase.LoadAssetAtPath(imageFilePath, typeof(Texture2D));
 
-    //        if (Char.IsDigit(tempTexture.name[0]))
-    //        {
-    //            textures.Add(tempTexture);
-    //        }
-
-
-    //    }
-
-    //    Debug.Log("New Textures: " + textures.Count);
-
-    //    for (int i = imageLibrary.count - 1; i >= 0; i--)
-    //    {
-    //        if (imageLibrary[i].texture.name[0] == '#')
-    //        {
-    //            imageLibrary.RemoveAt(i);
-    //        }
-    //    }
+          
+                textures.Add(tempTexture);
+            
 
 
+        }
 
-    //    foreach (Texture2D texture in textures)
-    //    {
-    //        imageLibrary.Add();
-    //        imageLibrary.SetTexture(imageLibrary.count-1, texture, false);
-    //        imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
-    //        imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width/7f * 0.001f,(float)texture.height/7f * 0.001f));
-    //        imageLibrary.SetName(imageLibrary.count-1,'#' + texture.name);
-    //    }
+        Debug.Log("New Textures: " + textures.Count);
 
-    //    Debug.Log("Image Library Size:" + imageLibrary.count);
-    //    textures.Clear();
-    //}
+        for (int i = imageLibrary.count - 1; i >= 0; i--)
+        {
+            if (imageLibrary[i].texture.name[0] == '#')
+            {
+                imageLibrary.RemoveAt(i);
+            }
+        }
+
+
+
+        foreach (Texture2D texture in textures)
+        {
+            imageLibrary.Add();
+            imageLibrary.SetTexture(imageLibrary.count - 1, texture, false);
+            imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
+            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width / 7f * 0.001f, (float)texture.height / 7f * 0.001f));
+            imageLibrary.SetName(imageLibrary.count - 1, '#' + texture.name);
+        }
+
+        Debug.Log("Image Library Size:" + imageLibrary.count);
+        textures.Clear();
+    }
 
 
     [MenuItem("ImgLibrary/Autopopulate image Libraries IOS")]
@@ -136,6 +137,8 @@ public class PopulateImageLibraryTest : Editor
 
         textures.Clear();
 
+        List<VignetteLibraryEntry> vignetteLibraries = new List<VignetteLibraryEntry>();
+
         foreach (string imageFilePath in imagePaths)
         {
             //Debug.Log(imageFilePath);
@@ -149,22 +152,55 @@ public class PopulateImageLibraryTest : Editor
 
         for(int i = 0; i < textures.Count; i++)
         {
-            
-            if(imageCounter <= 0)
+            bool foundEntry = false;
+            foreach(VignetteLibraryEntry entry in vignetteLibraries)
             {
-                currentLibrary = new XRReferenceImageLibrary();
-                AssetDatabase.CreateAsset(currentLibrary, iOSLibraryFolder + iOSLibraryName+ libraryCounter.ToString() + ".asset");
-                imageCounter = 30;
-                libraryCounter++;
+                if(entry.doublePage == textures[i].name.Split('_')[1])
+                {
+                    entry.library.Add();
+                    entry.library.SetTexture(entry.library.count - 1, textures[i], false);
+                    entry.library.SetSpecifySize(entry.library.count - 1, true);
+                    entry.library.SetSize(entry.library.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+                    entry.library.SetName(entry.library.count - 1, textures[i].name);
+                    foundEntry = true;
+                }
             }
-            currentLibrary.Add();
-            currentLibrary.SetTexture(currentLibrary.count - 1, textures[i], false);
-            currentLibrary.SetSpecifySize(currentLibrary.count - 1, true);
-            currentLibrary.SetSize(currentLibrary.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
-            currentLibrary.SetName(currentLibrary.count - 1, textures[i].name);
-            imageCounter--;
+            if (!foundEntry)
+            {
+                XRReferenceImageLibrary lib = new XRReferenceImageLibrary();
+                VignetteLibraryEntry entry = new VignetteLibraryEntry(textures[i].name.Split('_')[1],lib);
+                entry.library.Add();
+                entry.library.SetTexture(entry.library.count - 1, textures[i], false);
+                entry.library.SetSpecifySize(entry.library.count - 1, true);
+                entry.library.SetSize(entry.library.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+                entry.library.SetName(entry.library.count - 1, textures[i].name);
+                vignetteLibraries.Add(entry);
+            }
+        }
+
+        //for(int i = 0; i < textures.Count; i++)
+        //{
+            
+        //    if(imageCounter <= 0)
+        //    {
+        //        currentLibrary = new XRReferenceImageLibrary();
+        //        AssetDatabase.CreateAsset(currentLibrary, iOSLibraryFolder + iOSLibraryName+ libraryCounter.ToString() + ".asset");
+        //        imageCounter = 30;
+        //        libraryCounter++;
+        //    }
+        //    currentLibrary.Add();
+        //    currentLibrary.SetTexture(currentLibrary.count - 1, textures[i], false);
+        //    currentLibrary.SetSpecifySize(currentLibrary.count - 1, true);
+        //    currentLibrary.SetSize(currentLibrary.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+        //    currentLibrary.SetName(currentLibrary.count - 1, textures[i].name);
+        //    imageCounter--;
 
 
+        //}
+
+        foreach(VignetteLibraryEntry entry in vignetteLibraries)
+        {
+            AssetDatabase.CreateAsset(entry.library, iOSLibraryFolder +entry.doublePage + ".asset");
         }
 
         AssetDatabase.SaveAssets();
@@ -305,4 +341,16 @@ public class PopulateImageLibraryTest : Editor
         textures.Clear();
     }
 
+}
+
+public struct VignetteLibraryEntry
+{
+    public string doublePage;
+    public XRReferenceImageLibrary library;
+
+    public VignetteLibraryEntry(string doublePage, XRReferenceImageLibrary library)
+    {
+        this.doublePage = doublePage;
+        this.library = library;
+    }
 }

@@ -9187,7 +9187,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 0d7bd77b99ca4994db0c59f7b16a18c9
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0768_DS094_095_attic.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0768_DS094-095_attic.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -9859,7 +9859,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5dacb34da280e6644adbccf93f35b19e
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0930_DS110_111_glue.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0930_DS110-111_glue.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -11335,7 +11335,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7c60b026461aeff4c86c45efbd71b9b6
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0557-DS074-075_spices.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0557_DS074-075_spices.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -11797,7 +11797,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 234dc3bf62e48fb45b0cd5e3c8a9e126
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0314_DS050-51_sun.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0314_DS050-051_sun.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -11905,7 +11905,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: d24a8d052cef9164eaa04de8e5ce288f
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0081_DS022-23_judge.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0081_DS022-023_judge.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -12151,7 +12151,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7a630a05b272c7d4793ef89275fb07fb
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0021-DS016-017_femalecousin.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0021_DS016-017_femalecousin.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
@@ -14581,7 +14581,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 704901b28407c0047a8a68f28788870e
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0082_DS022-23_hairdresser.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0082_DS022-023_hairdresser.png
     m_ReadOnly: 0
     m_SerializedLabels: []
     m_MainAsset: {fileID: 0}

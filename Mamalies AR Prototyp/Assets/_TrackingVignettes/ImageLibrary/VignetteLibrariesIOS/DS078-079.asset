@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS078-079
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4950880033056105383
+  m_GuidHigh: 17548927275869960349
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4644297292832145354
+      m_GuidHigh: 7526324373312851089
+    m_SerializedTextureGuid:
+      m_GuidLow: 16912165383738486963
+      m_GuidHigh: 1396319819076904745
+    m_Size: {x: 0.12371429, y: 0.046714287}
+    m_SpecifySize: 1
+    m_Name: 0587_DS078-079_seasons
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5250821821090914009
+      m_GuidHigh: 15163875562465431688
+    m_SerializedTextureGuid:
+      m_GuidLow: 11557465768728382202
+      m_GuidHigh: 17984226721088997723
+    m_Size: {x: 0.15728572, y: 0.19942859}
+    m_SpecifySize: 1
+    m_Name: 0588_DS078-079_spring
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4677801061404447072
+      m_GuidHigh: 880152433748297914
+    m_SerializedTextureGuid:
+      m_GuidLow: 6594502780975794271
+      m_GuidHigh: 13747372140080208715
+    m_Size: {x: 0.15685715, y: 0.19942859}
+    m_SpecifySize: 1
+    m_Name: 0589_DS078-079_summer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5241423936475502556
+      m_GuidHigh: 14931024966563861951
+    m_SerializedTextureGuid:
+      m_GuidLow: 4716453851049968972
+      m_GuidHigh: 17755787322613474361
+    m_Size: {x: 0.157, y: 0.19942859}
+    m_SpecifySize: 1
+    m_Name: 0590_DS078-079_autumn
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5061470718078762206
+      m_GuidHigh: 9528056280452092823
+    m_SerializedTextureGuid:
+      m_GuidLow: 1933171472801527563
+      m_GuidHigh: 9724702462463308747
+    m_Size: {x: 0.15914287, y: 0.19942859}
+    m_SpecifySize: 1
+    m_Name: 0591_DS078-079_winter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4834674506773478205
+      m_GuidHigh: 11041327243706659980
+    m_SerializedTextureGuid:
+      m_GuidLow: 712799962733842020
+      m_GuidHigh: 5787147611908357562
+    m_Size: {x: 0.074857146, y: 0.050285716}
+    m_SpecifySize: 1
+    m_Name: 0592_DS078-079_march
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5309257768777096762
+      m_GuidHigh: 7792668987302246321
+    m_SerializedTextureGuid:
+      m_GuidLow: 10102816652549115775
+      m_GuidHigh: 10748447250024159881
+    m_Size: {x: 0.06414286, y: 0.048}
+    m_SpecifySize: 1
+    m_Name: 0593_DS078-079_april
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5281209448149013742
+      m_GuidHigh: 11880985103834879662
+    m_SerializedTextureGuid:
+      m_GuidLow: 3090810407629670923
+      m_GuidHigh: 10041706796837660507
+    m_Size: {x: 0.07228572, y: 0.047285717}
+    m_SpecifySize: 1
+    m_Name: 0594_DS078-079_may
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5462069746826262316
+      m_GuidHigh: 11605330565216857485
+    m_SerializedTextureGuid:
+      m_GuidLow: 7873472502702427779
+      m_GuidHigh: 12012386463710857784
+    m_Size: {x: 0.06814286, y: 0.049000002}
+    m_SpecifySize: 1
+    m_Name: 0595_DS078-079_june
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4725843285187066296
+      m_GuidHigh: 15901908661321295264
+    m_SerializedTextureGuid:
+      m_GuidLow: 2554754766836001070
+      m_GuidHigh: 2667619145312880344
+    m_Size: {x: 0.07457143, y: 0.05114286}
+    m_SpecifySize: 1
+    m_Name: 0596_DS078-079_july
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5709754995458765230
+      m_GuidHigh: 6627773345352391593
+    m_SerializedTextureGuid:
+      m_GuidLow: 3491457578774222714
+      m_GuidHigh: 160267136931391480
+    m_Size: {x: 0.07014286, y: 0.04771429}
+    m_SpecifySize: 1
+    m_Name: 0597_DS078-079_august
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5408995644115032478
+      m_GuidHigh: 15282951844102460822
+    m_SerializedTextureGuid:
+      m_GuidLow: 3176194217923127531
+      m_GuidHigh: 6031279569347098491
+    m_Size: {x: 0.08285715, y: 0.06071429}
+    m_SpecifySize: 1
+    m_Name: 0598_DS078-079_september
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4998634727630094515
+      m_GuidHigh: 4824025605082319791
+    m_SerializedTextureGuid:
+      m_GuidLow: 13322973122544038892
+      m_GuidHigh: 9987358426033287513
+    m_Size: {x: 0.06828572, y: 0.049000002}
+    m_SpecifySize: 1
+    m_Name: 0599_DS078-079_october
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5118484811602105005
+      m_GuidHigh: 9223325352166934672
+    m_SerializedTextureGuid:
+      m_GuidLow: 7391576403228071733
+      m_GuidHigh: 10235946547250390347
+    m_Size: {x: 0.07771429, y: 0.046857145}
+    m_SpecifySize: 1
+    m_Name: 0600_DS078-079_november
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4782271893010583949
+      m_GuidHigh: 8787091580492147083
+    m_SerializedTextureGuid:
+      m_GuidLow: 13007629112570700801
+      m_GuidHigh: 17497283095241831976
+    m_Size: {x: 0.07342857, y: 0.05528572}
+    m_SpecifySize: 1
+    m_Name: 0601_DS078-079_december
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5041490942352299534
+      m_GuidHigh: 10688499931202849214
+    m_SerializedTextureGuid:
+      m_GuidLow: 6099003443402427484
+      m_GuidHigh: 14500240563634117674
+    m_Size: {x: 0.069000006, y: 0.052285716}
+    m_SpecifySize: 1
+    m_Name: 0602_DS078-079_january
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4817402908565756311
+      m_GuidHigh: 18109969306698776211
+    m_SerializedTextureGuid:
+      m_GuidLow: 13845361787536143222
+      m_GuidHigh: 383818580053110041
+    m_Size: {x: 0.07628572, y: 0.042714287}
+    m_SpecifySize: 1
+    m_Name: 0603_DS078-079_february
+    m_Texture: {fileID: 0}

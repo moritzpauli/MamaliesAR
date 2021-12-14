@@ -1,0 +1,257 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS018-019
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5693101252394344153
+  m_GuidHigh: 14764799074365356454
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5049928090808532851
+      m_GuidHigh: 17808285220054604720
+    m_SerializedTextureGuid:
+      m_GuidLow: 5459730602758381967
+      m_GuidHigh: 13793170792156507818
+    m_Size: {x: 0.085, y: 0.039857145}
+    m_SpecifySize: 1
+    m_Name: 0027_DS018-019_body
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4704978166348964166
+      m_GuidHigh: 2638423426662394032
+    m_SerializedTextureGuid:
+      m_GuidLow: 11264724442617930293
+      m_GuidHigh: 16587458323901793001
+    m_Size: {x: 0.046714287, y: 0.064}
+    m_SpecifySize: 1
+    m_Name: 0028_DS018-019_finger
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5528459565399721338
+      m_GuidHigh: 7297664530242826651
+    m_SerializedTextureGuid:
+      m_GuidLow: 6396250286673048404
+      m_GuidHigh: 908022645884948603
+    m_Size: {x: 0.083000004, y: 0.045857146}
+    m_SpecifySize: 1
+    m_Name: 0029_DS018-019_hand
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618984676061765496
+      m_GuidHigh: 8230632079819744912
+    m_SerializedTextureGuid:
+      m_GuidLow: 4531887776528187647
+      m_GuidHigh: 12274148756185011800
+    m_Size: {x: 0.07871429, y: 0.07042857}
+    m_SpecifySize: 1
+    m_Name: 0030_DS018-019_arm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5680402266723437036
+      m_GuidHigh: 6968065959704586657
+    m_SerializedTextureGuid:
+      m_GuidLow: 6099227780274727277
+      m_GuidHigh: 13735313748313117691
+    m_Size: {x: 0.05614286, y: 0.06157143}
+    m_SpecifySize: 1
+    m_Name: 0031_DS018-019_elbow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4831814442470614814
+      m_GuidHigh: 3426172256257252282
+    m_SerializedTextureGuid:
+      m_GuidLow: 8832814481246774407
+      m_GuidHigh: 7360215526754179800
+    m_Size: {x: 0.052428573, y: 0.05171429}
+    m_SpecifySize: 1
+    m_Name: 0032_DS018-019_shoulder
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5271060058519169731
+      m_GuidHigh: 8354237886719888771
+    m_SerializedTextureGuid:
+      m_GuidLow: 11197212182538271762
+      m_GuidHigh: 5464148882749638040
+    m_Size: {x: 0.07957143, y: 0.049000002}
+    m_SpecifySize: 1
+    m_Name: 0033_DS018-019_neck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5209910034354206390
+      m_GuidHigh: 16182261751578788483
+    m_SerializedTextureGuid:
+      m_GuidLow: 13111312598021915687
+      m_GuidHigh: 16736572910483901817
+    m_Size: {x: 0.057714287, y: 0.05314286}
+    m_SpecifySize: 1
+    m_Name: 0034_DS018-019_breast
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5390723284300444693
+      m_GuidHigh: 11814625900538594706
+    m_SerializedTextureGuid:
+      m_GuidLow: 15673789098634055239
+      m_GuidHigh: 11752621296969580888
+    m_Size: {x: 0.05014286, y: 0.055857144}
+    m_SpecifySize: 1
+    m_Name: 0035_DS018-019_belly
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5455111972353985783
+      m_GuidHigh: 7619269236947403179
+    m_SerializedTextureGuid:
+      m_GuidLow: 8013306498605851638
+      m_GuidHigh: 864705674289104475
+    m_Size: {x: 0.041, y: 0.057428572}
+    m_SpecifySize: 1
+    m_Name: 0036_DS018-019_bottom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5489515867766971989
+      m_GuidHigh: 13426456095292084864
+    m_SerializedTextureGuid:
+      m_GuidLow: 9494919585476496099
+      m_GuidHigh: 3162992230643346153
+    m_Size: {x: 0.05057143, y: 0.115428574}
+    m_SpecifySize: 1
+    m_Name: 0037_DS018-019_leg
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5191967527613096847
+      m_GuidHigh: 16425631239798702751
+    m_SerializedTextureGuid:
+      m_GuidLow: 3707838580898989273
+      m_GuidHigh: 5954665091849430234
+    m_Size: {x: 0.06614286, y: 0.12157144}
+    m_SpecifySize: 1
+    m_Name: 0038_DS018-019_knee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5726255007087185836
+      m_GuidHigh: 8979000227340222362
+    m_SerializedTextureGuid:
+      m_GuidLow: 7454649909368485294
+      m_GuidHigh: 2663934922071385480
+    m_Size: {x: 0.081, y: 0.05414286}
+    m_SpecifySize: 1
+    m_Name: 0039_DS018-019_toe-toes
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5507741293402195262
+      m_GuidHigh: 11847655884986746301
+    m_SerializedTextureGuid:
+      m_GuidLow: 16939229481545873543
+      m_GuidHigh: 16845992757769096008
+    m_Size: {x: 0.07571429, y: 0.051428575}
+    m_SpecifySize: 1
+    m_Name: 0040_DS018-019_foot-feet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5024900694325939890
+      m_GuidHigh: 7606282511726653570
+    m_SerializedTextureGuid:
+      m_GuidLow: 9080467807826991844
+      m_GuidHigh: 16226054516571700955
+    m_Size: {x: 0.07514286, y: 0.08571429}
+    m_SpecifySize: 1
+    m_Name: 0041_DS018-019_back
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4766348357153917821
+      m_GuidHigh: 17105746475647191426
+    m_SerializedTextureGuid:
+      m_GuidLow: 13579691988438347359
+      m_GuidHigh: 4052197357714929672
+    m_Size: {x: 0.047428574, y: 0.08514286}
+    m_SpecifySize: 1
+    m_Name: 0042_DS018-019_lungs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5247867841246658902
+      m_GuidHigh: 13080676570076349597
+    m_SerializedTextureGuid:
+      m_GuidLow: 17808394237800464045
+      m_GuidHigh: 11455528273151057385
+    m_Size: {x: 0.06414286, y: 0.07557143}
+    m_SpecifySize: 1
+    m_Name: 0043_DS018-019_brain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4961753098612772539
+      m_GuidHigh: 5746900601753069461
+    m_SerializedTextureGuid:
+      m_GuidLow: 5630826243924672773
+      m_GuidHigh: 11489663715628459848
+    m_Size: {x: 0.116000004, y: 0.068}
+    m_SpecifySize: 1
+    m_Name: 0044_DS018-019_muscle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5422237368997066977
+      m_GuidHigh: 17467550193990154663
+    m_SerializedTextureGuid:
+      m_GuidLow: 15115360014836860053
+      m_GuidHigh: 15942884347214647818
+    m_Size: {x: 0.048285715, y: 0.074}
+    m_SpecifySize: 1
+    m_Name: 0045_DS018-019_heart
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5039559503562340234
+      m_GuidHigh: 7010835242504578724
+    m_SerializedTextureGuid:
+      m_GuidLow: 15475763960474044764
+      m_GuidHigh: 6060884498532823898
+    m_Size: {x: 0.054428574, y: 0.051571433}
+    m_SpecifySize: 1
+    m_Name: 0046_DS018-019_liver
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5400980770670713189
+      m_GuidHigh: 4088897788984179344
+    m_SerializedTextureGuid:
+      m_GuidLow: 6878298268145553234
+      m_GuidHigh: 10267857876556176536
+    m_Size: {x: 0.05114286, y: 0.06885715}
+    m_SpecifySize: 1
+    m_Name: 0047_DS018-019_gut
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4646525089568078544
+      m_GuidHigh: 16599860903187709869
+    m_SerializedTextureGuid:
+      m_GuidLow: 15579269070738925512
+      m_GuidHigh: 1555848574662808136
+    m_Size: {x: 0.050714288, y: 0.07057143}
+    m_SpecifySize: 1
+    m_Name: 0048_DS018-019_stomach
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5133166940252638695
+      m_GuidHigh: 12720099168041879451
+    m_SerializedTextureGuid:
+      m_GuidLow: 3360991117890952634
+      m_GuidHigh: 9094910047846839339
+    m_Size: {x: 0.050714288, y: 0.075}
+    m_SpecifySize: 1
+    m_Name: 0049_DS018-019_kidneys
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5286347411225700841
+      m_GuidHigh: 1725875045059746997
+    m_SerializedTextureGuid:
+      m_GuidLow: 1658679115687189089
+      m_GuidHigh: 9040958994838541081
+    m_Size: {x: 0.05657143, y: 0.10757143}
+    m_SpecifySize: 1
+    m_Name: 0050_DS018-019_bone
+    m_Texture: {fileID: 0}

@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS034-035
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4772883799555553125
+  m_GuidHigh: 13524360756914813590
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5696947853360002094
+      m_GuidHigh: 3482736118936012707
+    m_SerializedTextureGuid:
+      m_GuidLow: 9138930494127789961
+      m_GuidHigh: 11293241171987420762
+    m_Size: {x: 0.06885715, y: 0.045285717}
+    m_SpecifySize: 1
+    m_Name: 0177_DS034-035_animals
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5268442023315023053
+      m_GuidHigh: 11219689747189112980
+    m_SerializedTextureGuid:
+      m_GuidLow: 9134618389561119051
+      m_GuidHigh: 1207930745892525338
+    m_Size: {x: 0.066857144, y: 0.111428574}
+    m_SpecifySize: 1
+    m_Name: 0178_DS034-035_dog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5576799626375850111
+      m_GuidHigh: 6217203716893107099
+    m_SerializedTextureGuid:
+      m_GuidLow: 3153748004220902592
+      m_GuidHigh: 2154209920814509560
+    m_Size: {x: 0.06814286, y: 0.08800001}
+    m_SpecifySize: 1
+    m_Name: 0179_DS034-035_duck
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5199583482131202509
+      m_GuidHigh: 10576286976851773075
+    m_SerializedTextureGuid:
+      m_GuidLow: 15061390111515855172
+      m_GuidHigh: 9648343964634655658
+    m_Size: {x: 0.13042858, y: 0.115}
+    m_SpecifySize: 1
+    m_Name: 0180_DS034-035_goat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4713664525961400908
+      m_GuidHigh: 18154918352025196974
+    m_SerializedTextureGuid:
+      m_GuidLow: 9039911176577836213
+      m_GuidHigh: 10399269170150575258
+    m_Size: {x: 0.09357143, y: 0.06357143}
+    m_SpecifySize: 1
+    m_Name: 0181_DS034-035_mouse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5095165607984126556
+      m_GuidHigh: 14109662655455445408
+    m_SerializedTextureGuid:
+      m_GuidLow: 13277957647548328532
+      m_GuidHigh: 11649196882334223561
+    m_Size: {x: 0.07814286, y: 0.059857145}
+    m_SpecifySize: 1
+    m_Name: 0182_DS034-035_wing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4939942160687709679
+      m_GuidHigh: 2331488204618641842
+    m_SerializedTextureGuid:
+      m_GuidLow: 13039119278187058458
+      m_GuidHigh: 6033137726944010923
+    m_Size: {x: 0.071, y: 0.06571429}
+    m_SpecifySize: 1
+    m_Name: 0183_DS034-035_rabbit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5230874979090239559
+      m_GuidHigh: 12295270357261348255
+    m_SerializedTextureGuid:
+      m_GuidLow: 3239309516551183502
+      m_GuidHigh: 11072485680445856618
+    m_Size: {x: 0.134, y: 0.11528572}
+    m_SpecifySize: 1
+    m_Name: 0184_DS034-035_donkey
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5479028013424647312
+      m_GuidHigh: 2827786868277016237
+    m_SerializedTextureGuid:
+      m_GuidLow: 16214128665150478328
+      m_GuidHigh: 13124442786776796360
+    m_Size: {x: 0.11957143, y: 0.09728572}
+    m_SpecifySize: 1
+    m_Name: 0185_DS034-035_pig
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4828106257954514863
+      m_GuidHigh: 3735874546187283343
+    m_SerializedTextureGuid:
+      m_GuidLow: 2987038981904588315
+      m_GuidHigh: 12787023809158259595
+    m_Size: {x: 0.06371429, y: 0.097428575}
+    m_SpecifySize: 1
+    m_Name: 0186_DS034-035_owl
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5329593907497629665
+      m_GuidHigh: 13554352259623109768
+    m_SerializedTextureGuid:
+      m_GuidLow: 10273921817834145908
+      m_GuidHigh: 6634052197120784555
+    m_Size: {x: 0.10328572, y: 0.08342858}
+    m_SpecifySize: 1
+    m_Name: 0187_DS034-035_fox
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5451055077902668525
+      m_GuidHigh: 2509818833618409857
+    m_SerializedTextureGuid:
+      m_GuidLow: 5414605820526447667
+      m_GuidHigh: 12100174284694270041
+    m_Size: {x: 0.13428572, y: 0.14685714}
+    m_SpecifySize: 1
+    m_Name: 0188_DS034-035_horse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5171075978408454835
+      m_GuidHigh: 14578330896394254247
+    m_SerializedTextureGuid:
+      m_GuidLow: 7013347721699778199
+      m_GuidHigh: 13370611416502662728
+    m_Size: {x: 0.10171429, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0189_DS034-035_wolf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5650312064984959039
+      m_GuidHigh: 8836796665121979038
+    m_SerializedTextureGuid:
+      m_GuidLow: 13431015910011133659
+      m_GuidHigh: 16839919363130861355
+    m_Size: {x: 0.09885715, y: 0.12028572}
+    m_SpecifySize: 1
+    m_Name: 0190_DS034-035_deer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5654506444377506007
+      m_GuidHigh: 8793647795597447825
+    m_SerializedTextureGuid:
+      m_GuidLow: 17011490955702697869
+      m_GuidHigh: 493053776019834459
+    m_Size: {x: 0.141, y: 0.16700001}
+    m_SpecifySize: 1
+    m_Name: 0191_DS034-035_stag
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5506500863324602953
+      m_GuidHigh: 16161499453655041152
+    m_SerializedTextureGuid:
+      m_GuidLow: 13705628401118871006
+      m_GuidHigh: 14205975984468864169
+    m_Size: {x: 0.060571432, y: 0.07185715}
+    m_SpecifySize: 1
+    m_Name: 0192_DS034-035_bird
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4904592343524604245
+      m_GuidHigh: 17149112796639659931
+    m_SerializedTextureGuid:
+      m_GuidLow: 13030173866704547184
+      m_GuidHigh: 12133127928235882170
+    m_Size: {x: 0.06257143, y: 0.064428575}
+    m_SpecifySize: 1
+    m_Name: 0193_DS034-035_hedgehog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5344652342662564120
+      m_GuidHigh: 11250796433813411256
+    m_SerializedTextureGuid:
+      m_GuidLow: 5256911842253927151
+      m_GuidHigh: 17103905037465188298
+    m_Size: {x: 0.05457143, y: 0.05171429}
+    m_SpecifySize: 1
+    m_Name: 0194_DS034-035_caterpillar
+    m_Texture: {fileID: 0}

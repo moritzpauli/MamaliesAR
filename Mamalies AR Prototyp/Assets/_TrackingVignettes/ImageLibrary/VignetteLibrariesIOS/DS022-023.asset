@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS022-023
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4849317060699733011
+  m_GuidHigh: 835706493232886159
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4679405382111686173
+      m_GuidHigh: 5691806619081279166
+    m_SerializedTextureGuid:
+      m_GuidLow: 7724897433185188235
+      m_GuidHigh: 11739893690739854008
+    m_Size: {x: 0.08085715, y: 0.042714287}
+    m_SpecifySize: 1
+    m_Name: 0073_DS022-023_professions
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5481900354651540096
+      m_GuidHigh: 8513984150729894316
+    m_SerializedTextureGuid:
+      m_GuidLow: 15772914555645763007
+      m_GuidHigh: 6101081501515986459
+    m_Size: {x: 0.12442858, y: 0.15857144}
+    m_SpecifySize: 1
+    m_Name: 0074_DS022-023_profession
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5683698320733741309
+      m_GuidHigh: 3174126811095462803
+    m_SerializedTextureGuid:
+      m_GuidLow: 2446724071645782391
+      m_GuidHigh: 15232986555404561914
+    m_Size: {x: 0.11585715, y: 0.16514286}
+    m_SpecifySize: 1
+    m_Name: 0075_DS022-023_garbageman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4915372092850976993
+      m_GuidHigh: 10357810354550061954
+    m_SerializedTextureGuid:
+      m_GuidLow: 17308675341951632461
+      m_GuidHigh: 5129085377048528377
+    m_Size: {x: 0.07857143, y: 0.16514286}
+    m_SpecifySize: 1
+    m_Name: 0076_DS022-023_postman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5538331033126200990
+      m_GuidHigh: 11016755084639114663
+    m_SerializedTextureGuid:
+      m_GuidLow: 2068469658988660857
+      m_GuidHigh: 9921818311424036234
+    m_Size: {x: 0.08442858, y: 0.16514286}
+    m_SpecifySize: 1
+    m_Name: 0077_DS022-023_firefighter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5209622486709755770
+      m_GuidHigh: 17201878265212734612
+    m_SerializedTextureGuid:
+      m_GuidLow: 7616885613475610322
+      m_GuidHigh: 2906261762189361769
+    m_Size: {x: 0.07071429, y: 0.16514286}
+    m_SpecifySize: 1
+    m_Name: 0078_DS022-023_constructionworker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5734811949002461005
+      m_GuidHigh: 16958610386643682232
+    m_SerializedTextureGuid:
+      m_GuidLow: 4396784784801293877
+      m_GuidHigh: 18356075206782070299
+    m_Size: {x: 0.06828572, y: 0.16228572}
+    m_SpecifySize: 1
+    m_Name: 0079_DS022-023_nurseryschoolteacher
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4641153581806996729
+      m_GuidHigh: 6951071923029284757
+    m_SerializedTextureGuid:
+      m_GuidLow: 6621507352821505562
+      m_GuidHigh: 15413798498808218024
+    m_Size: {x: 0.07285715, y: 0.16228572}
+    m_SpecifySize: 1
+    m_Name: 0080_DS022-023_salesman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5347826291698539582
+      m_GuidHigh: 5715210890132349570
+    m_SerializedTextureGuid:
+      m_GuidLow: 10476548041707523333
+      m_GuidHigh: 10315722433332355306
+    m_Size: {x: 0.09328572, y: 0.13242857}
+    m_SpecifySize: 1
+    m_Name: 0081_DS022-023_judge
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5498615367546026164
+      m_GuidHigh: 6607177898490928548
+    m_SerializedTextureGuid:
+      m_GuidLow: 13836329122672476594
+      m_GuidHigh: 1046955555855829626
+    m_Size: {x: 0.097428575, y: 0.13242857}
+    m_SpecifySize: 1
+    m_Name: 0082_DS022-023_hairdresser
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4764300683771527232
+      m_GuidHigh: 6877661875262464696
+    m_SerializedTextureGuid:
+      m_GuidLow: 16006995153134734761
+      m_GuidHigh: 6530921091881766571
+    m_Size: {x: 0.09085715, y: 0.13242857}
+    m_SpecifySize: 1
+    m_Name: 0083_DS022-023_journalist
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5754011581790936809
+      m_GuidHigh: 13235026056429470896
+    m_SerializedTextureGuid:
+      m_GuidLow: 12030351323718494948
+      m_GuidHigh: 4502627402180468728
+    m_Size: {x: 0.079, y: 0.13242857}
+    m_SpecifySize: 1
+    m_Name: 0084_DS022-023_lawyer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4655396415354083332
+      m_GuidHigh: 4241546000826504885
+    m_SerializedTextureGuid:
+      m_GuidLow: 9449945599395212538
+      m_GuidHigh: 6270877845108586872
+    m_Size: {x: 0.091571435, y: 0.13242857}
+    m_SpecifySize: 1
+    m_Name: 0085_DS022-023_policewoman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5506833100594148253
+      m_GuidHigh: 8934394754039916711
+    m_SerializedTextureGuid:
+      m_GuidLow: 8440896078532808209
+      m_GuidHigh: 2499527150769650939
+    m_Size: {x: 0.07114286, y: 0.12742858}
+    m_SpecifySize: 1
+    m_Name: 0086_DS022-023_cook
+    m_Texture: {fileID: 0}

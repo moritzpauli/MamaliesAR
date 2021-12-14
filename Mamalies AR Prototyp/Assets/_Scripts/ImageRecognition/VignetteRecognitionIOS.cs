@@ -96,6 +96,11 @@ public class VignetteRecognitionIOS : MonoBehaviour
     [SerializeField]
     private List<RuntimeReferenceImageLibrary> runtimeImageLibrariesList = new List<RuntimeReferenceImageLibrary>();
 
+    [SerializeField]
+    private XRReferenceImageLibrary pagesLibrary;
+
+    private RuntimeReferenceImageLibrary runtimePagesLibrary;
+
 
     private float raycastTimer = 0.3f;
 
@@ -103,6 +108,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private int imgLibraryIndex = 0;
 
     private bool imagesChanged = false;
+
+    private bool pageSelection = false;
 
     [SerializeField]
     private float loadNewLibraryTime = 0.6f;
@@ -126,7 +133,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
         }
-
+        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
     }
 
     #if UNITY_EDITOR
@@ -178,8 +185,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
-        CycleImageLibraries();
 
+        SwapImageLibraries();
     }
 
     public void CycleImageLibrariesManual()
@@ -195,38 +202,15 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.enabled = true;
     }
 
-    public void CycleImageLibrariesManualClean()
-    {
-        imgLibraryIndex++;
-        if (imgLibraryIndex > imageLibrariesList.Count - 1)
-        {
-            imgLibraryIndex = 0;
-        }
-        print(imgLibraryIndex);
-        //StartCoroutine(ResetTracking());
-        StartCoroutine(ResetTracking());
-        foreach (GameObject go in arTrackedImageObjectList)
-        {
-            Destroy(go);
-        }
-        arTrackedImageObjectList.Clear();
-        currentTrackedImageList.Clear();
-    }
 
     private IEnumerator ResetTracking()
     {
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-        print(1);
         Destroy(arTrackedImageManager);
-        print(2);
         yield return new WaitForEndOfFrame();
-        print(3);
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        print(4);
         arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
-        print(5);
-        arTrackedImageManager.maxNumberOfMovingImages = 1;
-        print(6);
+        arTrackedImageManager.maxNumberOfMovingImages = 20;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
         
@@ -234,14 +218,16 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     }
 
-    private void CycleImageLibraries()
+    private void SwapImageLibraries()
     {
-        if (!imagesChanged)
+        if (!imagesChanged && !pageSelection)
         {
             loadNewLibraryTimer -= Time.deltaTime;
             if (loadNewLibraryTimer <= 0)
             {
-                CycleImageLibrariesManual();
+                StartCoroutine(ResetTracking());
+                pageSelection = true;
+                arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
                 loadNewLibraryTimer = loadNewLibraryTime;
             }
         }
@@ -291,6 +277,12 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                 //    }
                 //}
 
+                if (pageSelection)
+                {
+
+                    SelectNewPageLibrary(image.referenceImage.name);
+                }
+
                 UpdateTrackedObject(image);
 
 
@@ -333,7 +325,11 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
             AddTrackedObject(image);
 
+            if (pageSelection)
+            {
 
+                SelectNewPageLibrary(image.referenceImage.name);
+            }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
@@ -351,6 +347,21 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
 
 
+    }
+
+
+    private void SelectNewPageLibrary(string pageName)
+    {
+        print(pageName);
+        for(int i = 0; i < imageLibrariesList.Count; i++)
+        {
+            if(imageLibrariesList[i].name == pageName)
+            {
+                arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[i];
+            }
+        }
+        pageSelection = false;
+        loadNewLibraryTimer = loadNewLibraryTime;
     }
 
     private void AddTrackedObject(ARTrackedImage image)
