@@ -219,7 +219,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         cycleImageTime -= Time.deltaTime;
         if (cycleImageTime <= 0)
         {
-            arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
+            arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
             imgLibraryIndex++;
             if (imgLibraryIndex > imageLibrariesList.Count - 1)
             {
