@@ -122,6 +122,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
         trackingManagerGameobject = arTrackedImageManager.gameObject;
+        for(int i = 0; i < imageLibrariesList.Count; i++)
+        {
+            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
+        }
 
     }
 
@@ -132,20 +136,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void OnValidate()
     {
-        
-        //imageLibrariesList.Clear();
-        //runtimeImageLibrariesList.Clear();
 
-        //imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
+        imageLibrariesList.Clear();
+     
 
-        //foreach (string libraryFilePath in imageLibraryPaths)
-        //{
-        //    //Debug.Log(imageFilePath);
-        //    imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
-        //   // runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
-        //}
+        imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
-    
+        foreach (string libraryFilePath in imageLibraryPaths)
+        {
+            //Debug.Log(imageFilePath);
+            imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+            // runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
+        }
+
+
 
 #if UNITY_EDITOR_OSX
 arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
@@ -187,9 +191,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
         print(imageLibrariesList[imgLibraryIndex].name);
         arTrackedImageManager.enabled = false;
-        //arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
-        //arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
-        arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
+        arTrackedImageManager.referenceLibrary = runtimeImageLibrariesList[imgLibraryIndex];
         arTrackedImageManager.enabled = true;
     }
 
