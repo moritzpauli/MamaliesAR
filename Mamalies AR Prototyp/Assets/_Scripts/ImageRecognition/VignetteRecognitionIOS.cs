@@ -200,6 +200,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
+        currentTrackedImageList.Clear();
     }
 
     private IEnumerator ResetTracking()
@@ -214,7 +215,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         print(4);
         arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
         print(5);
-        arTrackedImageManager.maxNumberOfMovingImages = 100;
+        arTrackedImageManager.maxNumberOfMovingImages = 1;
         print(6);
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
