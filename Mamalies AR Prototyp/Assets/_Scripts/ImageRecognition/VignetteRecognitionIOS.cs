@@ -206,10 +206,11 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     private IEnumerator ResetTracking()
     {
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        RuntimeReferenceImageLibrary templib = arTrackedImageManager.subsystem.imageLibrary;
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
+        arTrackedImageManager.referenceLibrary = templib;
         arTrackedImageManager.maxNumberOfMovingImages = 20;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
@@ -226,9 +227,9 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             if (loadNewLibraryTimer <= 0)
             {
                 print("swap libraries");
-                StartCoroutine(ResetTracking());
-                pageSelection = true;
                 arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
+                StartCoroutine(ResetTracking());
+                pageSelection = true;               
                 loadNewLibraryTimer = loadNewLibraryTime;
             }
         }
