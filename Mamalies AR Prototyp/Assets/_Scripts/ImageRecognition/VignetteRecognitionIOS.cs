@@ -133,17 +133,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private void OnValidate()
     {
         
-        imageLibrariesList.Clear();
-        runtimeImageLibrariesList.Clear();
+        //imageLibrariesList.Clear();
+        //runtimeImageLibrariesList.Clear();
 
-        imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
+        //imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
-        foreach (string libraryFilePath in imageLibraryPaths)
-        {
-            //Debug.Log(imageFilePath);
-            imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
-           // runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
-        }
+        //foreach (string libraryFilePath in imageLibraryPaths)
+        //{
+        //    //Debug.Log(imageFilePath);
+        //    imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+        //   // runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
+        //}
 
     
 
@@ -174,7 +174,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
-        //CycleImageLibraries();
+        CycleImageLibraries();
 
     }
 
@@ -185,6 +185,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
             imgLibraryIndex = 0;
         }
+        print(imageLibrariesList[imgLibraryIndex].name);
         arTrackedImageManager.enabled = false;
         //arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
         //arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
@@ -234,8 +235,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     private void CycleImageLibraries()
     {
         if (!imagesChanged)
-        {           
-                CycleImageLibrariesManual();            
+        {
+            loadNewLibraryTimer -= Time.deltaTime;
+            if (loadNewLibraryTimer <= 0)
+            {
+                CycleImageLibrariesManual();
+                loadNewLibraryTimer = loadNewLibraryTime;
+            }
         }
         else
         {
