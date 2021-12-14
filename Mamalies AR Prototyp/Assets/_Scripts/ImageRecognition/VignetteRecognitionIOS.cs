@@ -95,14 +95,19 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private List<RuntimeReferenceImageLibrary> runtimeImageLibrariesList = new List<RuntimeReferenceImageLibrary>();
-    [SerializeField]
-    private RuntimeReferenceImageLibrary testlib;
-    public RuntimeReferenceImageLibrary test;
+
 
     private float raycastTimer = 0.3f;
 
     private float cycleImageTime = 0.3f;
     private int imgLibraryIndex = 0;
+
+    private bool imagesChanged = false;
+
+    [SerializeField]
+    private float loadNewLibraryTime = 0.6f;
+
+    private float loadNewLibraryTimer = 0.6f;
 
     #region Initiation
 
@@ -169,7 +174,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
-        //CycleImageLibraries();
+        CycleImageLibraries();
 
     }
 
@@ -227,18 +232,21 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void CycleImageLibraries()
     {
-
-        cycleImageTime -= Time.deltaTime;
-        if (cycleImageTime <= 0)
+        if (!imagesChanged)
         {
-            arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
-            imgLibraryIndex++;
-            if (imgLibraryIndex > imageLibrariesList.Count - 1)
+            loadNewLibraryTimer -= Time.deltaTime;
+            if (loadNewLibraryTimer <= 0)
             {
-                imgLibraryIndex = 0;
+                CycleImageLibrariesManual();
+                loadNewLibraryTimer = loadNewLibraryTime;
             }
-            cycleImageTime = 5f;
         }
+        else
+        {
+            loadNewLibraryTimer = loadNewLibraryTime;
+        }
+
+        imagesChanged = false;
     }
 
     /// <summary>
@@ -247,6 +255,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     /// <param name="args"></param>
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
+        print("any tracking change");
         if (scanCompleted)
         {
             args.removed.Clear();
@@ -254,7 +263,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             args.updated.Clear();
             scanCompleted = false;
         }
-
+        imagesChanged = true;
         //addedTrackablesDebug.text = "ADDED: ";
         //updatedTrackablesDebug.text = "UPDATED: ";
         //removedTrackablesDebug.text = "REMOVED: ";
