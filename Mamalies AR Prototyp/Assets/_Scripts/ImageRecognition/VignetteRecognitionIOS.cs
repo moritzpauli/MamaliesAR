@@ -174,7 +174,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         CompareRaycastTrack();
 
         TrackedImageScanningProcess();
-        CycleImageLibraries();
+        //CycleImageLibraries();
 
     }
 
