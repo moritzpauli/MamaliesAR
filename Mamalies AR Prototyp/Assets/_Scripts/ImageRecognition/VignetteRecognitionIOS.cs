@@ -93,6 +93,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private List<XRReferenceImageLibrary> imageLibrariesList = new List<XRReferenceImageLibrary>();
     private const string libraryPath = "Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/";
 
+    [SerializeField]
+    private List<RuntimeReferenceImageLibrary> runtimeImageLibrariesList = new List<RuntimeReferenceImageLibrary>();
+    [SerializeField]
+    private RuntimeReferenceImageLibrary testlib;
+    public RuntimeReferenceImageLibrary test;
+
     private float raycastTimer = 0.3f;
 
     private float cycleImageTime = 0.3f;
@@ -123,13 +129,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
     {
         
         imageLibrariesList.Clear();
+        runtimeImageLibrariesList.Clear();
+
         imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
         foreach (string libraryFilePath in imageLibraryPaths)
         {
             //Debug.Log(imageFilePath);
             imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+           // runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
         }
+
+    
 
 #if UNITY_EDITOR_OSX
 arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
@@ -188,10 +199,10 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     {
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
 
-        //Destroy(arTrackedImageManager);
+        Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary =  imageLibrariesList[imgLibraryIndex];
+        arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
         arTrackedImageManager.maxNumberOfMovingImages = 100;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
@@ -200,6 +211,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
+        yield return null;
     }
 
     private void CycleImageLibraries()
