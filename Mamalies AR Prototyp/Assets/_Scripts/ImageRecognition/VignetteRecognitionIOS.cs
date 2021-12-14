@@ -206,13 +206,12 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     private IEnumerator ResetTracking()
     {
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-        RuntimeReferenceImageLibrary templib = arTrackedImageManager.subsystem.imageLibrary;
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary = templib;
+        arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[imgLibraryIndex];
         print(templib[0].texture.name);
-        arTrackedImageManager.maxNumberOfMovingImages = 20;
+        arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
         
@@ -229,7 +228,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             {
                 print("swap libraries");
                 arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
-                StartCoroutine(ResetTracking());
+                //StartCoroutine(ResetTracking());
                 pageSelection = true;               
                 loadNewLibraryTimer = loadNewLibraryTime;
             }
@@ -360,6 +359,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
             if(imageLibrariesList[i].name == pageName)
             {
+                imgLibraryIndex = i;
                 arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[i];
             }
         }
