@@ -2130,7 +2130,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 869148382e4046040a5c882c44909c42, type: 2}
   - {fileID: 11400000, guid: 2857585072215744d8764e07f76fe4a7, type: 2}
   - {fileID: 11400000, guid: 463e5d7651513584583ac5c9a5ddf627, type: 2}
-  loadNewLibraryTime: 3
+  loadNewLibraryTime: 0.1
 --- !u!114 &1073355960
 MonoBehaviour:
   m_ObjectHideFlags: 0
