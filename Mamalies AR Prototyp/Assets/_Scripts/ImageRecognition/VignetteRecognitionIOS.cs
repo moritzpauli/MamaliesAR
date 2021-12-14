@@ -189,7 +189,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
             imgLibraryIndex = 0;
         }
-        print(imageLibrariesList[imgLibraryIndex].name);
+        //print(imageLibrariesList[imgLibraryIndex].name);
         arTrackedImageManager.enabled = false;
         arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[imgLibraryIndex];
         arTrackedImageManager.enabled = true;
@@ -238,12 +238,9 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     {
         if (!imagesChanged)
         {
-            loadNewLibraryTimer -= Time.deltaTime;
-            if (loadNewLibraryTimer <= 0)
-            {
-                CycleImageLibrariesManual();
-                loadNewLibraryTimer = loadNewLibraryTime;
-            }
+           
+            CycleImageLibrariesManual();
+             
         }
         else
         {
