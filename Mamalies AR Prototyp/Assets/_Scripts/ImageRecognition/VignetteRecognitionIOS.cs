@@ -462,6 +462,12 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
         scanCompleted = true;
+        foreach (GameObject go in arTrackedImageObjectList)
+        {
+            Destroy(go);
+        }
+        arTrackedImageObjectList.Clear();
+        currentTrackedImageList.Clear();
         StartCoroutine(ResetTracking());
     }
 
