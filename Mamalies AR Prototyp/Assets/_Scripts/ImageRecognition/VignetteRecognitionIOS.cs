@@ -180,7 +180,9 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
             imgLibraryIndex = 0;
         }
-        arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];     
+        arTrackedImageManager.enabled = false;
+        arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
+        arTrackedImageManager.enabled = true;
     }
 
     public void CycleImageLibrariesManualClean()
@@ -217,6 +219,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void CycleImageLibraries()
     {
+
         cycleImageTime -= Time.deltaTime;
         if (cycleImageTime <= 0)
         {
