@@ -234,13 +234,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     private void CycleImageLibraries()
     {
         if (!imagesChanged)
-        {
-            loadNewLibraryTimer -= Time.deltaTime;
-            if (loadNewLibraryTimer <= 0)
-            {
-                CycleImageLibrariesManual();
-                loadNewLibraryTimer = loadNewLibraryTime;
-            }
+        {           
+                CycleImageLibrariesManual();            
         }
         else
         {
