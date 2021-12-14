@@ -208,7 +208,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
         arTrackedImageManager.maxNumberOfMovingImages = 100;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
+        //print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
         foreach(GameObject go in arTrackedImageObjectList)
         {
             Destroy(go);
