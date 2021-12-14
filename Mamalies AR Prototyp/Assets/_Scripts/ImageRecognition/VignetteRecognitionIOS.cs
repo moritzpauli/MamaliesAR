@@ -187,7 +187,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
         arTrackedImageManager.enabled = false;
         //arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
-        arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
+        //arTrackedImageManager.subsystem.imageLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
+        arTrackedImageManager.referenceLibrary = imageLibrariesList[imgLibraryIndex];
         arTrackedImageManager.enabled = true;
     }
 
