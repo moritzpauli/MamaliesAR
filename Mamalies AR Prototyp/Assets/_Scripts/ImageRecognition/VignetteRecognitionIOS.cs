@@ -188,10 +188,10 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     {
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
 
-        Destroy(arTrackedImageManager);
+        //Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary =  imageLibrariesList[0];
+        arTrackedImageManager.referenceLibrary =  imageLibrariesList[imgLibraryIndex];
         arTrackedImageManager.maxNumberOfMovingImages = 100;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
