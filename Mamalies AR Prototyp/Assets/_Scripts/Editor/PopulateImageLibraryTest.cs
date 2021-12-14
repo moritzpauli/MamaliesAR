@@ -116,7 +116,7 @@ public class PopulateImageLibraryTest : Editor
             imageLibrary.SetTexture(imageLibrary.count - 1, texture, false);
             imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
             imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width / 7f * 0.001f, (float)texture.height / 7f * 0.001f));
-            imageLibrary.SetName(imageLibrary.count - 1, '#' + texture.name);
+            imageLibrary.SetName(imageLibrary.count - 1,  texture.name);
         }
 
         Debug.Log("Image Library Size:" + imageLibrary.count);
