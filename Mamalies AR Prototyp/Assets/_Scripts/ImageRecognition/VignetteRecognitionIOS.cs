@@ -225,6 +225,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             loadNewLibraryTimer -= Time.deltaTime;
             if (loadNewLibraryTimer <= 0)
             {
+                print("swap libraries");
                 StartCoroutine(ResetTracking());
                 pageSelection = true;
                 arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
