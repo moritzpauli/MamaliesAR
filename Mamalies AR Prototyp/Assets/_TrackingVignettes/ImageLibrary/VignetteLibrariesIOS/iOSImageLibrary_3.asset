@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: iOSImageLibrary_3
   m_EditorClassIdentifier: 
-  m_GuidLow: 4867928626044694701
-  m_GuidHigh: 2971425910026538415
+  m_GuidLow: 5156690263673870512
+  m_GuidHigh: 16390590482687896754
   m_Images: []

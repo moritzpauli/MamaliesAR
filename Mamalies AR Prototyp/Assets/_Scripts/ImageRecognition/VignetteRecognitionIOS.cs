@@ -246,7 +246,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     /// <param name="args"></param>
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
-
+        if (scanCompleted)
+        {
+            args.removed.Clear();
+            args.added.Clear();
+            args.updated.Clear();
+            scanCompleted = false;
+        }
 
         //addedTrackablesDebug.text = "ADDED: ";
         //updatedTrackablesDebug.text = "UPDATED: ";
@@ -456,6 +462,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
         scanCompleted = true;
+        StartCoroutine(ResetTracking());
     }
 
     /// <summary>
