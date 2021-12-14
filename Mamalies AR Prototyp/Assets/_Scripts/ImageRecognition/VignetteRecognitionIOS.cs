@@ -210,7 +210,6 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
         arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[imgLibraryIndex];
-        print(templib[0].texture.name);
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
@@ -365,6 +364,14 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
         pageSelection = false;
         loadNewLibraryTimer = loadNewLibraryTime;
+        foreach (GameObject go in arTrackedImageObjectList)
+        {
+            Destroy(go);
+        }
+        arTrackedImageObjectList.Clear();
+        currentTrackedImageList.Clear();
+        StartCoroutine( ResetTracking());
+
     }
 
     private void AddTrackedObject(ARTrackedImage image)

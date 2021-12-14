@@ -2146,7 +2146,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: c413340bfbd59a443a35460706b39191, type: 2}
   - {fileID: 11400000, guid: 2a170a06518c026488c259d3f23ec121, type: 2}
   pagesLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
-  loadNewLibraryTime: 1.3
+  loadNewLibraryTime: 2
 --- !u!114 &1073355960
 MonoBehaviour:
   m_ObjectHideFlags: 0
