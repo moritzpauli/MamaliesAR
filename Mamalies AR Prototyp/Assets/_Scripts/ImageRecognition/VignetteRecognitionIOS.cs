@@ -179,7 +179,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
             imgLibraryIndex = 0;
         }
-
+        print(imgLibraryIndex);
         StartCoroutine(ResetTracking());
        
     }
@@ -191,8 +191,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary =  imageLibrariesList[imgLibraryIndex];
-        arTrackedImageManager.maxNumberOfMovingImages = 1;
+        arTrackedImageManager.referenceLibrary =  imageLibrariesList[0];
+        arTrackedImageManager.maxNumberOfMovingImages = 100;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
         foreach(GameObject go in arTrackedImageObjectList)
@@ -476,7 +476,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                             this.currentLoadedSprite = textureHandle.Result;
                             loadingData = false;
                             //Addressables.Release(textureHandle);
-                            print(currentLoadedSprite.name + " sprite sucessfuully loaded");
+                            //print(currentLoadedSprite.name + " sprite sucessfuully loaded");
                         };
                     }
 
