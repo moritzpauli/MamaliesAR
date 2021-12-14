@@ -194,27 +194,33 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
         print(imgLibraryIndex);
         //StartCoroutine(ResetTracking());
-        ResetTracking();
-       
-    }
-
-    private void ResetTracking()
-    {
-        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-
-        Destroy(arTrackedImageManager);
-        //yield return new WaitForEndOfFrame();
-        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
-        arTrackedImageManager.maxNumberOfMovingImages = 100;
-        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        //print("Image library number: " + imgLibraryIndex + " -- start texture: " + imageLibrariesList[imgLibraryIndex][0].texture.name);
-        foreach(GameObject go in arTrackedImageObjectList)
+        StartCoroutine(ResetTracking());
+        foreach (GameObject go in arTrackedImageObjectList)
         {
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
-        //yield return null;
+    }
+
+    private IEnumerator ResetTracking()
+    {
+        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        print(1);
+        Destroy(arTrackedImageManager);
+        print(2);
+        yield return new WaitForEndOfFrame();
+        print(3);
+        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        print(4);
+        arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[imgLibraryIndex]);
+        print(5);
+        arTrackedImageManager.maxNumberOfMovingImages = 100;
+        print(6);
+        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        print(7);
+        
+        
+
     }
 
     private void CycleImageLibraries()
