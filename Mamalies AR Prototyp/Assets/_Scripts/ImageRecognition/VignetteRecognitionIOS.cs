@@ -211,6 +211,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
         arTrackedImageManager.referenceLibrary = templib;
+        print(templib[0].texture.name);
         arTrackedImageManager.maxNumberOfMovingImages = 20;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         print(7);
