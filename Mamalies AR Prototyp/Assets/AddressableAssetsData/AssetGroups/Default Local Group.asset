@@ -64,8 +64,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 7e25a9825187c2d40a50149911e1f7ba, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 7e25a9825187c2d40a50149911e1f7ba, type: 3}
   - m_GUID: e430558d99171a241b405ce540c765b5
     m_Address: Assets/_VoiceLines/de/de_0080_DS022-023_salesman.mp3
     m_ReadOnly: 0
@@ -74,14 +74,14 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: ef4adc27677a54d4aaf148a0e7d0b59b
-    m_Address: Assets/_VoiceLines/de/de_0081_DS022-23_judge.mp3
+    m_Address: Assets/_VoiceLines/de/de_0081_DS022-023_judge.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: ef4adc27677a54d4aaf148a0e7d0b59b, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: ef4adc27677a54d4aaf148a0e7d0b59b, type: 3}
   - m_GUID: 2808820996afc7142b9d180000af729a
-    m_Address: Assets/_VoiceLines/de/de_0082_DS022-23_hairdresser.mp3
+    m_Address: Assets/_VoiceLines/de/de_0082_DS022-023_hairdresser.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -92,8 +92,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: ab99f9cb1a69b6647bd8373ab3ced821, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: ab99f9cb1a69b6647bd8373ab3ced821, type: 3}
   - m_GUID: 4a3a4a64cffdc0e4ebddf48bedd3389c
     m_Address: Assets/_VoiceLines/de/de_0084_DS022-023_lawyer.mp3
     m_ReadOnly: 0
@@ -176,8 +176,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 8e103cb39289e9a4ea9a2aba4276ad75, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 8e103cb39289e9a4ea9a2aba4276ad75, type: 3}
   - m_GUID: eb474f494d61c4d44a0f139b44d97d8b
     m_Address: Assets/_VoiceLines/de/de_0096_DS024-025_computer.mp3
     m_ReadOnly: 0
@@ -1607,7 +1607,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 4f025cb46da97d241b88dbe099699036
-    m_Address: Assets/_VoiceLines/de/de_0930_DS110_111_glue.mp3
+    m_Address: Assets/_VoiceLines/de/de_0930_DS110-111_glue.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -1625,8 +1625,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 246ad6f13d614cf4abec98a46a219b72, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 246ad6f13d614cf4abec98a46a219b72, type: 3}
   - m_GUID: 3d549abfbd9222346911407b17d11f60
     m_Address: Assets/_VoiceLines/de/de_0874_DS104-105_diligent.mp3
     m_ReadOnly: 0
@@ -2003,8 +2003,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: a2b785204a15a9644b89c6d42b589e90, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: a2b785204a15a9644b89c6d42b589e90, type: 3}
   - m_GUID: f8c25ca10ff70834caf06d413a18b272
     m_Address: Assets/_VoiceLines/de/de_0055_DS020-021_hair.mp3
     m_ReadOnly: 0
@@ -2741,7 +2741,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e02b2e4e6ced6844094807dbda317284
-    m_Address: Assets/_VoiceLines/de/de_0557-DS074-075_spices.mp3
+    m_Address: Assets/_VoiceLines/de/de_0557_DS074-075_spices.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -4943,8 +4943,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 8d1665f8c4e8a9c4aab2bdde281e30d7, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 8d1665f8c4e8a9c4aab2bdde281e30d7, type: 3}
   - m_GUID: 61187f1410a15bf4e88aed4cc3b79dce
     m_Address: Assets/_VoiceLines/de/de_1116_DS120-121_infrontof.mp3
     m_ReadOnly: 0
@@ -5023,7 +5023,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 216d005563f71734fbc51a7bced6d39e
-    m_Address: Assets/_VoiceLines/de/de_0314_DS050-51_sun.mp3
+    m_Address: Assets/_VoiceLines/de/de_0314_DS050-051_sun.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -5048,8 +5048,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: bc3ba5a405bc3e346b996075b1d89e17, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: bc3ba5a405bc3e346b996075b1d89e17, type: 3}
   - m_GUID: d3c86b944c055a845986ec7dc15d2219
     m_Address: Assets/_VoiceLines/de/de_0420_DS060-061_airplane.mp3
     m_ReadOnly: 0
@@ -5856,7 +5856,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: fe9b73125e256d144913849287c25aa6
-    m_Address: Assets/_VoiceLines/de/de_0021-DS016-017_femalecousin.mp3
+    m_Address: Assets/_VoiceLines/de/de_0021_DS016-017_femalecousin.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -6115,7 +6115,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 7d52b8691681607468a826c4aa658f08
-    m_Address: Assets/_VoiceLines/de/de_0768_DS094_095_attic.mp3
+    m_Address: Assets/_VoiceLines/de/de_0768_DS094-095_attic.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
@@ -8002,8 +8002,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0968_DS112-113_seventeen.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 2800000, guid: de1d2a4893e52b442909a6c862299805, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: de1d2a4893e52b442909a6c862299805, type: 3}
   - m_GUID: 830363a1c1301d44595247756094c458
     m_Address: Assets/_TrackingVignettes/ProductionImages/1118_DS120-121_inbetween.png
     m_ReadOnly: 0
@@ -12052,8 +12052,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0037_DS018-019_leg.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: 8739cae3bb0e83c4e92ad1eeac34e52b, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 8739cae3bb0e83c4e92ad1eeac34e52b, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ad13c105b6a24e2448a7ba46467c739f
     m_Address: Assets/_TrackingVignettes/ProductionImages/0044_DS018-019_muscle.png
     m_ReadOnly: 0
@@ -12070,8 +12070,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0039_DS018-019_toe-toes.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: 9cce75ae3c98677488a5d28eb232f824, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 9cce75ae3c98677488a5d28eb232f824, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: bc04cd9283b8c4f42ac4aac7f53d5627
     m_Address: Assets/_TrackingVignettes/ProductionImages/0059_DS020-021_eye.png
     m_ReadOnly: 0
@@ -12256,8 +12256,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ProductionImages/0030_DS018-019_arm.png
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 2800000, guid: f9e5c0ff7feb3ee458d6b534438956aa, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: f9e5c0ff7feb3ee458d6b534438956aa, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: c5a4a2bc00ff1764bbfc860e9742ba26
     m_Address: Assets/_TrackingVignettes/ProductionImages/0956_DS112-113_five 1.png
     m_ReadOnly: 0

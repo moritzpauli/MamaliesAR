@@ -101,15 +101,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private RuntimeReferenceImageLibrary runtimePagesLibrary;
 
-
-    private float raycastTimer = 0.3f;
-
-    private float cycleImageTime = 0.3f;
     private int imgLibraryIndex = 0;
 
     private bool imagesChanged = false;
 
     private bool pageSelection = false;
+    private bool convertRuntimeLibraries = true;
+
+    //UI
+    [SerializeField]
+    private GameObject loadingPanel;
+
+
 
     [SerializeField]
     private float loadNewLibraryTime = 0.6f;
@@ -129,11 +132,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
         trackingManagerGameobject = arTrackedImageManager.gameObject;
-        for(int i = 0; i < imageLibrariesList.Count; i++)
-        {
-            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
-        }
-        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
+        
     }
 
     #if UNITY_EDITOR
@@ -179,6 +178,10 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void Update()
     {
+        if (convertRuntimeLibraries)
+        {
+            ConvertLibrariesToRuntime();
+        }
         HideScannedImage();
         ArRaycast();
 
@@ -187,6 +190,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         TrackedImageScanningProcess();
 
         SwapImageLibraries();
+        
     }
 
     public void CycleImageLibrariesManual()
@@ -202,6 +206,24 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.enabled = true;
     }
 
+    private void ConvertLibrariesToRuntime()
+    {
+        StartCoroutine(ConvertLibrariesCoroutine());
+        convertRuntimeLibraries = false;
+
+    }
+
+    private IEnumerator ConvertLibrariesCoroutine()
+    {
+        loadingPanel.SetActive(true);
+        for (int i = 0; i < imageLibrariesList.Count; i++)
+        {
+            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
+        }
+        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
+        loadingPanel.SetActive(false);
+        yield return null;
+    }
 
     private IEnumerator ResetTracking()
     {
