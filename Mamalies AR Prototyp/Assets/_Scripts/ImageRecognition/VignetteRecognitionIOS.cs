@@ -9,6 +9,8 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
+using System.Threading.Tasks;
+
 
 public class VignetteRecognitionIOS : MonoBehaviour
 {
@@ -209,8 +211,21 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
     private void ConvertLibrariesToRuntime()
     {
         //StartCoroutine(ConvertLibrariesCoroutine());
+        ConvertLibrariesAsync();
         convertRuntimeLibraries = false;
 
+    }
+
+    private async Task ConvertLibrariesAsync()
+    {
+        loadingPanel.SetActive(true);
+        for (int i = 0; i < imageLibrariesList.Count; i++)
+        {
+            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
+        }
+        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
+        loadingPanel.SetActive(false);
+        await Task.Delay(0);
     }
 
     private IEnumerator ConvertLibrariesCoroutine()
