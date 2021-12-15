@@ -210,22 +210,24 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void ConvertLibrariesToRuntime()
     {
+        
         //StartCoroutine(ConvertLibrariesCoroutine());
         ConvertLibrariesAsync();
         convertRuntimeLibraries = false;
 
     }
 
-    private async Task ConvertLibrariesAsync()
+    private async void ConvertLibrariesAsync()
     {
         loadingPanel.SetActive(true);
         for (int i = 0; i < imageLibrariesList.Count; i++)
         {
             runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
-            await Task.Delay(100);
+            
         }
         runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
         loadingPanel.SetActive(false);
+        await Task.Yield();
         
     }
 
