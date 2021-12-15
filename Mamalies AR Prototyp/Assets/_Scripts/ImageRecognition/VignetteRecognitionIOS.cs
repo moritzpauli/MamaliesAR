@@ -10,6 +10,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System.Threading.Tasks;
+using UnityEngine.iOS;
 
 
 public class VignetteRecognitionIOS : MonoBehaviour
@@ -109,6 +110,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private bool pageSelection = false;
 
+
+    //ios generation
+    [SerializeField]
+    private DeviceGeneration[] inferiorDevices;
+    private bool olderDevice = false;
+
+
     //UI
     [SerializeField]
     private GameObject loadingPanel;
@@ -133,7 +141,15 @@ public class VignetteRecognitionIOS : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
         trackingManagerGameobject = arTrackedImageManager.gameObject;
+        loadingPanel.SetActive(true);
         ConvertLibrariesAsync();
+        foreach(DeviceGeneration generation in inferiorDevices)
+        {
+            if(Device.generation == generation)
+            {
+                olderDevice = true;
+            }
+        }
     }
 
     #if UNITY_EDITOR
@@ -206,16 +222,20 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private async void ConvertLibrariesAsync()
     {
-        await Task.Delay(500);
-        loadingPanel.SetActive(true);
+        await Task.Delay(100);
         for (int i = 0; i < imageLibrariesList.Count; i++)
         {
             runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
-            
+            await Task.Yield();
+            if (olderDevice)
+            {
+                await Task.Delay(80);
+            }
+
         }
         runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
         loadingPanel.SetActive(false);
-        await Task.Yield();
+       
         
     }
 
