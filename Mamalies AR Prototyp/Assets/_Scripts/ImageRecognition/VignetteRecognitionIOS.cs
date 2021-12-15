@@ -208,7 +208,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void ConvertLibrariesToRuntime()
     {
-        StartCoroutine(ConvertLibrariesCoroutine());
+        //StartCoroutine(ConvertLibrariesCoroutine());
         convertRuntimeLibraries = false;
 
     }

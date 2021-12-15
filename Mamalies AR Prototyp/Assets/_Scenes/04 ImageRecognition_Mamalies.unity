@@ -2180,60 +2180,7 @@ MonoBehaviour:
   scannedImageBackground: {fileID: 52529248}
   arCamera: {fileID: 1066785463}
   trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
-  imageLibrariesList:
-  - {fileID: 11400000, guid: 2836701bb411baf4c8880db59b10c530, type: 2}
-  - {fileID: 11400000, guid: 8c42ac4191151994994de2b2d7bdaad8, type: 2}
-  - {fileID: 11400000, guid: af3f2b4e36a20af449a5b95c4e4d4593, type: 2}
-  - {fileID: 11400000, guid: f97ef885ca58af04594ef773b7bc8898, type: 2}
-  - {fileID: 11400000, guid: b094d965769bc4048a2ecd5e62830522, type: 2}
-  - {fileID: 11400000, guid: c01a50a564457ed4c8154e474a589af6, type: 2}
-  - {fileID: 11400000, guid: 4d444cd081898044cab74e64563f8d85, type: 2}
-  - {fileID: 11400000, guid: 3bd5a61e27b7c274691c068943c74540, type: 2}
-  - {fileID: 11400000, guid: 6e61710b28f4c644e9f116042d0b24b9, type: 2}
-  - {fileID: 11400000, guid: 704c568dc709bb149b0ba32514695210, type: 2}
-  - {fileID: 11400000, guid: daec12d0858783f4b8ddffd4a58303be, type: 2}
-  - {fileID: 11400000, guid: f3290fd8c7d81554ca85da3f212ea075, type: 2}
-  - {fileID: 11400000, guid: 2d109150b99fa7042b97c911135e5156, type: 2}
-  - {fileID: 11400000, guid: d02d51a49dfdf924fb4504a6533aadf6, type: 2}
-  - {fileID: 11400000, guid: 3f33d7f53744b51489afdda2051bb225, type: 2}
-  - {fileID: 11400000, guid: 7c9a6da29fb51f64daebdc598d91bf73, type: 2}
-  - {fileID: 11400000, guid: ea6c316fe09610545a9d7ae2d53dda1d, type: 2}
-  - {fileID: 11400000, guid: 7cc7e4a0cc55dcb4f83c62492a152952, type: 2}
-  - {fileID: 11400000, guid: 5b29a865daf9a38499a8d6e949752e87, type: 2}
-  - {fileID: 11400000, guid: e0da26d8e74e2e1498407c5eda49d08b, type: 2}
-  - {fileID: 11400000, guid: 9ce57a9cbf2e0054aae8a2c52b6a6586, type: 2}
-  - {fileID: 11400000, guid: a2d816e8ec13c864c922fccfdafb15ba, type: 2}
-  - {fileID: 11400000, guid: 003352f3f6b8bad48b5c3e9e5650b6e7, type: 2}
-  - {fileID: 11400000, guid: e207bbce731ff9e459d6328875cd1963, type: 2}
-  - {fileID: 11400000, guid: 4a335bb736e377f4694d49eb0370b88d, type: 2}
-  - {fileID: 11400000, guid: 5cf4d61b4263c744d976054b797b8a49, type: 2}
-  - {fileID: 11400000, guid: 58165d8d4f883034bb47d6d3556512aa, type: 2}
-  - {fileID: 11400000, guid: ccd3feb507b7f1d479b451e9447c8929, type: 2}
-  - {fileID: 11400000, guid: 77285eda84da98e4c935fd10c4513302, type: 2}
-  - {fileID: 11400000, guid: 729fd7eb6d917544ba1e433797285c8e, type: 2}
-  - {fileID: 11400000, guid: e70008756d67f2c4f9fb9c089d192303, type: 2}
-  - {fileID: 11400000, guid: 8e79509daba3a2c48b7ed7a0fa02af4a, type: 2}
-  - {fileID: 11400000, guid: cc9c1212b94962046acc93814c5ead44, type: 2}
-  - {fileID: 11400000, guid: 2e16dad7ddac43c41b80ce395fa49034, type: 2}
-  - {fileID: 11400000, guid: 1d6d0fd049b7f884498a97847ce69a79, type: 2}
-  - {fileID: 11400000, guid: 24860e8b975bab448898844049acc98a, type: 2}
-  - {fileID: 11400000, guid: 49cc8b1c43d61894c8f2b4845dea8d67, type: 2}
-  - {fileID: 11400000, guid: 22ef060e734000f4fa9e4efa926713a3, type: 2}
-  - {fileID: 11400000, guid: edd189645f4823a4ebdb0b56c7beaaf8, type: 2}
-  - {fileID: 11400000, guid: 14ca507c976e60144aafed06e290c3e1, type: 2}
-  - {fileID: 11400000, guid: 900a519b84fa6144dac9762c30a03f14, type: 2}
-  - {fileID: 11400000, guid: be383fa352f52c249ae40590aebdf20a, type: 2}
-  - {fileID: 11400000, guid: 5b141bb1f5a11464ab25d2738254818e, type: 2}
-  - {fileID: 11400000, guid: 775299d8632880143b99f913efb22fc5, type: 2}
-  - {fileID: 11400000, guid: e3255d3ab82f6704688d421ff1ad0cb5, type: 2}
-  - {fileID: 11400000, guid: a5657ffc1cf0cc440b1af97399ca8f10, type: 2}
-  - {fileID: 11400000, guid: 4f5327204a9b5374595532f87a6f0283, type: 2}
-  - {fileID: 11400000, guid: 6fa5aa3fdd18f1e4f8782099f623ba93, type: 2}
-  - {fileID: 11400000, guid: 7671e350914c29f45aaf9cc4042bf046, type: 2}
-  - {fileID: 11400000, guid: c86019b06bc36aa4eb676398f256d538, type: 2}
-  - {fileID: 11400000, guid: 56bdee72776eda54b8dee0249e6bfcf2, type: 2}
-  - {fileID: 11400000, guid: c413340bfbd59a443a35460706b39191, type: 2}
-  - {fileID: 11400000, guid: 2a170a06518c026488c259d3f23ec121, type: 2}
+  imageLibrariesList: []
   pagesLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 2
