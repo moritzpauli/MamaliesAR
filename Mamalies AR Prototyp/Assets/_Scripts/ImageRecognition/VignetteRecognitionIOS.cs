@@ -222,10 +222,11 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         for (int i = 0; i < imageLibrariesList.Count; i++)
         {
             runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
+            await Task.Delay(100);
         }
         runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
         loadingPanel.SetActive(false);
-        await Task.Delay(0);
+        
     }
 
     private IEnumerator ConvertLibrariesCoroutine()
