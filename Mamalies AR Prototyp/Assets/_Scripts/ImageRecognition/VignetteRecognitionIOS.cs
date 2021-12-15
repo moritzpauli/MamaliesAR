@@ -108,7 +108,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private bool imagesChanged = false;
 
     private bool pageSelection = false;
-    private bool convertRuntimeLibraries = true;
 
     //UI
     [SerializeField]
@@ -134,7 +133,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
         trackingManagerGameobject = arTrackedImageManager.gameObject;
-        
+        ConvertLibrariesAsync();
     }
 
     #if UNITY_EDITOR
@@ -180,10 +179,6 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private void Update()
     {
-        if (convertRuntimeLibraries)
-        {
-            ConvertLibrariesToRuntime();
-        }
         HideScannedImage();
         ArRaycast();
 
@@ -208,17 +203,10 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.enabled = true;
     }
 
-    private void ConvertLibrariesToRuntime()
-    {
-        
-        //StartCoroutine(ConvertLibrariesCoroutine());
-        ConvertLibrariesAsync();
-        convertRuntimeLibraries = false;
-
-    }
 
     private async void ConvertLibrariesAsync()
     {
+        await Task.Delay(500);
         loadingPanel.SetActive(true);
         for (int i = 0; i < imageLibrariesList.Count; i++)
         {
