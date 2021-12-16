@@ -115,7 +115,7 @@ public class PopulateImageLibraryTest : Editor
             imageLibrary.Add();
             imageLibrary.SetTexture(imageLibrary.count - 1, texture, false);
             imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
-            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width / 7f * 0.001f, (float)texture.height / 7f * 0.001f));
+            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2(0.4f, 0.24f));
             imageLibrary.SetName(imageLibrary.count - 1,  texture.name);
         }
 
@@ -172,7 +172,7 @@ public class PopulateImageLibraryTest : Editor
                 entry.library.Add();
                 entry.library.SetTexture(entry.library.count - 1, textures[i], false);
                 entry.library.SetSpecifySize(entry.library.count - 1, true);
-                entry.library.SetSize(entry.library.count - 1, new Vector2((float)textures[i].width / 7f * 0.001f, (float)textures[i].height / 7f * 0.001f));
+                entry.library.SetSize(entry.library.count - 1, new Vector2((float)textures[i].width  * 0.0001f, (float)textures[i].height * 0.0001f));
                 entry.library.SetName(entry.library.count - 1, textures[i].name);
                 vignetteLibraries.Add(entry);
             }
@@ -288,7 +288,7 @@ public class PopulateImageLibraryTest : Editor
             imageLibrary.Add();
             imageLibrary.SetTexture(imageLibrary.count - 1, texture, false);
             imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
-            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width / 7f * 0.001f, (float)texture.height / 7f * 0.001f));
+            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2((float)texture.width  * 0.0001f, (float)texture.height  * 0.0001f));
             imageLibrary.SetName(imageLibrary.count - 1, texture.name);
         }
 

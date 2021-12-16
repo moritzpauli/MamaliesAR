@@ -10,8 +10,9 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System.Threading.Tasks;
+#if UNITY_IOS
 using UnityEngine.iOS;
-
+#endif
 
 public class VignetteRecognitionIOS : MonoBehaviour
 {
@@ -112,8 +113,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
     //ios generation
+#if UNITY_IOS
     [SerializeField]
     private DeviceGeneration[] inferiorDevices;
+#endif
     private bool olderDevice = false;
 
 
@@ -128,7 +131,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private float loadNewLibraryTimer = 0.6f;
 
-    #region Initiation
+#region Initiation
 
     private void Awake()
     {       
@@ -143,6 +146,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         trackingManagerGameobject = arTrackedImageManager.gameObject;
         loadingPanel.SetActive(true);
         ConvertLibrariesAsync();
+#if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
         {
             if(Device.generation == generation)
@@ -150,9 +154,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 olderDevice = true;
             }
         }
+#endif
     }
 
-    #if UNITY_EDITOR
+#if UNITY_EDITOR
     /// <summary>
     /// execute in editor, load image libraries
     /// </summary>
@@ -191,7 +196,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
     }
 
-    #endregion
+#endregion
 
     private void Update()
     {
@@ -229,7 +234,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             await Task.Yield();
             if (olderDevice)
             {
-                await Task.Delay(80);
+                await Task.Delay(30);
             }
 
         }
@@ -672,7 +677,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
     }
 
-    #region PostScan
+#region PostScan
 
     /// <summary>
     /// Converts the reference image to a sprite, adjusts the size of the Image(Gameobject) rects to fit the reference 
@@ -730,7 +735,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 
 
-    #endregion
+#endregion
 
 
 }

@@ -153,10 +153,7 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     {
 
         if (scanCompleted)
-        {
-            args.updated.Clear();
-            args.added.Clear();
-            args.removed.Clear();
+        {          
             currentTrackedImageList.Clear();
             StartCoroutine(ReInstantiateImageManager());
             scanCompleted = false;
@@ -200,12 +197,12 @@ public class VignetteRecognitionAndroid : MonoBehaviour
                 // arTrackedImagePrefab.transform.localScale = image.transform.localScale;
 
             }
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
             {
                 //print(image.referenceImage.name + " LOST TRACKING");
                 //tracking = false;
                 //Debug.Log(image.referenceImage.name + " REMOVED");
-                //currentTrackedImageList.Remove(image);
+                currentTrackedImageList.Remove(image);
 
 
             }
@@ -231,7 +228,7 @@ public class VignetteRecognitionAndroid : MonoBehaviour
 
         foreach (ARTrackedImage image in args.removed)
         {
-
+            currentTrackedImageList.Remove(image);
 
         }
 
