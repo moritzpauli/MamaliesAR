@@ -306,6 +306,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             args.added.Clear();
             args.updated.Clear();
             scanCompleted = false;
+            StartCoroutine(ResetTracking());
         }
         imagesChanged = true;
         //addedTrackablesDebug.text = "ADDED: ";
@@ -363,7 +364,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                 //currentTrackedImageList.Remove(image);
 
                 RemoveTrackedObject(image);
-
+                currentTrackedImageList.Remove(image);
 
             }
 
@@ -396,6 +397,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         {
 
             RemoveTrackedObject(image);
+            currentTrackedImageList.Remove(image);
 
 
         }
