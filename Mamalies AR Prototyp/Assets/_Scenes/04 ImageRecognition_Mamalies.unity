@@ -1296,7 +1296,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_SerializedLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
-  m_MaxNumberOfMovingImages: 1
+  m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
 MonoBehaviour:
@@ -2182,9 +2182,9 @@ MonoBehaviour:
   trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
   imageLibrariesList: []
   pagesLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
-  inferiorDevices: 2100000015000000160000001a0000001f000000200000001b00000013000000180000001400000017000000
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 2
+  noRaycastTime: 3
 --- !u!114 &1073355960
 MonoBehaviour:
   m_ObjectHideFlags: 0
