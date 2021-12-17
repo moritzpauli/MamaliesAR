@@ -103,7 +103,7 @@ public class VignetteRecognitionAndroid : MonoBehaviour
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 
-
+        print(arTrackedImageManager.referenceLibrary[0].name);
     }
 
 
