@@ -273,6 +273,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             loadNewLibraryTimer -= Time.deltaTime;
             if (loadNewLibraryTimer <= 0)
             {
+                StartCoroutine(ResetTracking());
+                foreach (GameObject go in arTrackedImageObjectList)
+                {
+                    Destroy(go);
+                }
+                arTrackedImageObjectList.Clear();
+                currentTrackedImageList.Clear();
                 print("swap libraries");
                 arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
                 //StartCoroutine(ResetTracking());
