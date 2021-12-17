@@ -213,7 +213,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         TrackedImageScanningProcess();
 
         SwapImageLibraries();
-        raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
+        //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
     }
 
     public void CycleImageLibrariesManual()
@@ -253,14 +253,15 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
     private IEnumerator ResetTracking()
     {
+        RuntimeReferenceImageLibrary tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[imgLibraryIndex];
+        arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        print(7);
+ 
         
         
 
@@ -282,8 +283,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                 currentTrackedImageList.Clear();
                 print("swap libraries");
                 arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
-                //StartCoroutine(ResetTracking());
-                pageSelection = true;               
+                pageSelection = true;
+                print("New page first vignette: " + arTrackedImageManager.subsystem.imageLibrary[0].name);
                 loadNewLibraryTimer = loadNewLibraryTime;
             }
         }
@@ -330,6 +331,30 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
             //trackingIndicator.transform.localScale = new Vector3(image.referenceImage.size.x, 0.01f, image.referenceImage.size.y);
             ////trackingIndicator.transform.localScale = image.transform.localScale;
             //print(trackingIndicator.transform.position);
+            if(image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            {
+                if (pageSelection)
+                {
+
+                    SelectNewPageLibrary(image.referenceImage.name);
+                }
+
+            }
+
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
+            {
+                //print(image.referenceImage.name + " LOST TRACKING");
+                //tracking = false;
+                //Debug.Log(image.referenceImage.name + " REMOVED");
+                //currentTrackedImageList.Remove(image);
+
+                RemoveTrackedObject(image);
+                currentTrackedImageList.Remove(image);
+
+            }
+
+
+
             if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
             {
                 //foreach (ARRaycastHit hit in rcHits)
@@ -341,12 +366,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                 //    }
                 //}
 
-                if (pageSelection)
-                {
-
-                    SelectNewPageLibrary(image.referenceImage.name);
-                }
-
+                
                 UpdateTrackedObject(image);
 
 
@@ -365,17 +385,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
                 // arTrackedImagePrefab.transform.localScale = image.transform.localScale;
 
             }
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
-            {
-                //print(image.referenceImage.name + " LOST TRACKING");
-                //tracking = false;
-                //Debug.Log(image.referenceImage.name + " REMOVED");
-                //currentTrackedImageList.Remove(image);
-
-                RemoveTrackedObject(image);
-                currentTrackedImageList.Remove(image);
-
-            }
+            
 
             //updatedTrackablesDebug.text += " " + image.referenceImage.name;
 

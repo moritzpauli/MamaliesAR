@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
+  m_IndirectSpecularColor: {r: 0.18023358, g: 0.22565922, b: 0.3068577, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1330,7 +1330,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 9e669502ea3c41d45824155f2cca2353, type: 2}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
@@ -2216,7 +2216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   androidRecognition: {fileID: 1073355957}
-  iOSvignetteRecognition: {fileID: 0}
+  iOSvignetteRecognition: {fileID: 1073355961}
 --- !u!114 &1073355961
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2297,6 +2297,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: e6b5429fcee6fed49aa118fc69cb3342, type: 2}
   - {fileID: 11400000, guid: f626de0536659f84ea2119fb4726875d, type: 2}
   pagesLibrary: {fileID: 11400000, guid: 71c24033ade5b8f4498c28c7606b25b0, type: 2}
+  inferiorDevices: 
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 0.6
   noRaycastTime: 3
