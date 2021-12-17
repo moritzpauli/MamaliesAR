@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS042-043
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5331283976900815883
+  m_GuidHigh: 4165201491753415572
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5046961399351275614
+      m_GuidHigh: 108275034607376269
+    m_SerializedTextureGuid:
+      m_GuidLow: 1073135700153822757
+      m_GuidHigh: 17989659959596073371
+    m_Size: {x: 0.0611, y: 0.0301}
+    m_SpecifySize: 1
+    m_Name: 0250_DS042-043_vegetables-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5318534295720940791
+      m_GuidHigh: 12683179529812517567
+    m_SerializedTextureGuid:
+      m_GuidLow: 11490051869213387310
+      m_GuidHigh: 1273633639107387288
+    m_Size: {x: 0.33757144, y: 0.33785716}
+    m_SpecifySize: 1
+    m_Name: 0251_DS042-043_vegetables
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5166219488930447799
+      m_GuidHigh: 16603769129772497820
+    m_SerializedTextureGuid:
+      m_GuidLow: 996451427557263159
+      m_GuidHigh: 13094788043212515243
+    m_Size: {x: 0.07214286, y: 0.057714287}
+    m_SpecifySize: 1
+    m_Name: 0252_DS042-043_mushroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4775960420129737800
+      m_GuidHigh: 13670952385276793253
+    m_SerializedTextureGuid:
+      m_GuidLow: 10886392015448658737
+      m_GuidHigh: 17410790630455905592
+    m_Size: {x: 0.06371429, y: 0.063}
+    m_SpecifySize: 1
+    m_Name: 0253_DS042-043_garlic
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4635683410958850167
+      m_GuidHigh: 17949690220449256610
+    m_SerializedTextureGuid:
+      m_GuidLow: 9179565910467974801
+      m_GuidHigh: 5475062319520500523
+    m_Size: {x: 0.08114286, y: 0.057000004}
+    m_SpecifySize: 1
+    m_Name: 0254_DS042-043_sweetpotato
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5631584461780765137
+      m_GuidHigh: 1801995668826222740
+    m_SerializedTextureGuid:
+      m_GuidLow: 15628760275718344955
+      m_GuidHigh: 2671028729668010857
+    m_Size: {x: 0.091571435, y: 0.06542858}
+    m_SpecifySize: 1
+    m_Name: 0255_DS042-043_broccoli
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5219198993694003167
+      m_GuidHigh: 16690136252276349343
+    m_SerializedTextureGuid:
+      m_GuidLow: 4522967380333903223
+      m_GuidHigh: 11770962565657055321
+    m_Size: {x: 0.07757143, y: 0.08771429}
+    m_SpecifySize: 1
+    m_Name: 0256_DS042-043_bellpepper
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5333336174415870738
+      m_GuidHigh: 6000640042906025117
+    m_SerializedTextureGuid:
+      m_GuidLow: 10341575767808269598
+      m_GuidHigh: 13338222008427449674
+    m_Size: {x: 0.08842858, y: 0.06542858}
+    m_SpecifySize: 1
+    m_Name: 0257_DS042-043_cucumbers
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5716039011817797335
+      m_GuidHigh: 969207814264849542
+    m_SerializedTextureGuid:
+      m_GuidLow: 7206910646783568068
+      m_GuidHigh: 13257252637257975017
+    m_Size: {x: 0.105000004, y: 0.076571435}
+    m_SpecifySize: 1
+    m_Name: 0258_DS042-043_greenbeans
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618062942312619735
+      m_GuidHigh: 15671822531313695121
+    m_SerializedTextureGuid:
+      m_GuidLow: 17196147492726210028
+      m_GuidHigh: 2896691157705799737
+    m_Size: {x: 0.07857143, y: 0.08142857}
+    m_SpecifySize: 1
+    m_Name: 0259_DS042-043_tomatoes
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4771872658901516630
+      m_GuidHigh: 1600616824631017112
+    m_SerializedTextureGuid:
+      m_GuidLow: 16547507315291952510
+      m_GuidHigh: 11268761207161909945
+    m_Size: {x: 0.07171429, y: 0.08342858}
+    m_SpecifySize: 1
+    m_Name: 0260_DS042-043_cauliflower
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5626725604735013127
+      m_GuidHigh: 3147473138377919917
+    m_SerializedTextureGuid:
+      m_GuidLow: 13863257359560732280
+      m_GuidHigh: 18301350264285707290
+    m_Size: {x: 0.076571435, y: 0.062714286}
+    m_SpecifySize: 1
+    m_Name: 0261_DS042-043_peas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4849114887045029777
+      m_GuidHigh: 17702430517435355577
+    m_SerializedTextureGuid:
+      m_GuidLow: 8170846169753106745
+      m_GuidHigh: 15636406173650190456
+    m_Size: {x: 0.075, y: 0.08385715}
+    m_SpecifySize: 1
+    m_Name: 0262_DS042-043_carrots
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4781595884032475568
+      m_GuidHigh: 7944309053040706725
+    m_SerializedTextureGuid:
+      m_GuidLow: 16484313861326075729
+      m_GuidHigh: 12522576841767697464
+    m_Size: {x: 0.07671429, y: 0.07114286}
+    m_SpecifySize: 1
+    m_Name: 0263_DS042-043_salad
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5183507853524802451
+      m_GuidHigh: 16180810558351462293
+    m_SerializedTextureGuid:
+      m_GuidLow: 5437075655748972379
+      m_GuidHigh: 14519121630805274905
+    m_Size: {x: 0.08685715, y: 0.09571429}
+    m_SpecifySize: 1
+    m_Name: 0264_DS042-043_onion
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4640244961394577697
+      m_GuidHigh: 2997608280779662268
+    m_SerializedTextureGuid:
+      m_GuidLow: 1289194771340206147
+      m_GuidHigh: 798152978640587832
+    m_Size: {x: 0.077857144, y: 0.089428574}
+    m_SpecifySize: 1
+    m_Name: 0265_DS042-043_potatoes
+    m_Texture: {fileID: 0}

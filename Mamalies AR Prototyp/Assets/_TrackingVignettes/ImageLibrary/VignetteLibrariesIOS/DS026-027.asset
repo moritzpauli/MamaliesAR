@@ -1,0 +1,207 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS026-027
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5096019209897385459
+  m_GuidHigh: 6224872355534470328
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5620037960146149534
+      m_GuidHigh: 1276549090212663482
+    m_SerializedTextureGuid:
+      m_GuidLow: 2090937624806408570
+      m_GuidHigh: 14341500496690394408
+    m_Size: {x: 0.0861, y: 0.0328}
+    m_SpecifySize: 1
+    m_Name: 0103_DS026-027_stories
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4836600823173916054
+      m_GuidHigh: 10201502043164870544
+    m_SerializedTextureGuid:
+      m_GuidLow: 13777852808982012092
+      m_GuidHigh: 16849441031758828298
+    m_Size: {x: 0.08328572, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0104_DS026-027_todisguise
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4746411910087066249
+      m_GuidHigh: 15463309834918809748
+    m_SerializedTextureGuid:
+      m_GuidLow: 16813199132737325305
+      m_GuidHigh: 11253132721859458088
+    m_Size: {x: 0.12828572, y: 0.08228572}
+    m_SpecifySize: 1
+    m_Name: 0105_DS026-027_hero
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5569886206973421843
+      m_GuidHigh: 7192519075627022241
+    m_SerializedTextureGuid:
+      m_GuidLow: 17434740810442920815
+      m_GuidHigh: 17179316431599261755
+    m_Size: {x: 0.1387143, y: 0.11628572}
+    m_SpecifySize: 1
+    m_Name: 0106_DS026-027_witch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4666909395552917322
+      m_GuidHigh: 1186674770200765358
+    m_SerializedTextureGuid:
+      m_GuidLow: 13863360527829277079
+      m_GuidHigh: 14176360094531158907
+    m_Size: {x: 0.062714286, y: 0.15214287}
+    m_SpecifySize: 1
+    m_Name: 0107_DS026-027_devil
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4777299474323345933
+      m_GuidHigh: 9967432836481306769
+    m_SerializedTextureGuid:
+      m_GuidLow: 5464214073198637699
+      m_GuidHigh: 16978302920777217003
+    m_Size: {x: 0.061000004, y: 0.11100001}
+    m_SpecifySize: 1
+    m_Name: 0108_DS026-027_ghost
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5234268206157346749
+      m_GuidHigh: 16250675845633693365
+    m_SerializedTextureGuid:
+      m_GuidLow: 1680972717417127317
+      m_GuidHigh: 4434455469382849563
+    m_Size: {x: 0.095571436, y: 0.07471429}
+    m_SpecifySize: 1
+    m_Name: 0109_DS026-027_castle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5197323000028474984
+      m_GuidHigh: 10398762594705106831
+    m_SerializedTextureGuid:
+      m_GuidLow: 6135283107824253195
+      m_GuidHigh: 5106658230645816427
+    m_Size: {x: 0.10214286, y: 0.060285717}
+    m_SpecifySize: 1
+    m_Name: 0110_DS026-027_sword
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5458099994955865809
+      m_GuidHigh: 2079070628788805029
+    m_SerializedTextureGuid:
+      m_GuidLow: 2298181922705296267
+      m_GuidHigh: 780085967206339146
+    m_Size: {x: 0.10871429, y: 0.081}
+    m_SpecifySize: 1
+    m_Name: 0111_DS026-027_dragon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5057604791083682847
+      m_GuidHigh: 14280975660419369903
+    m_SerializedTextureGuid:
+      m_GuidLow: 18078724743004764667
+      m_GuidHigh: 380754278136853288
+    m_Size: {x: 0.08385715, y: 0.075}
+    m_SpecifySize: 1
+    m_Name: 0112_DS026-027_fortress
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5682561131567020716
+      m_GuidHigh: 7889516570629499832
+    m_SerializedTextureGuid:
+      m_GuidLow: 577621785445730843
+      m_GuidHigh: 1667467652826643257
+    m_Size: {x: 0.061857145, y: 0.05957143}
+    m_SpecifySize: 1
+    m_Name: 0113_DS026-027_crown
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5083615895179989557
+      m_GuidHigh: 4679172273504990883
+    m_SerializedTextureGuid:
+      m_GuidLow: 15741245344556165607
+      m_GuidHigh: 11124281417844589307
+    m_Size: {x: 0.078, y: 0.14342858}
+    m_SpecifySize: 1
+    m_Name: 0114_DS026-027_king
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4958034537833270465
+      m_GuidHigh: 8524599197781653684
+    m_SerializedTextureGuid:
+      m_GuidLow: 17029400466847115764
+      m_GuidHigh: 14705447659286921499
+    m_Size: {x: 0.112428576, y: 0.15442857}
+    m_SpecifySize: 1
+    m_Name: 0115_DS026-027_queen
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4935347342974581304
+      m_GuidHigh: 9072255243931807386
+    m_SerializedTextureGuid:
+      m_GuidLow: 9625464161490510539
+      m_GuidHigh: 13535347727245791944
+    m_Size: {x: 0.089, y: 0.12571429}
+    m_SpecifySize: 1
+    m_Name: 0116_DS026-027_princess
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5587337449942157353
+      m_GuidHigh: 814334872832295589
+    m_SerializedTextureGuid:
+      m_GuidLow: 3586241176198066417
+      m_GuidHigh: 13401310412597463864
+    m_Size: {x: 0.049428575, y: 0.12571429}
+    m_SpecifySize: 1
+    m_Name: 0117_DS026-027_prince
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4768562878123368442
+      m_GuidHigh: 8595812383878282666
+    m_SerializedTextureGuid:
+      m_GuidLow: 10728768047998118305
+      m_GuidHigh: 2429506749362007099
+    m_Size: {x: 0.15785715, y: 0.05957143}
+    m_SpecifySize: 1
+    m_Name: 0118_DS026-027_tofight
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5726202694803143096
+      m_GuidHigh: 149479303385039243
+    m_SerializedTextureGuid:
+      m_GuidLow: 12917582582372934866
+      m_GuidHigh: 5031481070675045835
+    m_Size: {x: 0.074857146, y: 0.07557143}
+    m_SpecifySize: 1
+    m_Name: 0119_DS026-027_story
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5472912666038156656
+      m_GuidHigh: 12616309907803461778
+    m_SerializedTextureGuid:
+      m_GuidLow: 11904243804100533463
+      m_GuidHigh: 4851001429613227466
+    m_Size: {x: 0.08328572, y: 0.078428574}
+    m_SpecifySize: 1
+    m_Name: 0120_DS026-027_fairytale
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5763249816253759881
+      m_GuidHigh: 16229432178174838205
+    m_SerializedTextureGuid:
+      m_GuidLow: 9877798513370065813
+      m_GuidHigh: 12007527000930886488
+    m_Size: {x: 0.049285717, y: 0.12528571}
+    m_SpecifySize: 1
+    m_Name: 0121_DS026-027_angel
+    m_Texture: {fileID: 0}

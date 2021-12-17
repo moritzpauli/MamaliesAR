@@ -1,0 +1,347 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS052-053
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5227601367912859051
+  m_GuidHigh: 6842434506643306679
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4864397203457734074
+      m_GuidHigh: 6656522520194022807
+    m_SerializedTextureGuid:
+      m_GuidLow: 18033636358554829334
+      m_GuidHigh: 11475681412450623304
+    m_Size: {x: 0.0828, y: 0.0387}
+    m_SpecifySize: 1
+    m_Name: 0330_DS052-053_breakfast
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4804248232189237011
+      m_GuidHigh: 7702806199764850060
+    m_SerializedTextureGuid:
+      m_GuidLow: 11161128269306330783
+      m_GuidHigh: 15205971790754435529
+    m_Size: {x: 0.062285718, y: 0.051857144}
+    m_SpecifySize: 1
+    m_Name: 0331_DS052-053_croissant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4695796678545673348
+      m_GuidHigh: 1084134390872188059
+    m_SerializedTextureGuid:
+      m_GuidLow: 16993272941805662096
+      m_GuidHigh: 3913362859257567019
+    m_Size: {x: 0.07457143, y: 0.07414286}
+    m_SpecifySize: 1
+    m_Name: 0332_DS052-053_bread
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4972249591909922161
+      m_GuidHigh: 988674386338636185
+    m_SerializedTextureGuid:
+      m_GuidLow: 3802300176183711346
+      m_GuidHigh: 14833454086909431483
+    m_Size: {x: 0.059714288, y: 0.057000004}
+    m_SpecifySize: 1
+    m_Name: 0333_DS052-053_breadroll
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5250588125782704619
+      m_GuidHigh: 3731597871184015006
+    m_SerializedTextureGuid:
+      m_GuidLow: 8967808844629395618
+      m_GuidHigh: 10323706555975488696
+    m_Size: {x: 0.05457143, y: 0.058857147}
+    m_SpecifySize: 1
+    m_Name: 0334_DS052-053_cereal
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5452329740785226170
+      m_GuidHigh: 17654542417139851169
+    m_SerializedTextureGuid:
+      m_GuidLow: 15399151223769819143
+      m_GuidHigh: 16682383843126389240
+    m_Size: {x: 0.05857143, y: 0.05514286}
+    m_SpecifySize: 1
+    m_Name: 0335_DS052-053_cheese
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4872867123906547557
+      m_GuidHigh: 12142270645773451650
+    m_SerializedTextureGuid:
+      m_GuidLow: 16146662722190497111
+      m_GuidHigh: 9786552126355589754
+    m_Size: {x: 0.06885715, y: 0.06428572}
+    m_SpecifySize: 1
+    m_Name: 0336_DS052-053_jam
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5066886853981165163
+      m_GuidHigh: 12038419953858843797
+    m_SerializedTextureGuid:
+      m_GuidLow: 7661814444086457060
+      m_GuidHigh: 5521977529191735003
+    m_Size: {x: 0.05928572, y: 0.05}
+    m_SpecifySize: 1
+    m_Name: 0337_DS052-053_fruit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4618578226553968693
+      m_GuidHigh: 17920071021559698356
+    m_SerializedTextureGuid:
+      m_GuidLow: 5648901194711876478
+      m_GuidHigh: 1555637546004871627
+    m_Size: {x: 0.053857144, y: 0.06814286}
+    m_SpecifySize: 1
+    m_Name: 0338_DS052-053_honey
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5054549301592152394
+      m_GuidHigh: 14830083746071812274
+    m_SerializedTextureGuid:
+      m_GuidLow: 1888250049785919404
+      m_GuidHigh: 1802725145446169787
+    m_Size: {x: 0.07242858, y: 0.07771429}
+    m_SpecifySize: 1
+    m_Name: 0339_DS052-053_pancake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5695776783046445378
+      m_GuidHigh: 2923170967932233381
+    m_SerializedTextureGuid:
+      m_GuidLow: 13070615787627415696
+      m_GuidHigh: 3865580029532219323
+    m_Size: {x: 0.050857145, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0340_DS052-053_cream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4917470868654030424
+      m_GuidHigh: 17971342276512997761
+    m_SerializedTextureGuid:
+      m_GuidLow: 12152029054691224809
+      m_GuidHigh: 8272245174690464568
+    m_Size: {x: 0.057714287, y: 0.063}
+    m_SpecifySize: 1
+    m_Name: 0341_DS052-053_butter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5160103097262748901
+      m_GuidHigh: 1926981286778440344
+    m_SerializedTextureGuid:
+      m_GuidLow: 1834171551644715945
+      m_GuidHigh: 6504328840837299449
+    m_Size: {x: 0.045285717, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0342_DS052-053_juice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5404483147394439917
+      m_GuidHigh: 5954204468910123683
+    m_SerializedTextureGuid:
+      m_GuidLow: 13701204335735917993
+      m_GuidHigh: 834982776131853352
+    m_Size: {x: 0.06285714, y: 0.06471429}
+    m_SpecifySize: 1
+    m_Name: 0343_DS052-053_coffee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5634667131588691689
+      m_GuidHigh: 3751815937262755239
+    m_SerializedTextureGuid:
+      m_GuidLow: 14101922130057789458
+      m_GuidHigh: 9294346509431191082
+    m_Size: {x: 0.05857143, y: 0.060857147}
+    m_SpecifySize: 1
+    m_Name: 0344_DS052-053_cocoa
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4911670769213301686
+      m_GuidHigh: 3415902067132518030
+    m_SerializedTextureGuid:
+      m_GuidLow: 5698191872369642090
+      m_GuidHigh: 4623322196851748825
+    m_Size: {x: 0.057714287, y: 0.060857147}
+    m_SpecifySize: 1
+    m_Name: 0345_DS052-053_tea
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4649026444504665111
+      m_GuidHigh: 5090499611720284857
+    m_SerializedTextureGuid:
+      m_GuidLow: 2505263186463450121
+      m_GuidHigh: 2359190873964587496
+    m_Size: {x: 0.045285717, y: 0.060857147}
+    m_SpecifySize: 1
+    m_Name: 0346_DS052-053_milk
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4688553689959237367
+      m_GuidHigh: 9117944946719168432
+    m_SerializedTextureGuid:
+      m_GuidLow: 11080109618430888577
+      m_GuidHigh: 7225812932934943499
+    m_Size: {x: 0.13942857, y: 0.05257143}
+    m_SpecifySize: 1
+    m_Name: 0347_DS052-053_lunch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4752260450821166687
+      m_GuidHigh: 13546358013763482252
+    m_SerializedTextureGuid:
+      m_GuidLow: 13210458777467690591
+      m_GuidHigh: 17367471248014128793
+    m_Size: {x: 0.057857145, y: 0.057000004}
+    m_SpecifySize: 1
+    m_Name: 0348_DS052-053_salad
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4858104505885948967
+      m_GuidHigh: 3006858748618522804
+    m_SerializedTextureGuid:
+      m_GuidLow: 18231705465546191109
+      m_GuidHigh: 9900544412544537752
+    m_Size: {x: 0.051428575, y: 0.069714285}
+    m_SpecifySize: 1
+    m_Name: 0349_DS052-053_pizza
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5516089123955568093
+      m_GuidHigh: 2018127546367331732
+    m_SerializedTextureGuid:
+      m_GuidLow: 2009758055902959475
+      m_GuidHigh: 5293544159669858585
+    m_Size: {x: 0.056285717, y: 0.069714285}
+    m_SpecifySize: 1
+    m_Name: 0350_DS052-053_pasta
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4871599448368794466
+      m_GuidHigh: 8394018240366292663
+    m_SerializedTextureGuid:
+      m_GuidLow: 12309671518432774775
+      m_GuidHigh: 4371132532998783608
+    m_Size: {x: 0.05057143, y: 0.06414286}
+    m_SpecifySize: 1
+    m_Name: 0351_DS052-053_rice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4783828366549892349
+      m_GuidHigh: 8147561462202293908
+    m_SerializedTextureGuid:
+      m_GuidLow: 478513679104573693
+      m_GuidHigh: 13475623657026072891
+    m_Size: {x: 0.13014287, y: 0.037285715}
+    m_SpecifySize: 1
+    m_Name: 0352_DS052-053_dinner
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4964038897152785417
+      m_GuidHigh: 4083147367665123247
+    m_SerializedTextureGuid:
+      m_GuidLow: 13584021117775781701
+      m_GuidHigh: 4010467991029023562
+    m_Size: {x: 0.08171429, y: 0.04771429}
+    m_SpecifySize: 1
+    m_Name: 0353_DS052-053_toeat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5233324179183343348
+      m_GuidHigh: 6222196736955386038
+    m_SerializedTextureGuid:
+      m_GuidLow: 11818765169357892230
+      m_GuidHigh: 5360004178102760345
+    m_Size: {x: 0.032857146, y: 0.067}
+    m_SpecifySize: 1
+    m_Name: 0354_DS052-053_fresh
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5021981553135209927
+      m_GuidHigh: 1487431096333891214
+    m_SerializedTextureGuid:
+      m_GuidLow: 16615042136270059741
+      m_GuidHigh: 12249189945016987818
+    m_Size: {x: 0.058857147, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0355_DS052-053_starter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5704906155504944633
+      m_GuidHigh: 2286885638813456553
+    m_SerializedTextureGuid:
+      m_GuidLow: 9188645227605667487
+      m_GuidHigh: 16771541163886287707
+    m_Size: {x: 0.066285715, y: 0.07442857}
+    m_SpecifySize: 1
+    m_Name: 0356_DS052-053_soup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5293247798765215624
+      m_GuidHigh: 11493123133225326488
+    m_SerializedTextureGuid:
+      m_GuidLow: 9413927437266574899
+      m_GuidHigh: 2562807184024113353
+    m_Size: {x: 0.09171429, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0357_DS052-053_maincourse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5034259109223938953
+      m_GuidHigh: 1728790882443936930
+    m_SerializedTextureGuid:
+      m_GuidLow: 9075909207508211436
+      m_GuidHigh: 16906805374746299736
+    m_Size: {x: 0.073142864, y: 0.07571429}
+    m_SpecifySize: 1
+    m_Name: 0358_DS052-053_flour
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4935418629920483018
+      m_GuidHigh: 11794001761900949437
+    m_SerializedTextureGuid:
+      m_GuidLow: 4360636279992896110
+      m_GuidHigh: 11308564348746135416
+    m_Size: {x: 0.045, y: 0.06471429}
+    m_SpecifySize: 1
+    m_Name: 0359_DS052-053_salt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5316975350752154596
+      m_GuidHigh: 2084509081868432276
+    m_SerializedTextureGuid:
+      m_GuidLow: 18371404455408915722
+      m_GuidHigh: 4441158828754769160
+    m_Size: {x: 0.05257143, y: 0.055714287}
+    m_SpecifySize: 1
+    m_Name: 0360_DS052-053_sugar
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5617550395540446967
+      m_GuidHigh: 6732938330015205793
+    m_SerializedTextureGuid:
+      m_GuidLow: 8846239057440683709
+      m_GuidHigh: 8270924159999226169
+    m_Size: {x: 0.042000003, y: 0.04971429}
+    m_SpecifySize: 1
+    m_Name: 0361_DS052-053_egg
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5125310612027972514
+      m_GuidHigh: 6673559268237004206
+    m_SerializedTextureGuid:
+      m_GuidLow: 311964202759526675
+      m_GuidHigh: 6820439410333025323
+    m_Size: {x: 0.055714287, y: 0.07242858}
+    m_SpecifySize: 1
+    m_Name: 0362_DS052-053_friedegg
+    m_Texture: {fileID: 0}

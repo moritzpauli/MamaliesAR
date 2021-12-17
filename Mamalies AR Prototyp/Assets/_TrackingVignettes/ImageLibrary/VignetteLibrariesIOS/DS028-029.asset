@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS028-029
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4915937146484174721
+  m_GuidHigh: 14513667919953343402
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5306674134255597294
+      m_GuidHigh: 2605613370928565890
+    m_SerializedTextureGuid:
+      m_GuidLow: 8508621173438454512
+      m_GuidHigh: 14722357515160889450
+    m_Size: {x: 0.0652, y: 0.0279}
+    m_SpecifySize: 1
+    m_Name: 0122_DS028-029_emotions
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5291716974600803286
+      m_GuidHigh: 8237562793317279107
+    m_SerializedTextureGuid:
+      m_GuidLow: 6450549194157673750
+      m_GuidHigh: 8437802005008943195
+    m_Size: {x: 0.06614286, y: 0.072000004}
+    m_SpecifySize: 1
+    m_Name: 0123_DS028-029_tear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5535421111608718719
+      m_GuidHigh: 15278010503277170102
+    m_SerializedTextureGuid:
+      m_GuidLow: 4140153081379709291
+      m_GuidHigh: 1187838601428805099
+    m_Size: {x: 0.12557143, y: 0.126}
+    m_SpecifySize: 1
+    m_Name: 0124_DS028-029_todislike
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5280989288440112133
+      m_GuidHigh: 992777406950450089
+    m_SerializedTextureGuid:
+      m_GuidLow: 460603916152624362
+      m_GuidHigh: 18135245011767991544
+    m_Size: {x: 0.19157144, y: 0.16128573}
+    m_SpecifySize: 1
+    m_Name: 0125_DS028-029_cheerful
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4779118666631381013
+      m_GuidHigh: 7560499531254787995
+    m_SerializedTextureGuid:
+      m_GuidLow: 15808842600919772355
+      m_GuidHigh: 14468962546985823465
+    m_Size: {x: 0.099857144, y: 0.10728572}
+    m_SpecifySize: 1
+    m_Name: 0126_DS028-029_surprised
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4806232335937383535
+      m_GuidHigh: 15417195898189247660
+    m_SerializedTextureGuid:
+      m_GuidLow: 3928407868295178382
+      m_GuidHigh: 7605950074512559754
+    m_Size: {x: 0.08614286, y: 0.10728572}
+    m_SpecifySize: 1
+    m_Name: 0128_DS028-029_afraid
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4872072841633324495
+      m_GuidHigh: 9631019849372167859
+    m_SerializedTextureGuid:
+      m_GuidLow: 3095117394458892410
+      m_GuidHigh: 2047936527542334696
+    m_Size: {x: 0.084714286, y: 0.10128572}
+    m_SpecifySize: 1
+    m_Name: 0129_DS028-029_tired
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5499793314819665692
+      m_GuidHigh: 2868013591320164019
+    m_SerializedTextureGuid:
+      m_GuidLow: 2401641655958472802
+      m_GuidHigh: 2261581797870948952
+    m_Size: {x: 0.09142858, y: 0.11457144}
+    m_SpecifySize: 1
+    m_Name: 0130_DS028-029_angry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5237589908562126359
+      m_GuidHigh: 17186103204202079108
+    m_SerializedTextureGuid:
+      m_GuidLow: 8049328427967079959
+      m_GuidHigh: 16286181183817773658
+    m_Size: {x: 0.08628572, y: 0.102000006}
+    m_SpecifySize: 1
+    m_Name: 0131_DS028-029_bored
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5006816430680179661
+      m_GuidHigh: 17896023039771684741
+    m_SerializedTextureGuid:
+      m_GuidLow: 10710842049874804022
+      m_GuidHigh: 16917687901956826843
+    m_Size: {x: 0.17214286, y: 0.10157143}
+    m_SpecifySize: 1
+    m_Name: 0132_DS028-029_awake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5187546541709119044
+      m_GuidHigh: 2183234654874937258
+    m_SerializedTextureGuid:
+      m_GuidLow: 17515628128866877986
+      m_GuidHigh: 11772679832746190552
+    m_Size: {x: 0.11628572, y: 0.10485715}
+    m_SpecifySize: 1
+    m_Name: 0133_DS028-029_beautiful
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4963558407647344611
+      m_GuidHigh: 8072323393604367252
+    m_SerializedTextureGuid:
+      m_GuidLow: 7274516614088094619
+      m_GuidHigh: 10018476306423772280
+    m_Size: {x: 0.14128572, y: 0.11157143}
+    m_SpecifySize: 1
+    m_Name: 0134_DS028-029_furious
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4943904606419639229
+      m_GuidHigh: 17377866694261276852
+    m_SerializedTextureGuid:
+      m_GuidLow: 12016942082532277882
+      m_GuidHigh: 6006142369200595752
+    m_Size: {x: 0.096857145, y: 0.11228572}
+    m_SpecifySize: 1
+    m_Name: 0135_DS028-029_tolike
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4951479362758664857
+      m_GuidHigh: 17314128575039040384
+    m_SerializedTextureGuid:
+      m_GuidLow: 1136210959261462649
+      m_GuidHigh: 228705878294120504
+    m_Size: {x: 0.11342858, y: 0.09428572}
+    m_SpecifySize: 1
+    m_Name: 0136_DS028-029_excited
+    m_Texture: {fileID: 0}

@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS106-107
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5013564436553377388
+  m_GuidHigh: 9782887809800632198
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5748723745404425788
+      m_GuidHigh: 1446223481269105057
+    m_SerializedTextureGuid:
+      m_GuidLow: 2131448008418818587
+      m_GuidHigh: 6822951793217378873
+    m_Size: {x: 0.0692, y: 0.0689}
+    m_SpecifySize: 1
+    m_Name: 0876_DS106-107_toexplain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4721766399542445007
+      m_GuidHigh: 3509219570056668307
+    m_SerializedTextureGuid:
+      m_GuidLow: 3126900148024240281
+      m_GuidHigh: 7819216489616772312
+    m_Size: {x: 0.073142864, y: 0.09842858}
+    m_SpecifySize: 1
+    m_Name: 0877_DS106-107_topaint
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5418846928980774266
+      m_GuidHigh: 10301967296815670944
+    m_SerializedTextureGuid:
+      m_GuidLow: 2446663872504164498
+      m_GuidHigh: 523358348328764570
+    m_Size: {x: 0.09128572, y: 0.13314286}
+    m_SpecifySize: 1
+    m_Name: 0878_DS106-107_tosit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5418071217171421371
+      m_GuidHigh: 3523708080808597138
+    m_SerializedTextureGuid:
+      m_GuidLow: 10476645318897727143
+      m_GuidHigh: 9793349188340228329
+    m_Size: {x: 0.07, y: 0.13314286}
+    m_SpecifySize: 1
+    m_Name: 0879_DS106-107_tositdown
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4688258776061030283
+      m_GuidHigh: 4515518025466957728
+    m_SerializedTextureGuid:
+      m_GuidLow: 6995224985871103535
+      m_GuidHigh: 11141264010183264282
+    m_Size: {x: 0.06257143, y: 0.123428576}
+    m_SpecifySize: 1
+    m_Name: 0880_DS106-107_toset
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5485765323150508657
+      m_GuidHigh: 7313176240353083811
+    m_SerializedTextureGuid:
+      m_GuidLow: 5729906767026430018
+      m_GuidHigh: 11759018731628193994
+    m_Size: {x: 0.09428572, y: 0.12728572}
+    m_SpecifySize: 1
+    m_Name: 0881_DS106-107_totell
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4916821278789722215
+      m_GuidHigh: 17070176047845201843
+    m_SerializedTextureGuid:
+      m_GuidLow: 14268659792354262590
+      m_GuidHigh: 15137964932124780521
+    m_Size: {x: 0.06542858, y: 0.11571429}
+    m_SpecifySize: 1
+    m_Name: 0882_DS106-107_tospeak
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5201519441426265104
+      m_GuidHigh: 5677008542378284717
+    m_SerializedTextureGuid:
+      m_GuidLow: 14930698286462041090
+      m_GuidHigh: 14808640353973148841
+    m_Size: {x: 0.074, y: 0.11571429}
+    m_SpecifySize: 1
+    m_Name: 0883_DS106-107_tolisten
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4740294413087958629
+      m_GuidHigh: 15060282575754834576
+    m_SerializedTextureGuid:
+      m_GuidLow: 1059509333893523818
+      m_GuidHigh: 2967442193028661275
+    m_Size: {x: 0.06257143, y: 0.09928572}
+    m_SpecifySize: 1
+    m_Name: 0884_DS106-107_toread
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5095997256420752887
+      m_GuidHigh: 13816175109806873006
+    m_SerializedTextureGuid:
+      m_GuidLow: 14079414066051624166
+      m_GuidHigh: 4050488222641892089
+    m_Size: {x: 0.061428573, y: 0.09928572}
+    m_SpecifySize: 1
+    m_Name: 0885_DS106-107_tothink
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4718647191840721087
+      m_GuidHigh: 8269048526396682112
+    m_SerializedTextureGuid:
+      m_GuidLow: 11535075028578991738
+      m_GuidHigh: 2894419916662291240
+    m_Size: {x: 0.09257143, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0886_DS106-107_tostandup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4853527661293154948
+      m_GuidHigh: 9237855291141182909
+    m_SerializedTextureGuid:
+      m_GuidLow: 3487005660583698371
+      m_GuidHigh: 13148225589881704827
+    m_Size: {x: 0.076571435, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0887_DS106-107_question
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5598473379937323964
+      m_GuidHigh: 8434987792334927245
+    m_SerializedTextureGuid:
+      m_GuidLow: 4131155856032639453
+      m_GuidHigh: 2061478855919509626
+    m_Size: {x: 0.058285717, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0888_DS106-107_toask
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5253356648243635969
+      m_GuidHigh: 2389220528730848421
+    m_SerializedTextureGuid:
+      m_GuidLow: 15291080871560977124
+      m_GuidHigh: 701003577003789242
+    m_Size: {x: 0.05471429, y: 0.13757144}
+    m_SpecifySize: 1
+    m_Name: 0889_DS106-107_malefriend
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5522221718771732311
+      m_GuidHigh: 3117239437633592971
+    m_SerializedTextureGuid:
+      m_GuidLow: 14642519749588383496
+      m_GuidHigh: 10715621946909313112
+    m_Size: {x: 0.05557143, y: 0.12900001}
+    m_SpecifySize: 1
+    m_Name: 0890_DS106-107_femalefriend
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4976462653445647863
+      m_GuidHigh: 8502215517776313993
+    m_SerializedTextureGuid:
+      m_GuidLow: 13597649362509583454
+      m_GuidHigh: 15706008898190908554
+    m_Size: {x: 0.054, y: 0.12900001}
+    m_SpecifySize: 1
+    m_Name: 0891_DS106-107_tosing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4844965937672896201
+      m_GuidHigh: 2072987951502740669
+    m_SerializedTextureGuid:
+      m_GuidLow: 2230430147708135883
+      m_GuidHigh: 13203644752384863690
+    m_Size: {x: 0.055428576, y: 0.11457144}
+    m_SpecifySize: 1
+    m_Name: 0892_DS106-107_secret
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4907240760092136222
+      m_GuidHigh: 11993080323149018525
+    m_SerializedTextureGuid:
+      m_GuidLow: 13327491681129004447
+      m_GuidHigh: 1398577411871566344
+    m_Size: {x: 0.07828572, y: 0.09085715}
+    m_SpecifySize: 1
+    m_Name: 0893_DS106-107_towhisper
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4750679809713952418
+      m_GuidHigh: 5630071553537483450
+    m_SerializedTextureGuid:
+      m_GuidLow: 15673833903410118403
+      m_GuidHigh: 17311489805399298362
+    m_Size: {x: 0.057857145, y: 0.11257143}
+    m_SpecifySize: 1
+    m_Name: 0894_DS106-107_topractice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5588605655598697336
+      m_GuidHigh: 12814063376298312106
+    m_SerializedTextureGuid:
+      m_GuidLow: 11147801694885062455
+      m_GuidHigh: 8587822636448293576
+    m_Size: {x: 0.059857145, y: 0.10242858}
+    m_SpecifySize: 1
+    m_Name: 0895_DS106-107_schoolcertificate
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5537732086611644987
+      m_GuidHigh: 3543317385824171666
+    m_SerializedTextureGuid:
+      m_GuidLow: 15385660757382896101
+      m_GuidHigh: 6801747242104886298
+    m_Size: {x: 0.07, y: 0.10242858}
+    m_SpecifySize: 1
+    m_Name: 0896_DS106-107_toget
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4860644108277349207
+      m_GuidHigh: 9034569570126161581
+    m_SerializedTextureGuid:
+      m_GuidLow: 4748155060100874565
+      m_GuidHigh: 2755909977475394153
+    m_Size: {x: 0.066, y: 0.10242858}
+    m_SpecifySize: 1
+    m_Name: 0897_DS106-107_grades
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5428878009021625548
+      m_GuidHigh: 13544358678703855546
+    m_SerializedTextureGuid:
+      m_GuidLow: 7139393574804551604
+      m_GuidHigh: 1117121790196399019
+    m_Size: {x: 0.06542858, y: 0.10242858}
+    m_SpecifySize: 1
+    m_Name: 0898_DS106-107_thesecret
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4876897633772573509
+      m_GuidHigh: 12737293679424779433
+    m_SerializedTextureGuid:
+      m_GuidLow: 226323802425719132
+      m_GuidHigh: 17740538351225494155
+    m_Size: {x: 0.09371429, y: 0.091000006}
+    m_SpecifySize: 1
+    m_Name: 0899_DS106-107_toanswer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5446901479769362039
+      m_GuidHigh: 11582860876468750008
+    m_SerializedTextureGuid:
+      m_GuidLow: 11435793451978237373
+      m_GuidHigh: 7923314927089012232
+    m_Size: {x: 0.063285716, y: 0.091000006}
+    m_SpecifySize: 1
+    m_Name: 0900_DS106-107_tobecalled
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4805293628686809668
+      m_GuidHigh: 6287474387742456998
+    m_SerializedTextureGuid:
+      m_GuidLow: 8211240540510564833
+      m_GuidHigh: 12722681164105504169
+    m_Size: {x: 0.06542858, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0901_DS106-107_toforget
+    m_Texture: {fileID: 0}

@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS044-045
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4708524461338486779
+  m_GuidHigh: 17771155115922892471
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5400843337637745408
+      m_GuidHigh: 9461904087099282314
+    m_SerializedTextureGuid:
+      m_GuidLow: 7783388043893868120
+      m_GuidHigh: 14278650700218159624
+    m_Size: {x: 0.0492, y: 0.032899998}
+    m_SpecifySize: 1
+    m_Name: 0266_DS044-045_fruit-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4709808267611220029
+      m_GuidHigh: 2767314359490691511
+    m_SerializedTextureGuid:
+      m_GuidLow: 10228868876448731685
+      m_GuidHigh: 5541175165353269657
+    m_Size: {x: 0.34028572, y: 0.23814286}
+    m_SpecifySize: 1
+    m_Name: 0267_DS044-045_fruit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5641614782443761662
+      m_GuidHigh: 16485316220644582055
+    m_SerializedTextureGuid:
+      m_GuidLow: 13633656002088359549
+      m_GuidHigh: 4405783728710658537
+    m_Size: {x: 0.072000004, y: 0.06071429}
+    m_SpecifySize: 1
+    m_Name: 0268_DS044-045_raspberry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5664604795711339821
+      m_GuidHigh: 3109748836104533151
+    m_SerializedTextureGuid:
+      m_GuidLow: 7657449619450999402
+      m_GuidHigh: 15966023298017346473
+    m_Size: {x: 0.085285716, y: 0.08842858}
+    m_SpecifySize: 1
+    m_Name: 0269_DS044-045_orange
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5450154408046721540
+      m_GuidHigh: 10285150092554291094
+    m_SerializedTextureGuid:
+      m_GuidLow: 11161048212703691773
+      m_GuidHigh: 13457177023549908072
+    m_Size: {x: 0.08571429, y: 0.074857146}
+    m_SpecifySize: 1
+    m_Name: 0270_DS044-045_watermelon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5632731046463740739
+      m_GuidHigh: 3966370483159185316
+    m_SerializedTextureGuid:
+      m_GuidLow: 7486246962904392871
+      m_GuidHigh: 4918546319542635387
+    m_Size: {x: 0.09814286, y: 0.07771429}
+    m_SpecifySize: 1
+    m_Name: 0271_DS044-045_strawberry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4879740229494993430
+      m_GuidHigh: 8567202080285856944
+    m_SerializedTextureGuid:
+      m_GuidLow: 4667022430541456390
+      m_GuidHigh: 17583846192218240136
+    m_Size: {x: 0.08742858, y: 0.096}
+    m_SpecifySize: 1
+    m_Name: 0272_DS044-045_pear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4761547245597399094
+      m_GuidHigh: 4656705652856237462
+    m_SerializedTextureGuid:
+      m_GuidLow: 10075748490947125043
+      m_GuidHigh: 13801233444481852840
+    m_Size: {x: 0.08857143, y: 0.08800001}
+    m_SpecifySize: 1
+    m_Name: 0273_DS044-045_lemon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5065818598433998196
+      m_GuidHigh: 9373114658496977333
+    m_SerializedTextureGuid:
+      m_GuidLow: 10544316651088054888
+      m_GuidHigh: 3616723408979202776
+    m_Size: {x: 0.10642858, y: 0.09242857}
+    m_SpecifySize: 1
+    m_Name: 0274_DS044-045_apple
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4626718969926139225
+      m_GuidHigh: 7707149548256502403
+    m_SerializedTextureGuid:
+      m_GuidLow: 365959588347064370
+      m_GuidHigh: 8812024271156468201
+    m_Size: {x: 0.09142858, y: 0.09185715}
+    m_SpecifySize: 1
+    m_Name: 0275_DS044-045_plum
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5375417767886023323
+      m_GuidHigh: 378538556001004477
+    m_SerializedTextureGuid:
+      m_GuidLow: 685713835089435378
+      m_GuidHigh: 15129314665863674936
+    m_Size: {x: 0.05757143, y: 0.06928572}
+    m_SpecifySize: 1
+    m_Name: 0276_DS044-045_cherry
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5711039714739764463
+      m_GuidHigh: 10100985053494726830
+    m_SerializedTextureGuid:
+      m_GuidLow: 7288084724850236466
+      m_GuidHigh: 16579755646915868218
+    m_Size: {x: 0.08714286, y: 0.08671429}
+    m_SpecifySize: 1
+    m_Name: 0277_DS044-045_banana
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5607547379136455198
+      m_GuidHigh: 5321712388502948231
+    m_SerializedTextureGuid:
+      m_GuidLow: 15808781265513429638
+      m_GuidHigh: 2730066441075700170
+    m_Size: {x: 0.1307143, y: 0.12485715}
+    m_SpecifySize: 1
+    m_Name: 0278_DS044-045_pineapple
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4640623052968817706
+      m_GuidHigh: 914933965809642910
+    m_SerializedTextureGuid:
+      m_GuidLow: 5045290496267730894
+      m_GuidHigh: 1353635791624095418
+    m_Size: {x: 0.08214286, y: 0.069714285}
+    m_SpecifySize: 1
+    m_Name: 0279_DS044-045_peach
+    m_Texture: {fileID: 0}

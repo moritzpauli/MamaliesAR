@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS056-057
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5273580180516199557
+  m_GuidHigh: 2575948787824290186
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5201255561859504049
+      m_GuidHigh: 15726641292369121455
+    m_SerializedTextureGuid:
+      m_GuidLow: 4648966136268426909
+      m_GuidHigh: 283270047883749977
+    m_Size: {x: 0.0369, y: 0.048499998}
+    m_SpecifySize: 1
+    m_Name: 0381_DS056-057_dangerous
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5532659435718559794
+      m_GuidHigh: 8734729889791885457
+    m_SerializedTextureGuid:
+      m_GuidLow: 5441680449252904788
+      m_GuidHigh: 406991268625351147
+    m_Size: {x: 0.062714286, y: 0.053571433}
+    m_SpecifySize: 1
+    m_Name: 0382_DS056-057_danger
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4698246405280270800
+      m_GuidHigh: 1464412940326523012
+    m_SerializedTextureGuid:
+      m_GuidLow: 757788717447744928
+      m_GuidHigh: 2318222583400632842
+    m_Size: {x: 0.089857146, y: 0.06985714}
+    m_SpecifySize: 1
+    m_Name: 0383_DS056-057_bike
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4897899607464270544
+      m_GuidHigh: 395911666040497335
+    m_SerializedTextureGuid:
+      m_GuidLow: 3500520453623375392
+      m_GuidHigh: 15376840158331143752
+    m_Size: {x: 0.07557143, y: 0.09142858}
+    m_SpecifySize: 1
+    m_Name: 0384_DS056-057_toride
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5149105283019384489
+      m_GuidHigh: 7818753297389825957
+    m_SerializedTextureGuid:
+      m_GuidLow: 7495347204811209735
+      m_GuidHigh: 526117783609355304
+    m_Size: {x: 0.070285715, y: 0.08014286}
+    m_SpecifySize: 1
+    m_Name: 0385_DS056-057_tricycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5484848621805592106
+      m_GuidHigh: 1650240390141447310
+    m_SerializedTextureGuid:
+      m_GuidLow: 12075499961259892798
+      m_GuidHigh: 11092596523900960779
+    m_Size: {x: 0.06514286, y: 0.09142858}
+    m_SpecifySize: 1
+    m_Name: 0386_DS056-057_scooter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5266330774584580956
+      m_GuidHigh: 5091122641637774508
+    m_SerializedTextureGuid:
+      m_GuidLow: 17637462980627161323
+      m_GuidHigh: 15593225037176575368
+    m_Size: {x: 0.07928572, y: 0.077857144}
+    m_SpecifySize: 1
+    m_Name: 0387_DS056-057_pedestrian
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4702063378992062644
+      m_GuidHigh: 12213206669035843724
+    m_SerializedTextureGuid:
+      m_GuidLow: 13169664461125859013
+      m_GuidHigh: 1333346085131844248
+    m_Size: {x: 0.063, y: 0.072571434}
+    m_SpecifySize: 1
+    m_Name: 0388_DS056-057_prohibition
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5029520605029315375
+      m_GuidHigh: 5924752696965454481
+    m_SerializedTextureGuid:
+      m_GuidLow: 14876626474367202369
+      m_GuidHigh: 14659677001557138331
+    m_Size: {x: 0.059857145, y: 0.072571434}
+    m_SpecifySize: 1
+    m_Name: 0389_DS056-057_rightofway
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5591424596177315720
+      m_GuidHigh: 14343173473805353367
+    m_SerializedTextureGuid:
+      m_GuidLow: 3955344209496240848
+      m_GuidHigh: 16243007692259224283
+    m_Size: {x: 0.056, y: 0.06871429}
+    m_SpecifySize: 1
+    m_Name: 0390_DS056-057_straightahead
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5692007242126624746
+      m_GuidHigh: 4630938552875791507
+    m_SerializedTextureGuid:
+      m_GuidLow: 17678007857175050548
+      m_GuidHigh: 12149958429980457897
+    m_Size: {x: 0.06285714, y: 0.06671429}
+    m_SpecifySize: 1
+    m_Name: 0391_DS056-057_ticket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5607053452510901453
+      m_GuidHigh: 8265379941252098956
+    m_SerializedTextureGuid:
+      m_GuidLow: 528250504180553281
+      m_GuidHigh: 11246466261400538825
+    m_Size: {x: 0.061428573, y: 0.07557143}
+    m_SpecifySize: 1
+    m_Name: 0392_DS056-057_timetable
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4913389652826820967
+      m_GuidHigh: 15127558761472940681
+    m_SerializedTextureGuid:
+      m_GuidLow: 86710028266756056
+      m_GuidHigh: 6346832172087323611
+    m_Size: {x: 0.05514286, y: 0.06671429}
+    m_SpecifySize: 1
+    m_Name: 0393_DS056-057_togetoff
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5600448136812118865
+      m_GuidHigh: 131684019005398193
+    m_SerializedTextureGuid:
+      m_GuidLow: 17943720752100999484
+      m_GuidHigh: 15238989401427575465
+    m_Size: {x: 0.05714286, y: 0.07128572}
+    m_SpecifySize: 1
+    m_Name: 0394_DS056-057_toenter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4628516343531771366
+      m_GuidHigh: 7040827504090662068
+    m_SerializedTextureGuid:
+      m_GuidLow: 12994020224377761218
+      m_GuidHigh: 6417168614934352377
+    m_Size: {x: 0.07957143, y: 0.05557143}
+    m_SpecifySize: 1
+    m_Name: 0395_DS056-057_onewaystreet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5386704008000729804
+      m_GuidHigh: 13231075606550272163
+    m_SerializedTextureGuid:
+      m_GuidLow: 7616945045649378836
+      m_GuidHigh: 17636580321096613704
+    m_Size: {x: 0.056428574, y: 0.06357143}
+    m_SpecifySize: 1
+    m_Name: 0396_DS056-057_caution
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5215655877603287332
+      m_GuidHigh: 9760177948070691764
+    m_SerializedTextureGuid:
+      m_GuidLow: 12633768990318027166
+      m_GuidHigh: 4221307828549345385
+    m_Size: {x: 0.05814286, y: 0.06357143}
+    m_SpecifySize: 1
+    m_Name: 0397_DS056-057_toreverse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5073409534966911872
+      m_GuidHigh: 11206309171408960392
+    m_SerializedTextureGuid:
+      m_GuidLow: 4230028697078745523
+      m_GuidHigh: 17512517291938576746
+    m_Size: {x: 0.099714294, y: 0.09142858}
+    m_SpecifySize: 1
+    m_Name: 0398_DS056-057_motorcycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5604860902790167977
+      m_GuidHigh: 11431609983225787786
+    m_SerializedTextureGuid:
+      m_GuidLow: 17650893929835337555
+      m_GuidHigh: 13839066363819939770
+    m_Size: {x: 0.082, y: 0.06414286}
+    m_SpecifySize: 1
+    m_Name: 0399_DS056-057_motorcyclehelmet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5259792207467913438
+      m_GuidHigh: 12713220584130962590
+    m_SerializedTextureGuid:
+      m_GuidLow: 4631034099027772327
+      m_GuidHigh: 10265501863092856698
+    m_Size: {x: 0.07114286, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0400_DS056-057_stopsign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4986060952906452842
+      m_GuidHigh: 15314892935198297777
+    m_SerializedTextureGuid:
+      m_GuidLow: 7206929498355766597
+      m_GuidHigh: 10038530850600618635
+    m_Size: {x: 0.09728572, y: 0.08800001}
+    m_SpecifySize: 1
+    m_Name: 0401_DS056-057_distance
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5202942210454881289
+      m_GuidHigh: 13616360693153784714
+    m_SerializedTextureGuid:
+      m_GuidLow: 12057370688180891373
+      m_GuidHigh: 5792247781773642986
+    m_Size: {x: 0.11914286, y: 0.09142858}
+    m_SpecifySize: 1
+    m_Name: 0402_DS056-057_motorwaysign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5226722694883258940
+      m_GuidHigh: 4108109856894507407
+    m_SerializedTextureGuid:
+      m_GuidLow: 16489044591038259231
+      m_GuidHigh: 16289012666712094776
+    m_Size: {x: 0.08014286, y: 0.12385715}
+    m_SpecifySize: 1
+    m_Name: 0403_DS056-057_busstop
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4891323904112648965
+      m_GuidHigh: 15989940367386610048
+    m_SerializedTextureGuid:
+      m_GuidLow: 15709841601715433891
+      m_GuidHigh: 6913552701941916955
+    m_Size: {x: 0.099714294, y: 0.08228572}
+    m_SpecifySize: 1
+    m_Name: 0404_DS056-057_subwaysign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5198089438592575688
+      m_GuidHigh: 6201268013372680116
+    m_SerializedTextureGuid:
+      m_GuidLow: 13165274790725002839
+      m_GuidHigh: 11148726451793539226
+    m_Size: {x: 0.099714294, y: 0.06528572}
+    m_SpecifySize: 1
+    m_Name: 0405_DS056-057_S-Bahnsign
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5163132496116229747
+      m_GuidHigh: 17288716747611882127
+    m_SerializedTextureGuid:
+      m_GuidLow: 8711179507597969494
+      m_GuidHigh: 10950618802116731401
+    m_Size: {x: 0.13042858, y: 0.12385715}
+    m_SpecifySize: 1
+    m_Name: 0406_DS056-057_noise
+    m_Texture: {fileID: 0}

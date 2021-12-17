@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS062-063
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4868395893327980635
+  m_GuidHigh: 8557809645394516608
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5533344857303535465
+      m_GuidHigh: 10435792577933453710
+    m_SerializedTextureGuid:
+      m_GuidLow: 4351759348509287754
+      m_GuidHigh: 13339350826262534346
+    m_Size: {x: 0.0676, y: 0.0313}
+    m_SpecifySize: 1
+    m_Name: 0430_DS062-063_playground
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5587119212673212314
+      m_GuidHigh: 4227916602118877325
+    m_SerializedTextureGuid:
+      m_GuidLow: 3522987457537398085
+      m_GuidHigh: 2270694953467583065
+    m_Size: {x: 0.10828572, y: 0.10357143}
+    m_SpecifySize: 1
+    m_Name: 0431_DS062-063_slide
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4806255565229356894
+      m_GuidHigh: 5418503548619790770
+    m_SerializedTextureGuid:
+      m_GuidLow: 1406298792345944205
+      m_GuidHigh: 5232173344231868201
+    m_Size: {x: 0.11371429, y: 0.086428575}
+    m_SpecifySize: 1
+    m_Name: 0432_DS062-063_sandbox
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5389539887071452611
+      m_GuidHigh: 15030654347226139575
+    m_SerializedTextureGuid:
+      m_GuidLow: 9503894525485569477
+      m_GuidHigh: 12701680422611374345
+    m_Size: {x: 0.12100001, y: 0.10357143}
+    m_SpecifySize: 1
+    m_Name: 0433_DS062-063_swing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5123642560050765365
+      m_GuidHigh: 10128375540529196958
+    m_SerializedTextureGuid:
+      m_GuidLow: 3793407583738746778
+      m_GuidHigh: 4456288218574447178
+    m_Size: {x: 0.08614286, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0434_DS062-063_shovel
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5577566385372666276
+      m_GuidHigh: 15762296792814689469
+    m_SerializedTextureGuid:
+      m_GuidLow: 10071317199581829663
+      m_GuidHigh: 14492093640478110457
+    m_Size: {x: 0.09371429, y: 0.074857146}
+    m_SpecifySize: 1
+    m_Name: 0435_DS062-063_bucket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4680904626126390612
+      m_GuidHigh: 1699065553633143703
+    m_SerializedTextureGuid:
+      m_GuidLow: 1726228543121722353
+      m_GuidHigh: 16905120631304704970
+    m_Size: {x: 0.13228571, y: 0.09357143}
+    m_SpecifySize: 1
+    m_Name: 0436_DS062-063_seesaw
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5195425298520570882
+      m_GuidHigh: 13326143077514512524
+    m_SerializedTextureGuid:
+      m_GuidLow: 5833507626551886376
+      m_GuidHigh: 3593771651297460040
+    m_Size: {x: 0.06428572, y: 0.08042858}
+    m_SpecifySize: 1
+    m_Name: 0437_DS062-063_teddy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4760788414950282548
+      m_GuidHigh: 11358577981949674923
+    m_SerializedTextureGuid:
+      m_GuidLow: 15119842417810569430
+      m_GuidHigh: 5575694663443905385
+    m_Size: {x: 0.06871429, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0438_DS062-063_doll
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5761984876875005668
+      m_GuidHigh: 3391104751926099881
+    m_SerializedTextureGuid:
+      m_GuidLow: 7909558001110088192
+      m_GuidHigh: 1683778424956533305
+    m_Size: {x: 0.062000003, y: 0.09257143}
+    m_SpecifySize: 1
+    m_Name: 0439_DS062-063_toclimb
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5518854517956709657
+      m_GuidHigh: 11245277245712337335
+    m_SerializedTextureGuid:
+      m_GuidLow: 1248890294169784172
+      m_GuidHigh: 5875701139742382667
+    m_Size: {x: 0.12942858, y: 0.089428574}
+    m_SpecifySize: 1
+    m_Name: 0440_DS062-063_kite
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5670850456956658218
+      m_GuidHigh: 2844036147855440529
+    m_SerializedTextureGuid:
+      m_GuidLow: 3424048955783971898
+      m_GuidHigh: 16730852482644378297
+    m_Size: {x: 0.11028572, y: 0.10171429}
+    m_SpecifySize: 1
+    m_Name: 0441_DS062-063_paddlepond
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5077748673615396281
+      m_GuidHigh: 12132410372929536132
+    m_SerializedTextureGuid:
+      m_GuidLow: 284995970758870075
+      m_GuidHigh: 17119749851883283866
+    m_Size: {x: 0.07014286, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0442_DS062-063_toys
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5348205521214565338
+      m_GuidHigh: 16563911439280462762
+    m_SerializedTextureGuid:
+      m_GuidLow: 11566588724008920269
+      m_GuidHigh: 15820557960439009162
+    m_Size: {x: 0.054428574, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0443_DS062-063_ball
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4646088324966684426
+      m_GuidHigh: 16251949471283828868
+    m_SerializedTextureGuid:
+      m_GuidLow: 4977773376915517437
+      m_GuidHigh: 2916597291026151947
+    m_Size: {x: 0.10828572, y: 0.12814286}
+    m_SpecifySize: 1
+    m_Name: 0444_DS062-063_sunshade
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5462933754990289633
+      m_GuidHigh: 1838419227635843514
+    m_SerializedTextureGuid:
+      m_GuidLow: 16367286111797756337
+      m_GuidHigh: 15310057590422382299
+    m_Size: {x: 0.10428572, y: 0.10671429}
+    m_SpecifySize: 1
+    m_Name: 0445_DS062-063_bench
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5483522124288497097
+      m_GuidHigh: 7415681060441625509
+    m_SerializedTextureGuid:
+      m_GuidLow: 10836806461039881729
+      m_GuidHigh: 5356266423813717002
+    m_Size: {x: 0.08400001, y: 0.11314286}
+    m_SpecifySize: 1
+    m_Name: 0446_DS062-063_buggy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5431664185971945828
+      m_GuidHigh: 10504924157093906879
+    m_SerializedTextureGuid:
+      m_GuidLow: 7495127047430635174
+      m_GuidHigh: 2877477700392382313
+    m_Size: {x: 0.060571432, y: 0.08042858}
+    m_SpecifySize: 1
+    m_Name: 0447_DS062-063_mobilephone
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5464047099396848648
+      m_GuidHigh: 15583970296488894393
+    m_SerializedTextureGuid:
+      m_GuidLow: 2518866839335823417
+      m_GuidHigh: 12206637344716055480
+    m_Size: {x: 0.095000006, y: 0.078428574}
+    m_SpecifySize: 1
+    m_Name: 0448_DS062-063_puzzle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5291443341856866895
+      m_GuidHigh: 7084628361602380459
+    m_SerializedTextureGuid:
+      m_GuidLow: 15777391437527085246
+      m_GuidHigh: 5973415023913010090
+    m_Size: {x: 0.052428573, y: 0.08042858}
+    m_SpecifySize: 1
+    m_Name: 0449_DS062-063_broken
+    m_Texture: {fileID: 0}

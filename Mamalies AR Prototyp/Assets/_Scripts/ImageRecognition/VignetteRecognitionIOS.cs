@@ -131,6 +131,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private float loadNewLibraryTimer = 0.6f;
 
+    [SerializeField]
+    private float noRaycastTime = 3f;
+
+
 #region Initiation
 
     private void Awake()
@@ -208,7 +212,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         TrackedImageScanningProcess();
 
         SwapImageLibraries();
-        
+        raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
     }
 
     public void CycleImageLibrariesManual()

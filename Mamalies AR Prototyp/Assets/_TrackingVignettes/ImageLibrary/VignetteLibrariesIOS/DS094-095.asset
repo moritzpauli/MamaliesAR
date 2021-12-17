@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS094-095
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5758233843026538710
+  m_GuidHigh: 8357295751149411229
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5230721689920682084
+      m_GuidHigh: 13902009907861358763
+    m_SerializedTextureGuid:
+      m_GuidLow: 6963724242107160804
+      m_GuidHigh: 359051838288373147
+    m_Size: {x: 0.0528, y: 0.0359}
+    m_SpecifySize: 1
+    m_Name: 0763_DS094-095_house
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5280411840484390102
+      m_GuidHigh: 13928059214308785071
+    m_SerializedTextureGuid:
+      m_GuidLow: 4833656577744049330
+      m_GuidHigh: 9653510853957097355
+    m_Size: {x: 0.063, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0764_DS094-095_doorbell
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4999764733465386249
+      m_GuidHigh: 16800232897083771321
+    m_SerializedTextureGuid:
+      m_GuidLow: 13467100319440653440
+      m_GuidHigh: 16791695655685789915
+    m_Size: {x: 0.07471429, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0765_DS094-095_housenumber
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5432497261617213202
+      m_GuidHigh: 9229065130391792061
+    m_SerializedTextureGuid:
+      m_GuidLow: 7256658159367831381
+      m_GuidHigh: 4546500679361116106
+    m_Size: {x: 0.069000006, y: 0.08971429}
+    m_SpecifySize: 1
+    m_Name: 0766_DS094-095_postbox
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5444191076379994009
+      m_GuidHigh: 12303487835295689388
+    m_SerializedTextureGuid:
+      m_GuidLow: 1933174648575936609
+      m_GuidHigh: 4909499073917263099
+    m_Size: {x: 0.076571435, y: 0.17657144}
+    m_SpecifySize: 1
+    m_Name: 0767_DS094-095_totidy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4739172857515170725
+      m_GuidHigh: 9783351359026983318
+    m_SerializedTextureGuid:
+      m_GuidLow: 5302031754410579835
+      m_GuidHigh: 14490449113656134875
+    m_Size: {x: 0.084571436, y: 0.09257143}
+    m_SpecifySize: 1
+    m_Name: 0768_DS094-095_attic
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4961567785638821869
+      m_GuidHigh: 18407087391765314226
+    m_SerializedTextureGuid:
+      m_GuidLow: 8945377708812307957
+      m_GuidHigh: 17814923192684291561
+    m_Size: {x: 0.17514287, y: 0.06757143}
+    m_SpecifySize: 1
+    m_Name: 0769_DS094-095_roof
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5754695476215583752
+      m_GuidHigh: 17999920655122858633
+    m_SerializedTextureGuid:
+      m_GuidLow: 6189265726862449036
+      m_GuidHigh: 5588288679076667224
+    m_Size: {x: 0.07328572, y: 0.09257143}
+    m_SpecifySize: 1
+    m_Name: 0770_DS094-095_chimney
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4619838047767565565
+      m_GuidHigh: 18390434523451811462
+    m_SerializedTextureGuid:
+      m_GuidLow: 2690046832315866801
+      m_GuidHigh: 6701123450504124715
+    m_Size: {x: 0.08857143, y: 0.100857146}
+    m_SpecifySize: 1
+    m_Name: 0771_DS094-095_key
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5541237961207825260
+      m_GuidHigh: 1922808349845536386
+    m_SerializedTextureGuid:
+      m_GuidLow: 10026153739210301756
+      m_GuidHigh: 7820791091105529051
+    m_Size: {x: 0.11328572, y: 0.074}
+    m_SpecifySize: 1
+    m_Name: 0772_DS094-095_tolock
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4873075419617785003
+      m_GuidHigh: 16408238736064895411
+    m_SerializedTextureGuid:
+      m_GuidLow: 3658234160948974226
+      m_GuidHigh: 3447192793129400074
+    m_Size: {x: 0.11442858, y: 0.101}
+    m_SpecifySize: 1
+    m_Name: 0773_DS094-095_garage
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5257957508846434591
+      m_GuidHigh: 5596336743680752303
+    m_SerializedTextureGuid:
+      m_GuidLow: 2726076232955058904
+      m_GuidHigh: 6807508738005032376
+    m_Size: {x: 0.12471429, y: 0.11400001}
+    m_SpecifySize: 1
+    m_Name: 0774_DS094-095_basement
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4815648045927912971
+      m_GuidHigh: 4490325682727714190
+    m_SerializedTextureGuid:
+      m_GuidLow: 2671975115500355481
+      m_GuidHigh: 5244888432485908027
+    m_Size: {x: 0.118142866, y: 0.111857146}
+    m_SpecifySize: 1
+    m_Name: 0775_DS094-095_stairs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5029947644414314355
+      m_GuidHigh: 10481069119990956454
+    m_SerializedTextureGuid:
+      m_GuidLow: 6130664425200975521
+      m_GuidHigh: 12267235457331073865
+    m_Size: {x: 0.28414288, y: 0.18185715}
+    m_SpecifySize: 1
+    m_Name: 2003_DS094-095_house
+    m_Texture: {fileID: 0}

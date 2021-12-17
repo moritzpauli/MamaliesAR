@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS066-067
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5264143957292007622
+  m_GuidHigh: 1054603177935933837
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5244425034042104330
+      m_GuidHigh: 1840009983352146853
+    m_SerializedTextureGuid:
+      m_GuidLow: 3248341932401424201
+      m_GuidHigh: 2095289288604981928
+    m_Size: {x: 0.0711, y: 0.0277}
+    m_SpecifySize: 1
+    m_Name: 0475_DS066-067_clothes
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5025222649322571939
+      m_GuidHigh: 11238936529316445080
+    m_SerializedTextureGuid:
+      m_GuidLow: 12386250444814552923
+      m_GuidHigh: 15319513321540275497
+    m_Size: {x: 0.06828572, y: 0.114857145}
+    m_SpecifySize: 1
+    m_Name: 0476_DS066-067_tights
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5399655647631779766
+      m_GuidHigh: 16932837037209404818
+    m_SerializedTextureGuid:
+      m_GuidLow: 14660458458844786004
+      m_GuidHigh: 9761324699547959067
+    m_Size: {x: 0.07171429, y: 0.10700001}
+    m_SpecifySize: 1
+    m_Name: 0477_DS066-067_bathingsuit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5072576601578068066
+      m_GuidHigh: 15418734575624644275
+    m_SerializedTextureGuid:
+      m_GuidLow: 11989711038713508515
+      m_GuidHigh: 6316421954675933241
+    m_Size: {x: 0.06857143, y: 0.095571436}
+    m_SpecifySize: 1
+    m_Name: 0478_DS066-067_blouse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4808653021366938288
+      m_GuidHigh: 5058911859325884594
+    m_SerializedTextureGuid:
+      m_GuidLow: 18159891828716598932
+      m_GuidHigh: 5194443477354447944
+    m_Size: {x: 0.19085716, y: 0.120000005}
+    m_SpecifySize: 1
+    m_Name: 0479_DS066-067_sweater
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5491188172921624552
+      m_GuidHigh: 13848099815235150485
+    m_SerializedTextureGuid:
+      m_GuidLow: 9274249906855044873
+      m_GuidHigh: 2145038238064523099
+    m_Size: {x: 0.06428572, y: 0.12728572}
+    m_SpecifySize: 1
+    m_Name: 0480_DS066-067_dress
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5750009854988268328
+      m_GuidHigh: 10429589724437625261
+    m_SerializedTextureGuid:
+      m_GuidLow: 6405378576573925954
+      m_GuidHigh: 13400038998510179225
+    m_Size: {x: 0.07385714, y: 0.12728572}
+    m_SpecifySize: 1
+    m_Name: 0481_DS066-067_underwear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5592163368968445714
+      m_GuidHigh: 1681078624390174112
+    m_SerializedTextureGuid:
+      m_GuidLow: 15750493419025513770
+      m_GuidHigh: 1185707335758073305
+    m_Size: {x: 0.14785714, y: 0.15228572}
+    m_SpecifySize: 1
+    m_Name: 0482_DS066-067_trousers
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5359817907850313697
+      m_GuidHigh: 10962315568781422252
+    m_SerializedTextureGuid:
+      m_GuidLow: 13827236975413634751
+      m_GuidHigh: 2580998427845482250
+    m_Size: {x: 0.06828572, y: 0.06871429}
+    m_SpecifySize: 1
+    m_Name: 0483_DS066-067_sandals
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5392408533534311678
+      m_GuidHigh: 1522641515561534113
+    m_SerializedTextureGuid:
+      m_GuidLow: 13439918557456505457
+      m_GuidHigh: 11423770349903454296
+    m_Size: {x: 0.13371429, y: 0.051857144}
+    m_SpecifySize: 1
+    m_Name: 0484_DS066-067_sneaker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5304596821883644284
+      m_GuidHigh: 15803643497014001845
+    m_SerializedTextureGuid:
+      m_GuidLow: 4230021322107380748
+      m_GuidHigh: 7089869108906401544
+    m_Size: {x: 0.10185715, y: 0.04714286}
+    m_SpecifySize: 1
+    m_Name: 0485_DS066-067_glove
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5029499241778797330
+      m_GuidHigh: 1743926828490491295
+    m_SerializedTextureGuid:
+      m_GuidLow: 12813891131887363846
+      m_GuidHigh: 13719154070254991034
+    m_Size: {x: 0.16085716, y: 0.12357143}
+    m_SpecifySize: 1
+    m_Name: 0486_DS066-067_shirt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4686047824620111062
+      m_GuidHigh: 7745403065786618524
+    m_SerializedTextureGuid:
+      m_GuidLow: 14124421572363393603
+      m_GuidHigh: 4888332157314500539
+    m_Size: {x: 0.103857145, y: 0.089}
+    m_SpecifySize: 1
+    m_Name: 0487_DS066-067_jacket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5240433546137403916
+      m_GuidHigh: 6632173337170633894
+    m_SerializedTextureGuid:
+      m_GuidLow: 8463478091323294741
+      m_GuidHigh: 16436832037736954715
+    m_Size: {x: 0.07414286, y: 0.069000006}
+    m_SpecifySize: 1
+    m_Name: 0488_DS066-067_pocket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5554002377613295318
+      m_GuidHigh: 15044367814003463861
+    m_SerializedTextureGuid:
+      m_GuidLow: 631688467188233367
+      m_GuidHigh: 6909920585398772584
+    m_Size: {x: 0.094000004, y: 0.113571435}
+    m_SpecifySize: 1
+    m_Name: 0489_DS066-067_pyjamas
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5575506202824550039
+      m_GuidHigh: 15045718286785256616
+    m_SerializedTextureGuid:
+      m_GuidLow: 208561622864491840
+      m_GuidHigh: 12116703507091099386
+    m_Size: {x: 0.13371429, y: 0.16528572}
+    m_SpecifySize: 1
+    m_Name: 0490_DS066-067_jeans
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5616753867856919409
+      m_GuidHigh: 11666104307669547409
+    m_SerializedTextureGuid:
+      m_GuidLow: 13205850062590522401
+      m_GuidHigh: 1573316310969189067
+    m_Size: {x: 0.07528572, y: 0.06871429}
+    m_SpecifySize: 1
+    m_Name: 0491_DS066-067_bathingtrunks
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5588175623695165357
+      m_GuidHigh: 9083635017234537894
+    m_SerializedTextureGuid:
+      m_GuidLow: 16664627903548160968
+      m_GuidHigh: 3901299543077964650
+    m_Size: {x: 0.065571435, y: 0.065571435}
+    m_SpecifySize: 1
+    m_Name: 0492_DS066-067_socks
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5499522483129420186
+      m_GuidHigh: 17381365507618846360
+    m_SerializedTextureGuid:
+      m_GuidLow: 3072715731832155429
+      m_GuidHigh: 16245665518064292985
+    m_Size: {x: 0.084571436, y: 0.035285715}
+    m_SpecifySize: 1
+    m_Name: 0493_DS066-067_shoe
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5102982110966064317
+      m_GuidHigh: 15894989234837625238
+    m_SerializedTextureGuid:
+      m_GuidLow: 10719777387430131233
+      m_GuidHigh: 5862204772224882088
+    m_Size: {x: 0.07528572, y: 0.06471429}
+    m_SpecifySize: 1
+    m_Name: 0494_DS066-067_underpants
+    m_Texture: {fileID: 0}

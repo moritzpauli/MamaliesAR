@@ -1,0 +1,277 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS016-017
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5733360487126170028
+  m_GuidHigh: 5742916465920257467
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5481451424594149528
+      m_GuidHigh: 6980892892232523709
+    m_SerializedTextureGuid:
+      m_GuidLow: 13881346776848702559
+      m_GuidHigh: 16552065447821638747
+    m_Size: {x: 0.060799997, y: 0.033099998}
+    m_SpecifySize: 1
+    m_Name: 0001_DS016-017_family-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4887511475067826922
+      m_GuidHigh: 7674531641072978306
+    m_SerializedTextureGuid:
+      m_GuidLow: 4995662039469082714
+      m_GuidHigh: 567109573529808584
+    m_Size: {x: 0.08728572, y: 0.080571435}
+    m_SpecifySize: 1
+    m_Name: 0002_DS016-017_parents
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4788777052479168047
+      m_GuidHigh: 14905608213196884653
+    m_SerializedTextureGuid:
+      m_GuidLow: 9553437678742001214
+      m_GuidHigh: 16044392779314735976
+    m_Size: {x: 0.044714287, y: 0.069571435}
+    m_SpecifySize: 1
+    m_Name: 0003_DS016-017_father
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4791633114931835985
+      m_GuidHigh: 5597499052136171416
+    m_SerializedTextureGuid:
+      m_GuidLow: 17299532077320587270
+      m_GuidHigh: 3573320482484547960
+    m_Size: {x: 0.048857145, y: 0.069571435}
+    m_SpecifySize: 1
+    m_Name: 0004_DS016-017_mother
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4855803134203208801
+      m_GuidHigh: 11756087797423147139
+    m_SerializedTextureGuid:
+      m_GuidLow: 3171791688337072478
+      m_GuidHigh: 17140395112903375305
+    m_Size: {x: 0.07771429, y: 0.1367143}
+    m_SpecifySize: 1
+    m_Name: 0005_DS016-017_children
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5701996117940155435
+      m_GuidHigh: 11590049255066058632
+    m_SerializedTextureGuid:
+      m_GuidLow: 7986255111588095609
+      m_GuidHigh: 11605267488343216299
+    m_Size: {x: 0.048857145, y: 0.06671429}
+    m_SpecifySize: 1
+    m_Name: 0006_DS016-017_daughter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5660999913007424416
+      m_GuidHigh: 1975296296076518819
+    m_SerializedTextureGuid:
+      m_GuidLow: 12791449075174963464
+      m_GuidHigh: 919301000549189400
+    m_Size: {x: 0.044714287, y: 0.06671429}
+    m_SpecifySize: 1
+    m_Name: 0007_DS016-017_son
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4903109963365353645
+      m_GuidHigh: 8652293047901567378
+    m_SerializedTextureGuid:
+      m_GuidLow: 4761588275789764239
+      m_GuidHigh: 16607710844422211929
+    m_Size: {x: 0.053857144, y: 0.06214286}
+    m_SpecifySize: 1
+    m_Name: 0008_DS016-017_brother
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5594304417643861913
+      m_GuidHigh: 11466553256718064003
+    m_SerializedTextureGuid:
+      m_GuidLow: 5387550050149442720
+      m_GuidHigh: 13866670723193443530
+    m_Size: {x: 0.060285717, y: 0.06214286}
+    m_SpecifySize: 1
+    m_Name: 0009_DS016-017_sister
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5018673147818946781
+      m_GuidHigh: 13489522301436167813
+    m_SerializedTextureGuid:
+      m_GuidLow: 9098464107455802010
+      m_GuidHigh: 2964165906484673720
+    m_Size: {x: 0.06285714, y: 0.134}
+    m_SpecifySize: 1
+    m_Name: 0010_DS016-017_girl
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5403013637716924992
+      m_GuidHigh: 15069425461465124272
+    m_SerializedTextureGuid:
+      m_GuidLow: 10873082879905346561
+      m_GuidHigh: 11603631453762647400
+    m_Size: {x: 0.05314286, y: 0.134}
+    m_SpecifySize: 1
+    m_Name: 0011_DS016-017_boy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5586989229103363395
+      m_GuidHigh: 11763314064796777902
+    m_SerializedTextureGuid:
+      m_GuidLow: 267027445939170069
+      m_GuidHigh: 25704838551142186
+    m_Size: {x: 0.05471429, y: 0.15685715}
+    m_SpecifySize: 1
+    m_Name: 0012_DS016-017_man
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5647018645891233449
+      m_GuidHigh: 9855162960751439797
+    m_SerializedTextureGuid:
+      m_GuidLow: 9283282686662863952
+      m_GuidHigh: 9795130527520836264
+    m_Size: {x: 0.053857144, y: 0.14342858}
+    m_SpecifySize: 1
+    m_Name: 0013_DS016-017_woman
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5487114725636631564
+      m_GuidHigh: 6788684690807862178
+    m_SerializedTextureGuid:
+      m_GuidLow: 6405287655735985710
+      m_GuidHigh: 9912612905049278090
+    m_Size: {x: 0.162, y: 0.21557143}
+    m_SpecifySize: 1
+    m_Name: 0014_DS016-017_alltogether
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5213980389434147609
+      m_GuidHigh: 8427075298691252652
+    m_SerializedTextureGuid:
+      m_GuidLow: 11611446532497200962
+      m_GuidHigh: 14946864174736699914
+    m_Size: {x: 0.20514287, y: 0.14542858}
+    m_SpecifySize: 1
+    m_Name: 0015_DS016-017_family
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5347468382770502068
+      m_GuidHigh: 14349286754151341470
+    m_SerializedTextureGuid:
+      m_GuidLow: 16236770273342243645
+      m_GuidHigh: 8439464150919811672
+    m_Size: {x: 0.06871429, y: 0.08171429}
+    m_SpecifySize: 1
+    m_Name: 0016_DS016-017_grandfather
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4654503466135561210
+      m_GuidHigh: 295788464707379604
+    m_SerializedTextureGuid:
+      m_GuidLow: 2856441235784025350
+      m_GuidHigh: 16586097226218600601
+    m_Size: {x: 0.072000004, y: 0.08171429}
+    m_SpecifySize: 1
+    m_Name: 0017_DS016-017_grandmother
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5550708871177417543
+      m_GuidHigh: 1064861157367198336
+    m_SerializedTextureGuid:
+      m_GuidLow: 3599772597022375789
+      m_GuidHigh: 5269857075971850987
+    m_Size: {x: 0.05814286, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0018_DS016-017_aunt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4675194212107260161
+      m_GuidHigh: 4879042852947585969
+    m_SerializedTextureGuid:
+      m_GuidLow: 8936376378772379667
+      m_GuidHigh: 10062429372778057912
+    m_Size: {x: 0.053285718, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0019_DS016-017_uncle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5074207882989132442
+      m_GuidHigh: 4031627699533178025
+    m_SerializedTextureGuid:
+      m_GuidLow: 11327929191973547285
+      m_GuidHigh: 12773275325062703323
+    m_Size: {x: 0.056857146, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0020_DS016-017_malecousin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4839830578750367663
+      m_GuidHigh: 737622420252269458
+    m_SerializedTextureGuid:
+      m_GuidLow: 14399330113359645189
+      m_GuidHigh: 18088702910752374393
+    m_Size: {x: 0.07042857, y: 0.08157143}
+    m_SpecifySize: 1
+    m_Name: 0021_DS016-017_femalecousin
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5523127669071042484
+      m_GuidHigh: 17314736530231282859
+    m_SerializedTextureGuid:
+      m_GuidLow: 8211374499192563745
+      m_GuidHigh: 1070594537768898057
+    m_Size: {x: 0.051857144, y: 0.07700001}
+    m_SpecifySize: 1
+    m_Name: 0022_DS016-017_nephew
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5138283180714817696
+      m_GuidHigh: 9023062266667704193
+    m_SerializedTextureGuid:
+      m_GuidLow: 8598747968285008058
+      m_GuidHigh: 12471815903213375801
+    m_Size: {x: 0.05171429, y: 0.07700001}
+    m_SpecifySize: 1
+    m_Name: 0023_DS016-017_niece
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5363477648832503939
+      m_GuidHigh: 5027690430758088377
+    m_SerializedTextureGuid:
+      m_GuidLow: 2009850237594820009
+      m_GuidHigh: 16446836562275839673
+    m_Size: {x: 0.048285715, y: 0.08171429}
+    m_SpecifySize: 1
+    m_Name: 0024_DS016-017_older
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4613432318099153102
+      m_GuidHigh: 6293015717995921583
+    m_SerializedTextureGuid:
+      m_GuidLow: 217308534432121449
+      m_GuidHigh: 7693264190677316954
+    m_Size: {x: 0.15414287, y: 0.08828572}
+    m_SpecifySize: 1
+    m_Name: 0025_DS016-017_youth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4733866476814153397
+      m_GuidHigh: 9977339481551568531
+    m_SerializedTextureGuid:
+      m_GuidLow: 7734037493543267131
+      m_GuidHigh: 176240138599105929
+    m_Size: {x: 0.06928572, y: 0.08514286}
+    m_SpecifySize: 1
+    m_Name: 0026_DS016-017_close
+    m_Texture: {fileID: 0}

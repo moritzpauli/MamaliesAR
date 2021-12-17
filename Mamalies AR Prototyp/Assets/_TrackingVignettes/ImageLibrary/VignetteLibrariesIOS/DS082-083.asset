@@ -1,0 +1,247 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS082-083
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4847031849262646861
+  m_GuidHigh: 6550117668587776655
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5370267636517845144
+      m_GuidHigh: 6024035861006025137
+    m_SerializedTextureGuid:
+      m_GuidLow: 16178317529221360336
+      m_GuidHigh: 155721428736953435
+    m_Size: {x: 0.069699995, y: 0.0734}
+    m_SpecifySize: 1
+    m_Name: 0620_DS082-083_moisture
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4924450098524280317
+      m_GuidHigh: 2151216545289553792
+    m_SerializedTextureGuid:
+      m_GuidLow: 14638105776137876872
+      m_GuidHigh: 10652563144813127289
+    m_Size: {x: 0.09885715, y: 0.11285715}
+    m_SpecifySize: 1
+    m_Name: 0621_DS082-083_rain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4781576513178878793
+      m_GuidHigh: 16281277689618385338
+    m_SerializedTextureGuid:
+      m_GuidLow: 4770572125335250355
+      m_GuidHigh: 359727876928577001
+    m_Size: {x: 0.05728572, y: 0.11742858}
+    m_SpecifySize: 1
+    m_Name: 0622_DS082-083_torain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5551221468582077889
+      m_GuidHigh: 4226404612902951048
+    m_SerializedTextureGuid:
+      m_GuidLow: 5297471907010969719
+      m_GuidHigh: 18164210571955338025
+    m_Size: {x: 0.11385715, y: 0.09657143}
+    m_SpecifySize: 1
+    m_Name: 0623_DS082-083_sky
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5461639162453258617
+      m_GuidHigh: 5834862597004337847
+    m_SerializedTextureGuid:
+      m_GuidLow: 6252317130770406427
+      m_GuidHigh: 6233078509840524954
+    m_Size: {x: 0.08742858, y: 0.101}
+    m_SpecifySize: 1
+    m_Name: 0624_DS082-083_snow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4958543129548930023
+      m_GuidHigh: 742150693154113713
+    m_SerializedTextureGuid:
+      m_GuidLow: 10116316523476987829
+      m_GuidHigh: 14778791231410043209
+    m_Size: {x: 0.07700001, y: 0.09514286}
+    m_SpecifySize: 1
+    m_Name: 0625_DS082-083_shiny
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4621594996541607898
+      m_GuidHigh: 18430005164494356905
+    m_SerializedTextureGuid:
+      m_GuidLow: 13597688336078818769
+      m_GuidHigh: 10234565740027297787
+    m_Size: {x: 0.08014286, y: 0.1297143}
+    m_SpecifySize: 1
+    m_Name: 0626_DS082-083_coldness
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5214999848444426218
+      m_GuidHigh: 1852265956550613914
+    m_SerializedTextureGuid:
+      m_GuidLow: 7562740162814436988
+      m_GuidHigh: 4027213614184864441
+    m_Size: {x: 0.08014286, y: 0.1297143}
+    m_SpecifySize: 1
+    m_Name: 0627_DS082-083_tobecold
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5759602803801951077
+      m_GuidHigh: 7409344738940435850
+    m_SerializedTextureGuid:
+      m_GuidLow: 5031706483563717257
+      m_GuidHigh: 4057850073943000824
+    m_Size: {x: 0.06671429, y: 0.11528572}
+    m_SpecifySize: 1
+    m_Name: 0628_DS082-083_warm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4670646443922508283
+      m_GuidHigh: 2203343807819194242
+    m_SerializedTextureGuid:
+      m_GuidLow: 6864668369067154724
+      m_GuidHigh: 17866128391757556472
+    m_Size: {x: 0.072571434, y: 0.07342857}
+    m_SpecifySize: 1
+    m_Name: 0629_DS082-083_colours
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5417689306153558740
+      m_GuidHigh: 9410712646827684534
+    m_SerializedTextureGuid:
+      m_GuidLow: 13169927449159310570
+      m_GuidHigh: 2447579275008245656
+    m_Size: {x: 0.17114286, y: 0.14242858}
+    m_SpecifySize: 1
+    m_Name: 0630_DS082-083_colourful
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4998977142285755567
+      m_GuidHigh: 8159342394427809433
+    m_SerializedTextureGuid:
+      m_GuidLow: 16178222917037436406
+      m_GuidHigh: 9561354116054889179
+    m_Size: {x: 0.073714286, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0631_DS082-083_yellow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5741836002941041682
+      m_GuidHigh: 2748765961723707306
+    m_SerializedTextureGuid:
+      m_GuidLow: 14538861477626825961
+      m_GuidHigh: 2016233967530882920
+    m_Size: {x: 0.066, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0632_DS082-083_orange
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4723648955201878757
+      m_GuidHigh: 6164016311790986626
+    m_SerializedTextureGuid:
+      m_GuidLow: 3221444441607997106
+      m_GuidHigh: 17369566009256626872
+    m_Size: {x: 0.07185715, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0633_DS082-083_red
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4848138121197548793
+      m_GuidHigh: 5845569409618758285
+    m_SerializedTextureGuid:
+      m_GuidLow: 18047261770816491822
+      m_GuidHigh: 3379803874585930040
+    m_Size: {x: 0.058285717, y: 0.08028572}
+    m_SpecifySize: 1
+    m_Name: 0634_DS082-083_pink
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5422435971107155277
+      m_GuidHigh: 8189396980583334538
+    m_SerializedTextureGuid:
+      m_GuidLow: 14718898410834585139
+      m_GuidHigh: 17622199366112155226
+    m_Size: {x: 0.09314286, y: 0.076000005}
+    m_SpecifySize: 1
+    m_Name: 0635_DS082-083_purple
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4992882596890117230
+      m_GuidHigh: 764652259395128738
+    m_SerializedTextureGuid:
+      m_GuidLow: 577865063141795867
+      m_GuidHigh: 2079136236277073128
+    m_Size: {x: 0.08385715, y: 0.08114286}
+    m_SpecifySize: 1
+    m_Name: 0636_DS082-083_blue
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5071489678105929237
+      m_GuidHigh: 13214233393551476102
+    m_SerializedTextureGuid:
+      m_GuidLow: 6806290123301074130
+      m_GuidHigh: 1068456304798264936
+    m_Size: {x: 0.07971429, y: 0.080000006}
+    m_SpecifySize: 1
+    m_Name: 0637_DS082-083_grey
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5487092896279749690
+      m_GuidHigh: 8164707392684877467
+    m_SerializedTextureGuid:
+      m_GuidLow: 15579193748645534141
+      m_GuidHigh: 3924728033122251721
+    m_Size: {x: 0.073142864, y: 0.080000006}
+    m_SpecifySize: 1
+    m_Name: 0638_DS082-083_white
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5758930143078994317
+      m_GuidHigh: 17571161029784946361
+    m_SerializedTextureGuid:
+      m_GuidLow: 8486156133152356745
+      m_GuidHigh: 7177543919742352713
+    m_Size: {x: 0.066, y: 0.08114286}
+    m_SpecifySize: 1
+    m_Name: 0639_DS082-083_green
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5144569357232304317
+      m_GuidHigh: 11681293131778765962
+    m_SerializedTextureGuid:
+      m_GuidLow: 5657845248403424064
+      m_GuidHigh: 6286854601533545880
+    m_Size: {x: 0.07185715, y: 0.076000005}
+    m_SpecifySize: 1
+    m_Name: 0640_DS082-083_beige
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4829812212284119832
+      m_GuidHigh: 4843829618205410229
+    m_SerializedTextureGuid:
+      m_GuidLow: 16943935865108461380
+      m_GuidHigh: 10852429488589249560
+    m_Size: {x: 0.08442858, y: 0.080000006}
+    m_SpecifySize: 1
+    m_Name: 0641_DS082-083_brown
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5081664273674267334
+      m_GuidHigh: 5743913823227070910
+    m_SerializedTextureGuid:
+      m_GuidLow: 5599294199757235764
+      m_GuidHigh: 18187782970636434922
+    m_Size: {x: 0.07185715, y: 0.08800001}
+    m_SpecifySize: 1
+    m_Name: 0642_DS082-083_black
+    m_Texture: {fileID: 0}

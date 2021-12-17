@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS058-059
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4821859575643362146
+  m_GuidHigh: 10474703228134145939
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4907116457526586806
+      m_GuidHigh: 4810231374753117372
+    m_SerializedTextureGuid:
+      m_GuidLow: 2671917426556291400
+      m_GuidHigh: 7872649635791444489
+    m_Size: {x: 0.0479, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: 0407_DS058-059_world
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4877341196659365824
+      m_GuidHigh: 5315056824611249330
+    m_SerializedTextureGuid:
+      m_GuidLow: 14264239040788487805
+      m_GuidHigh: 1859313592334786507
+    m_Size: {x: 0.09528572, y: 0.06814286}
+    m_SpecifySize: 1
+    m_Name: 0408_DS058-059_earth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5025067051422674803
+      m_GuidHigh: 10656189146244889502
+    m_SerializedTextureGuid:
+      m_GuidLow: 2878947149683684485
+      m_GuidHigh: 13382580979768945050
+    m_Size: {x: 0.113571435, y: 0.07957143}
+    m_SpecifySize: 1
+    m_Name: 0409_DS058-059_country
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5290410428002463488
+      m_GuidHigh: 989028815595223180
+    m_SerializedTextureGuid:
+      m_GuidLow: 5387460754510585973
+      m_GuidHigh: 12249170556738818281
+    m_Size: {x: 0.06571429, y: 0.069714285}
+    m_SpecifySize: 1
+    m_Name: 0410_DS058-059_passport
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5397390326093320889
+      m_GuidHigh: 6318680742939732125
+    m_SerializedTextureGuid:
+      m_GuidLow: 15845066014129297784
+      m_GuidHigh: 2764502336522756553
+    m_Size: {x: 0.1737143, y: 0.06728572}
+    m_SpecifySize: 1
+    m_Name: 0411_DS058-059_city
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5672229671637227233
+      m_GuidHigh: 5906284354805860268
+    m_SerializedTextureGuid:
+      m_GuidLow: 12084438978949851240
+      m_GuidHigh: 6707415933869051336
+    m_Size: {x: 0.08785715, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0412_DS058-059_capital
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5521669622282853288
+      m_GuidHigh: 2654520457851818641
+    m_SerializedTextureGuid:
+      m_GuidLow: 2991681648795210126
+      m_GuidHigh: 6500741665180234219
+    m_Size: {x: 0.08314286, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0413_DS058-059_village
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5506966836729065705
+      m_GuidHigh: 2226629196120503448
+    m_SerializedTextureGuid:
+      m_GuidLow: 2036877586927957836
+      m_GuidHigh: 394061831472368603
+    m_Size: {x: 0.16114287, y: 0.11128572}
+    m_SpecifySize: 1
+    m_Name: 0414_DS058-059_todiscover
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5100894539615712048
+      m_GuidHigh: 17349565751858538655
+    m_SerializedTextureGuid:
+      m_GuidLow: 12296091757243313630
+      m_GuidHigh: 5671324839207932330
+    m_Size: {x: 0.12914287, y: 0.064}
+    m_SpecifySize: 1
+    m_Name: 0415_DS058-059_planet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5262757278304443822
+      m_GuidHigh: 4252459258431912850
+    m_SerializedTextureGuid:
+      m_GuidLow: 13007597658989199494
+      m_GuidHigh: 5139789538193937833
+    m_Size: {x: 0.18100001, y: 0.09485715}
+    m_SpecifySize: 1
+    m_Name: 0416_DS058-059_harbour
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5652335116508987956
+      m_GuidHigh: 3914036459842881171
+    m_SerializedTextureGuid:
+      m_GuidLow: 9832693210431516617
+      m_GuidHigh: 18105564686897781771
+    m_Size: {x: 0.186, y: 0.07742857}
+    m_SpecifySize: 1
+    m_Name: 0417_DS058-059_mountains
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5329017765076735451
+      m_GuidHigh: 2241259943484358576
+    m_SerializedTextureGuid:
+      m_GuidLow: 3005121560229577662
+      m_GuidHigh: 3935492182732044216
+    m_Size: {x: 0.15485714, y: 0.08514286}
+    m_SpecifySize: 1
+    m_Name: 0418_DS058-059_desert
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5184658966326971819
+      m_GuidHigh: 5909648358171911351
+    m_SerializedTextureGuid:
+      m_GuidLow: 12214906713817763036
+      m_GuidHigh: 2623901275382783528
+    m_Size: {x: 0.294, y: 0.28857145}
+    m_SpecifySize: 1
+    m_Name: 2004_DS058-059_world
+    m_Texture: {fileID: 0}
