@@ -297,11 +297,18 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         print("any tracking change");
         if (scanCompleted)
         {
+            foreach (GameObject go in arTrackedImageObjectList)
+            {
+                Destroy(go);
+            }
+            arTrackedImageObjectList.Clear();
+            currentTrackedImageList.Clear();
             args.removed.Clear();
             args.added.Clear();
             args.updated.Clear();
             scanCompleted = false;
             StartCoroutine(ResetTracking());
+            
         }
         imagesChanged = true;
         //addedTrackablesDebug.text = "ADDED: ";
@@ -414,13 +421,14 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         }
         pageSelection = false;
         loadNewLibraryTimer = loadNewLibraryTime;
+        
+        StartCoroutine( ResetTracking());
         foreach (GameObject go in arTrackedImageObjectList)
         {
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
         currentTrackedImageList.Clear();
-        StartCoroutine( ResetTracking());
 
     }
 
@@ -547,13 +555,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
         scanCompleted = true;
+        StartCoroutine(ResetTracking());
         foreach (GameObject go in arTrackedImageObjectList)
         {
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
         currentTrackedImageList.Clear();
-        StartCoroutine(ResetTracking());
     }
 
     /// <summary>
