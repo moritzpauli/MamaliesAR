@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -976,6 +977,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Focus_SpriteSheet_15: -5137010910719245735
+      Focus_SpriteSheet_25: -2062318897334953742
+      Focus_SpriteSheet_29: -5447003312555218468
+      Focus_SpriteSheet_28: -6633649644714658502
+      Focus_SpriteSheet_10: -6364514642789104754
+      Focus_SpriteSheet_27: 4338961783084883601
+      Focus_SpriteSheet_22: -1913624340424138327
+      Focus_SpriteSheet_32: -5372885710341937281
+      Focus_SpriteSheet_5: -7793497954933098092
+      Focus_SpriteSheet_21: 801062261936118917
+      Focus_SpriteSheet_1: -363654279642617250
+      Focus_SpriteSheet_8: -441240508917862150
+      Focus_SpriteSheet_14: -8962505454335833737
+      Focus_SpriteSheet_34: 4702683976125723615
+      Focus_SpriteSheet_24: 7877200787024468682
+      Focus_SpriteSheet_11: -7029695687399077686
+      Focus_SpriteSheet_19: 5354326101677829434
+      Focus_SpriteSheet_9: 3846359153575107819
+      Focus_SpriteSheet_33: -3448556216150377560
+      Focus_SpriteSheet_3: -8008322797650527673
+      Focus_SpriteSheet_6: 530778036519165693
+      Focus_SpriteSheet_13: -2751544498733110822
+      Focus_SpriteSheet_7: -6620426998371915733
+      Focus_SpriteSheet_31: 8066661672871310237
+      Focus_SpriteSheet_23: -4900799413778454279
+      Focus_SpriteSheet_2: -4012381023009866269
+      Focus_SpriteSheet_4: 7363081813668740887
+      Focus_SpriteSheet_16: -1763951906865148672
+      Focus_SpriteSheet_17: -6922205623793273174
+      Focus_SpriteSheet_20: 1417302838345308210
+      Focus_SpriteSheet_0: 6587265439033936104
+      Focus_SpriteSheet_12: 3449694604003027437
+      Focus_SpriteSheet_30: -8026152955905632230
+      Focus_SpriteSheet_26: -2850020419612553604
+      Focus_SpriteSheet_18: -6994124545847425132
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

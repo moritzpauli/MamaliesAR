@@ -129,6 +129,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -976,6 +977,42 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      Sprite_Focus_460x340_30fps_5: -1205890711634331945
+      Sprite_Focus_460x340_30fps_2: 773075159863918417
+      Sprite_Focus_460x340_30fps_10: -7356531703527740472
+      Sprite_Focus_460x340_30fps_30: 3078876117905873153
+      Sprite_Focus_460x340_30fps_23: 3215702132649442572
+      Sprite_Focus_460x340_30fps_3: 367720349646485085
+      Sprite_Focus_460x340_30fps_6: 188029879305327919
+      Sprite_Focus_460x340_30fps_9: -6184823814276211899
+      Sprite_Focus_460x340_30fps_24: 8756758807221109506
+      Sprite_Focus_460x340_30fps_27: 353370738500916653
+      Sprite_Focus_460x340_30fps_1: 5217958585025267980
+      Sprite_Focus_460x340_30fps_13: 6006476066209367696
+      Sprite_Focus_460x340_30fps_20: 5812757720764590851
+      Sprite_Focus_460x340_30fps_21: 3932456774295275039
+      Sprite_Focus_460x340_30fps_33: -4420779584081206647
+      Sprite_Focus_460x340_30fps_11: 5579516220134697393
+      Sprite_Focus_460x340_30fps_19: -8257849361278178277
+      Sprite_Focus_460x340_30fps_0: -2136650109836139919
+      Sprite_Focus_460x340_30fps_29: 7556545422320806433
+      Sprite_Focus_460x340_30fps_31: 3070560278848544613
+      Sprite_Focus_460x340_30fps_17: -6595659971781684398
+      Sprite_Focus_460x340_30fps_32: -7638714943893661254
+      Sprite_Focus_460x340_30fps_22: 4934761265554961310
+      Sprite_Focus_460x340_30fps_4: 6103007249029106549
+      Sprite_Focus_460x340_30fps_12: 6953040953525941501
+      Sprite_Focus_460x340_30fps_8: -4458719425578908309
+      Sprite_Focus_460x340_30fps_16: 2409135331882535879
+      Sprite_Focus_460x340_30fps_18: -4179547117403579695
+      Sprite_Focus_460x340_30fps_26: -134930001393429417
+      Sprite_Focus_460x340_30fps_25: -8698818187373589659
+      Sprite_Focus_460x340_30fps_7: 6551460476007676049
+      Sprite_Focus_460x340_30fps_14: -7644083642074950728
+      Sprite_Focus_460x340_30fps_15: -1638318125297144612
+      Sprite_Focus_460x340_30fps_28: -3371946134210144813
+      Sprite_Focus_460x340_30fps_34: -2602007034604360273
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

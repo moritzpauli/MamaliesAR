@@ -134,6 +134,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     [SerializeField]
     private float noRaycastTime = 3f;
 
+   
 
 #region Initiation
 
@@ -248,17 +249,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         
     }
 
-    private IEnumerator ConvertLibrariesCoroutine()
-    {
-        loadingPanel.SetActive(true);
-        for (int i = 0; i < imageLibrariesList.Count; i++)
-        {
-            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
-        }
-        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
-        loadingPanel.SetActive(false);
-        yield return null;
-    }
+    
 
     private IEnumerator ResetTracking()
     {
