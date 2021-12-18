@@ -345,7 +345,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			//print(trackingIndicator.transform.position);
 			if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
 			{
-				if (pageSelection)
+				if (!char.IsDigit(image.referenceImage.name[0]))
 				{
 
 					SelectNewPageLibrary(image.referenceImage.name);
@@ -414,9 +414,9 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 				AddTrackedObject(image);
 			}
-			
 
-			if (pageSelection)
+
+			if (!char.IsDigit(image.referenceImage.name[0]))
 			{
 
 				SelectNewPageLibrary(image.referenceImage.name);
@@ -425,7 +425,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			//Debug.Log(image.referenceImage.name + " ADDED");
 			// addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-		
+
 
 		}
 
