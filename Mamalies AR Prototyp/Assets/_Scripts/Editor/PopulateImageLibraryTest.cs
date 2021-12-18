@@ -115,8 +115,16 @@ public class PopulateImageLibraryTest : Editor
             imageLibrary.Add();
             imageLibrary.SetTexture(imageLibrary.count - 1, texture, false);
             imageLibrary.SetSpecifySize(imageLibrary.count - 1, true);
-            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2(0.4f, 0.24f));
-            imageLibrary.SetName(imageLibrary.count - 1,  texture.name);
+            imageLibrary.SetSize(imageLibrary.count - 1, new Vector2(0.2f, 0.24f));
+			if (texture.name.Contains("x"))
+			{
+                imageLibrary.SetName(imageLibrary.count - 1, texture.name.Trim('x'));
+            }
+			else
+			{
+                imageLibrary.SetName(imageLibrary.count - 1, texture.name);
+            }
+            
         }
 
         Debug.Log("Image Library Size:" + imageLibrary.count);
