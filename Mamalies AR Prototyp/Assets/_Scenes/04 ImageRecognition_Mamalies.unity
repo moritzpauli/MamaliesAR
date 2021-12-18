@@ -1860,7 +1860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   raycastIdText: {fileID: 778022923}
   trackableNameText: {fileID: 470405231}
-  currentLibraryEntry: {fileID: 0}
+  currentLibraryEntry: {fileID: 292398655}
   scanTime: 2
   animateViewfinder: 1
   arMarkerLayer:

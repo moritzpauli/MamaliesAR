@@ -218,7 +218,15 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 		SwapImageLibraries();
 		//raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
-		currentLibraryEntry.text = arTrackedImageManager.referenceLibrary[0].texture.name;
+		if (arTrackedImageManager.subsystem.imageLibrary != null)
+		{
+			currentLibraryEntry.text = arTrackedImageManager.subsystem.imageLibrary[0].name;
+
+		}
+		else
+		{
+			currentLibraryEntry.text = "No current subsystem library set";
+		}
 	}
 
 	public void SwapImageLibraryTest()
@@ -374,7 +382,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 				UpdateTrackedObject(image);
 
 
-				if (!currentTrackedImageList.Contains(image))
+				if (!currentTrackedImageList.Contains(image) && char.IsDigit(image.referenceImage.name[0]))
 				{
 					currentTrackedImageList.Add(image);
 					AddTrackedObject(image);
@@ -400,9 +408,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		{
 			print(image.referenceImage.name);
 			// add image to tracked images list
-			currentTrackedImageList.Add(image);
+			if (char.IsDigit(image.referenceImage.name[0]))
+			{
+				currentTrackedImageList.Add(image);
 
-			AddTrackedObject(image);
+				AddTrackedObject(image);
+			}
+			
 
 			if (pageSelection)
 			{
@@ -413,7 +425,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			//Debug.Log(image.referenceImage.name + " ADDED");
 			// addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-			trackingMarker.transform.position = image.transform.position;
+		
 
 		}
 
@@ -454,13 +466,13 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 	}
 
 	private void AddTrackedObject(ARTrackedImage image)
-	{
-		GameObject trackedObject = Instantiate(trackingMarker);
-		trackedObject.transform.name = image.referenceImage.name;
-		trackedObject.transform.position = image.transform.position;
-		trackedObject.transform.rotation = image.transform.rotation;
-		trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
-		arTrackedImageObjectList.Add(trackedObject);
+	{		
+			GameObject trackedObject = Instantiate(trackingMarker);
+			trackedObject.transform.name = image.referenceImage.name;
+			trackedObject.transform.position = image.transform.position;
+			trackedObject.transform.rotation = image.transform.rotation;
+			trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
+			arTrackedImageObjectList.Add(trackedObject);		
 	}
 
 	private void UpdateTrackedObject(ARTrackedImage image)
