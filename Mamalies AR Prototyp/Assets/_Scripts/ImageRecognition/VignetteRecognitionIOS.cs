@@ -27,7 +27,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	//private TextMeshProUGUI updatedTrackablesDebug;
 	//[SerializeField]
 	//private TextMeshProUGUI removedTrackablesDebug;
-
+	[SerializeField]
+	private Text currentLibraryEntry;
 
 	// parameters
 	[SerializeField]
@@ -105,7 +106,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	private RuntimeReferenceImageLibrary runtimePagesLibrary;
 
-	private int imgLibraryIndex = 0;
 
 	private bool imagesChanged = false;
 
@@ -218,20 +218,22 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 		SwapImageLibraries();
 		//raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
+		currentLibraryEntry.text = arTrackedImageManager.referenceLibrary[0].texture.name;
 	}
 
-	public void CycleImageLibrariesManual()
+	public void SwapImageLibraryTest()
 	{
-		imgLibraryIndex++;
-		if (imgLibraryIndex > imageLibrariesList.Count - 1)
-		{
-			imgLibraryIndex = 0;
-		}
-		print(imageLibrariesList[imgLibraryIndex].name);
-		arTrackedImageManager.enabled = false;
-		arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[imgLibraryIndex];
-		arTrackedImageManager.enabled = true;
+		arTrackedImageObjectList.Clear();
+		currentTrackedImageList.Clear();
+		print("swap libraries");
+		arTrackedImageManager.subsystem.Stop();
+		arTrackedImageManager.referenceLibrary= pagesLibrary;
+		arTrackedImageManager.subsystem.Start();
+		StartCoroutine(ResetTracking());
+		pageSelection = true;
+		print("New page first vignette: " + arTrackedImageManager.subsystem.imageLibrary[0].name);
 	}
+
 
 
 	private async void ConvertLibrariesAsync()
@@ -249,7 +251,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		}
 		runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
 		loadingPanel.SetActive(false);
-
+		await Task.Yield();
 
 	}
 
@@ -286,7 +288,9 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 				arTrackedImageObjectList.Clear();
 				currentTrackedImageList.Clear();
 				print("swap libraries");
+				arTrackedImageManager.subsystem.Stop();
 				arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
+				arTrackedImageManager.subsystem.Start();
 				StartCoroutine(ResetTracking());
 				pageSelection = true;
 				print("New page first vignette: " + arTrackedImageManager.subsystem.imageLibrary[0].name);
@@ -428,12 +432,11 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 	private void SelectNewPageLibrary(string pageName)
 	{
-		print(pageName);
+		print("Select Page: " + pageName);
 		for (int i = 0; i < imageLibrariesList.Count; i++)
 		{
 			if (imageLibrariesList[i].name == pageName)
 			{
-				imgLibraryIndex = i;
 				arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[i];
 			}
 		}
