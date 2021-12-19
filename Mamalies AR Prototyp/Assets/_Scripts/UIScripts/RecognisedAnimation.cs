@@ -24,11 +24,13 @@ public class RecognisedAnimation : MonoBehaviour
 		rTransform = GetComponent<RectTransform>();
 		originalScale = rTransform.localScale.x;
 		textMesh = GetComponent<TextMeshProUGUI>();
+		textMesh.enabled = false;
 
 	}
 
 	public void PlayRecognisedAnimation()
 	{
+		StopAllCoroutines();
         StartCoroutine(AnimateRect());
 	}
 

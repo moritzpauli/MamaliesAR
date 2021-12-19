@@ -290,13 +290,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			loadNewLibraryTimer -= Time.deltaTime;
 			if (loadNewLibraryTimer <= 0)
 			{
-
-				foreach (GameObject go in arTrackedImageObjectList)
-				{
-					Destroy(go);
-				}
-				arTrackedImageObjectList.Clear();
-				currentTrackedImageList.Clear();
+				DestroyTrackingObjects();
 				print("swap libraries");
 				arTrackedImageManager.subsystem.Stop();
 				arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
@@ -443,6 +437,20 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 	}
 
+	private void DestroyTrackingObjects()
+	{
+		foreach (GameObject go in arTrackedImageObjectList)
+		{
+			DestroyImmediate(go);
+		}
+		GameObject[] tempMarkers = GameObject.FindGameObjectsWithTag("arMarker");
+		foreach (GameObject go in tempMarkers)
+		{
+			DestroyImmediate(go);
+		}
+		arTrackedImageObjectList.Clear();
+		currentTrackedImageList.Clear();
+	}
 
 	private void SelectNewPageLibrary(string pageName)
 	{
@@ -458,12 +466,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		loadNewLibraryTimer = loadNewLibraryTime;
 
 		StartCoroutine(ResetTracking());
-		foreach (GameObject go in arTrackedImageObjectList)
-		{
-			Destroy(go);
-		}
-		arTrackedImageObjectList.Clear();
-		currentTrackedImageList.Clear();
+		DestroyTrackingObjects();
 		pageRecognisedAnimation.PlayRecognisedAnimation();
 	}
 
@@ -591,12 +594,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		voiceLinePlayer.PlayVoiceLine(vignetteName);
 		scanCompleted = true;
 		StartCoroutine(ResetTracking());
-		foreach (GameObject go in arTrackedImageObjectList)
-		{
-			Destroy(go);
-		}
-		arTrackedImageObjectList.Clear();
-		currentTrackedImageList.Clear();
+		DestroyTrackingObjects();
 	}
 
 	/// <summary>
