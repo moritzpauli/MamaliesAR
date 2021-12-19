@@ -51,6 +51,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	private Image scannedImageDisplayVertical;
 	[SerializeField]
 	private GameObject scannedImageBackground;
+	[SerializeField]
+	private RecognisedAnimation pageRecognisedAnimation;
 
 
 	// func
@@ -462,7 +464,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		}
 		arTrackedImageObjectList.Clear();
 		currentTrackedImageList.Clear();
-
+		pageRecognisedAnimation.PlayRecognisedAnimation();
 	}
 
 	private void AddTrackedObject(ARTrackedImage image)
