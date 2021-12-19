@@ -220,15 +220,15 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 		SwapImageLibraries();
 		//raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
-		if (arTrackedImageManager.subsystem.imageLibrary != null)
-		{
-			currentLibraryEntry.text = arTrackedImageManager.subsystem.imageLibrary[0].name;
+		//if (arTrackedImageManager.subsystem.imageLibrary != null)
+		//{
+		//	currentLibraryEntry.text = arTrackedImageManager.subsystem.imageLibrary[0].name;
 
-		}
-		else
-		{
-			currentLibraryEntry.text = "No current subsystem library set";
-		}
+		//}
+		//else
+		//{
+		//	currentLibraryEntry.text = "No current subsystem library set";
+		//}
 	}
 
 	public void SwapImageLibraryTest()
