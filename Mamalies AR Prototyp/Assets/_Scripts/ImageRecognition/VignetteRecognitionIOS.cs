@@ -118,6 +118,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	private RuntimeReferenceImageLibrary tempLibrary;
 
+	private string currentPage = "";
+
 	//ios generation
 #if UNITY_IOS
     [SerializeField]
@@ -156,7 +158,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 		trackingManagerGameobject = arTrackedImageManager.gameObject;
 		loadingPanel.SetActive(true);
-		ConvertLibrariesAsync();
+		currentPage = imageLibrariesList[0].name;
+		//ConvertLibrariesAsync();
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
         {
@@ -218,7 +221,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 
 		TrackedImageScanningProcess();
 
-		SwapImageLibraries();
+		//SwapImageLibraries();
 		//raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
 		//if (arTrackedImageManager.subsystem.imageLibrary != null)
 		//{
@@ -341,7 +344,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			//print(trackingIndicator.transform.position);
 			if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
 			{
-				if (!char.IsDigit(image.referenceImage.name[0]))
+				if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
 				{
 
 					SelectNewPageLibrary(image.referenceImage.name);
@@ -412,7 +415,7 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 			}
 
 
-			if (!char.IsDigit(image.referenceImage.name[0]))
+			if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
 			{
 
 				SelectNewPageLibrary(image.referenceImage.name);
@@ -459,9 +462,10 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		{
 			if (imageLibrariesList[i].name == pageName)
 			{
-				arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrariesList[i];
+				arTrackedImageManager.referenceLibrary = imageLibrariesList[i];
 			}
 		}
+		currentPage = pageName;
 		pageSelection = false;
 		loadNewLibraryTimer = loadNewLibraryTime;
 
