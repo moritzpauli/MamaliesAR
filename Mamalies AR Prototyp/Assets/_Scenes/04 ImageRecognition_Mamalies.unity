@@ -1876,6 +1876,7 @@ MonoBehaviour:
   imageLibrariesList: []
   pagesLibrary: {fileID: 0}
   startupConvertLibraries: 0
+  currentPage: 
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 1.3
   noRaycastTime: 3
