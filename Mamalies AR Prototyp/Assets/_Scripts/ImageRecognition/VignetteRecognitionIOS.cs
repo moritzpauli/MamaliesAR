@@ -99,6 +99,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	[SerializeField]
 	private List<XRReferenceImageLibrary> imageLibrariesList = new List<XRReferenceImageLibrary>();
 	private const string libraryPath = "Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/";
+	AsyncOperationHandle<XRReferenceImageLibrary> libraryHandle;
 
 	[SerializeField]
 	private List<RuntimeReferenceImageLibrary> runtimeImageLibrariesList = new List<RuntimeReferenceImageLibrary>();
@@ -171,34 +172,34 @@ public class VignetteRecognitionIOS : MonoBehaviour
 #endif
 	}
 
-#if UNITY_EDITOR
-	/// <summary>
-	/// execute in editor, load image libraries
-	/// </summary>
+//#if UNITY_EDITOR
+//	/// <summary>
+//	/// execute in editor, load image libraries
+//	/// </summary>
 
-	private void OnValidate()
-	{
+//	private void OnValidate()
+//	{
 
-		imageLibrariesList.Clear();
-
-
-		imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
-
-		foreach (string libraryFilePath in imageLibraryPaths)
-		{
-			//Debug.Log(imageFilePath);
-			imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
-			// runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
-		}
+//		imageLibrariesList.Clear();
 
 
+//		imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
-#if UNITY_EDITOR_OSX
-arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
-    arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
-#endif
-	}
-#endif
+//		foreach (string libraryFilePath in imageLibraryPaths)
+//		{
+//			//Debug.Log(imageFilePath);
+//			imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+//			// runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
+//		}
+
+
+
+//#if UNITY_EDITOR_OSX
+//arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
+//    arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
+//#endif
+//	}
+//#endif
 
 	private void OnEnable()
 	{
@@ -222,6 +223,8 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		TrackedImageScanningProcess();
 
 		//SwapImageLibraries();
+
+
 		//raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
 		//if (arTrackedImageManager.subsystem.imageLibrary != null)
 		//{
@@ -280,10 +283,6 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 		arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
 		arTrackedImageManager.maxNumberOfMovingImages = 10;
 		arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-
-
-
-
 	}
 
 	private void SwapImageLibraries()
@@ -458,20 +457,23 @@ arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
 	private void SelectNewPageLibrary(string pageName)
 	{
 		print("Select Page: " + pageName);
-		for (int i = 0; i < imageLibrariesList.Count; i++)
+		Addressables.Release(libraryHandle);
+		string filePath = libraryPath + pageName + ".asset";
+		libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
+		libraryHandle.Completed += (operation) =>
 		{
-			if (imageLibrariesList[i].name == pageName)
-			{
-				arTrackedImageManager.referenceLibrary = imageLibrariesList[i];
-			}
-		}
-		currentPage = pageName;
-		pageSelection = false;
-		loadNewLibraryTimer = loadNewLibraryTime;
+			arTrackedImageManager.referenceLibrary = libraryHandle.Result;
+			currentPage = pageName;
+			pageSelection = false;
+			loadNewLibraryTimer = loadNewLibraryTime;
 
-		StartCoroutine(ResetTracking());
-		DestroyTrackingObjects();
-		pageRecognisedAnimation.PlayRecognisedAnimation();
+			StartCoroutine(ResetTracking());
+			DestroyTrackingObjects();
+			pageRecognisedAnimation.PlayRecognisedAnimation();
+			//Addressables.Release(textureHandle);
+			print("Library Asset Loaded: " + pageName);
+		};
+			
 	}
 
 	private void AddTrackedObject(ARTrackedImage image)
