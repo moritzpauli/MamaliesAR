@@ -157,7 +157,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
 		viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 		trackingManagerGameobject = arTrackedImageManager.gameObject;
-		loadingPanel.SetActive(true);
+		//loadingPanel.SetActive(true);
 		currentPage = imageLibrariesList[0].name;
 		//ConvertLibrariesAsync();
 #if UNITY_IOS
