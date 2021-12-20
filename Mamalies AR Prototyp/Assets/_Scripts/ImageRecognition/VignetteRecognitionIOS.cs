@@ -458,7 +458,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	private void SelectNewPageLibrary(string pageName)
 	{
 		print("Select Page: " + pageName);
-		Addressables.Release(libraryHandle);
+        if (libraryHandle.IsValid())
+        {
+			Addressables.Release(libraryHandle);
+        }
 		string filePath = libraryPath + pageName + ".asset";
 		libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
 		libraryHandle.Completed += (operation) =>
