@@ -119,7 +119,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	private RuntimeReferenceImageLibrary tempLibrary;
 
-	private string currentPage = "";
+	[SerializeField]
+	private string currentPage = "DS016-017";
 
 	//ios generation
 #if UNITY_IOS
@@ -159,7 +160,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
 		trackingManagerGameobject = arTrackedImageManager.gameObject;
 		//loadingPanel.SetActive(true);
-		currentPage = imageLibrariesList[0].name;
+		//currentPage = imageLibrariesList[0].name;
 		//ConvertLibrariesAsync();
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
