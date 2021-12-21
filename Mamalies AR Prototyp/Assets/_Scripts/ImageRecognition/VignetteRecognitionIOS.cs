@@ -466,6 +466,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
 		libraryHandle.Completed += (operation) =>
 		{
+			arTrackedImageManager.subsystem.Stop();
 			arTrackedImageManager.referenceLibrary = libraryHandle.Result;
 			currentPage = pageName;
 			pageSelection = false;
@@ -475,6 +476,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 			DestroyTrackingObjects();
 			pageRecognisedAnimation.PlayRecognisedAnimation();
 			//Addressables.Release(textureHandle);
+			arTrackedImageManager.subsystem.Start();
 			print("Library Asset Loaded: " + pageName);
 		};
 			
