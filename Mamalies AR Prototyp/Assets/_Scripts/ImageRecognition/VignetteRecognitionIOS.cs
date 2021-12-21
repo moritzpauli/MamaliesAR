@@ -114,6 +114,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	private bool pageSelection = false;
 
+	private MutableRuntimeReferenceImageLibrary runtimeImageLibrary;
+
 	[SerializeField]
 	private bool startupConvertLibraries = false;
 
@@ -121,6 +123,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	[SerializeField]
 	private string currentPage = "DS016-017";
+
+	[SerializeField]
+	private bool useMutableLibrary;
+	AsyncOperationHandle<Texture2D> trackingTextureHandle;
 
 	//ios generation
 #if UNITY_IOS
@@ -458,27 +464,51 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	private void SelectNewPageLibrary(string pageName)
 	{
 		print("Select Page: " + pageName);
-        if (libraryHandle.IsValid())
-        {
-			Addressables.Release(libraryHandle);
-        }
-		string filePath = libraryPath + pageName + ".asset";
-		libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
-		libraryHandle.Completed += (operation) =>
+		if (!useMutableLibrary)
 		{
-			arTrackedImageManager.subsystem.Stop();
-			arTrackedImageManager.referenceLibrary = libraryHandle.Result;
-			currentPage = pageName;
-			pageSelection = false;
-			loadNewLibraryTimer = loadNewLibraryTime;
+			
+			if (libraryHandle.IsValid())
+			{
+				Addressables.Release(libraryHandle);
+			}
+			string filePath = libraryPath + pageName + ".asset";
+			libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
+			libraryHandle.Completed += (operation) =>
+			{
+				arTrackedImageManager.subsystem.Stop();
+				arTrackedImageManager.referenceLibrary = libraryHandle.Result;
+				currentPage = pageName;
+				pageSelection = false;
+				loadNewLibraryTimer = loadNewLibraryTime;
 
-			StartCoroutine(ResetTracking());
-			DestroyTrackingObjects();
-			pageRecognisedAnimation.PlayRecognisedAnimation();
+				StartCoroutine(ResetTracking());
+				DestroyTrackingObjects();
+				pageRecognisedAnimation.PlayRecognisedAnimation();
 			//Addressables.Release(textureHandle);
 			arTrackedImageManager.subsystem.Start();
-			print("Library Asset Loaded: " + pageName);
-		};
+				print("Library Asset Loaded: " + pageName);
+			};
+		}
+        if (useMutableLibrary)
+        {
+			if (trackingTextureHandle.IsValid())
+			{
+				Addressables.Release(trackingTextureHandle);
+			}
+			runtimeImageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
+
+			Addressables.LoadAssetsAsync<Texture2D>(pageName, null).Completed += objects =>
+			{
+				foreach (Texture2D tex in objects.Result)
+                {
+					runtimeImageLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+                }
+				arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrary;
+				print("DONE: Tracking images loaded and added to mutable runtime reference library!");
+			};
+
+			
+        }
 			
 	}
 

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028349, g: 0.22571358, b: 0.3069225, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: e592c7f924d5f4e48a35a10dfc7ffa97, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: c38bd7a3a275b0e4e974b2bea8ed1524, type: 2}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
@@ -1844,10 +1844,10 @@ MonoBehaviour:
   arCamera: {fileID: 1066785463}
   trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
   imageLibrariesList: []
-  pagesLibrary: {fileID: 0}
+  pagesLibrary: {fileID: 11400000, guid: c38bd7a3a275b0e4e974b2bea8ed1524, type: 2}
   startupConvertLibraries: 0
   currentPage: 
-  inferiorDevices: 
+  useMutableLibrary: 1
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 1.3
   noRaycastTime: 3
