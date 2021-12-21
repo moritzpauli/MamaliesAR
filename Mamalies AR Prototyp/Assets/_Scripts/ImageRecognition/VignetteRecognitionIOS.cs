@@ -491,6 +491,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		}
         if (useMutableLibrary)
         {
+			currentPage = pageName;
 			if (trackingTextureHandle.IsValid())
 			{
 				Addressables.Release(trackingTextureHandle);
@@ -504,6 +505,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 					runtimeImageLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
                 }
 				arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrary;
+				
 				print("DONE: Tracking images loaded and added to mutable runtime reference library!");
 			};
 
