@@ -184,6 +184,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		}
 
 		arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+		
 
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
@@ -530,7 +531,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 				print("DONE: "+pageName+ " Tracking images loaded and added to mutable runtime reference library!");
 			};
 
-			
+			arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
         }
 			
 	}
