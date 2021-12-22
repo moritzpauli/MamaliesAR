@@ -537,7 +537,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             Addressables.LoadAssetsAsync<Texture2D>("pageReference", null).Completed += objects =>
             {
                 print("loadedPagereference");
-               // StartCoroutine(AddImagesToMutableLibrary(objects.Result));
+                StartCoroutine(AddImagesToMutableLibrary(objects.Result));
 
 
                 
@@ -555,6 +555,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
            AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
             yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
+            yield return new WaitForEndOfFrame();
             print("DONE:   Page Reference Images loaded and added to mutable runtime reference library!");
 
         }
