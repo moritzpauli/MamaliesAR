@@ -477,6 +477,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     public void SelectNewPageLibrary(string pageName)
     {
+
         print("Select Page: " + pageName);
         if (!useMutableLibrary)
         {
@@ -505,6 +506,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         if (useMutableLibrary)
         {
+            StopAllCoroutines();
             currentPage = pageName;
             mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
             arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
