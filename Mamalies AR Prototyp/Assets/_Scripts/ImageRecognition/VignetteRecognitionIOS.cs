@@ -129,8 +129,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private bool useMutableLibrary;
-    AsyncOperationHandle<Texture2D> trackingTextureHandle;
-    AsyncOperationHandle<Texture2D> pageReferenceTextureHandle;
+    AsyncOperationHandle<IList<Texture2D>> trackingTextureHandle;
+    AsyncOperationHandle<IList<Texture2D>> pageReferenceTextureHandle;
 
     //ios generation
 #if UNITY_IOS
@@ -367,7 +367,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
                 {
 
-                    SelectNewPageLibrary(image.referenceImage.name);
+                    StartCoroutine(SelectNewPageLibrary(image.referenceImage.name));
                 }
 
             }
@@ -438,7 +438,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
             {
 
-                SelectNewPageLibrary(image.referenceImage.name);
+                StartCoroutine(SelectNewPageLibrary(image.referenceImage.name));
             }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
@@ -475,7 +475,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
         currentTrackedImageList.Clear();
     }
 
-    public void SelectNewPageLibrary(string pageName)
+    public void SelectNewLibraryButton()
+    {
+        StartCoroutine(SelectNewPageLibrary("DS084-085"));
+    }
+
+
+    private IEnumerator SelectNewPageLibrary(string pageName)
     {
 
         print("Select Page: " + pageName);
@@ -506,7 +512,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         if (useMutableLibrary)
         {
-            StopAllCoroutines();
             currentPage = pageName;
             mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
             arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
@@ -525,43 +530,39 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //{
             //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
             //}
-            Addressables.LoadAssetsAsync<Texture2D>(pageName, null).Completed += objects =>
+
+
+            //load in textures of current page
+            trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
+            yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+            print("LOADED - " + pageName);
+            foreach (Texture2D tex in trackingTextureHandle.Result)
             {
-                foreach (Texture2D tex in objects.Result)
-                {
-                    mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-                }
+                AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+                yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
+            }
 
-                //Addressables.Release(trackingTextureHandle);
-                print("DONE: " + pageName + " Tracking images loaded and added to mutable runtime reference library!");
-            };
+            print("ADDED TO LIBRARY - " + pageName);
 
-            Addressables.LoadAssetsAsync<Texture2D>("pageReference", null).Completed += objects =>
+            //load in textures of page references
+            pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
+            yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
+            print("LOADED - reference images");
+            foreach (Texture2D tex in pageReferenceTextureHandle.Result)
             {
-                print("loadedPagereference");
-                StartCoroutine(AddImagesToMutableLibrary(objects.Result));
+                AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+                yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
 
 
-                
-            };
+            }
 
+            print("ADDED TO LIBRARY - reference images");
 
+   
         }
 
     }
 
-    private IEnumerator AddImagesToMutableLibrary(IList<Texture2D> images)
-    {
-
-        foreach (Texture2D tex in images)
-        {
-           AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-            yield return new WaitForEndOfFrame();
-            
-
-        }
-        print("DONE:   Page Reference Images loaded and added to mutable runtime reference library!");
-    }
 
     private void AddTrackedObject(ARTrackedImage image)
     {
