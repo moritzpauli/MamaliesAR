@@ -176,6 +176,15 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		//	{
 		//		mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
 		//	}
+
+
+		for (int i = 0; i < mutableRuntimeLibrary.supportedTextureFormatCount; i++)
+		{
+			Debug.Log(mutableRuntimeLibrary.GetSupportedTextureFormatAt(i) + "\n");
+		}
+
+		arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
         {
@@ -187,34 +196,34 @@ public class VignetteRecognitionIOS : MonoBehaviour
 #endif
 	}
 
-//#if UNITY_EDITOR
-//	/// <summary>
-//	/// execute in editor, load image libraries
-//	/// </summary>
+	//#if UNITY_EDITOR
+	//	/// <summary>
+	//	/// execute in editor, load image libraries
+	//	/// </summary>
 
-//	private void OnValidate()
-//	{
+	//	private void OnValidate()
+	//	{
 
-//		imageLibrariesList.Clear();
-
-
-//		imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
-
-//		foreach (string libraryFilePath in imageLibraryPaths)
-//		{
-//			//Debug.Log(imageFilePath);
-//			imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
-//			// runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
-//		}
+	//		imageLibrariesList.Clear();
 
 
+	//		imageLibraryPaths = Directory.GetFiles(libraryPath, "*.asset");
 
-//#if UNITY_EDITOR_OSX
-//arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
-//    arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
-//#endif
-//	}
-//#endif
+	//		foreach (string libraryFilePath in imageLibraryPaths)
+	//		{
+	//			//Debug.Log(imageFilePath);
+	//			imageLibrariesList.Add((XRReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(XRReferenceImageLibrary)));
+	//			// runtimeImageLibrariesList.Add((RuntimeReferenceImageLibrary)AssetDatabase.LoadAssetAtPath(libraryFilePath, typeof(RuntimeReferenceImageLibrary)));
+	//		}
+
+
+
+	//#if UNITY_EDITOR_OSX
+	//arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
+	//    arTrackedImageManager.referenceLibrary = imageLibrariesList[0];
+	//#endif
+	//	}
+	//#endif
 
 	private void OnEnable()
 	{
