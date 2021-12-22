@@ -554,12 +554,11 @@ public class VignetteRecognitionIOS : MonoBehaviour
         foreach (Texture2D tex in images)
         {
            AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-            yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
             yield return new WaitForEndOfFrame();
-            print("DONE:   Page Reference Images loaded and added to mutable runtime reference library!");
+            
 
         }
-
+        print("DONE:   Page Reference Images loaded and added to mutable runtime reference library!");
     }
 
     private void AddTrackedObject(ARTrackedImage image)
