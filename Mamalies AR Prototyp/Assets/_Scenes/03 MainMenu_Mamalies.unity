@@ -912,11 +912,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 918862303216639599, guid: af59d13c68793b647a985a00748f37e2, type: 3}
       propertyPath: m_text
-      value: Romanian
+      value: Romanes
       objectReference: {fileID: 0}
     - target: {fileID: 918862303216639599, guid: af59d13c68793b647a985a00748f37e2, type: 3}
       propertyPath: m_fontSize
-      value: 46.2
+      value: 42.7
       objectReference: {fileID: 0}
     - target: {fileID: 918862303216639599, guid: af59d13c68793b647a985a00748f37e2, type: 3}
       propertyPath: m_fontAsset

@@ -114,10 +114,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 	private bool pageSelection = false;
 
-	private MutableRuntimeReferenceImageLibrary runtimeImageLibrary;
+	private MutableRuntimeReferenceImageLibrary mutableRuntimeLibrary;
 
 	[SerializeField]
 	private bool startupConvertLibraries = false;
+
+	[SerializeField]
+	private Texture2D[] pageReferenceImages;
 
 	private RuntimeReferenceImageLibrary tempLibrary;
 
@@ -168,6 +171,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		//loadingPanel.SetActive(true);
 		//currentPage = imageLibrariesList[0].name;
 		//ConvertLibrariesAsync();
+		mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
         {
@@ -496,17 +500,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 			{
 				Addressables.Release(trackingTextureHandle);
 			}
-			runtimeImageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
 
+			foreach (Texture2D tex in pageReferenceImages)
+			{
+				mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+			}
 			Addressables.LoadAssetsAsync<Texture2D>(pageName, null).Completed += objects =>
 			{
 				foreach (Texture2D tex in objects.Result)
                 {
-					runtimeImageLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+					mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
                 }
-				arTrackedImageManager.subsystem.imageLibrary = runtimeImageLibrary;
 				
-				print("DONE: Tracking images loaded and added to mutable runtime reference library!");
+				
+				print("DONE: "+pageName+ " Tracking images loaded and added to mutable runtime reference library!");
 			};
 
 			
