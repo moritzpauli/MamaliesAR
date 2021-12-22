@@ -509,6 +509,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (useMutableLibrary)
         {
 			currentPage = pageName;
+			mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
 			if (trackingTextureHandle.IsValid())
 			{
 				Addressables.Release(trackingTextureHandle);
