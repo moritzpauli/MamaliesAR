@@ -162,6 +162,7 @@ MonoBehaviour:
     - DS116-117
     - DS118-119
     - DS120-121
+    - pageReference
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: c21440109446dc9418225ce2935dafd9, type: 2}
@@ -184,7 +185,7 @@ MonoBehaviour:
         m_SerializedData:
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.Int32
-          m_Data: 50741
+          m_Data: 57107
           m_Key: HostingServicePort
         - m_AssemblyName: mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089
           m_ClassName: System.String

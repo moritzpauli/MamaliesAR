@@ -130,6 +130,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 	[SerializeField]
 	private bool useMutableLibrary;
 	AsyncOperationHandle<Texture2D> trackingTextureHandle;
+	AsyncOperationHandle<Texture2D> pageReferenceTextureHandle;
 
 	//ios generation
 #if UNITY_IOS
@@ -511,9 +512,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
 			currentPage = pageName;
 			mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
+			arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+
 			if (trackingTextureHandle.IsValid())
 			{
 				Addressables.Release(trackingTextureHandle);
+				Addressables.Release(pageReferenceTextureHandle);
 			}
 
 			//foreach (Texture2D tex in pageReferenceImages)
@@ -531,7 +535,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
 				print("DONE: "+pageName+ " Tracking images loaded and added to mutable runtime reference library!");
 			};
 
-			arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+			Addressables.LoadAssetsAsync<Texture2D>("pageReference", null).Completed += objects =>
+			{
+				foreach (Texture2D tex in objects.Result)
+				{
+					mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+				}
+
+
+				print("DONE: " + pageName + " Page Reference Images loaded and added to mutable runtime reference library!");
+			};
+
+			
         }
 			
 	}
