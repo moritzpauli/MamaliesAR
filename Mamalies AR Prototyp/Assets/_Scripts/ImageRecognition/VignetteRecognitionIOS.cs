@@ -172,6 +172,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 		//currentPage = imageLibrariesList[0].name;
 		//ConvertLibrariesAsync();
 		mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
+		foreach (Texture2D tex in pageReferenceImages)
+		{
+			mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+		}
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
         {
