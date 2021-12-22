@@ -515,10 +515,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 				Addressables.Release(trackingTextureHandle);
 			}
 
-			foreach (Texture2D tex in pageReferenceImages)
-			{
-				mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-			}
+			//foreach (Texture2D tex in pageReferenceImages)
+			//{
+			//	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+			//}
 			Addressables.LoadAssetsAsync<Texture2D>(pageName, null).Completed += objects =>
 			{
 				foreach (Texture2D tex in objects.Result)
