@@ -545,7 +545,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             foreach (Texture2D tex in trackingTextureHandle.Result)
             {
                 AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-                yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
+                //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
             }
 
             print("ADDED TO LIBRARY - " + pageName);
