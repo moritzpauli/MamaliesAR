@@ -115,7 +115,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private bool pageSelection = false;
 
+    private MutableRuntimeReferenceImageLibrary mutablePageReferenceLibrary;
+
     private MutableRuntimeReferenceImageLibrary mutableRuntimeLibrary;
+
 
     [SerializeField]
     private bool startupConvertLibraries = false;
@@ -179,7 +182,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //		mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
         //	}
 
-
+        mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
 
 
 
@@ -339,7 +342,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     /// <param name="args"></param>
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
-        print("any tracking change");
+        //print("any tracking change");
         if (scanCompleted)
         {
 
@@ -516,7 +519,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (useMutableLibrary)
         {
             currentPage = pageName;
-            mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
+            mutableRuntimeLibrary = mutablePageReferenceLibrary;
             arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
 
             if (trackingTextureHandle.IsValid())
