@@ -10,6 +10,7 @@ using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System.Threading.Tasks;
+using UnityEngine.Jobs;
 #if UNITY_IOS
 using UnityEngine.iOS;
 #endif
@@ -437,7 +438,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
             {
-
                 StartCoroutine(SelectNewPageLibrary(image.referenceImage.name));
             }
 
@@ -483,7 +483,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private IEnumerator SelectNewPageLibrary(string pageName)
     {
-
+        if (pageName.Contains("x"))
+        {
+            pageName = pageName.Trim('x');
+        }
         print("Select Page: " + pageName);
         if (!useMutableLibrary)
         {
@@ -513,7 +516,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (useMutableLibrary)
         {
             currentPage = pageName;
-            mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary();
+            mutableRuntimeLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
             arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
 
             if (trackingTextureHandle.IsValid())
@@ -521,10 +524,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 Addressables.Release(trackingTextureHandle);
 
             }
-            if (pageReferenceTextureHandle.IsValid())
-            {
-                Addressables.Release(pageReferenceTextureHandle);
-            }
+            //if (pageReferenceTextureHandle.IsValid())
+            //{
+            //    Addressables.Release(pageReferenceTextureHandle);
+            //}
 
             //foreach (Texture2D tex in pageReferenceImages)
             //{
@@ -538,25 +541,26 @@ public class VignetteRecognitionIOS : MonoBehaviour
             print("LOADED - " + pageName);
             foreach (Texture2D tex in trackingTextureHandle.Result)
             {
-                AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-                yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
+                AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+                //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
             }
 
             print("ADDED TO LIBRARY - " + pageName);
 
-            //load in textures of page references
-            pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
-            yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
-            print("LOADED - reference images");
-            foreach (Texture2D tex in pageReferenceTextureHandle.Result)
-            {
-                AddReferenceImageJobState texState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-                yield return new WaitUntil(() => texState.jobHandle.IsCompleted);
+            ////load in textures of page references
+            //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
+            //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
+            //print("LOADED - reference images");
+            //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
+            //{
+            //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
+            //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
+            //    addJobHandle.Complete();
+              
 
+            //}
 
-            }
-
-            print("ADDED TO LIBRARY - reference images");
+            //print("ADDED TO LIBRARY - reference images");
 
    
         }
