@@ -1844,7 +1844,7 @@ MonoBehaviour:
   arCamera: {fileID: 1066785463}
   trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
   imageLibrariesList: []
-  pagesLibrary: {fileID: 0}
+  pagesLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   startupConvertLibraries: 0
   pageReferenceImages: []
   currentPage: 
