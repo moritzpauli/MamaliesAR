@@ -74,7 +74,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private float trackingLostTimer;
     private float imageChangedTimer;
 
+    [SerializeField]
     private ARTrackedImageManager arTrackedImageManager;
+    [SerializeField]
+    private ARTrackedImageManager pageArTrackedImageManager;
     private VoiceLinePlayer voiceLinePlayer;
 
     private Vector2 screenCenter;
@@ -169,7 +172,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
         print(screenCenter);
-        arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
+        //arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
         trackingManagerGameobject = arTrackedImageManager.gameObject;
@@ -229,6 +232,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private void OnEnable()
     {
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        pageArTrackedImageManager.trackedImagesChanged += OnPageTrackedImagesChanged;
     }
 
     private void OnDisable()
@@ -335,6 +339,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         imagesChanged = false;
     }
+
+
+
 
     /// <summary>
     /// Add or remove currently tracked images from list
@@ -478,11 +485,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         currentTrackedImageList.Clear();
     }
 
-    public void SelectNewLibraryButton()
-    {
-        StartCoroutine(SelectNewPageLibrary("DS084-085"));
-    }
-
+  
 
     private IEnumerator SelectNewPageLibrary(string pageName)
     {
@@ -873,6 +876,35 @@ public class VignetteRecognitionIOS : MonoBehaviour
     }
 
 
+
+    #endregion
+
+
+    #region TrackingTesting
+    public void SelectNewTrackedImageManagerButton()
+    {
+        if (arTrackedImageManager.gameObject.activeSelf)
+        {
+            arTrackedImageManager.gameObject.SetActive(false);
+            pageArTrackedImageManager.gameObject.SetActive(true);
+        }
+        else
+        {
+            arTrackedImageManager.gameObject.SetActive(true);
+            pageArTrackedImageManager.gameObject.SetActive(false);
+        }
+    }
+
+
+
+    private void OnPageTrackedImagesChanged(ARTrackedImagesChangedEventArgs args)
+    {
+        foreach (ARTrackedImage image in args.updated)
+        {
+            print(image.referenceImage.name);
+        }
+        
+    }
 
     #endregion
 
