@@ -18,6 +18,8 @@ public class RecognisedAnimation : MonoBehaviour
 	private RectTransform rTransform;
 	private TextMeshProUGUI textMesh;
 
+	[SerializeField]
+	private Image scannedImageBackground;
 
 	private void Start()
 	{
@@ -36,6 +38,7 @@ public class RecognisedAnimation : MonoBehaviour
 
     private IEnumerator AnimateRect()
 	{
+		scannedImageBackground.gameObject.SetActive(true);
 		float timer = 0;
 		rTransform.localScale = new Vector3(originalScale, originalScale, originalScale);
 		textMesh.alpha = 1.0f;
@@ -52,5 +55,6 @@ public class RecognisedAnimation : MonoBehaviour
 		}	
 		textMesh.enabled = false;
 		yield return null;
+		scannedImageBackground.gameObject.SetActive(false);
 	}
 }

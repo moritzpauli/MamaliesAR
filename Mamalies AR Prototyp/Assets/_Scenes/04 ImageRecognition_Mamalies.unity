@@ -2878,6 +2878,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   animationDuration: 10
   targetScale: 3
+  scannedImageBackground: {fileID: 52529250}
 --- !u!1 &1910229614
 GameObject:
   m_ObjectHideFlags: 0
