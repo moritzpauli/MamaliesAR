@@ -910,7 +910,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     {
         foreach (ARTrackedImage image in args.updated)
         {
-            print(image.referenceImage.name);
+            print( "Page recognition" + image.referenceImage.name);
         }
 
     }
