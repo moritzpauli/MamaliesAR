@@ -3,6 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using Unity.Mathematics;
+using Unity.Jobs;
+using Unity.Burst;
+using UnityEngine.ResourceManagement.AsyncOperations;
+using System.Threading.Tasks;
 
 public class RecognisedAnimation : MonoBehaviour
 {
@@ -21,6 +26,9 @@ public class RecognisedAnimation : MonoBehaviour
 	[SerializeField]
 	private Image scannedImageBackground;
 
+	[SerializeField]
+	private bool useJobs;
+
 	private void Start()
 	{
 		rTransform = GetComponent<RectTransform>();
@@ -30,10 +38,38 @@ public class RecognisedAnimation : MonoBehaviour
 
 	}
 
-	public void PlayRecognisedAnimation()
+    private void Update()
+    {
+		float startTime = Time.realtimeSinceStartup;
+		//LoadTestTask();
+		LoadTestTaskJob();
+		//Debug.Log((Time.realtimeSinceStartup - startTime) * 1000 + "ms");
+    }
+
+	private void LoadTestTask()
+    {
+		float value = 0f;
+		for(int i = 0; i < 500000; i++)
+        {
+			value = math.exp10(math.sqrt(value));
+        }
+    }
+
+	private JobHandle LoadTestTaskJob()
+    {
+		LoadTestJob job = new LoadTestJob();
+		return job.Schedule();
+    }
+	
+
+    public void PlayRecognisedAnimation()
 	{
-		StopAllCoroutines();
-        StartCoroutine(AnimateRect());
+		//StopAllCoroutines();
+		//StartCoroutine(AnimateRect());
+		textMesh.enabled = true;
+		Task rotateTask = RotateAsync();
+		
+
 	}
 
     private IEnumerator AnimateRect()
@@ -54,7 +90,57 @@ public class RecognisedAnimation : MonoBehaviour
 			yield return null;
 		}	
 		textMesh.enabled = false;
-		yield return null;
 		scannedImageBackground.gameObject.SetActive(false);
+		yield return null;
+		
 	}
+
+
+    #region AsyncFunctions
+
+	private async Task RotateAsync()
+    {
+		float timer = 4.0f;
+		while (timer > 0)
+		{
+			textMesh.transform.eulerAngles += new Vector3(Time.deltaTime*10, Time.deltaTime*10, Time.deltaTime*10);
+			timer -= Time.deltaTime;
+			await Task.Yield();
+
+		}
+		await Task.Yield();
+    }
+
+    #endregion
+}
+
+public struct LoadTestJob : IJob
+{
+	public void Execute()
+    {
+		float value = 0f;
+		for (int i = 0; i < 500000; i++)
+		{
+			value = math.exp10(math.sqrt(value));
+		}
+	}
+}
+
+
+public struct AnimateMessageJob : IJob
+{
+
+
+	private float rotateTimer;
+	public void Execute()
+    {
+		rotateTimer = 2.0f;
+		while (rotateTimer > 0)
+		{
+			GameObject text = GameObject.FindGameObjectWithTag("pageMessage");
+			text.transform.eulerAngles += new Vector3(Time.deltaTime, Time.deltaTime, Time.deltaTime);
+			rotateTimer -= Time.deltaTime;
+			Debug.Log(rotateTimer);
+		}
+    }
 }
