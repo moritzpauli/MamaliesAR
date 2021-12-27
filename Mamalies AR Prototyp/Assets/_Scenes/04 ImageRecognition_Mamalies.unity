@@ -1878,7 +1878,10 @@ MonoBehaviour:
   trackingMarker: {fileID: 5821109709360587747, guid: d782342ddbc2d2f419b3cb4794b49310, type: 3}
   arTrackedImageManager: {fileID: 624744558}
   pageArTrackedImageManager: {fileID: 0}
-  imageLibrariesList: []
+  imageLibrariesList:
+  - {fileID: 11400000, guid: 231c35a870fd05e4c8c1163f68d587be, type: 2}
+  - {fileID: 11400000, guid: 347133bd573ab1f41abf9ea2eb6fa072, type: 2}
+  - {fileID: 11400000, guid: 23d7ad64a9220f0419645413bc9e8eb4, type: 2}
   pagesLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   startupConvertLibraries: 0
   pageReferenceImages: []
@@ -2679,9 +2682,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1073355961}
-        m_TargetAssemblyTypeName: VignetteRecognitionIOS, Assembly-CSharp
-        m_MethodName: SelectNewTrackedImageManagerButton
+      - m_Target: {fileID: 1865460946}
+        m_TargetAssemblyTypeName: RecognisedAnimation, Assembly-CSharp
+        m_MethodName: PlayRecognisedAnimation
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2879,6 +2882,7 @@ MonoBehaviour:
   animationDuration: 10
   targetScale: 3
   scannedImageBackground: {fileID: 52529250}
+  useJobs: 0
 --- !u!1 &1910229614
 GameObject:
   m_ObjectHideFlags: 0

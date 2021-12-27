@@ -485,7 +485,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         currentTrackedImageList.Clear();
     }
 
-  
+
 
     private IEnumerator SelectNewPageLibrary(string pageName)
     {
@@ -497,28 +497,36 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (!useMutableLibrary)
         {
 
-            if (libraryHandle.IsValid())
+            //if (libraryHandle.IsValid())
+            //{
+            //    Addressables.Release(libraryHandle);
+            //}
+            //string filePath = libraryPath + pageName + ".asset";
+            //libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
+            //pageRecognisedAnimation.PlayRecognisedAnimation();
+            //libraryHandle.Completed += (operation) =>
+            //{
+            arTrackedImageManager.enabled = false;
+            foreach(XRReferenceImageLibrary lib in imageLibrariesList)
             {
-                Addressables.Release(libraryHandle);
+                if(lib.name == pageName)
+                {
+                    arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(lib);
+                    break;
+                }
             }
-            string filePath = libraryPath + pageName + ".asset";
-            libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
-            pageRecognisedAnimation.PlayRecognisedAnimation();
-            libraryHandle.Completed += (operation) =>
-            {
-                arTrackedImageManager.subsystem.Stop();
-                arTrackedImageManager.referenceLibrary = libraryHandle.Result;
-                currentPage = pageName;
-                pageSelection = false;
-                loadNewLibraryTimer = loadNewLibraryTime;
+            
+            currentPage = pageName;
+            pageSelection = false;
+            loadNewLibraryTimer = loadNewLibraryTime;
+            arTrackedImageManager.enabled = true;
+            StartCoroutine(ResetTracking());
+            DestroyTrackingObjects();
 
-                StartCoroutine(ResetTracking());
-                DestroyTrackingObjects();
-               
-                //Addressables.Release(textureHandle);
-                arTrackedImageManager.subsystem.Start();
-                print("Library Asset Loaded: " + pageName);
-            };
+            //Addressables.Release(textureHandle);
+
+            print("Library Asset Loaded: " + pageName);
+            //};
         }
         if (useMutableLibrary)
         {
@@ -563,13 +571,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
             //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
             //    addJobHandle.Complete();
-              
+
 
             //}
 
             //print("ADDED TO LIBRARY - reference images");
 
-   
+
         }
 
     }
@@ -730,8 +738,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
                         {
                             this.currentLoadedSprite = textureHandle.Result;
                             loadingData = false;
-                            //Addressables.Release(textureHandle);
-                        };
+                        //Addressables.Release(textureHandle);
+                    };
                     }
                     else
                     {
@@ -742,9 +750,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
                         {
                             this.currentLoadedSprite = textureHandle.Result;
                             loadingData = false;
-                            //Addressables.Release(textureHandle);
-                            //print(currentLoadedSprite.name + " sprite sucessfuully loaded");
-                        };
+                        //Addressables.Release(textureHandle);
+                        //print(currentLoadedSprite.name + " sprite sucessfuully loaded");
+                    };
                     }
 
                     previousImage = currentImage;
@@ -904,7 +912,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             print(image.referenceImage.name);
         }
-        
+
     }
 
     #endregion
