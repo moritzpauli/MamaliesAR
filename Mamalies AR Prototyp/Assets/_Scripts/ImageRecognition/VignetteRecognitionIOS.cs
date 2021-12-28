@@ -341,20 +341,24 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
-
-        trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
-        yield return new WaitUntil(() => trackingTextureHandle.IsDone);
-        print("LOADED - " + currentPage);
-        foreach (Texture2D tex in trackingTextureHandle.Result)
+        if(currentPage != null && currentPage != "")
         {
-            AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-            addJobState.jobHandle.Complete();
+            trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
+            yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+            print("LOADED - " + currentPage);
+            foreach (Texture2D tex in trackingTextureHandle.Result)
+            {
+                AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+                addJobState.jobHandle.Complete();
+            }
+            print("ADDED TO LIBRARY - " + currentPage);
         }
+       
         DestroyTrackingObjects();
         StartCoroutine(ResetTracking());
         pageSelection = true;
         loadNewLibraryTimer = loadNewLibraryTime;
-        print("ADDED TO LIBRARY - " + currentPage);
+        
         yield return null;
     }
 
