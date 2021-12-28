@@ -519,7 +519,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 if (lib.name == pageName)
                 {
-                    arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(lib);
+                    arTrackedImageManager.referenceLibrary = lib;
                     break;
                 }
             }
