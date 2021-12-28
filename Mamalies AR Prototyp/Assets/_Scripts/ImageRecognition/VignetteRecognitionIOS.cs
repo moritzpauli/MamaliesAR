@@ -515,18 +515,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         print("Select Page: " + pageName);
         if (!useMutableLibrary)
-        {
-
-            //if (libraryHandle.IsValid())
-            //{
-            //    Addressables.Release(libraryHandle);
-            //}
-            //string filePath = libraryPath + pageName + ".asset";
-            //libraryHandle = Addressables.LoadAssetAsync<XRReferenceImageLibrary>(filePath);
-            //pageRecognisedAnimation.PlayRecognisedAnimation();
-            //libraryHandle.Completed += (operation) =>
-            //{
-            arTrackedImageManager.enabled = false;
+        {        
             foreach(XRReferenceImageLibrary lib in imageLibrariesList)
             {
                 if(lib.name == pageName)
@@ -539,14 +528,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
             currentPage = pageName;
             pageSelection = false;
             loadNewLibraryTimer = loadNewLibraryTime;
-            arTrackedImageManager.enabled = true;
+            //arTrackedImageManager.enabled = true;
             StartCoroutine(ResetTracking());
-            DestroyTrackingObjects();
-
-            //Addressables.Release(textureHandle);
-
-            print("Library Asset Loaded: " + pageName);
-            //};
+            DestroyTrackingObjects();           
+            print("Library Asset Loaded: " + pageName);         
         }
         if (useMutableLibrary)
         {
