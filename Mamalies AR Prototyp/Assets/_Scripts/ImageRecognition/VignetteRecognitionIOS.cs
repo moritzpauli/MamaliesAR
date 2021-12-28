@@ -455,7 +455,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         foreach (ARTrackedImage image in args.added)
         {
-            print(image.referenceImage.name);
+            print(image.referenceImage.name + "ADDED");
             // add image to tracked images list
             if (char.IsDigit(image.referenceImage.name[0]))
             {
@@ -508,6 +508,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void SelectNewPageLibrary(string pageName)
     {
+        print("tryselect");
         if (pageName.Contains("x"))
         {
             pageName = pageName.Trim('x');
