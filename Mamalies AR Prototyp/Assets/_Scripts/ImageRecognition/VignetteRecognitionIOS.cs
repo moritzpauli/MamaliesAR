@@ -130,7 +130,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private RuntimeReferenceImageLibrary tempLibrary;
 
     [SerializeField]
-    private string currentPage = "DS016-017";
+    private string currentPage = "";
 
     [SerializeField]
     private bool useMutableLibrary;
@@ -508,6 +508,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void SelectNewPageLibrary(string pageName)
     {
+        pageRecognisedAnimation.PlayRecognisedAnimation();
         print("tryselect");
         if (pageName.Contains("x"))
         {
