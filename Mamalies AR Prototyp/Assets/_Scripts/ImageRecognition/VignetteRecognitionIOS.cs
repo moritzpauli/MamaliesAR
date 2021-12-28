@@ -76,8 +76,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private ARTrackedImageManager arTrackedImageManager;
-    [SerializeField]
-    private ARTrackedImageManager pageArTrackedImageManager;
     private VoiceLinePlayer voiceLinePlayer;
 
     private Vector2 screenCenter;
@@ -232,7 +230,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private void OnEnable()
     {
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        pageArTrackedImageManager.trackedImagesChanged += OnPageTrackedImagesChanged;
     }
 
     private void OnDisable()
@@ -251,7 +248,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         TrackedImageScanningProcess();
 
-        //SwapImageLibraries();
+        SwapImageLibraries();
 
 
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
@@ -321,15 +318,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
             loadNewLibraryTimer -= Time.deltaTime;
             if (loadNewLibraryTimer <= 0)
             {
-                DestroyTrackingObjects();
-                print("swap libraries");
-                arTrackedImageManager.subsystem.Stop();
-                arTrackedImageManager.subsystem.imageLibrary = runtimePagesLibrary;
-                arTrackedImageManager.subsystem.Start();
-                StartCoroutine(ResetTracking());
-                pageSelection = true;
-                print("New page first vignette: " + arTrackedImageManager.subsystem.imageLibrary[0].name);
-                loadNewLibraryTimer = loadNewLibraryTime;
+
+                StartCoroutine(AppendPageReferenceLibrary());
             }
         }
         else
@@ -340,7 +330,33 @@ public class VignetteRecognitionIOS : MonoBehaviour
         imagesChanged = false;
     }
 
+    private IEnumerator AppendPageReferenceLibrary()
+    {
 
+        if (trackingTextureHandle.IsValid())
+        {
+            Addressables.Release(trackingTextureHandle);
+
+        }
+
+        mutableRuntimeLibrary = mutablePageReferenceLibrary;
+        arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+
+        trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
+        yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+        print("LOADED - " + currentPage);
+        foreach (Texture2D tex in trackingTextureHandle.Result)
+        {
+            AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+            addJobState.jobHandle.Complete();
+        }
+        DestroyTrackingObjects();
+        StartCoroutine(ResetTracking());
+        pageSelection = true;
+        loadNewLibraryTimer = loadNewLibraryTime;
+        print("ADDED TO LIBRARY - " + currentPage);
+        yield return null;
+    }
 
 
     /// <summary>
@@ -889,33 +905,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     #endregion
 
 
-    #region TrackingTesting
-    public void SelectNewTrackedImageManagerButton()
-    {
-        if (arTrackedImageManager.gameObject.activeSelf)
-        {
-            arTrackedImageManager.gameObject.SetActive(false);
-            pageArTrackedImageManager.gameObject.SetActive(true);
-        }
-        else
-        {
-            arTrackedImageManager.gameObject.SetActive(true);
-            pageArTrackedImageManager.gameObject.SetActive(false);
-        }
-    }
-
-
-
-    private void OnPageTrackedImagesChanged(ARTrackedImagesChangedEventArgs args)
-    {
-        foreach (ARTrackedImage image in args.updated)
-        {
-            print( "Page recognition" + image.referenceImage.name);
-        }
-
-    }
-
-    #endregion
+ 
 
 
 }
