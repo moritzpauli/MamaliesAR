@@ -341,7 +341,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
-        if(currentPage != null && currentPage != "")
+        if (currentPage != null && currentPage != "")
         {
             trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
             yield return new WaitUntil(() => trackingTextureHandle.IsDone);
@@ -353,12 +353,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
             }
             print("ADDED TO LIBRARY - " + currentPage);
         }
-       
+
         DestroyTrackingObjects();
         StartCoroutine(ResetTracking());
         pageSelection = true;
         loadNewLibraryTimer = loadNewLibraryTime;
-        
+
         yield return null;
     }
 
@@ -397,8 +397,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
                 {
-
-                    StartCoroutine(SelectNewPageLibrary(image.referenceImage.name));
+                    SelectNewPageLibrary(image.referenceImage.name);
                 }
 
             }
@@ -468,7 +467,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
             {
-                StartCoroutine(SelectNewPageLibrary(image.referenceImage.name));
+                SelectNewPageLibrary(image.referenceImage.name);
             }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
@@ -515,23 +514,23 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         print("Select Page: " + pageName);
         if (!useMutableLibrary)
-        {        
-            foreach(XRReferenceImageLibrary lib in imageLibrariesList)
+        {
+            foreach (XRReferenceImageLibrary lib in imageLibrariesList)
             {
-                if(lib.name == pageName)
+                if (lib.name == pageName)
                 {
                     arTrackedImageManager.referenceLibrary = arTrackedImageManager.CreateRuntimeLibrary(lib);
                     break;
                 }
             }
-            
+
             currentPage = pageName;
             pageSelection = false;
             loadNewLibraryTimer = loadNewLibraryTime;
             //arTrackedImageManager.enabled = true;
             StartCoroutine(ResetTracking());
-            DestroyTrackingObjects();           
-            print("Library Asset Loaded: " + pageName);         
+            DestroyTrackingObjects();
+            print("Library Asset Loaded: " + pageName);
         }
         //if (useMutableLibrary)
         //{
@@ -743,8 +742,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
                         {
                             this.currentLoadedSprite = textureHandle.Result;
                             loadingData = false;
-                        //Addressables.Release(textureHandle);
-                    };
+                            //Addressables.Release(textureHandle);
+                        };
                     }
                     else
                     {
@@ -755,9 +754,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
                         {
                             this.currentLoadedSprite = textureHandle.Result;
                             loadingData = false;
-                        //Addressables.Release(textureHandle);
-                        //print(currentLoadedSprite.name + " sprite sucessfuully loaded");
-                    };
+                            //Addressables.Release(textureHandle);
+                            //print(currentLoadedSprite.name + " sprite sucessfuully loaded");
+                        };
                     }
 
                     previousImage = currentImage;
@@ -894,7 +893,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     #endregion
 
 
- 
+
 
 
 }
