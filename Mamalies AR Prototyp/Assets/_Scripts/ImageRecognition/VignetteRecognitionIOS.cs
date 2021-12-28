@@ -152,9 +152,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
     [SerializeField]
-    private float loadNewLibraryTime = 0.6f;
+    private float loadNewLibraryTime = 1;
 
-    private float loadNewLibraryTimer = 0.6f;
+    private float loadNewLibraryTimer = 1;
 
     [SerializeField]
     private float noRaycastTime = 3f;
@@ -515,6 +515,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
             pageName = pageName.Trim('x');
         }
         print("Select Page: " + pageName);
+        
+        arTrackedImageManager.enabled = false;
+        arTrackedImageManager.referenceLibrary = null;
         if (!useMutableLibrary)
         {
             foreach (XRReferenceImageLibrary lib in imageLibrariesList)
@@ -529,8 +532,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
             currentPage = pageName;
             pageSelection = false;
             loadNewLibraryTimer = loadNewLibraryTime;
+            arTrackedImageManager.enabled = true;
             //arTrackedImageManager.enabled = true;
-            StartCoroutine(ResetTracking());
+            //StartCoroutine(ResetTracking());
             DestroyTrackingObjects();
             print("Library Asset Loaded: " + pageName);
         }
