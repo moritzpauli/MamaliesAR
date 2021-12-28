@@ -507,7 +507,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-    private IEnumerator SelectNewPageLibrary(string pageName)
+    private void SelectNewPageLibrary(string pageName)
     {
         if (pageName.Contains("x"))
         {
@@ -533,57 +533,57 @@ public class VignetteRecognitionIOS : MonoBehaviour
             DestroyTrackingObjects();           
             print("Library Asset Loaded: " + pageName);         
         }
-        if (useMutableLibrary)
-        {
-            currentPage = pageName;
-            mutableRuntimeLibrary = mutablePageReferenceLibrary;
-            arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+        //if (useMutableLibrary)
+        //{
+        //    currentPage = pageName;
+        //    mutableRuntimeLibrary = mutablePageReferenceLibrary;
+        //    arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
 
-            if (trackingTextureHandle.IsValid())
-            {
-                Addressables.Release(trackingTextureHandle);
+        //    if (trackingTextureHandle.IsValid())
+        //    {
+        //        Addressables.Release(trackingTextureHandle);
 
-            }
-            //if (pageReferenceTextureHandle.IsValid())
-            //{
-            //    Addressables.Release(pageReferenceTextureHandle);
-            //}
+        //    }
+        //    //if (pageReferenceTextureHandle.IsValid())
+        //    //{
+        //    //    Addressables.Release(pageReferenceTextureHandle);
+        //    //}
 
-            //foreach (Texture2D tex in pageReferenceImages)
-            //{
-            //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-            //}
-
-
-            //load in textures of current page
-            trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
-            yield return new WaitUntil(() => trackingTextureHandle.IsDone);
-            print("LOADED - " + pageName);
-            foreach (Texture2D tex in trackingTextureHandle.Result)
-            {
-                AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-                //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
-            }
-
-            print("ADDED TO LIBRARY - " + pageName);
-
-            ////load in textures of page references
-            //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
-            //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
-            //print("LOADED - reference images");
-            //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
-            //{
-            //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
-            //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
-            //    addJobHandle.Complete();
+        //    //foreach (Texture2D tex in pageReferenceImages)
+        //    //{
+        //    //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+        //    //}
 
 
-            //}
+        //    //load in textures of current page
+        //    trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
+        //    yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+        //    print("LOADED - " + pageName);
+        //    foreach (Texture2D tex in trackingTextureHandle.Result)
+        //    {
+        //        AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+        //        //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
+        //    }
 
-            //print("ADDED TO LIBRARY - reference images");
+        //    print("ADDED TO LIBRARY - " + pageName);
+
+        //    ////load in textures of page references
+        //    //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
+        //    //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
+        //    //print("LOADED - reference images");
+        //    //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
+        //    //{
+        //    //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
+        //    //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
+        //    //    addJobHandle.Complete();
 
 
-        }
+        //    //}
+
+        //    //print("ADDED TO LIBRARY - reference images");
+
+
+        //}
 
     }
 
