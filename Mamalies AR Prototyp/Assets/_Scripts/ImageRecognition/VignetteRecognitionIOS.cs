@@ -248,7 +248,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         TrackedImageScanningProcess();
 
-        SwapImageLibraries();
+       // SwapImageLibraries();
 
 
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
@@ -311,23 +311,24 @@ public class VignetteRecognitionIOS : MonoBehaviour
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
     }
 
-    private void SwapImageLibraries()
+    public void SwapImageLibraries()
     {
-        if (!imagesChanged && !pageSelection)
-        {
-            loadNewLibraryTimer -= Time.deltaTime;
-            if (loadNewLibraryTimer <= 0)
-            {
+        StartCoroutine(AppendPageReferenceLibrary());
+        //if (!imagesChanged && !pageSelection)
+        //{
+        //    loadNewLibraryTimer -= Time.deltaTime;
+        //    if (loadNewLibraryTimer <= 0)
+        //    {
 
-                StartCoroutine(AppendPageReferenceLibrary());
-            }
-        }
-        else
-        {
-            loadNewLibraryTimer = loadNewLibraryTime;
-        }
+        //        StartCoroutine(AppendPageReferenceLibrary());
+        //    }
+        //}
+        //else
+        //{
+        //    loadNewLibraryTimer = loadNewLibraryTime;
+        //}
 
-        imagesChanged = false;
+        //imagesChanged = false;
     }
 
     private IEnumerator AppendPageReferenceLibrary()
