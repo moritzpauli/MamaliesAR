@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS076-077
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5686256922635395416
+  m_GuidHigh: 5908001038148831112
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5252181322117125905
+      m_GuidHigh: 4246030209263241146
+    m_SerializedTextureGuid:
+      m_GuidLow: 15443988356844275242
+      m_GuidHigh: 7394645983747847944
+    m_Size: {x: 0.042099997, y: 0.0492}
+    m_SpecifySize: 1
+    m_Name: 0562_DS076-077_money
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5629675044714046223
+      m_GuidHigh: 12995496273887656597
+    m_SerializedTextureGuid:
+      m_GuidLow: 16966390453423756022
+      m_GuidHigh: 11063130668454411272
+    m_Size: {x: 0.06014286, y: 0.05528572}
+    m_SpecifySize: 1
+    m_Name: 0563_DS076-077_price
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4733802920514176403
+      m_GuidHigh: 516097557091975812
+    m_SerializedTextureGuid:
+      m_GuidLow: 2762076776514526173
+      m_GuidHigh: 1836341569739322827
+    m_Size: {x: 0.055000003, y: 0.062428575}
+    m_SpecifySize: 1
+    m_Name: 0564_DS076-077_expensive
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4929084328643646274
+      m_GuidHigh: 16626702336725142182
+    m_SerializedTextureGuid:
+      m_GuidLow: 595771000339025684
+      m_GuidHigh: 2668981217272134569
+    m_Size: {x: 0.06771429, y: 0.062428575}
+    m_SpecifySize: 1
+    m_Name: 0565_DS076-077_cheap
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5461874324044866193
+      m_GuidHigh: 7912753510719290775
+    m_SerializedTextureGuid:
+      m_GuidLow: 11372935583916581094
+      m_GuidHigh: 2288342332487817755
+    m_Size: {x: 0.05914286, y: 0.094000004}
+    m_SpecifySize: 1
+    m_Name: 0566_DS076-077_open
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5569588706809093739
+      m_GuidHigh: 4594600580231701642
+    m_SerializedTextureGuid:
+      m_GuidLow: 15498089593061395638
+      m_GuidHigh: 9931163289833890264
+    m_Size: {x: 0.063857146, y: 0.084714286}
+    m_SpecifySize: 1
+    m_Name: 0567_DS076-077_closed
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4892372515883789739
+      m_GuidHigh: 9082699072630558357
+    m_SerializedTextureGuid:
+      m_GuidLow: 3599559118484854651
+      m_GuidHigh: 18018674441251911995
+    m_Size: {x: 0.062000003, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0568_DS076-077_tosave
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5344579167571701955
+      m_GuidHigh: 1582715132273115794
+    m_SerializedTextureGuid:
+      m_GuidLow: 10967436114853309581
+      m_GuidHigh: 5000536133016853675
+    m_Size: {x: 0.06771429, y: 0.061857145}
+    m_SpecifySize: 1
+    m_Name: 0569_DS076-077_moneycard
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5570927612482069405
+      m_GuidHigh: 9766238863918621332
+    m_SerializedTextureGuid:
+      m_GuidLow: 5274879109149959326
+      m_GuidHigh: 9456216728052333160
+    m_Size: {x: 0.096285716, y: 0.08857143}
+    m_SpecifySize: 1
+    m_Name: 0570_DS076-077_offer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5637195280013628902
+      m_GuidHigh: 16099045338637205384
+    m_SerializedTextureGuid:
+      m_GuidLow: 9895681311417900388
+      m_GuidHigh: 6275947474611566282
+    m_Size: {x: 0.06728572, y: 0.09328572}
+    m_SpecifySize: 1
+    m_Name: 0571_DS076-077_tobuy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5624519552110762087
+      m_GuidHigh: 4317033316871140244
+    m_SerializedTextureGuid:
+      m_GuidLow: 11818632536583097530
+      m_GuidHigh: 17416470322439716986
+    m_Size: {x: 0.087571435, y: 0.09328572}
+    m_SpecifySize: 1
+    m_Name: 0572_DS076-077_topay
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5512887995175909770
+      m_GuidHigh: 8307291505146826924
+    m_SerializedTextureGuid:
+      m_GuidLow: 6824294219528290743
+      m_GuidHigh: 6874713725073771755
+    m_Size: {x: 0.07128572, y: 0.09328572}
+    m_SpecifySize: 1
+    m_Name: 0573_DS076-077_toshop
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5701137442717350199
+      m_GuidHigh: 16627738393177017524
+    m_SerializedTextureGuid:
+      m_GuidLow: 12368158257849390926
+      m_GuidHigh: 4824893017724154122
+    m_Size: {x: 0.07057143, y: 0.086428575}
+    m_SpecifySize: 1
+    m_Name: 0574_DS076-077_scales
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5369688387864949661
+      m_GuidHigh: 4358881143650295179
+    m_SerializedTextureGuid:
+      m_GuidLow: 11872616136473390508
+      m_GuidHigh: 2811981245882542843
+    m_Size: {x: 0.055714287, y: 0.09028572}
+    m_SpecifySize: 1
+    m_Name: 0575_DS076-077_toweigh
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5456243767017982676
+      m_GuidHigh: 6535827279439998383
+    m_SerializedTextureGuid:
+      m_GuidLow: 12088899389537361356
+      m_GuidHigh: 2788937300438722283
+    m_Size: {x: 0.06828572, y: 0.09028572}
+    m_SpecifySize: 1
+    m_Name: 0576_DS076-077_plasticbag
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4711054377728721463
+      m_GuidHigh: 13994324286827151747
+    m_SerializedTextureGuid:
+      m_GuidLow: 6896328875174164801
+      m_GuidHigh: 1156986434043827515
+    m_Size: {x: 0.07271429, y: 0.086428575}
+    m_SpecifySize: 1
+    m_Name: 0577_DS076-077_liquid
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5406725985170926920
+      m_GuidHigh: 17024581845479493256
+    m_SerializedTextureGuid:
+      m_GuidLow: 10323607775431665506
+      m_GuidHigh: 4362726409286426202
+    m_Size: {x: 0.16800001, y: 0.26657143}
+    m_SpecifySize: 1
+    m_Name: 0578_DS076-077_butcher
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5354320033453378049
+      m_GuidHigh: 14881336463409040053
+    m_SerializedTextureGuid:
+      m_GuidLow: 2761914481290349357
+      m_GuidHigh: 8501708843053153128
+    m_Size: {x: 0.06114286, y: 0.12885715}
+    m_SpecifySize: 1
+    m_Name: 0579_DS076-077_entrance
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4989848139269619199
+      m_GuidHigh: 13851468599032993466
+    m_SerializedTextureGuid:
+      m_GuidLow: 3153709112756131577
+      m_GuidHigh: 14073872679428797096
+    m_Size: {x: 0.06528572, y: 0.12885715}
+    m_SpecifySize: 1
+    m_Name: 0580_DS076-077_exit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4640047266840962594
+      m_GuidHigh: 4659150431095658140
+    m_SerializedTextureGuid:
+      m_GuidLow: 14205508957915313474
+      m_GuidHigh: 332885582312506360
+    m_Size: {x: 0.05414286, y: 0.058000002}
+    m_SpecifySize: 1
+    m_Name: 0581_DS076-077_meat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4709753783721210130
+      m_GuidHigh: 11437955697541580220
+    m_SerializedTextureGuid:
+      m_GuidLow: 10174814003589791259
+      m_GuidHigh: 2199676218463256426
+    m_Size: {x: 0.09542858, y: 0.083000004}
+    m_SpecifySize: 1
+    m_Name: 0582_DS076-077_sausage
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4914896112191852691
+      m_GuidHigh: 5438499982625603460
+    m_SerializedTextureGuid:
+      m_GuidLow: 8098834775796606806
+      m_GuidHigh: 3705818751415865992
+    m_Size: {x: 0.06728572, y: 0.069571435}
+    m_SpecifySize: 1
+    m_Name: 0583_DS076-077_chicken
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5537177158653187208
+      m_GuidHigh: 4319758074597844097
+    m_SerializedTextureGuid:
+      m_GuidLow: 10656721325660214545
+      m_GuidHigh: 6002905588621949194
+    m_Size: {x: 0.06728572, y: 0.060428575}
+    m_SpecifySize: 1
+    m_Name: 0584_DS076-077_fat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5276606024210601266
+      m_GuidHigh: 7995405957217477808
+    m_SerializedTextureGuid:
+      m_GuidLow: 1667590980551810802
+      m_GuidHigh: 1620426438762523754
+    m_Size: {x: 0.060428575, y: 0.052}
+    m_SpecifySize: 1
+    m_Name: 0585_DS076-077_piece
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5321842093148876143
+      m_GuidHigh: 8354685375656307599
+    m_SerializedTextureGuid:
+      m_GuidLow: 9188587311173811930
+      m_GuidHigh: 13509342864616521914
+    m_Size: {x: 0.08742858, y: 0.06457143}
+    m_SpecifySize: 1
+    m_Name: 0586_DS076-077_beef
+    m_Texture: {fileID: 0}

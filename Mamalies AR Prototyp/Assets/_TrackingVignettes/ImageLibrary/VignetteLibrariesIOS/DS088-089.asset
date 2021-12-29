@@ -1,0 +1,217 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS088-089
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5593516009728955443
+  m_GuidHigh: 12498947968216193466
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4998732786808895663
+      m_GuidHigh: 3847488581091900045
+    m_SerializedTextureGuid:
+      m_GuidLow: 1766792403232185709
+      m_GuidHigh: 17643451599675201003
+    m_Size: {x: 0.0709, y: 0.0341}
+    m_SpecifySize: 1
+    m_Name: 0680_DS088-089_living
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5578415831441296431
+      m_GuidHigh: 17960259306885608125
+    m_SerializedTextureGuid:
+      m_GuidLow: 8467949364820406617
+      m_GuidHigh: 3568372916375634552
+    m_Size: {x: 0.085857145, y: 0.081285715}
+    m_SpecifySize: 1
+    m_Name: 0681_DS088-089_room
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5540394029907737490
+      m_GuidHigh: 11801173673400469145
+    m_SerializedTextureGuid:
+      m_GuidLow: 4968874814311662963
+      m_GuidHigh: 7787012195294081369
+    m_Size: {x: 0.16000001, y: 0.14385715}
+    m_SpecifySize: 1
+    m_Name: 0682_DS088-089_kitchen
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5207976194169489058
+      m_GuidHigh: 14058317876342246327
+    m_SerializedTextureGuid:
+      m_GuidLow: 4842500790790505987
+      m_GuidHigh: 15016840900856425033
+    m_Size: {x: 0.05757143, y: 0.07928572}
+    m_SpecifySize: 1
+    m_Name: 0683_DS088-089_stove
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5389097397538463551
+      m_GuidHigh: 13283526322897666972
+    m_SerializedTextureGuid:
+      m_GuidLow: 13516575054801445246
+      m_GuidHigh: 7377334523532035131
+    m_Size: {x: 0.061428573, y: 0.061000004}
+    m_SpecifySize: 1
+    m_Name: 0684_DS088-089_table
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5499976681499737776
+      m_GuidHigh: 10168372101137293991
+    m_SerializedTextureGuid:
+      m_GuidLow: 3698595503999688154
+      m_GuidHigh: 12370448083545955529
+    m_Size: {x: 0.22128573, y: 0.05457143}
+    m_SpecifySize: 1
+    m_Name: 0685_DS088-089_corridor
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5390067245378865582
+      m_GuidHigh: 14420701693743865006
+    m_SerializedTextureGuid:
+      m_GuidLow: 726236030570524934
+      m_GuidHigh: 13075432144823175402
+    m_Size: {x: 0.05657143, y: 0.099142864}
+    m_SpecifySize: 1
+    m_Name: 0686_DS088-089_frontdoor
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5033900563607865615
+      m_GuidHigh: 2790201365265908364
+    m_SerializedTextureGuid:
+      m_GuidLow: 4450796159233142497
+      m_GuidHigh: 6960008347326615848
+    m_Size: {x: 0.16485715, y: 0.1957143}
+    m_SpecifySize: 1
+    m_Name: 0687_DS088-089_living-room
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5576528612553185901
+      m_GuidHigh: 2593390497008387260
+    m_SerializedTextureGuid:
+      m_GuidLow: 12503300956659992578
+      m_GuidHigh: 15767920043417673051
+    m_Size: {x: 0.07971429, y: 0.14857143}
+    m_SpecifySize: 1
+    m_Name: 0688_DS088-089_bathroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5096566519228260394
+      m_GuidHigh: 10903487596217511573
+    m_SerializedTextureGuid:
+      m_GuidLow: 3180684031967034258
+      m_GuidHigh: 12000628807392994168
+    m_Size: {x: 0.09585715, y: 0.17914286}
+    m_SpecifySize: 1
+    m_Name: 0689_DS088-089_childrensroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4704132436665622642
+      m_GuidHigh: 11975078239581592490
+    m_SerializedTextureGuid:
+      m_GuidLow: 9792045392420619753
+      m_GuidHigh: 806026170885395880
+    m_Size: {x: 0.07914286, y: 0.07742857}
+    m_SpecifySize: 1
+    m_Name: 0690_DS088-089_room
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4658628205957502965
+      m_GuidHigh: 14875585316578468750
+    m_SerializedTextureGuid:
+      m_GuidLow: 16092719397650707488
+      m_GuidHigh: 10558875220564265385
+    m_Size: {x: 0.06942858, y: 0.1}
+    m_SpecifySize: 1
+    m_Name: 0691_DS088-089_corner
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4904408094572624478
+      m_GuidHigh: 5902744286268629653
+    m_SerializedTextureGuid:
+      m_GuidLow: 14601941596835767034
+      m_GuidHigh: 15328925040932376874
+    m_Size: {x: 0.082428575, y: 0.07585715}
+    m_SpecifySize: 1
+    m_Name: 0692_DS088-089_wall
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5301957241770156260
+      m_GuidHigh: 4835419164750229919
+    m_SerializedTextureGuid:
+      m_GuidLow: 12813883355053667542
+      m_GuidHigh: 16317220819394847849
+    m_Size: {x: 0.04457143, y: 0.098000005}
+    m_SpecifySize: 1
+    m_Name: 0693_DS088-089_door
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5254609809964268143
+      m_GuidHigh: 12520000588829005989
+    m_SerializedTextureGuid:
+      m_GuidLow: 8931895647729786702
+      m_GuidHigh: 11478176648998192809
+    m_Size: {x: 0.087571435, y: 0.074}
+    m_SpecifySize: 1
+    m_Name: 0694_DS088-089_bedsidelamp
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5317239448870843696
+      m_GuidHigh: 18237698473427721885
+    m_SerializedTextureGuid:
+      m_GuidLow: 18083127276025663247
+      m_GuidHigh: 7667542007202419656
+    m_Size: {x: 0.06942858, y: 0.077142864}
+    m_SpecifySize: 1
+    m_Name: 0695_DS088-089_blanket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5426701718595742678
+      m_GuidHigh: 16303589023251188643
+    m_SerializedTextureGuid:
+      m_GuidLow: 11516954253725051043
+      m_GuidHigh: 12247646496487460729
+    m_Size: {x: 0.16042858, y: 0.19971429}
+    m_SpecifySize: 1
+    m_Name: 0696_DS088-089_bedroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5285058124023305444
+      m_GuidHigh: 10157604298281854086
+    m_SerializedTextureGuid:
+      m_GuidLow: 6490944582548983678
+      m_GuidHigh: 1826060225722582008
+    m_Size: {x: 0.057857145, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0697_DS088-089_pillow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4856556132861761392
+      m_GuidHigh: 8276119586704534456
+    m_SerializedTextureGuid:
+      m_GuidLow: 6103776321432934370
+      m_GuidHigh: 32249818864029784
+    m_Size: {x: 0.066285715, y: 0.087000005}
+    m_SpecifySize: 1
+    m_Name: 0698_DS088-089_window
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5121975651851077789
+      m_GuidHigh: 14772470414240211585
+    m_SerializedTextureGuid:
+      m_GuidLow: 8828221619028482013
+      m_GuidHigh: 5110823163081381752
+    m_Size: {x: 0.07857143, y: 0.07671429}
+    m_SpecifySize: 1
+    m_Name: 0699_DS088-089_bed
+    m_Texture: {fileID: 0}

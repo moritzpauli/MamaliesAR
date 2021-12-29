@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS030-031
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5235701584278214935
+  m_GuidHigh: 7891314171402569347
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5406329622605723737
+      m_GuidHigh: 5648390583461285255
+    m_SerializedTextureGuid:
+      m_GuidLow: 3982481564347314599
+      m_GuidHigh: 9424129600388465595
+    m_Size: {x: 0.084199995, y: 0.034399997}
+    m_SpecifySize: 1
+    m_Name: 0137_DS030-031_health
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5247740931644417099
+      m_GuidHigh: 12040878395801169597
+    m_SerializedTextureGuid:
+      m_GuidLow: 8549056241364333464
+      m_GuidHigh: 10306164222091751387
+    m_Size: {x: 0.08314286, y: 0.10300001}
+    m_SpecifySize: 1
+    m_Name: 0138_DS030-031_toothache
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5095507389851842276
+      m_GuidHigh: 6708544988614163090
+    m_SerializedTextureGuid:
+      m_GuidLow: 8927334258643966672
+      m_GuidHigh: 16961517021267313432
+    m_Size: {x: 0.087000005, y: 0.10300001}
+    m_SpecifySize: 1
+    m_Name: 0139_DS030-031_stomachache
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5084334920436421076
+      m_GuidHigh: 12690223901021608106
+    m_SerializedTextureGuid:
+      m_GuidLow: 2550225900878312984
+      m_GuidHigh: 5981562615122658952
+    m_Size: {x: 0.09114286, y: 0.10985715}
+    m_SpecifySize: 1
+    m_Name: 0140_DS030-031_headache
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5600171153412663203
+      m_GuidHigh: 12602396568369736380
+    m_SerializedTextureGuid:
+      m_GuidLow: 8432036269485125673
+      m_GuidHigh: 8394997813148112938
+    m_Size: {x: 0.07685715, y: 0.11585715}
+    m_SpecifySize: 1
+    m_Name: 0141_DS030-031_sorethroat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5132392547318403346
+      m_GuidHigh: 9489905134065050018
+    m_SerializedTextureGuid:
+      m_GuidLow: 13525438394087524138
+      m_GuidHigh: 15731937697401944906
+    m_Size: {x: 0.121714294, y: 0.11114286}
+    m_SpecifySize: 1
+    m_Name: 0142_DS030-031_tonurse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5401089653085012823
+      m_GuidHigh: 6398954106006758079
+    m_SerializedTextureGuid:
+      m_GuidLow: 17596726710204103424
+      m_GuidHigh: 12244056368185097752
+    m_Size: {x: 0.10428572, y: 0.058857147}
+    m_SpecifySize: 1
+    m_Name: 0143_DS030-031_pain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5067437360356333242
+      m_GuidHigh: 11256242532577149587
+    m_SerializedTextureGuid:
+      m_GuidLow: 10386643013512632981
+      m_GuidHigh: 3221509282650605721
+    m_Size: {x: 0.055000003, y: 0.08928572}
+    m_SpecifySize: 1
+    m_Name: 0144_DS030-031_tocool
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4717123158818927620
+      m_GuidHigh: 3733388522353314697
+    m_SerializedTextureGuid:
+      m_GuidLow: 9494783379840330185
+      m_GuidHigh: 12509994459928229947
+    m_Size: {x: 0.06671429, y: 0.084714286}
+    m_SpecifySize: 1
+    m_Name: 0145_DS030-031_toscratch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5632643373024868850
+      m_GuidHigh: 17843822728817335217
+    m_SerializedTextureGuid:
+      m_GuidLow: 2937476544797494911
+      m_GuidHigh: 754793770180032264
+    m_Size: {x: 0.07300001, y: 0.092285715}
+    m_SpecifySize: 1
+    m_Name: 0146_DS030-031_tocough
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5440289040357779544
+      m_GuidHigh: 14181961597128718998
+    m_SerializedTextureGuid:
+      m_GuidLow: 478597326568913691
+      m_GuidHigh: 3782793420145716088
+    m_Size: {x: 0.06857143, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0147_DS030-031_tobleed
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4721129105865144543
+      m_GuidHigh: 14126305656481879224
+    m_SerializedTextureGuid:
+      m_GuidLow: 3500508135368631963
+      m_GuidHigh: 692407919569759481
+    m_Size: {x: 0.072000004, y: 0.09614286}
+    m_SpecifySize: 1
+    m_Name: 0148_DS030-031_tohurt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5683843593273418867
+      m_GuidHigh: 9757808776066727
+    m_SerializedTextureGuid:
+      m_GuidLow: 442655563160151897
+      m_GuidHigh: 5564009617176944651
+    m_Size: {x: 0.06671429, y: 0.09614286}
+    m_SpecifySize: 1
+    m_Name: 0149_DS030-031_tosneeze
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4911371984348316230
+      m_GuidHigh: 1122305284058605979
+    m_SerializedTextureGuid:
+      m_GuidLow: 17529329402972521926
+      m_GuidHigh: 16812749162110579322
+    m_Size: {x: 0.09314286, y: 0.15200001}
+    m_SpecifySize: 1
+    m_Name: 0150_DS030-031_blind
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5438782567105774589
+      m_GuidHigh: 5175614871863389344
+    m_SerializedTextureGuid:
+      m_GuidLow: 9265189563634748691
+      m_GuidHigh: 1222162612957030874
+    m_Size: {x: 0.07828572, y: 0.079428576}
+    m_SpecifySize: 1
+    m_Name: 0151_DS030-031_toothbrushing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4993014038989970548
+      m_GuidHigh: 3241785566573604755
+    m_SerializedTextureGuid:
+      m_GuidLow: 11066681649293960775
+      m_GuidHigh: 2312008593813059352
+    m_Size: {x: 0.08614286, y: 0.077142864}
+    m_SpecifySize: 1
+    m_Name: 0152_DS030-031_handwashing
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5532335805434806687
+      m_GuidHigh: 10139894321913919646
+    m_SerializedTextureGuid:
+      m_GuidLow: 6909835617151040773
+      m_GuidHigh: 863201098829218667
+    m_Size: {x: 0.1, y: 0.09885715}
+    m_SpecifySize: 1
+    m_Name: 0153_DS030-031_dirty
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5432024809871412272
+      m_GuidHigh: 2783337543821201043
+    m_SerializedTextureGuid:
+      m_GuidLow: 2725938486302111267
+      m_GuidHigh: 17404354974247150746
+    m_Size: {x: 0.060571432, y: 0.12528571}
+    m_SpecifySize: 1
+    m_Name: 0154_DS030-031_fat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4770681465729187043
+      m_GuidHigh: 15269282009239360919
+    m_SerializedTextureGuid:
+      m_GuidLow: 6977211186067754043
+      m_GuidHigh: 7967080719037055754
+    m_Size: {x: 0.052857146, y: 0.11857144}
+    m_SpecifySize: 1
+    m_Name: 0155_DS030-031_skinny
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5689429727319071341
+      m_GuidHigh: 13422022179956203926
+    m_SerializedTextureGuid:
+      m_GuidLow: 17128336730022199654
+      m_GuidHigh: 6844008397366651689
+    m_Size: {x: 0.13414286, y: 0.16028573}
+    m_SpecifySize: 1
+    m_Name: 0156_DS030-031_healthy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5446238258815164470
+      m_GuidHigh: 393845891159606665
+    m_SerializedTextureGuid:
+      m_GuidLow: 12287188827530083007
+      m_GuidHigh: 2197946679595112665
+    m_Size: {x: 0.074285716, y: 0.09}
+    m_SpecifySize: 1
+    m_Name: 0157_DS030-031_sick
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4804482231939716913
+      m_GuidHigh: 311327929139232684
+    m_SerializedTextureGuid:
+      m_GuidLow: 37261031871231806
+      m_GuidHigh: 5324977311506359768
+    m_Size: {x: 0.07528572, y: 0.077285714}
+    m_SpecifySize: 1
+    m_Name: 0158_DS030-031_bruise
+    m_Texture: {fileID: 0}

@@ -1,0 +1,137 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS074-075
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4744493365130282363
+  m_GuidHigh: 3229363047359249280
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5079460072370228361
+      m_GuidHigh: 1039896918172451999
+    m_SerializedTextureGuid:
+      m_GuidLow: 897392361371155266
+      m_GuidHigh: 12521939354787129514
+    m_Size: {x: 0.0923, y: 0.0578}
+    m_SpecifySize: 1
+    m_Name: 0550_DS074-075_package
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4875694694189758585
+      m_GuidHigh: 2106014721870472844
+    m_SerializedTextureGuid:
+      m_GuidLow: 10656832244292896994
+      m_GuidHigh: 14250095582495117019
+    m_Size: {x: 0.09571429, y: 0.08400001}
+    m_SpecifySize: 1
+    m_Name: 0551_DS074-075_flour
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5129963873910829416
+      m_GuidHigh: 8805823186703424672
+    m_SerializedTextureGuid:
+      m_GuidLow: 8868943725507828474
+      m_GuidHigh: 17578850028671212088
+    m_Size: {x: 0.05814286, y: 0.080571435}
+    m_SpecifySize: 1
+    m_Name: 0552_DS074-075_salt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5012985700716752538
+      m_GuidHigh: 17153491321801138345
+    m_SerializedTextureGuid:
+      m_GuidLow: 3797722167587505566
+      m_GuidHigh: 13833010105041586024
+    m_Size: {x: 0.07285715, y: 0.069000006}
+    m_SpecifySize: 1
+    m_Name: 0553_DS074-075_cheese
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5151643802151318702
+      m_GuidHigh: 17020699952246035341
+    m_SerializedTextureGuid:
+      m_GuidLow: 12759965282931696287
+      m_GuidHigh: 6297717101670675883
+    m_Size: {x: 0.12328572, y: 0.081857145}
+    m_SpecifySize: 1
+    m_Name: 0554_DS074-075_eggs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5238020707923679576
+      m_GuidHigh: 11006136005070345641
+    m_SerializedTextureGuid:
+      m_GuidLow: 8382435871991264815
+      m_GuidHigh: 132156392186646729
+    m_Size: {x: 0.09885715, y: 0.07014286}
+    m_SpecifySize: 1
+    m_Name: 0555_DS074-075_crisps
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4660828175071685884
+      m_GuidHigh: 7953713639156344975
+    m_SerializedTextureGuid:
+      m_GuidLow: 703896384903952616
+      m_GuidHigh: 16195197871503294523
+    m_Size: {x: 0.062428575, y: 0.10357143}
+    m_SpecifySize: 1
+    m_Name: 0556_DS074-075_pepper
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4937864670323205729
+      m_GuidHigh: 16142930074414432916
+    m_SerializedTextureGuid:
+      m_GuidLow: 17290521948951982118
+      m_GuidHigh: 13166680046171417800
+    m_Size: {x: 0.14514287, y: 0.10357143}
+    m_SpecifySize: 1
+    m_Name: 0557_DS074-075_spices
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5041530928013644436
+      m_GuidHigh: 908648280612500889
+    m_SerializedTextureGuid:
+      m_GuidLow: 2262071536519462020
+      m_GuidHigh: 18273523981254373675
+    m_Size: {x: 0.07457143, y: 0.064428575}
+    m_SpecifySize: 1
+    m_Name: 0558_DS074-075_coriander
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5096213912956475704
+      m_GuidHigh: 9817550454346754201
+    m_SerializedTextureGuid:
+      m_GuidLow: 15187541162679739067
+      m_GuidHigh: 16177487770550535946
+    m_Size: {x: 0.07671429, y: 0.07014286}
+    m_SpecifySize: 1
+    m_Name: 0559_DS074-075_basil
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4665286038467618849
+      m_GuidHigh: 14790389676248247450
+    m_SerializedTextureGuid:
+      m_GuidLow: 13093222414987198193
+      m_GuidHigh: 15744222233203521272
+    m_Size: {x: 0.13757144, y: 0.13628572}
+    m_SpecifySize: 1
+    m_Name: 0560_DS074-075_shoppingbasket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4718753431963050374
+      m_GuidHigh: 15207106073806611105
+    m_SerializedTextureGuid:
+      m_GuidLow: 1541596792207495478
+      m_GuidHigh: 16840858732645246891
+    m_Size: {x: 0.25842857, y: 0.23828572}
+    m_SpecifySize: 1
+    m_Name: 0561_DS074-075_shoppingcart
+    m_Texture: {fileID: 0}

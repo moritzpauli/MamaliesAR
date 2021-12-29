@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS050-051
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5453667511098444769
+  m_GuidHigh: 5486267099783560587
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4997832944873282076
+      m_GuidHigh: 15094277891075346329
+    m_SerializedTextureGuid:
+      m_GuidLow: 4513745603385273572
+      m_GuidHigh: 18337330882644959304
+    m_Size: {x: 0.0686, y: 0.030599998}
+    m_SpecifySize: 1
+    m_Name: 0312_DS050-051_summer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5035459701123653099
+      m_GuidHigh: 11439927472265688220
+    m_SerializedTextureGuid:
+      m_GuidLow: 17885076493512892238
+      m_GuidHigh: 2400645798933936712
+    m_Size: {x: 0.09642857, y: 0.05414286}
+    m_SpecifySize: 1
+    m_Name: 0313_DS050-051_toshine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5398319639838121042
+      m_GuidHigh: 1682960061998314132
+    m_SerializedTextureGuid:
+      m_GuidLow: 10355010175215977407
+      m_GuidHigh: 2801707123482102875
+    m_Size: {x: 0.06528572, y: 0.08371429}
+    m_SpecifySize: 1
+    m_Name: 0314_DS050-051_sun
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5332687469701642188
+      m_GuidHigh: 17086002161118757519
+    m_SerializedTextureGuid:
+      m_GuidLow: 18002128080978593970
+      m_GuidHigh: 2137801441257096955
+    m_Size: {x: 0.06585715, y: 0.083571434}
+    m_SpecifySize: 1
+    m_Name: 0315_DS050-051_heat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5171765431398528061
+      m_GuidHigh: 7533048580741747109
+    m_SerializedTextureGuid:
+      m_GuidLow: 11327883699319583984
+      m_GuidHigh: 3175574558539121675
+    m_Size: {x: 0.06914286, y: 0.107142866}
+    m_SpecifySize: 1
+    m_Name: 0316_DS050-051_tosweat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5600994059675574291
+      m_GuidHigh: 13078755954186843807
+    m_SerializedTextureGuid:
+      m_GuidLow: 7333171819826025250
+      m_GuidHigh: 8061936003593859288
+    m_Size: {x: 0.10700001, y: 0.09614286}
+    m_SpecifySize: 1
+    m_Name: 0317_DS050-051_warmth
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5246996869032320540
+      m_GuidHigh: 9157718151371680683
+    m_SerializedTextureGuid:
+      m_GuidLow: 13624714957953890696
+      m_GuidHigh: 17747266342814097017
+    m_Size: {x: 0.118142866, y: 0.116000004}
+    m_SpecifySize: 1
+    m_Name: 0318_DS050-051_shadow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5480699576434722217
+      m_GuidHigh: 13124317047547461781
+    m_SerializedTextureGuid:
+      m_GuidLow: 16723256240444338139
+      m_GuidHigh: 10065919224612061144
+    m_Size: {x: 0.10185715, y: 0.30200002}
+    m_SpecifySize: 1
+    m_Name: 0319_DS050-051_temperature
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5141820946754205975
+      m_GuidHigh: 2679615294161302434
+    m_SerializedTextureGuid:
+      m_GuidLow: 16146541543011589730
+      m_GuidHigh: 17525621621483323176
+    m_Size: {x: 0.07585715, y: 0.04514286}
+    m_SpecifySize: 1
+    m_Name: 0320_DS050-051_food
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5549363151299881573
+      m_GuidHigh: 3310218512837902003
+    m_SerializedTextureGuid:
+      m_GuidLow: 5072334348843951097
+      m_GuidHigh: 8085012140968391371
+    m_Size: {x: 0.070285715, y: 0.11871429}
+    m_SpecifySize: 1
+    m_Name: 0321_DS050-051_delicious
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5186617013709846754
+      m_GuidHigh: 1979219431375887761
+    m_SerializedTextureGuid:
+      m_GuidLow: 8684107484068826123
+      m_GuidHigh: 8910435773119469672
+    m_Size: {x: 0.083571434, y: 0.11342858}
+    m_SpecifySize: 1
+    m_Name: 0322_DS050-051_disgusting
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5541093791308215753
+      m_GuidHigh: 9658683668070103691
+    m_SerializedTextureGuid:
+      m_GuidLow: 15385671831658308157
+      m_GuidHigh: 6994209954383490298
+    m_Size: {x: 0.053857144, y: 0.10328572}
+    m_SpecifySize: 1
+    m_Name: 0323_DS050-051_cutlery
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5553680128828805747
+      m_GuidHigh: 4428932819207868858
+    m_SerializedTextureGuid:
+      m_GuidLow: 9571459466423734205
+      m_GuidHigh: 15493857358013619177
+    m_Size: {x: 0.053000003, y: 0.083571434}
+    m_SpecifySize: 1
+    m_Name: 0324_DS050-051_glass
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5470656815055341465
+      m_GuidHigh: 4085262131208860309
+    m_SerializedTextureGuid:
+      m_GuidLow: 13232859941644724040
+      m_GuidHigh: 8851805907228585080
+    m_Size: {x: 0.06942858, y: 0.072571434}
+    m_SpecifySize: 1
+    m_Name: 0325_DS050-051_bowl
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4934391919448453852
+      m_GuidHigh: 2891556864761595267
+    m_SerializedTextureGuid:
+      m_GuidLow: 2752977381968542473
+      m_GuidHigh: 7510378355394673944
+    m_Size: {x: 0.10728572, y: 0.11042858}
+    m_SpecifySize: 1
+    m_Name: 0326_DS050-051_thirst
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5492183788628135039
+      m_GuidHigh: 3050457681127037832
+    m_SerializedTextureGuid:
+      m_GuidLow: 8513040324836157622
+      m_GuidHigh: 1492613145580153019
+    m_Size: {x: 0.19842859, y: 0.147}
+    m_SpecifySize: 1
+    m_Name: 0327_DS050-051_hunger
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5381427010716503208
+      m_GuidHigh: 17180963502615927941
+    m_SerializedTextureGuid:
+      m_GuidLow: 3869877845767817911
+      m_GuidHigh: 4937775483679899576
+    m_Size: {x: 0.06771429, y: 0.095571436}
+    m_SpecifySize: 1
+    m_Name: 0328_DS050-051_dish
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4737836881967551460
+      m_GuidHigh: 10004180811253362326
+    m_SerializedTextureGuid:
+      m_GuidLow: 13345454417717331922
+      m_GuidHigh: 1847800270101613243
+    m_Size: {x: 0.053857144, y: 0.11228572}
+    m_SpecifySize: 1
+    m_Name: 0329_DS050-051_bottle
+    m_Texture: {fileID: 0}

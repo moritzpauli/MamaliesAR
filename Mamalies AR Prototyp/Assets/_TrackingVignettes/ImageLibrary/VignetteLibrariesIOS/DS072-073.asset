@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS072-073
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5230552000668826649
+  m_GuidHigh: 15020772073572645011
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5231015814620226193
+      m_GuidHigh: 7261612253021225874
+    m_SerializedTextureGuid:
+      m_GuidLow: 5558594412019495555
+      m_GuidHigh: 17921111981796820648
+    m_Size: {x: 0.0778, y: 0.0317}
+    m_SpecifySize: 1
+    m_Name: 0533_DS072-073_shopping
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5606866030201228111
+      m_GuidHigh: 6912778021065881998
+    m_SerializedTextureGuid:
+      m_GuidLow: 654238342890889830
+      m_GuidHigh: 5316648076813555641
+    m_Size: {x: 0.11057144, y: 0.095571436}
+    m_SpecifySize: 1
+    m_Name: 0534_DS072-073_bakery
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4928387551035393085
+      m_GuidHigh: 3911228073061875646
+    m_SerializedTextureGuid:
+      m_GuidLow: 15115356922630616853
+      m_GuidHigh: 16388553647372154552
+    m_Size: {x: 0.10671429, y: 0.09200001}
+    m_SpecifySize: 1
+    m_Name: 0535_DS072-073_library
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5557197536723543310
+      m_GuidHigh: 73094700735938194
+    m_SerializedTextureGuid:
+      m_GuidLow: 15160346660385994252
+      m_GuidHigh: 1917190864119010345
+    m_Size: {x: 0.09714286, y: 0.10971429}
+    m_SpecifySize: 1
+    m_Name: 0536_DS072-073_pharmacy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5580959824773512779
+      m_GuidHigh: 776936675253523101
+    m_SerializedTextureGuid:
+      m_GuidLow: 13268963583544906789
+      m_GuidHigh: 14245164262454969801
+    m_Size: {x: 0.12014286, y: 0.11157143}
+    m_SpecifySize: 1
+    m_Name: 0537_DS072-073_shop
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5140529466659760679
+      m_GuidHigh: 9719984819512951171
+    m_SerializedTextureGuid:
+      m_GuidLow: 11079998739256926472
+      m_GuidHigh: 12948101580849529609
+    m_Size: {x: 0.18185715, y: 0.11157143}
+    m_SpecifySize: 1
+    m_Name: 0538_DS072-073_kiosk
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5628159973667683338
+      m_GuidHigh: 8816939503047188875
+    m_SerializedTextureGuid:
+      m_GuidLow: 12949235587454333663
+      m_GuidHigh: 3958277558598215179
+    m_Size: {x: 0.08871429, y: 0.115}
+    m_SpecifySize: 1
+    m_Name: 0539_DS072-073_supermarket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5592811406322557020
+      m_GuidHigh: 12247657290872812469
+    m_SerializedTextureGuid:
+      m_GuidLow: 1865658636435729941
+      m_GuidHigh: 13333881601165574171
+    m_Size: {x: 0.1367143, y: 0.086428575}
+    m_SpecifySize: 1
+    m_Name: 0540_DS072-073_cinema
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5646456460361447976
+      m_GuidHigh: 12826118230878360738
+    m_SerializedTextureGuid:
+      m_GuidLow: 12169883222987661988
+      m_GuidHigh: 12096356895724401080
+    m_Size: {x: 0.10014286, y: 0.09428572}
+    m_SpecifySize: 1
+    m_Name: 0541_DS072-073_restaurant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5573298023950005497
+      m_GuidHigh: 13504019195215419839
+    m_SerializedTextureGuid:
+      m_GuidLow: 17731981302090139669
+      m_GuidHigh: 13866527163924620440
+    m_Size: {x: 0.12771429, y: 0.11728572}
+    m_SpecifySize: 1
+    m_Name: 0542_DS072-073_postoffice
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4763976708400686273
+      m_GuidHigh: 3172533641798137510
+    m_SerializedTextureGuid:
+      m_GuidLow: 15655643827049369783
+      m_GuidHigh: 690203917270587754
+    m_Size: {x: 0.06357143, y: 0.05714286}
+    m_SpecifySize: 1
+    m_Name: 0543_DS072-073_letter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5213358249618213619
+      m_GuidHigh: 15453989468572344751
+    m_SerializedTextureGuid:
+      m_GuidLow: 3230300107742716183
+      m_GuidHigh: 2865722367750630904
+    m_Size: {x: 0.07185715, y: 0.06342857}
+    m_SpecifySize: 1
+    m_Name: 0544_DS072-073_package
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4706632378579419360
+      m_GuidHigh: 11913863831260529826
+    m_SerializedTextureGuid:
+      m_GuidLow: 6932372310519850740
+      m_GuidHigh: 13782847813277761178
+    m_Size: {x: 0.06542858, y: 0.080000006}
+    m_SpecifySize: 1
+    m_Name: 0545_DS072-073_permission
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5342818562187586259
+      m_GuidHigh: 3350353381768854176
+    m_SerializedTextureGuid:
+      m_GuidLow: 15209876993948317052
+      m_GuidHigh: 8312095346514345771
+    m_Size: {x: 0.1597143, y: 0.10528572}
+    m_SpecifySize: 1
+    m_Name: 0546_DS072-073_gasstation
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5217934877360212118
+      m_GuidHigh: 6338484650607729548
+    m_SerializedTextureGuid:
+      m_GuidLow: 2964595390556285776
+      m_GuidHigh: 11540534686537315032
+    m_Size: {x: 0.12042858, y: 0.10528572}
+    m_SpecifySize: 1
+    m_Name: 0547_DS072-073_bank
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5409601890987394538
+      m_GuidHigh: 8312412495567368340
+    m_SerializedTextureGuid:
+      m_GuidLow: 15840333371457858524
+      m_GuidHigh: 15349706914112405353
+    m_Size: {x: 0.11714286, y: 0.10585715}
+    m_SpecifySize: 1
+    m_Name: 0548_DS072-073_fittingroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5153308922938221046
+      m_GuidHigh: 17865325509260167076
+    m_SerializedTextureGuid:
+      m_GuidLow: 10260457145038821540
+      m_GuidHigh: 2963846422705699577
+    m_Size: {x: 0.11785715, y: 0.116571434}
+    m_SpecifySize: 1
+    m_Name: 0549_DS072-073_market
+    m_Texture: {fileID: 0}

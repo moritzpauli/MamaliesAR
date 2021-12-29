@@ -1,0 +1,157 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS084-085
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5647521938989788720
+  m_GuidHigh: 16412153758911363253
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5364130815494986608
+      m_GuidHigh: 17249536420355623583
+    m_SerializedTextureGuid:
+      m_GuidLow: 17416755072626624997
+      m_GuidHigh: 7795113402842107979
+    m_Size: {x: 0.0585, y: 0.0315}
+    m_SpecifySize: 1
+    m_Name: 0643_DS084-085_sport
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5055876762977280801
+      m_GuidHigh: 1127253791347932847
+    m_SerializedTextureGuid:
+      m_GuidLow: 8864307382118942083
+      m_GuidHigh: 11267948215626660923
+    m_Size: {x: 0.16328572, y: 0.14085715}
+    m_SpecifySize: 1
+    m_Name: 0644_DS084-085_todogymnastics
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4936010384181277148
+      m_GuidHigh: 10651377223511677863
+    m_SerializedTextureGuid:
+      m_GuidLow: 3162698071902032435
+      m_GuidHigh: 14779441997526693129
+    m_Size: {x: 0.12857144, y: 0.12814286}
+    m_SpecifySize: 1
+    m_Name: 0645_DS084-085_gymnastics
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4748946852565221832
+      m_GuidHigh: 14662798839881740974
+    m_SerializedTextureGuid:
+      m_GuidLow: 7373632419181868591
+      m_GuidHigh: 11371190660956737803
+    m_Size: {x: 0.10914286, y: 0.16257143}
+    m_SpecifySize: 1
+    m_Name: 0646_DS084-085_todance
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5198277583249525579
+      m_GuidHigh: 4851385598338357158
+    m_SerializedTextureGuid:
+      m_GuidLow: 16714191681960272288
+      m_GuidHigh: 14060587057451527305
+    m_Size: {x: 0.052285716, y: 0.155}
+    m_SpecifySize: 1
+    m_Name: 0647_DS084-085_third
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4654484881518434590
+      m_GuidHigh: 16466195855899505041
+    m_SerializedTextureGuid:
+      m_GuidLow: 1982857371049314798
+      m_GuidHigh: 5051248890030958443
+    m_Size: {x: 0.064428575, y: 0.19185716}
+    m_SpecifySize: 1
+    m_Name: 0648_DS084-085_first
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4738493134864090332
+      m_GuidHigh: 14181511532783372469
+    m_SerializedTextureGuid:
+      m_GuidLow: 9877748317416153410
+      m_GuidHigh: 9972333023064712267
+    m_Size: {x: 0.05914286, y: 0.155}
+    m_SpecifySize: 1
+    m_Name: 0649_DS084-085_second
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5084424233413463840
+      m_GuidHigh: 12470065123411316104
+    m_SerializedTextureGuid:
+      m_GuidLow: 271377290383811643
+      m_GuidHigh: 14671203558730479976
+    m_Size: {x: 0.11171429, y: 0.12785715}
+    m_SpecifySize: 1
+    m_Name: 0650_DS084-085_toplayfootball
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5606879011709402143
+      m_GuidHigh: 12163780571959104436
+    m_SerializedTextureGuid:
+      m_GuidLow: 3487155356130221911
+      m_GuidHigh: 14261632958588091000
+    m_Size: {x: 0.07971429, y: 0.13414286}
+    m_SpecifySize: 1
+    m_Name: 0651_DS084-085_player
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4882449475546180480
+      m_GuidHigh: 12032659678649018041
+    m_SerializedTextureGuid:
+      m_GuidLow: 8017703701358702593
+      m_GuidHigh: 13746359031070298331
+    m_Size: {x: 0.08557143, y: 0.15328573}
+    m_SpecifySize: 1
+    m_Name: 0652_DS084-085_referee
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4903319348267150794
+      m_GuidHigh: 7678832250479993256
+    m_SerializedTextureGuid:
+      m_GuidLow: 16232271585206778667
+      m_GuidHigh: 15215225314920543595
+    m_Size: {x: 0.16828573, y: 0.14357144}
+    m_SpecifySize: 1
+    m_Name: 0653_DS084-085_club
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4972703283680093323
+      m_GuidHigh: 9845135791945206145
+    m_SerializedTextureGuid:
+      m_GuidLow: 10715262719927498122
+      m_GuidHigh: 15259570286699208105
+    m_Size: {x: 0.18485714, y: 0.15757143}
+    m_SpecifySize: 1
+    m_Name: 0654_DS084-085_team
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5495558038920941476
+      m_GuidHigh: 17285761281804412329
+    m_SerializedTextureGuid:
+      m_GuidLow: 4689626485434596424
+      m_GuidHigh: 11967979486589715131
+    m_Size: {x: 0.066, y: 0.08771429}
+    m_SpecifySize: 1
+    m_Name: 0655_DS084-085_football
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5332622880533397146
+      m_GuidHigh: 4986876982005522562
+    m_SerializedTextureGuid:
+      m_GuidLow: 213007591403963641
+      m_GuidHigh: 5368153908721503131
+    m_Size: {x: 0.07985715, y: 0.08771429}
+    m_SpecifySize: 1
+    m_Name: 0656_DS084-085_sportsclub
+    m_Texture: {fileID: 0}

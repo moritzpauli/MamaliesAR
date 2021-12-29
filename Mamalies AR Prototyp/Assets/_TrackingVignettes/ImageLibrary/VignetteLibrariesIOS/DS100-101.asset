@@ -1,0 +1,237 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS100-101
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5605977661943043025
+  m_GuidHigh: 15543184127920463771
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5686466479246740339
+      m_GuidHigh: 15065260071370192824
+    m_SerializedTextureGuid:
+      m_GuidLow: 17312996647493168771
+      m_GuidHigh: 1821875662849551368
+    m_Size: {x: 0.056199998, y: 0.033}
+    m_SpecifySize: 1
+    m_Name: 0804_DS100-101_times
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5180254516348640198
+      m_GuidHigh: 3274705408785215147
+    m_SerializedTextureGuid:
+      m_GuidLow: 8742804348821788765
+      m_GuidHigh: 3806144334554928809
+    m_Size: {x: 0.10585715, y: 0.12100001}
+    m_SpecifySize: 1
+    m_Name: 0805_DS100-101_morning
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4988657292581627689
+      m_GuidHigh: 10347032764651366540
+    m_SerializedTextureGuid:
+      m_GuidLow: 6468514963429320110
+      m_GuidHigh: 14703509433533790331
+    m_Size: {x: 0.104, y: 0.12100001}
+    m_SpecifySize: 1
+    m_Name: 0806_DS100-101_midmorning
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5625155378922723693
+      m_GuidHigh: 3929462757093992327
+    m_SerializedTextureGuid:
+      m_GuidLow: 16781701242742079133
+      m_GuidHigh: 11880522027685207000
+    m_Size: {x: 0.08085715, y: 0.06585715}
+    m_SpecifySize: 1
+    m_Name: 0807_DS100-101_light
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5239743618308205906
+      m_GuidHigh: 12325375411339656096
+    m_SerializedTextureGuid:
+      m_GuidLow: 16633025195193731920
+      m_GuidHigh: 8406844690440861624
+    m_Size: {x: 0.10542858, y: 0.12100001}
+    m_SpecifySize: 1
+    m_Name: 0808_DS100-101_noon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4619347293188742990
+      m_GuidHigh: 6010941041982542500
+    m_SerializedTextureGuid:
+      m_GuidLow: 10278360013600378367
+      m_GuidHigh: 14930709604373616906
+    m_Size: {x: 0.10228572, y: 0.12742858}
+    m_SpecifySize: 1
+    m_Name: 0809_DS100-101_afternoon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4737440839435265944
+      m_GuidHigh: 14364773292832010940
+    m_SerializedTextureGuid:
+      m_GuidLow: 6211848931052288647
+      m_GuidHigh: 18274927343314438315
+    m_Size: {x: 0.10757143, y: 0.12742858}
+    m_SpecifySize: 1
+    m_Name: 0810_DS100-101_evening
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4934154177601699910
+      m_GuidHigh: 6362942134406821806
+    m_SerializedTextureGuid:
+      m_GuidLow: 13484913633645525896
+      m_GuidHigh: 9985210272038890010
+    m_Size: {x: 0.084142864, y: 0.07071429}
+    m_SpecifySize: 1
+    m_Name: 0811_DS100-101_dark
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5141265635619091352
+      m_GuidHigh: 122153948856093095
+    m_SerializedTextureGuid:
+      m_GuidLow: 3968885584906562501
+      m_GuidHigh: 16309732039011086027
+    m_Size: {x: 0.10542858, y: 0.12742858}
+    m_SpecifySize: 1
+    m_Name: 0812_DS100-101_night
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5460121291569725554
+      m_GuidHigh: 7152946224340001433
+    m_SerializedTextureGuid:
+      m_GuidLow: 10278488037528675498
+      m_GuidHigh: 16112939006527962155
+    m_Size: {x: 0.08328572, y: 0.07071429}
+    m_SpecifySize: 1
+    m_Name: 0813_DS100-101_atnight
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4970881497018410832
+      m_GuidHigh: 10397311721772332940
+    m_SerializedTextureGuid:
+      m_GuidLow: 14849707329683979722
+      m_GuidHigh: 15141801456922151051
+    m_Size: {x: 0.089857146, y: 0.07628572}
+    m_SpecifySize: 1
+    m_Name: 0814_DS100-101_dream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5133801437475703690
+      m_GuidHigh: 8064933495342162579
+    m_SerializedTextureGuid:
+      m_GuidLow: 3185270227625318910
+      m_GuidHigh: 1770861429544297946
+    m_Size: {x: 0.12714286, y: 0.07828572}
+    m_SpecifySize: 1
+    m_Name: 0815_DS100-101_todream
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5748287493623037387
+      m_GuidHigh: 6003313795971410842
+    m_SerializedTextureGuid:
+      m_GuidLow: 1487527859498768220
+      m_GuidHigh: 14437097689887164314
+    m_Size: {x: 0.1, y: 0.06985714}
+    m_SpecifySize: 1
+    m_Name: 0816_DS100-101_tosleep
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5533032904140652321
+      m_GuidHigh: 17605649797437063558
+    m_SerializedTextureGuid:
+      m_GuidLow: 16344820538800917438
+      m_GuidHigh: 18159193021024859065
+    m_Size: {x: 0.06457143, y: 0.07414286}
+    m_SpecifySize: 1
+    m_Name: 0817_DS100-101_alarm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4935090254320363489
+      m_GuidHigh: 15550113824915913882
+    m_SerializedTextureGuid:
+      m_GuidLow: 6112587624827464517
+      m_GuidHigh: 1375233816441185176
+    m_Size: {x: 0.06671429, y: 0.07828572}
+    m_SpecifySize: 1
+    m_Name: 0818_DS100-101_towakeup
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4826579218993459696
+      m_GuidHigh: 15242447781079918256
+    m_SerializedTextureGuid:
+      m_GuidLow: 2451355125889760625
+      m_GuidHigh: 5592327593983476824
+    m_Size: {x: 0.07514286, y: 0.09314286}
+    m_SpecifySize: 1
+    m_Name: 0819_DS100-101_toawake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4844603145114225178
+      m_GuidHigh: 17002097341753332918
+    m_SerializedTextureGuid:
+      m_GuidLow: 3158392210060611671
+      m_GuidHigh: 1147437877693794856
+    m_Size: {x: 0.07514286, y: 0.09728572}
+    m_SpecifySize: 1
+    m_Name: 0820_DS100-101_tobelate
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4648174375508335391
+      m_GuidHigh: 14499618257643119288
+    m_SerializedTextureGuid:
+      m_GuidLow: 12161100638817385746
+      m_GuidHigh: 9120954447229772937
+    m_Size: {x: 0.15585715, y: 0.09728572}
+    m_SpecifySize: 1
+    m_Name: 0821_DS100-101_delay
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5621187063628742806
+      m_GuidHigh: 8798211990894872762
+    m_SerializedTextureGuid:
+      m_GuidLow: 11597954098098713903
+      m_GuidHigh: 7621887402276746568
+    m_Size: {x: 0.096285716, y: 0.10171429}
+    m_SpecifySize: 1
+    m_Name: 0822_DS100-101_when
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4660763072295680187
+      m_GuidHigh: 17335923928153563822
+    m_SerializedTextureGuid:
+      m_GuidLow: 5432625331809731104
+      m_GuidHigh: 15262307306825294280
+    m_Size: {x: 0.08142857, y: 0.08928572}
+    m_SpecifySize: 1
+    m_Name: 0823_DS100-101_moon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4855466506826365282
+      m_GuidHigh: 17154842868046775951
+    m_SerializedTextureGuid:
+      m_GuidLow: 8229258154871922654
+      m_GuidHigh: 5182379739315120683
+    m_Size: {x: 0.07057143, y: 0.08928572}
+    m_SpecifySize: 1
+    m_Name: 0824_DS100-101_halfmoon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4936369945540534629
+      m_GuidHigh: 8057585531087682970
+    m_SerializedTextureGuid:
+      m_GuidLow: 13899291480701605450
+      m_GuidHigh: 2972527027850876312
+    m_Size: {x: 0.079428576, y: 0.08928572}
+    m_SpecifySize: 1
+    m_Name: 0825_DS100-101_crescentmoon
+    m_Texture: {fileID: 0}

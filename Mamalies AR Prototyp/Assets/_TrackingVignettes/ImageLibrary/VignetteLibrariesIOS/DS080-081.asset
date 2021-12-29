@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS080-081
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5559547043262908767
+  m_GuidHigh: 14752901085311182271
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5566276731498763144
+      m_GuidHigh: 8723070115088777643
+    m_SerializedTextureGuid:
+      m_GuidLow: 15056935331095223692
+      m_GuidHigh: 6547002644254369385
+    m_Size: {x: 0.051799998, y: 0.040999997}
+    m_SpecifySize: 1
+    m_Name: 0604_DS080-081_year
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4910309690610525797
+      m_GuidHigh: 1007844273505087400
+    m_SerializedTextureGuid:
+      m_GuidLow: 2136098787178949536
+      m_GuidHigh: 723893711918142840
+    m_Size: {x: 0.06571429, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0605_DS080-081_day
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4768652113031796838
+      m_GuidHigh: 9368793735106801550
+    m_SerializedTextureGuid:
+      m_GuidLow: 17110330398772464108
+      m_GuidHigh: 13746864850643300218
+    m_Size: {x: 0.09571429, y: 0.064}
+    m_SpecifySize: 1
+    m_Name: 0606_DS080-081_month
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5519385045792379701
+      m_GuidHigh: 6485827863244988551
+    m_SerializedTextureGuid:
+      m_GuidLow: 7004497378198807063
+      m_GuidHigh: 6830866343903880105
+    m_Size: {x: 0.108428575, y: 0.070285715}
+    m_SpecifySize: 1
+    m_Name: 0607_DS080-081_week
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4943797690625974889
+      m_GuidHigh: 1659981001769446274
+    m_SerializedTextureGuid:
+      m_GuidLow: 6495441962711317831
+      m_GuidHigh: 10909717474642630683
+    m_Size: {x: 0.053714287, y: 0.07242858}
+    m_SpecifySize: 1
+    m_Name: 0608_DS080-081_weather
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4931655073823235965
+      m_GuidHigh: 861943731206918543
+    m_SerializedTextureGuid:
+      m_GuidLow: 11530600795184300790
+      m_GuidHigh: 9776072566160395451
+    m_Size: {x: 0.05871429, y: 0.07057143}
+    m_SpecifySize: 1
+    m_Name: 0609_DS080-081_change
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4819392642285935429
+      m_GuidHigh: 13683928599943636153
+    m_SerializedTextureGuid:
+      m_GuidLow: 5725414151401084185
+      m_GuidHigh: 15537685170143165992
+    m_Size: {x: 0.07157143, y: 0.09142858}
+    m_SpecifySize: 1
+    m_Name: 0610_DS080-081_autumnal
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5601158409613139931
+      m_GuidHigh: 11892637986026453690
+    m_SerializedTextureGuid:
+      m_GuidLow: 10949559354757599965
+      m_GuidHigh: 5001516935064683435
+    m_Size: {x: 0.11228572, y: 0.14114286}
+    m_SpecifySize: 1
+    m_Name: 0611_DS080-081_todohandicrafts
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5610431384003443821
+      m_GuidHigh: 4758730145276335505
+    m_SerializedTextureGuid:
+      m_GuidLow: 6328752387133706474
+      m_GuidHigh: 16401654624586898040
+    m_Size: {x: 0.07057143, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0612_DS080-081_toshine
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5290415019658297717
+      m_GuidHigh: 10795913282795587719
+    m_SerializedTextureGuid:
+      m_GuidLow: 3676119639948638024
+      m_GuidHigh: 15747103747434383656
+    m_Size: {x: 0.05928572, y: 0.09442858}
+    m_SpecifySize: 1
+    m_Name: 0613_DS080-081_lightning
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5740763799803790711
+      m_GuidHigh: 13478480734861485193
+    m_SerializedTextureGuid:
+      m_GuidLow: 1446860893367426497
+      m_GuidHigh: 535786902664786425
+    m_Size: {x: 0.071, y: 0.08071429}
+    m_SpecifySize: 1
+    m_Name: 0614_DS080-081_thunder
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5573399315224307424
+      m_GuidHigh: 10096114992228198022
+    m_SerializedTextureGuid:
+      m_GuidLow: 15439619855886840972
+      m_GuidHigh: 18319671664329171931
+    m_Size: {x: 0.117571436, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0615_DS080-081_light
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4720560478730277940
+      m_GuidHigh: 16490985370300412554
+    m_SerializedTextureGuid:
+      m_GuidLow: 262419515380845040
+      m_GuidHigh: 12069334295760952057
+    m_Size: {x: 0.07228572, y: 0.084714286}
+    m_SpecifySize: 1
+    m_Name: 0616_DS080-081_wind
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5295814384674035479
+      m_GuidHigh: 11813944028701535648
+    m_SerializedTextureGuid:
+      m_GuidLow: 13593143825260445634
+      m_GuidHigh: 17157276026852988920
+    m_Size: {x: 0.36157143, y: 0.2857143}
+    m_SpecifySize: 1
+    m_Name: 0617_DS080-081_storm
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5608545920696722053
+      m_GuidHigh: 16166516115456947854
+    m_SerializedTextureGuid:
+      m_GuidLow: 4288692086269777599
+      m_GuidHigh: 8567284232807934346
+    m_Size: {x: 0.12685715, y: 0.07928572}
+    m_SpecifySize: 1
+    m_Name: 0618_DS080-081_rainbow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4886858548405745638
+      m_GuidHigh: 796460971497692337
+    m_SerializedTextureGuid:
+      m_GuidLow: 17871506765213928824
+      m_GuidHigh: 11165644753220280362
+    m_Size: {x: 0.08800001, y: 0.083571434}
+    m_SpecifySize: 1
+    m_Name: 0619_DS080-081_fog
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5322708625435613934
+      m_GuidHigh: 6126731532284395441
+    m_SerializedTextureGuid:
+      m_GuidLow: 10589206008362639200
+      m_GuidHigh: 1737962261584686427
+    m_Size: {x: 0.092142865, y: 0.14228572}
+    m_SpecifySize: 1
+    m_Name: 2001_DS080-081_togoforawalk
+    m_Texture: {fileID: 0}

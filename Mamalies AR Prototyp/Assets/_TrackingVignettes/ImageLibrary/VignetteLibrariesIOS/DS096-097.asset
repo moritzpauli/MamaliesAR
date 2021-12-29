@@ -1,0 +1,117 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS096-097
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5421576591181559313
+  m_GuidHigh: 2734865811393374644
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4626712774781024861
+      m_GuidHigh: 6439629818935812537
+    m_SerializedTextureGuid:
+      m_GuidLow: 6454853132927553683
+      m_GuidHigh: 13705390549126871450
+    m_Size: {x: 0.0705, y: 0.037}
+    m_SpecifySize: 1
+    m_Name: 0776_DS096-097_garden-headline
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5612499148962643486
+      m_GuidHigh: 5061302351221854096
+    m_SerializedTextureGuid:
+      m_GuidLow: 5653309294071389737
+      m_GuidHigh: 6875360171447358568
+    m_Size: {x: 0.2634286, y: 0.17042857}
+    m_SpecifySize: 1
+    m_Name: 0777_DS096-097_garden
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4781712629905993724
+      m_GuidHigh: 14396617481601437854
+    m_SerializedTextureGuid:
+      m_GuidLow: 16542995390360609907
+      m_GuidHigh: 15304809400978531211
+    m_Size: {x: 0.19357143, y: 0.074285716}
+    m_SpecifySize: 1
+    m_Name: 0778_DS096-097_lawn
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5002124769426187161
+      m_GuidHigh: 6099681362255040658
+    m_SerializedTextureGuid:
+      m_GuidLow: 492203117117911250
+      m_GuidHigh: 12833665292288821096
+    m_Size: {x: 0.2787143, y: 0.088142864}
+    m_SpecifySize: 1
+    m_Name: 0779_DS096-097_fence
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5009380602858890060
+      m_GuidHigh: 17683067888162741417
+    m_SerializedTextureGuid:
+      m_GuidLow: 8287997393830124145
+      m_GuidHigh: 3476838662474032392
+    m_Size: {x: 0.12542857, y: 0.08214286}
+    m_SpecifySize: 1
+    m_Name: 0780_DS096-097_wheelbarrow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4825997728969868203
+      m_GuidHigh: 17032230521560758197
+    m_SerializedTextureGuid:
+      m_GuidLow: 1397334713713675550
+      m_GuidHigh: 12748670005503952186
+    m_Size: {x: 0.21785715, y: 0.19157144}
+    m_SpecifySize: 1
+    m_Name: 0781_DS096-097_toplant
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5356341691707984223
+      m_GuidHigh: 5051784510570025111
+    m_SerializedTextureGuid:
+      m_GuidLow: 2077338942386978743
+      m_GuidHigh: 10936488957803381961
+    m_Size: {x: 0.097, y: 0.10242858}
+    m_SpecifySize: 1
+    m_Name: 0782_DS096-097_wateringcan
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5019275319340704561
+      m_GuidHigh: 1174082829099280057
+    m_SerializedTextureGuid:
+      m_GuidLow: 167938809782831515
+      m_GuidHigh: 17502544249298455371
+    m_Size: {x: 0.091000006, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0783_DS096-097_gardenhose
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4846374521769858534
+      m_GuidHigh: 3527332421490091935
+    m_SerializedTextureGuid:
+      m_GuidLow: 6193749530018468044
+      m_GuidHigh: 7399683564062333400
+    m_Size: {x: 0.075, y: 0.09014286}
+    m_SpecifySize: 1
+    m_Name: 0784_DS096-097_bucket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4727089478797256285
+      m_GuidHigh: 1447109195376586374
+    m_SerializedTextureGuid:
+      m_GuidLow: 10156842814877153368
+      m_GuidHigh: 3406403697798584744
+    m_Size: {x: 0.09357143, y: 0.092857145}
+    m_SpecifySize: 1
+    m_Name: 0785_DS096-097_shovel
+    m_Texture: {fileID: 0}

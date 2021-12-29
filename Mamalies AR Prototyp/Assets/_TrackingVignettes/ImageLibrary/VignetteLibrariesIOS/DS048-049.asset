@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS048-049
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5171031357214845917
+  m_GuidHigh: 10548523921197701275
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5204643852848306227
+      m_GuidHigh: 16184445602173052336
+    m_SerializedTextureGuid:
+      m_GuidLow: 12620324418891715605
+      m_GuidHigh: 16096421144946946331
+    m_Size: {x: 0.057499997, y: 0.0289}
+    m_SpecifySize: 1
+    m_Name: 0295_DS048-049_water
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5085478386497037724
+      m_GuidHigh: 17848014105923670698
+    m_SerializedTextureGuid:
+      m_GuidLow: 14813701274381100624
+      m_GuidHigh: 1648052426254794043
+    m_Size: {x: 0.13142858, y: 0.12357143}
+    m_SpecifySize: 1
+    m_Name: 0296_DS048-049_toangle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5445679481236608742
+      m_GuidHigh: 12829394668008501128
+    m_SerializedTextureGuid:
+      m_GuidLow: 16678054695869717733
+      m_GuidHigh: 9634971970995330025
+    m_Size: {x: 0.15628572, y: 0.061428573}
+    m_SpecifySize: 1
+    m_Name: 0297_DS048-049_fishingrod
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4795677220525532807
+      m_GuidHigh: 1403785294332957320
+    m_SerializedTextureGuid:
+      m_GuidLow: 9981308392079577864
+      m_GuidHigh: 5078111172494687803
+    m_Size: {x: 0.11385715, y: 0.10528572}
+    m_SpecifySize: 1
+    m_Name: 0298_DS048-049_tofish
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4739473363953214918
+      m_GuidHigh: 7747215304217761459
+    m_SerializedTextureGuid:
+      m_GuidLow: 10620781046089226516
+      m_GuidHigh: 8801098637904721242
+    m_Size: {x: 0.10185715, y: 0.07228572}
+    m_SpecifySize: 1
+    m_Name: 0299_DS048-049_fish
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5201559555772927842
+      m_GuidHigh: 4479228375298505881
+    m_SerializedTextureGuid:
+      m_GuidLow: 16281651370632774716
+      m_GuidHigh: 14988008818886437531
+    m_Size: {x: 0.14157143, y: 0.063857146}
+    m_SpecifySize: 1
+    m_Name: 0300_DS048-049_boat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5180778457771810046
+      m_GuidHigh: 16044789326358140831
+    m_SerializedTextureGuid:
+      m_GuidLow: 14642344325207774817
+      m_GuidHigh: 16190510481962287608
+    m_Size: {x: 0.06457143, y: 0.08385715}
+    m_SpecifySize: 1
+    m_Name: 0301_DS048-049_sail
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5361966115844176468
+      m_GuidHigh: 1502566602468296591
+    m_SerializedTextureGuid:
+      m_GuidLow: 17691482186082033409
+      m_GuidHigh: 6678153453888229497
+    m_Size: {x: 0.11971429, y: 0.12142858}
+    m_SpecifySize: 1
+    m_Name: 0302_DS048-049_tosail
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4723536129893589125
+      m_GuidHigh: 11020891575342262935
+    m_SerializedTextureGuid:
+      m_GuidLow: 2811448402831574565
+      m_GuidHigh: 6184666185755480793
+    m_Size: {x: 0.14114286, y: 0.096285716}
+    m_SpecifySize: 1
+    m_Name: 0303_DS048-049_ship
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4976993012637750537
+      m_GuidHigh: 11972697321277938349
+    m_SerializedTextureGuid:
+      m_GuidLow: 16741175654446560494
+      m_GuidHigh: 9047652643589807850
+    m_Size: {x: 0.16757144, y: 0.079}
+    m_SpecifySize: 1
+    m_Name: 0304_DS048-049_sea
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5676310807226135544
+      m_GuidHigh: 14113349342501799830
+    m_SerializedTextureGuid:
+      m_GuidLow: 18024744652166235933
+      m_GuidHigh: 5667615335019035722
+    m_Size: {x: 0.27800003, y: 0.149}
+    m_SpecifySize: 1
+    m_Name: 0305_DS048-049_beach
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5458608916826321394
+      m_GuidHigh: 15545655402366910141
+    m_SerializedTextureGuid:
+      m_GuidLow: 6553896452652641991
+      m_GuidHigh: 15711028911277719946
+    m_Size: {x: 0.14342858, y: 0.060285717}
+    m_SpecifySize: 1
+    m_Name: 0306_DS048-049_sand
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4689798693335479627
+      m_GuidHigh: 16047846626403420581
+    m_SerializedTextureGuid:
+      m_GuidLow: 15579222869508291608
+      m_GuidHigh: 10957811979482061403
+    m_Size: {x: 0.08671429, y: 0.092285715}
+    m_SpecifySize: 1
+    m_Name: 0307_DS048-049_spring
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5207328294851428986
+      m_GuidHigh: 15019477987299869612
+    m_SerializedTextureGuid:
+      m_GuidLow: 18222774658431190414
+      m_GuidHigh: 3107383281008986328
+    m_Size: {x: 0.13028572, y: 0.079}
+    m_SpecifySize: 1
+    m_Name: 0308_DS048-049_river
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5050473751985736242
+      m_GuidHigh: 7009125039866304172
+    m_SerializedTextureGuid:
+      m_GuidLow: 8157342664199984328
+      m_GuidHigh: 12176196147239885242
+    m_Size: {x: 0.12357143, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0309_DS048-049_lake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5002089887926585916
+      m_GuidHigh: 6906431314959731647
+    m_SerializedTextureGuid:
+      m_GuidLow: 17916478894268529630
+      m_GuidHigh: 16441822819324406987
+    m_Size: {x: 0.09642857, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0310_DS048-049_flood
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5504469390416102225
+      m_GuidHigh: 18379934569721774518
+    m_SerializedTextureGuid:
+      m_GuidLow: 10021820323068184579
+      m_GuidHigh: 14130925491896487785
+    m_Size: {x: 0.10871429, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0311_DS048-049_lowtide
+    m_Texture: {fileID: 0}

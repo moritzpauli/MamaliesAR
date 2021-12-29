@@ -1,0 +1,267 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS068-069
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4975494717936021322
+  m_GuidHigh: 17479354359380401570
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5607958262329130431
+      m_GuidHigh: 7146621114640627083
+    m_SerializedTextureGuid:
+      m_GuidLow: 7423321875415597337
+      m_GuidHigh: 13941816477967886200
+    m_Size: {x: 0.0579, y: 0.0396}
+    m_SpecifySize: 1
+    m_Name: 0495_DS068-069_belt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5751613686230466425
+      m_GuidHigh: 3882092534833888675
+    m_SerializedTextureGuid:
+      m_GuidLow: 16772665450338755521
+      m_GuidHigh: 16265978550796955946
+    m_Size: {x: 0.08214286, y: 0.096285716}
+    m_SpecifySize: 1
+    m_Name: 0496_DS068-069_scarf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4665151598268821782
+      m_GuidHigh: 11381180080073274763
+    m_SerializedTextureGuid:
+      m_GuidLow: 4157978914100903996
+      m_GuidHigh: 5756643575718244425
+    m_Size: {x: 0.06414286, y: 0.06357143}
+    m_SpecifySize: 1
+    m_Name: 0497_DS068-069_hat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5388154722480795892
+      m_GuidHigh: 5626135734901749169
+    m_SerializedTextureGuid:
+      m_GuidLow: 12575319958380322688
+      m_GuidHigh: 15497799532682943098
+    m_Size: {x: 0.061000004, y: 0.08971429}
+    m_SpecifySize: 1
+    m_Name: 0498_DS068-069_beanie
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4677652406913704454
+      m_GuidHigh: 7971216438728688517
+    m_SerializedTextureGuid:
+      m_GuidLow: 2770932885802144874
+      m_GuidHigh: 130509813914113979
+    m_Size: {x: 0.05671429, y: 0.077142864}
+    m_SpecifySize: 1
+    m_Name: 0499_DS068-069_towear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4984288069953985245
+      m_GuidHigh: 11340829493583663748
+    m_SerializedTextureGuid:
+      m_GuidLow: 15854021376808083600
+      m_GuidHigh: 7999709863262899227
+    m_Size: {x: 0.111428574, y: 0.11042858}
+    m_SpecifySize: 1
+    m_Name: 0500_DS068-069_rainjacket
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5225803917007035225
+      m_GuidHigh: 7005736607313250732
+    m_SerializedTextureGuid:
+      m_GuidLow: 16191704549084829408
+      m_GuidHigh: 16167221413573267928
+    m_Size: {x: 0.07614286, y: 0.13642858}
+    m_SpecifySize: 1
+    m_Name: 0501_DS068-069_coat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4815135190915477860
+      m_GuidHigh: 17204973585885957249
+    m_SerializedTextureGuid:
+      m_GuidLow: 18186879324047698306
+      m_GuidHigh: 11525426292321790457
+    m_Size: {x: 0.06257143, y: 0.098000005}
+    m_SpecifySize: 1
+    m_Name: 0502_DS068-069_backpack
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5165468038960651633
+      m_GuidHigh: 5895031069980374691
+    m_SerializedTextureGuid:
+      m_GuidLow: 4766051144591927763
+      m_GuidHigh: 11593574934705991258
+    m_Size: {x: 0.061000004, y: 0.12485715}
+    m_SpecifySize: 1
+    m_Name: 0503_DS068-069_skirt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5169145288681443135
+      m_GuidHigh: 16956051640140166276
+    m_SerializedTextureGuid:
+      m_GuidLow: 8206924207864459348
+      m_GuidHigh: 15791811351804717641
+    m_Size: {x: 0.08285715, y: 0.11571429}
+    m_SpecifySize: 1
+    m_Name: 0504_DS068-069_raincoat
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4804099765483447188
+      m_GuidHigh: 4847591534815212185
+    m_SerializedTextureGuid:
+      m_GuidLow: 5905491690851443406
+      m_GuidHigh: 78803772388851435
+    m_Size: {x: 0.067, y: 0.11428572}
+    m_SpecifySize: 1
+    m_Name: 0505_DS068-069_raintrousers
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4921971074772533208
+      m_GuidHigh: 1839186918365034644
+    m_SerializedTextureGuid:
+      m_GuidLow: 2532198012293628565
+      m_GuidHigh: 6494172715241247864
+    m_Size: {x: 0.071, y: 0.09471429}
+    m_SpecifySize: 1
+    m_Name: 0506_DS068-069_hood
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5616587402065070028
+      m_GuidHigh: 14254598061094467749
+    m_SerializedTextureGuid:
+      m_GuidLow: 11062115659888123178
+      m_GuidHigh: 17853748593576597288
+    m_Size: {x: 0.072571434, y: 0.08842858}
+    m_SpecifySize: 1
+    m_Name: 0507_DS068-069_handbag
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5387393670162170277
+      m_GuidHigh: 3187732270888600449
+    m_SerializedTextureGuid:
+      m_GuidLow: 17542682045605709432
+      m_GuidHigh: 15517270004452056858
+    m_Size: {x: 0.08400001, y: 0.084571436}
+    m_SpecifySize: 1
+    m_Name: 0508_DS068-069_boots
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4962630614016831400
+      m_GuidHigh: 6199399481138896573
+    m_SerializedTextureGuid:
+      m_GuidLow: 7945721112303443710
+      m_GuidHigh: 12244841609673689851
+    m_Size: {x: 0.13342857, y: 0.063285716}
+    m_SpecifySize: 1
+    m_Name: 0509_DS068-069_zipper
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4696005707568658374
+      m_GuidHigh: 14863658978789503650
+    m_SerializedTextureGuid:
+      m_GuidLow: 9711025049576225737
+      m_GuidHigh: 7378953087738009256
+    m_Size: {x: 0.13342857, y: 0.075428575}
+    m_SpecifySize: 1
+    m_Name: 0510_DS068-069_tozip
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4675114832788429286
+      m_GuidHigh: 4278893192253709478
+    m_SerializedTextureGuid:
+      m_GuidLow: 17835495885633045118
+      m_GuidHigh: 11387830662934827384
+    m_Size: {x: 0.07328572, y: 0.06314286}
+    m_SpecifySize: 1
+    m_Name: 0511_DS068-069_slippers
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4694116664921733842
+      m_GuidHigh: 11809468337583214261
+    m_SerializedTextureGuid:
+      m_GuidLow: 17993129862716771978
+      m_GuidHigh: 1177038540814629385
+    m_Size: {x: 0.10128572, y: 0.05957143}
+    m_SpecifySize: 1
+    m_Name: 0512_DS068-069_shoelace
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5147238195550158615
+      m_GuidHigh: 16048757423096112770
+    m_SerializedTextureGuid:
+      m_GuidLow: 5256978722785216226
+      m_GuidHigh: 10323400167804236153
+    m_Size: {x: 0.06485715, y: 0.064}
+    m_SpecifySize: 1
+    m_Name: 0513_DS068-069_button
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5334762616932047023
+      m_GuidHigh: 14089649401862263486
+    m_SerializedTextureGuid:
+      m_GuidLow: 7481617764154012962
+      m_GuidHigh: 3615558770447852139
+    m_Size: {x: 0.053714287, y: 0.063}
+    m_SpecifySize: 1
+    m_Name: 0514_DS068-069_ring
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5270260872547384059
+      m_GuidHigh: 13809652714218050447
+    m_SerializedTextureGuid:
+      m_GuidLow: 14246181295620677915
+      m_GuidHigh: 12550768269374346587
+    m_Size: {x: 0.07414286, y: 0.087571435}
+    m_SpecifySize: 1
+    m_Name: 0515_DS068-069_watch
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5668316757146080000
+      m_GuidHigh: 1317088696670322829
+    m_SerializedTextureGuid:
+      m_GuidLow: 14417155675876471132
+      m_GuidHigh: 8458951232175810907
+    m_Size: {x: 0.12200001, y: 0.09828572}
+    m_SpecifySize: 1
+    m_Name: 0516_DS068-069_necklace
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5601800366048703124
+      m_GuidHigh: 17461901427841264050
+    m_SerializedTextureGuid:
+      m_GuidLow: 8648181013841613339
+      m_GuidHigh: 699508030381819914
+    m_Size: {x: 0.077142864, y: 0.07171429}
+    m_SpecifySize: 1
+    m_Name: 0517_DS068-069_earring
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5394891491132592340
+      m_GuidHigh: 8791846856942497436
+    m_SerializedTextureGuid:
+      m_GuidLow: 14408268447295017421
+      m_GuidHigh: 4189048341342172249
+    m_Size: {x: 0.10485715, y: 0.07928572}
+    m_SpecifySize: 1
+    m_Name: 0518_DS068-069_tie
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4699910123484224442
+      m_GuidHigh: 1932780762545989777
+    m_SerializedTextureGuid:
+      m_GuidLow: 8891405276755637108
+      m_GuidHigh: 15922279048009261146
+    m_Size: {x: 0.08328572, y: 0.085}
+    m_SpecifySize: 1
+    m_Name: 0519_DS068-069_totie
+    m_Texture: {fileID: 0}

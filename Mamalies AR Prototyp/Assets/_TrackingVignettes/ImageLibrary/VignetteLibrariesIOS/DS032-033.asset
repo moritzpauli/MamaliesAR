@@ -1,0 +1,197 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS032-033
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4633200481987954294
+  m_GuidHigh: 16984804590578440618
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5648612175247260029
+      m_GuidHigh: 7267663161127832962
+    m_SerializedTextureGuid:
+      m_GuidLow: 14412708207207317758
+      m_GuidHigh: 9933239204986819467
+    m_Size: {x: 0.0871, y: 0.0945}
+    m_SpecifySize: 1
+    m_Name: 0159_DS032-033_paediatrician
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4813519398354740095
+      m_GuidHigh: 1267354049277780370
+    m_SerializedTextureGuid:
+      m_GuidLow: 10305403929588760068
+      m_GuidHigh: 2567547914286510153
+    m_Size: {x: 0.07514286, y: 0.087571435}
+    m_SpecifySize: 1
+    m_Name: 0160_DS032-033_todrill
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5427871557209621743
+      m_GuidHigh: 6497508039765213359
+    m_SerializedTextureGuid:
+      m_GuidLow: 16358439589249392784
+      m_GuidHigh: 1287318502590080939
+    m_Size: {x: 0.09385715, y: 0.120571434}
+    m_SpecifySize: 1
+    m_Name: 0161_DS032-033_dentist
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5034882448874268789
+      m_GuidHigh: 1477587613506994081
+    m_SerializedTextureGuid:
+      m_GuidLow: 16732185205810219944
+      m_GuidHigh: 14061432306110253194
+    m_Size: {x: 0.10642858, y: 0.15114287}
+    m_SpecifySize: 1
+    m_Name: 0162_DS032-033_vaccination
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5714970163761946042
+      m_GuidHigh: 5269092082484673206
+    m_SerializedTextureGuid:
+      m_GuidLow: 12296116926208043546
+      m_GuidHigh: 12679898964650286138
+    m_Size: {x: 0.07, y: 0.14271429}
+    m_SpecifySize: 1
+    m_Name: 0163_DS032-033_tovaccinate
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5170278125927550137
+      m_GuidHigh: 10053504428177950865
+    m_SerializedTextureGuid:
+      m_GuidLow: 5243502517449200465
+      m_GuidHigh: 6784610248298678264
+    m_Size: {x: 0.10171429, y: 0.12228572}
+    m_SpecifySize: 1
+    m_Name: 0164_DS032-033_gynaecologist
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4763224844986721808
+      m_GuidHigh: 14242144231161803404
+    m_SerializedTextureGuid:
+      m_GuidLow: 10805338721879570431
+      m_GuidHigh: 8867356100199106760
+    m_Size: {x: 0.114142865, y: 0.10685715}
+    m_SpecifySize: 1
+    m_Name: 0165_DS032-033_vet
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4643493101993174671
+      m_GuidHigh: 5368346606651217567
+    m_SerializedTextureGuid:
+      m_GuidLow: 3149345862798842633
+      m_GuidHigh: 6335480110574477691
+    m_Size: {x: 0.09014286, y: 0.105571434}
+    m_SpecifySize: 1
+    m_Name: 0166_DS032-033_waitingroom
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5068357388949168539
+      m_GuidHigh: 14847364088124440463
+    m_SerializedTextureGuid:
+      m_GuidLow: 7733855952993179982
+      m_GuidHigh: 3566008156443518200
+    m_Size: {x: 0.07, y: 0.087571435}
+    m_SpecifySize: 1
+    m_Name: 0167_DS032-033_pharmacy
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5242470154694873669
+      m_GuidHigh: 2776148337853447338
+    m_SerializedTextureGuid:
+      m_GuidLow: 17785866088166404673
+      m_GuidHigh: 11831040723788802681
+    m_Size: {x: 0.079428576, y: 0.08714286}
+    m_SpecifySize: 1
+    m_Name: 0168_DS032-033_prescription
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5557631682830997289
+      m_GuidHigh: 4840653378756043184
+    m_SerializedTextureGuid:
+      m_GuidLow: 17268108064246613948
+      m_GuidHigh: 16926646413004115945
+    m_Size: {x: 0.07614286, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0169_DS032-033_information
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4968816913846104400
+      m_GuidHigh: 12132087819634840733
+    m_SerializedTextureGuid:
+      m_GuidLow: 12579870366789666739
+      m_GuidHigh: 8095335256846679146
+    m_Size: {x: 0.11571429, y: 0.10571429}
+    m_SpecifySize: 1
+    m_Name: 0170_DS032-033_hospital
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5404317673017449437
+      m_GuidHigh: 14871935248780875952
+    m_SerializedTextureGuid:
+      m_GuidLow: 9922781857035369870
+      m_GuidHigh: 7913669992221555403
+    m_Size: {x: 0.081857145, y: 0.08685715}
+    m_SpecifySize: 1
+    m_Name: 0171_DS032-033_toinform
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5140771691548510922
+      m_GuidHigh: 10161030703210279553
+    m_SerializedTextureGuid:
+      m_GuidLow: 11552860400746157798
+      m_GuidHigh: 2974259703501890778
+    m_Size: {x: 0.09271429, y: 0.16471429}
+    m_SpecifySize: 1
+    m_Name: 0172_DS032-033_injection
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5390525314719712732
+      m_GuidHigh: 5304768585789984171
+    m_SerializedTextureGuid:
+      m_GuidLow: 10382075993079000138
+      m_GuidHigh: 15478311197487602506
+    m_Size: {x: 0.09257143, y: 0.048714288}
+    m_SpecifySize: 1
+    m_Name: 0173_DS032-033_thermometer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5630313732493196701
+      m_GuidHigh: 7699965368186061201
+    m_SerializedTextureGuid:
+      m_GuidLow: 15718756292008855424
+      m_GuidHigh: 6089688794086615931
+    m_Size: {x: 0.06914286, y: 0.059857145}
+    m_SpecifySize: 1
+    m_Name: 0174_DS032-033_bandage
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5138296062247843485
+      m_GuidHigh: 6635261015368733354
+    m_SerializedTextureGuid:
+      m_GuidLow: 14318233481983156653
+      m_GuidHigh: 7219017506371893129
+    m_Size: {x: 0.07128572, y: 0.10685715}
+    m_SpecifySize: 1
+    m_Name: 0175_DS032-033_fear
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5047758744053249446
+      m_GuidHigh: 1756568474367065261
+    m_SerializedTextureGuid:
+      m_GuidLow: 3261901122083424477
+      m_GuidHigh: 17203036793599894536
+    m_Size: {x: 0.083000004, y: 0.04971429}
+    m_SpecifySize: 1
+    m_Name: 0176_DS032-033_plaster
+    m_Texture: {fileID: 0}

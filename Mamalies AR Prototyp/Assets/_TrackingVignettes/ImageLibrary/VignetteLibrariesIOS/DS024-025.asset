@@ -1,0 +1,177 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS024-025
+  m_EditorClassIdentifier: 
+  m_GuidLow: 5000264696965910585
+  m_GuidHigh: 11707421917488541317
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 4880246855132309407
+      m_GuidHigh: 5491713227660907922
+    m_SerializedTextureGuid:
+      m_GuidLow: 7198145353576859998
+      m_GuidHigh: 12434933149266995130
+    m_Size: {x: 0.0504, y: 0.083799995}
+    m_SpecifySize: 1
+    m_Name: 0087_DS024-025_doctor
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5354924096265578123
+      m_GuidHigh: 8816077685416925100
+    m_SerializedTextureGuid:
+      m_GuidLow: 10111980244377328341
+      m_GuidHigh: 15599840271817857816
+    m_Size: {x: 0.08971429, y: 0.11971429}
+    m_SpecifySize: 1
+    m_Name: 0088_DS024-025_nurse
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5617537925572648787
+      m_GuidHigh: 16543627411723134867
+    m_SerializedTextureGuid:
+      m_GuidLow: 13534547233320719723
+      m_GuidHigh: 7690025030502802745
+    m_Size: {x: 0.06571429, y: 0.11971429}
+    m_SpecifySize: 1
+    m_Name: 0089_DS024-025_teacher
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5118055145084366270
+      m_GuidHigh: 12812603304366359682
+    m_SerializedTextureGuid:
+      m_GuidLow: 15800015351974879748
+      m_GuidHigh: 2196966437839595530
+    m_Size: {x: 0.09571429, y: 0.1467143}
+    m_SpecifySize: 1
+    m_Name: 0090_DS024-025_automechanic
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5045907093358302297
+      m_GuidHigh: 5066671773849184171
+    m_SerializedTextureGuid:
+      m_GuidLow: 8233736076065621629
+      m_GuidHigh: 15719789848542644312
+    m_Size: {x: 0.08385715, y: 0.09385715}
+    m_SpecifySize: 1
+    m_Name: 0091_DS024-025_baker
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5419567681664575511
+      m_GuidHigh: 6748897303408661120
+    m_SerializedTextureGuid:
+      m_GuidLow: 13097730571304996198
+      m_GuidHigh: 1982992807168617803
+    m_Size: {x: 0.078428574, y: 0.10371429}
+    m_SpecifySize: 1
+    m_Name: 0092_DS024-025_waiter
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5582308199653213069
+      m_GuidHigh: 15503913402304522428
+    m_SerializedTextureGuid:
+      m_GuidLow: 17736496574056108114
+      m_GuidHigh: 15728312852931157355
+    m_Size: {x: 0.10185715, y: 0.10371429}
+    m_SpecifySize: 1
+    m_Name: 0093_DS024-025_busdriver
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4695929606214186104
+      m_GuidHigh: 16082391362789833126
+    m_SerializedTextureGuid:
+      m_GuidLow: 10688386723159578934
+      m_GuidHigh: 2045772713319528217
+    m_Size: {x: 0.096285716, y: 0.077857144}
+    m_SpecifySize: 1
+    m_Name: 0094_DS024-025_law
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5197526384735727182
+      m_GuidHigh: 9268599460695192747
+    m_SerializedTextureGuid:
+      m_GuidLow: 2617797985426287581
+      m_GuidHigh: 3366359640718065754
+    m_Size: {x: 0.08557143, y: 0.10571429}
+    m_SpecifySize: 1
+    m_Name: 0095_DS024-025_wage
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5141661905886691749
+      m_GuidHigh: 10596629547934199459
+    m_SerializedTextureGuid:
+      m_GuidLow: 10472234334663616735
+      m_GuidHigh: 10243179241096054264
+    m_Size: {x: 0.094000004, y: 0.077857144}
+    m_SpecifySize: 1
+    m_Name: 0096_DS024-025_computer
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5442114131524597357
+      m_GuidHigh: 13248577257215797655
+    m_SerializedTextureGuid:
+      m_GuidLow: 2802632891141089207
+      m_GuidHigh: 5634743908567304970
+    m_Size: {x: 0.12128572, y: 0.11114286}
+    m_SpecifySize: 1
+    m_Name: 0097_DS024-025_rules
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5368597240889412379
+      m_GuidHigh: 13922261145786220986
+    m_SerializedTextureGuid:
+      m_GuidLow: 13849956431782979758
+      m_GuidHigh: 10471243660352181915
+    m_Size: {x: 0.08914286, y: 0.09828572}
+    m_SpecifySize: 1
+    m_Name: 0098_DS024-025_tocook
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5376889307256608134
+      m_GuidHigh: 7887464528401292684
+    m_SerializedTextureGuid:
+      m_GuidLow: 13458043618906767485
+      m_GuidHigh: 14470068686786180859
+    m_Size: {x: 0.10128572, y: 0.092285715}
+    m_SpecifySize: 1
+    m_Name: 0099_DS024-025_tobake
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5021440415114463245
+      m_GuidHigh: 13776267992980223902
+    m_SerializedTextureGuid:
+      m_GuidLow: 8323927661815426091
+      m_GuidHigh: 4765828891167625480
+    m_Size: {x: 0.10428572, y: 0.09828572}
+    m_SpecifySize: 1
+    m_Name: 0100_DS024-025_towork
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5288551578307581217
+      m_GuidHigh: 12965285462390847138
+    m_SerializedTextureGuid:
+      m_GuidLow: 8247252361836576244
+      m_GuidHigh: 13693132534582005881
+    m_Size: {x: 0.084142864, y: 0.11528572}
+    m_SpecifySize: 1
+    m_Name: 0101_DS024-025_tobuild
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4659119524593368251
+      m_GuidHigh: 7766001733019159713
+    m_SerializedTextureGuid:
+      m_GuidLow: 347994260424876793
+      m_GuidHigh: 7530823709752479882
+    m_Size: {x: 0.104, y: 0.10514286}
+    m_SpecifySize: 1
+    m_Name: 0102_DS024-025_building
+    m_Texture: {fileID: 0}

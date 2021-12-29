@@ -406,7 +406,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             }
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
             {
                 //print(image.referenceImage.name + " LOST TRACKING");
                 //tracking = false;

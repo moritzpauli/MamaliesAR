@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS020-021
   m_EditorClassIdentifier: 
-  m_GuidLow: 5057061192303633348
-  m_GuidHigh: 5478207448730294665
+  m_GuidLow: 5037132675688334687
+  m_GuidHigh: 17417627243980328364
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5078131112794800736
-      m_GuidHigh: 13758840029646680733
+      m_GuidLow: 4992593493649125307
+      m_GuidHigh: 6883764396231728031
     m_SerializedTextureGuid:
       m_GuidLow: 4851600366331381133
       m_GuidHigh: 9160838287754513579
@@ -26,8 +26,8 @@ MonoBehaviour:
     m_Name: 0051_DS020-021_head-headline
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5265249731090239778
-      m_GuidHigh: 14633458179226644884
+      m_GuidLow: 5606694750344437350
+      m_GuidHigh: 11325526395617646239
     m_SerializedTextureGuid:
       m_GuidLow: 3608744852755596479
       m_GuidHigh: 5812797187110191675
@@ -36,8 +36,8 @@ MonoBehaviour:
     m_Name: 0052_DS020-021_head
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4712127336073068671
-      m_GuidHigh: 10744882715201501317
+      m_GuidLow: 5083517925226025684
+      m_GuidHigh: 9182706365981728169
     m_SerializedTextureGuid:
       m_GuidLow: 14349826153884540144
       m_GuidHigh: 16439112850080474120
@@ -46,8 +46,8 @@ MonoBehaviour:
     m_Name: 0053_DS020-021_face
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5025910215249463030
-      m_GuidHigh: 2811674338278309534
+      m_GuidLow: 4656696542988768347
+      m_GuidHigh: 7788124259259170736
     m_SerializedTextureGuid:
       m_GuidLow: 6558508090620668885
       m_GuidHigh: 14298670369691946393
@@ -56,8 +56,8 @@ MonoBehaviour:
     m_Name: 0054_DS020-021_forehead
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4986572882379216135
-      m_GuidHigh: 8844160894953589409
+      m_GuidLow: 5761891031844926453
+      m_GuidHigh: 16382332759702568617
     m_SerializedTextureGuid:
       m_GuidLow: 17763513178927208794
       m_GuidHigh: 10775215574620890632
@@ -66,8 +66,8 @@ MonoBehaviour:
     m_Name: 0055_DS020-021_hair
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4708301471345609135
-      m_GuidHigh: 13345791310649568165
+      m_GuidLow: 5658999976643875362
+      m_GuidHigh: 107947604780290442
     m_SerializedTextureGuid:
       m_GuidLow: 1217143624473924560
       m_GuidHigh: 1577930882930824219
@@ -76,8 +76,8 @@ MonoBehaviour:
     m_Name: 0056_DS020-021_eyelashes
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4781732787500100679
-      m_GuidHigh: 12180936954896608702
+      m_GuidLow: 4929620945542248223
+      m_GuidHigh: 7917526522024914579
     m_SerializedTextureGuid:
       m_GuidLow: 10057843363879779490
       m_GuidHigh: 10924292755324705978
@@ -86,8 +86,8 @@ MonoBehaviour:
     m_Name: 0057_DS020-021_jaw
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4741161941610112662
-      m_GuidHigh: 6049569328897294264
+      m_GuidLow: 4877911661674746220
+      m_GuidHigh: 16861525382633193902
     m_SerializedTextureGuid:
       m_GuidLow: 2190136802285802264
       m_GuidHigh: 1764116674163273784
@@ -96,8 +96,8 @@ MonoBehaviour:
     m_Name: 0058_DS020-021_chin
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5415401892021950339
-      m_GuidHigh: 3099952530426205337
+      m_GuidLow: 5685876483188910160
+      m_GuidHigh: 4286689969749605557
     m_SerializedTextureGuid:
       m_GuidLow: 14192113155202928018
       m_GuidHigh: 2834521141302445098
@@ -106,8 +106,8 @@ MonoBehaviour:
     m_Name: 0059_DS020-021_eye
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5536085877742386300
-      m_GuidHigh: 9842401101627112354
+      m_GuidLow: 5099849742064263935
+      m_GuidHigh: 2161759839297502616
     m_SerializedTextureGuid:
       m_GuidLow: 4351788358700225409
       m_GuidHigh: 12055176790366406329
@@ -116,8 +116,8 @@ MonoBehaviour:
     m_Name: 0060_DS020-021_tosee
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5324824771473447264
-      m_GuidHigh: 6366847597051997571
+      m_GuidLow: 5641311526518215701
+      m_GuidHigh: 100124183284895123
     m_SerializedTextureGuid:
       m_GuidLow: 9855222584436088385
       m_GuidHigh: 13895547652911350698
@@ -126,8 +126,8 @@ MonoBehaviour:
     m_Name: 0061_DS020-021_glasses
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5085384997023748571
-      m_GuidHigh: 551107656148564388
+      m_GuidLow: 4873510626547638040
+      m_GuidHigh: 17828334395937238451
     m_SerializedTextureGuid:
       m_GuidLow: 5815465009730868493
       m_GuidHigh: 2769628588521348858
@@ -136,8 +136,8 @@ MonoBehaviour:
     m_Name: 0062_DS020-021_nose
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4623018523513166145
-      m_GuidHigh: 13448974598009231031
+      m_GuidLow: 5707514254425752591
+      m_GuidHigh: 6004378113602598288
     m_SerializedTextureGuid:
       m_GuidLow: 11850373560235239730
       m_GuidHigh: 4983846418567732536
@@ -146,8 +146,8 @@ MonoBehaviour:
     m_Name: 0063_DS020-021_tosmell
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5201586259629480318
-      m_GuidHigh: 13419494071491210112
+      m_GuidLow: 4980303957867109114
+      m_GuidHigh: 7273712257924597131
     m_SerializedTextureGuid:
       m_GuidLow: 6054171584315239156
       m_GuidHigh: 11951805302368587865
@@ -156,8 +156,8 @@ MonoBehaviour:
     m_Name: 0064_DS020-021_smell
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4837312016532308826
-      m_GuidHigh: 8744158368431733636
+      m_GuidLow: 4788599602850733632
+      m_GuidHigh: 10855829725701408397
     m_SerializedTextureGuid:
       m_GuidLow: 6130801538485644480
       m_GuidHigh: 13797782235189208107
@@ -166,8 +166,8 @@ MonoBehaviour:
     m_Name: 0065_DS020-021_ear
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5471061885598483338
-      m_GuidHigh: 15969210686440177592
+      m_GuidLow: 5440339403037313305
+      m_GuidHigh: 7193195868976534668
     m_SerializedTextureGuid:
       m_GuidLow: 7198136543996494789
       m_GuidHigh: 17793132488947165835
@@ -176,8 +176,8 @@ MonoBehaviour:
     m_Name: 0066_DS020-021_tohear
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5573894256234170479
-      m_GuidHigh: 5390793894801709480
+      m_GuidLow: 4835835796067225840
+      m_GuidHigh: 8859223317702845871
     m_SerializedTextureGuid:
       m_GuidLow: 16007047408785586441
       m_GuidHigh: 6006715150275847450
@@ -186,8 +186,8 @@ MonoBehaviour:
     m_Name: 0067_DS020-021_skin
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5255444620145320995
-      m_GuidHigh: 9970100034374565271
+      m_GuidLow: 5351503230989806624
+      m_GuidHigh: 11840553966246154398
     m_SerializedTextureGuid:
       m_GuidLow: 12269130751852536376
       m_GuidHigh: 12621772070600685898
@@ -196,8 +196,8 @@ MonoBehaviour:
     m_Name: 0068_DS020-021_tofeel
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5525690304549585857
-      m_GuidHigh: 11651275738915757726
+      m_GuidLow: 5408816567279365003
+      m_GuidHigh: 1904866445083760534
     m_SerializedTextureGuid:
       m_GuidLow: 550627342177352033
       m_GuidHigh: 14419712845102868875
@@ -206,8 +206,8 @@ MonoBehaviour:
     m_Name: 0069_DS020-021_teeth
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4836455882922707558
-      m_GuidHigh: 11972692540565477772
+      m_GuidLow: 4621617732188580987
+      m_GuidHigh: 5895123495734060202
     m_SerializedTextureGuid:
       m_GuidLow: 460717094591090117
       m_GuidHigh: 13422680900970066010
@@ -216,8 +216,8 @@ MonoBehaviour:
     m_Name: 0070_DS020-021_tongue
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5439536942727919596
-      m_GuidHigh: 8283194700690591625
+      m_GuidLow: 5229191997620625566
+      m_GuidHigh: 7694107496192233386
     m_SerializedTextureGuid:
       m_GuidLow: 11678982466429636332
       m_GuidHigh: 10111780658336990042
@@ -226,8 +226,8 @@ MonoBehaviour:
     m_Name: 0071_DS020-021_mouth
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5424949887483714113
-      m_GuidHigh: 8574713565531882889
+      m_GuidLow: 5017688615238907633
+      m_GuidHigh: 9127421999365871257
     m_SerializedTextureGuid:
       m_GuidLow: 4702910768380056426
       m_GuidHigh: 6131404246660357384

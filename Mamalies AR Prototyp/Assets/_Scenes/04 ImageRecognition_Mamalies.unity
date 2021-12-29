@@ -1154,7 +1154,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 231c35a870fd05e4c8c1163f68d587be, type: 2}
+  m_SerializedLibrary: {fileID: 0}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
@@ -1881,6 +1881,56 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 231c35a870fd05e4c8c1163f68d587be, type: 2}
   - {fileID: 11400000, guid: 347133bd573ab1f41abf9ea2eb6fa072, type: 2}
   - {fileID: 11400000, guid: 23d7ad64a9220f0419645413bc9e8eb4, type: 2}
+  - {fileID: 11400000, guid: 0eea852ee64c52d4487281f0ec3da36b, type: 2}
+  - {fileID: 11400000, guid: 5bec50441e46ec04fb25418a77d05906, type: 2}
+  - {fileID: 11400000, guid: ff376698a45f11b438dc9d1e3f174f37, type: 2}
+  - {fileID: 11400000, guid: 8366dc3b56b710241b8ed5a111044f9b, type: 2}
+  - {fileID: 11400000, guid: 3bca1926780464940b6d995a52a31f6f, type: 2}
+  - {fileID: 11400000, guid: faf20af27fbfd7a41969870b246b1683, type: 2}
+  - {fileID: 11400000, guid: 6cac4a71556875a429c4fae528e23022, type: 2}
+  - {fileID: 11400000, guid: 8956ce924c15d9444a9f7b4791a94640, type: 2}
+  - {fileID: 11400000, guid: 0d071b1612e95c64ca87f8b4b01f37e1, type: 2}
+  - {fileID: 11400000, guid: 38308bda9732e3f43a9c259df02ae59c, type: 2}
+  - {fileID: 11400000, guid: aef8d7ae6f715a149b7e94406ccf42b5, type: 2}
+  - {fileID: 11400000, guid: 65cc57f9122a31048b9521132902d472, type: 2}
+  - {fileID: 11400000, guid: 1b43f4d14928b91498708e448a250f18, type: 2}
+  - {fileID: 11400000, guid: 36a93af3928a288409c16087258d2c0b, type: 2}
+  - {fileID: 11400000, guid: f8ce0f539d38c2a4fba219e7f5179eb9, type: 2}
+  - {fileID: 11400000, guid: 8ec9ae6a4844ba24e8e0e8bd51e74d80, type: 2}
+  - {fileID: 11400000, guid: 4e3ce4e67728a684787efa8e9abf2569, type: 2}
+  - {fileID: 11400000, guid: 6e3605891b0a59545af5f534fa0ab1ac, type: 2}
+  - {fileID: 11400000, guid: 0e6058fa2826d5640a449c522f50b3cf, type: 2}
+  - {fileID: 11400000, guid: 002c768a63924ed4ab514216fecba781, type: 2}
+  - {fileID: 11400000, guid: fa44b0ac6e1a4064ab82ba615eccf2e4, type: 2}
+  - {fileID: 11400000, guid: 510445b23516bfc499b3196d0bffcb0d, type: 2}
+  - {fileID: 11400000, guid: d5bd3d065811ed84bae856d82c000580, type: 2}
+  - {fileID: 11400000, guid: 97794e5e71ba05647b3e19676f9273c6, type: 2}
+  - {fileID: 11400000, guid: c82ce1a7c72fe5042ace4b429be4e997, type: 2}
+  - {fileID: 11400000, guid: b7d9c1c311221244e8f6438c6b6ab4fe, type: 2}
+  - {fileID: 11400000, guid: 8788561e253086d47af3abcd8300d2f4, type: 2}
+  - {fileID: 11400000, guid: cee74d65806a28a4a9f46e18a3638c16, type: 2}
+  - {fileID: 11400000, guid: 55c8d08aee6cbb04cae12a40e107ad96, type: 2}
+  - {fileID: 11400000, guid: 8aaa82f0c15b18b4ba5eb636a8ae549a, type: 2}
+  - {fileID: 11400000, guid: ddfca7593a2e0d84d989d2720c610a9d, type: 2}
+  - {fileID: 11400000, guid: 523f507b8fcdda745847c1caab827cb5, type: 2}
+  - {fileID: 11400000, guid: 4675911a383a6df4db70a1fb9fa8d4fb, type: 2}
+  - {fileID: 11400000, guid: ffd33e93ccb87ed4883cede491a62537, type: 2}
+  - {fileID: 11400000, guid: 66799cdbe0ab1c44ea4b5a2035352357, type: 2}
+  - {fileID: 11400000, guid: d570d30684270264786d53849d45d62f, type: 2}
+  - {fileID: 11400000, guid: 02873fe3548bed242af6187797d2ab52, type: 2}
+  - {fileID: 11400000, guid: 79f05c3d1c5b01941bb462fd2f5f62e2, type: 2}
+  - {fileID: 11400000, guid: 99cba824b1da7cb4baaad5e2e998ea75, type: 2}
+  - {fileID: 11400000, guid: 788655bcaa68afd479da5e33492307f7, type: 2}
+  - {fileID: 11400000, guid: 65f747e296610874b860603bc21c3a6a, type: 2}
+  - {fileID: 11400000, guid: 081e2be37b650b840b129d25ff03396b, type: 2}
+  - {fileID: 11400000, guid: 599eb456581d9264ba5ec4510d849e8c, type: 2}
+  - {fileID: 11400000, guid: 9755266760366fa4cacd3765e8af2ce2, type: 2}
+  - {fileID: 11400000, guid: 9e54f358cee08974f8ae578279024470, type: 2}
+  - {fileID: 11400000, guid: 8f76c25f98470c3459620def31d04a6d, type: 2}
+  - {fileID: 11400000, guid: d40e43467611266408b42ac608c2599c, type: 2}
+  - {fileID: 11400000, guid: af38d431c38cab7449176f0fed518be1, type: 2}
+  - {fileID: 11400000, guid: cba6beeb31571aa4ab22e48fae896057, type: 2}
+  - {fileID: 11400000, guid: bd42bf1eedb37594eb1d7997e7900755, type: 2}
   pagesLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   startupConvertLibraries: 0
   pageReferenceImages: []
@@ -2878,7 +2928,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fcc374610a0f124aa7b4ffd1df3baac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationDuration: 2
+  animationDuration: 2.5
   targetScale: 1.5
   scannedImageBackground: {fileID: 52529250}
   useJobs: 0

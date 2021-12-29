@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS018-019
   m_EditorClassIdentifier: 
-  m_GuidLow: 5464357165257629544
-  m_GuidHigh: 10586214898022182822
+  m_GuidLow: 5433178326656556480
+  m_GuidHigh: 4491115876320772487
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5196316381331971718
-      m_GuidHigh: 14162309320980279986
+      m_GuidLow: 5698755277644195562
+      m_GuidHigh: 10186876892462182279
     m_SerializedTextureGuid:
       m_GuidLow: 5459730602758381967
       m_GuidHigh: 13793170792156507818
@@ -26,8 +26,8 @@ MonoBehaviour:
     m_Name: 0027_DS018-019_body
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5480854920141503910
-      m_GuidHigh: 17442363839367626404
+      m_GuidLow: 4769153325209805149
+      m_GuidHigh: 10119384443837171373
     m_SerializedTextureGuid:
       m_GuidLow: 11264724442617930293
       m_GuidHigh: 16587458323901793001
@@ -36,8 +36,8 @@ MonoBehaviour:
     m_Name: 0028_DS018-019_finger
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5211360658773055908
-      m_GuidHigh: 14578613879471162257
+      m_GuidLow: 5088029708424595967
+      m_GuidHigh: 2287522402823086214
     m_SerializedTextureGuid:
       m_GuidLow: 6396250286673048404
       m_GuidHigh: 908022645884948603
@@ -46,8 +46,8 @@ MonoBehaviour:
     m_Name: 0029_DS018-019_hand
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5142611739120399246
-      m_GuidHigh: 2701244333908154536
+      m_GuidLow: 5616502126866528135
+      m_GuidHigh: 1759382969027941309
     m_SerializedTextureGuid:
       m_GuidLow: 4531887776528187647
       m_GuidHigh: 12274148756185011800
@@ -56,8 +56,8 @@ MonoBehaviour:
     m_Name: 0030_DS018-019_arm
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5271380892229193115
-      m_GuidHigh: 5857353665565968296
+      m_GuidLow: 5541471623930077095
+      m_GuidHigh: 9803066047358723486
     m_SerializedTextureGuid:
       m_GuidLow: 6099227780274727277
       m_GuidHigh: 13735313748313117691
@@ -66,8 +66,8 @@ MonoBehaviour:
     m_Name: 0031_DS018-019_elbow
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5010533992153318281
-      m_GuidHigh: 6976046137119786938
+      m_GuidLow: 4931475623950367005
+      m_GuidHigh: 17338176435080689073
     m_SerializedTextureGuid:
       m_GuidLow: 8832814481246774407
       m_GuidHigh: 7360215526754179800
@@ -76,8 +76,8 @@ MonoBehaviour:
     m_Name: 0032_DS018-019_shoulder
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5647129859503090361
-      m_GuidHigh: 17950817610574382491
+      m_GuidLow: 5502441577670765946
+      m_GuidHigh: 1463123226504954029
     m_SerializedTextureGuid:
       m_GuidLow: 11197212182538271762
       m_GuidHigh: 5464148882749638040
@@ -86,8 +86,8 @@ MonoBehaviour:
     m_Name: 0033_DS018-019_neck
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5391920579976016093
-      m_GuidHigh: 4025378462999550637
+      m_GuidLow: 5402212264876971337
+      m_GuidHigh: 5932215560735681461
     m_SerializedTextureGuid:
       m_GuidLow: 13111312598021915687
       m_GuidHigh: 16736572910483901817
@@ -96,8 +96,8 @@ MonoBehaviour:
     m_Name: 0034_DS018-019_breast
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5082563912902790669
-      m_GuidHigh: 10391044295447260048
+      m_GuidLow: 5175450267849741104
+      m_GuidHigh: 11808051190539128248
     m_SerializedTextureGuid:
       m_GuidLow: 15673789098634055239
       m_GuidHigh: 11752621296969580888
@@ -106,8 +106,8 @@ MonoBehaviour:
     m_Name: 0035_DS018-019_belly
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4825923492255739569
-      m_GuidHigh: 13405197795517311408
+      m_GuidLow: 5737445834514376307
+      m_GuidHigh: 10815147616849687439
     m_SerializedTextureGuid:
       m_GuidLow: 8013306498605851638
       m_GuidHigh: 864705674289104475
@@ -116,8 +116,8 @@ MonoBehaviour:
     m_Name: 0036_DS018-019_bottom
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4956651125103675706
-      m_GuidHigh: 6153615072988039832
+      m_GuidLow: 5174973492550657550
+      m_GuidHigh: 10711728713446232497
     m_SerializedTextureGuid:
       m_GuidLow: 9494919585476496099
       m_GuidHigh: 3162992230643346153
@@ -126,8 +126,8 @@ MonoBehaviour:
     m_Name: 0037_DS018-019_leg
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5476016416451773904
-      m_GuidHigh: 12341230949185037446
+      m_GuidLow: 4947080091630297859
+      m_GuidHigh: 12096700808323476096
     m_SerializedTextureGuid:
       m_GuidLow: 3707838580898989273
       m_GuidHigh: 5954665091849430234
@@ -136,8 +136,8 @@ MonoBehaviour:
     m_Name: 0038_DS018-019_knee
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4810711692418602305
-      m_GuidHigh: 9389681302501400501
+      m_GuidLow: 4828507372536507393
+      m_GuidHigh: 3263671234148026284
     m_SerializedTextureGuid:
       m_GuidLow: 7454649909368485294
       m_GuidHigh: 2663934922071385480
@@ -146,8 +146,8 @@ MonoBehaviour:
     m_Name: 0039_DS018-019_toe-toes
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5747868162660111018
-      m_GuidHigh: 4583088007453026699
+      m_GuidLow: 5474342924175459622
+      m_GuidHigh: 14846364769080336305
     m_SerializedTextureGuid:
       m_GuidLow: 16939229481545873543
       m_GuidHigh: 16845992757769096008
@@ -156,8 +156,8 @@ MonoBehaviour:
     m_Name: 0040_DS018-019_foot-feet
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5447375098702191133
-      m_GuidHigh: 672223344802420644
+      m_GuidLow: 4896413562434427723
+      m_GuidHigh: 4888368817640750758
     m_SerializedTextureGuid:
       m_GuidLow: 9080467807826991844
       m_GuidHigh: 16226054516571700955
@@ -166,8 +166,8 @@ MonoBehaviour:
     m_Name: 0041_DS018-019_back
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5753911681224731177
-      m_GuidHigh: 14422609378009825678
+      m_GuidLow: 4756812973245282510
+      m_GuidHigh: 7246979739284418205
     m_SerializedTextureGuid:
       m_GuidLow: 13579691988438347359
       m_GuidHigh: 4052197357714929672
@@ -176,8 +176,8 @@ MonoBehaviour:
     m_Name: 0042_DS018-019_lungs
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5685888196096479978
-      m_GuidHigh: 1053668376382789037
+      m_GuidLow: 5189905739100070293
+      m_GuidHigh: 10259051624691591302
     m_SerializedTextureGuid:
       m_GuidLow: 17808394237800464045
       m_GuidHigh: 11455528273151057385
@@ -186,8 +186,8 @@ MonoBehaviour:
     m_Name: 0043_DS018-019_brain
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4637090125211472746
-      m_GuidHigh: 631437745421647281
+      m_GuidLow: 5014884126775904325
+      m_GuidHigh: 13712073534151952274
     m_SerializedTextureGuid:
       m_GuidLow: 5630826243924672773
       m_GuidHigh: 11489663715628459848
@@ -196,8 +196,8 @@ MonoBehaviour:
     m_Name: 0044_DS018-019_muscle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5687631744275371745
-      m_GuidHigh: 16536163153382837674
+      m_GuidLow: 4804782621381870538
+      m_GuidHigh: 6978536884759144091
     m_SerializedTextureGuid:
       m_GuidLow: 15115360014836860053
       m_GuidHigh: 15942884347214647818
@@ -206,8 +206,8 @@ MonoBehaviour:
     m_Name: 0045_DS018-019_heart
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5212455885263542580
-      m_GuidHigh: 16791597503610775985
+      m_GuidLow: 5095638576321195968
+      m_GuidHigh: 2509907333426482564
     m_SerializedTextureGuid:
       m_GuidLow: 15475763960474044764
       m_GuidHigh: 6060884498532823898
@@ -216,8 +216,8 @@ MonoBehaviour:
     m_Name: 0046_DS018-019_liver
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4721431010960145459
-      m_GuidHigh: 5892796129654064294
+      m_GuidLow: 5099769216660562781
+      m_GuidHigh: 15321104681478247553
     m_SerializedTextureGuid:
       m_GuidLow: 6878298268145553234
       m_GuidHigh: 10267857876556176536
@@ -226,8 +226,8 @@ MonoBehaviour:
     m_Name: 0047_DS018-019_gut
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4868945561073475789
-      m_GuidHigh: 18413938289819977886
+      m_GuidLow: 5020924177805998025
+      m_GuidHigh: 996878244401459863
     m_SerializedTextureGuid:
       m_GuidLow: 15579269070738925512
       m_GuidHigh: 1555848574662808136
@@ -236,8 +236,8 @@ MonoBehaviour:
     m_Name: 0048_DS018-019_stomach
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5042006282567906740
-      m_GuidHigh: 5946343793292531116
+      m_GuidLow: 4725636877272938873
+      m_GuidHigh: 13898401767717962376
     m_SerializedTextureGuid:
       m_GuidLow: 3360991117890952634
       m_GuidHigh: 9094910047846839339
@@ -246,8 +246,8 @@ MonoBehaviour:
     m_Name: 0049_DS018-019_kidneys
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5249895319909408564
-      m_GuidHigh: 9227833700231888798
+      m_GuidLow: 5664522778533609367
+      m_GuidHigh: 10865045628282713489
     m_SerializedTextureGuid:
       m_GuidLow: 1658679115687189089
       m_GuidHigh: 9040958994838541081

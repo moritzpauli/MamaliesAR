@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS046-047
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4903255927489296847
+  m_GuidHigh: 9938029864701540226
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5069365750965556141
+      m_GuidHigh: 17138479585861454230
+    m_SerializedTextureGuid:
+      m_GuidLow: 23811021462609519
+      m_GuidHigh: 18357934888341578984
+    m_Size: {x: 0.0572, y: 0.0315}
+    m_SpecifySize: 1
+    m_Name: 0280_DS046-047_nature
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5473144835806605441
+      m_GuidHigh: 1569761737832028810
+    m_SerializedTextureGuid:
+      m_GuidLow: 16358265457812982973
+      m_GuidHigh: 149318490509065899
+    m_Size: {x: 0.08214286, y: 0.11528572}
+    m_SpecifySize: 1
+    m_Name: 0281_DS046-047_free
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5722535307542330597
+      m_GuidHigh: 1493002012395569049
+    m_SerializedTextureGuid:
+      m_GuidLow: 5982145465448398509
+      m_GuidHigh: 17352629720342518233
+    m_Size: {x: 0.05957143, y: 0.11528572}
+    m_SpecifySize: 1
+    m_Name: 0282_DS046-047_tostroll
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5194497703873546826
+      m_GuidHigh: 980359189609594025
+    m_SerializedTextureGuid:
+      m_GuidLow: 8211322738207566976
+      m_GuidHigh: 15854835106640066491
+    m_Size: {x: 0.053428575, y: 0.11628572}
+    m_SpecifySize: 1
+    m_Name: 0283_DS046-047_bush
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5465633102397924660
+      m_GuidHigh: 6854295665766380465
+    m_SerializedTextureGuid:
+      m_GuidLow: 7049500422883562913
+      m_GuidHigh: 2891097839584945963
+    m_Size: {x: 0.08342858, y: 0.08142857}
+    m_SpecifySize: 1
+    m_Name: 0284_DS046-047_root
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4681097812521011646
+      m_GuidHigh: 440353949522068096
+    m_SerializedTextureGuid:
+      m_GuidLow: 16921220876138429653
+      m_GuidHigh: 1150316900543006008
+    m_Size: {x: 0.14785714, y: 0.07242858}
+    m_SpecifySize: 1
+    m_Name: 0285_DS046-047_grass
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5382191767963255197
+      m_GuidHigh: 11246695500842142357
+    m_SerializedTextureGuid:
+      m_GuidLow: 17317697104466587232
+      m_GuidHigh: 16920252001591134523
+    m_Size: {x: 0.05928572, y: 0.104}
+    m_SpecifySize: 1
+    m_Name: 0286_DS046-047_togrow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5538050677704894993
+      m_GuidHigh: 10543929965464687248
+    m_SerializedTextureGuid:
+      m_GuidLow: 14732518106927838479
+      m_GuidHigh: 2919391247956000472
+    m_Size: {x: 0.31142858, y: 0.36028573}
+    m_SpecifySize: 1
+    m_Name: 0287_DS046-047_tree
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5272549636566013389
+      m_GuidHigh: 4091751566471810491
+    m_SerializedTextureGuid:
+      m_GuidLow: 10526127312279279547
+      m_GuidHigh: 13959176584977823706
+    m_Size: {x: 0.13157144, y: 0.08485714}
+    m_SpecifySize: 1
+    m_Name: 0288_DS046-047_forest
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4826051915672566511
+      m_GuidHigh: 3569426660704164755
+    m_SerializedTextureGuid:
+      m_GuidLow: 10255995024317470515
+      m_GuidHigh: 15655798386405938202
+    m_Size: {x: 0.06342857, y: 0.073714286}
+    m_SpecifySize: 1
+    m_Name: 0289_DS046-047_leaves
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5516981623300193628
+      m_GuidHigh: 10715908549472154507
+    m_SerializedTextureGuid:
+      m_GuidLow: 7211568342532663719
+      m_GuidHigh: 4466817683861456090
+    m_Size: {x: 0.059428573, y: 0.052428573}
+    m_SpecifySize: 1
+    m_Name: 0290_DS046-047_leaf
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5542042039201208550
+      m_GuidHigh: 512471788300999053
+    m_SerializedTextureGuid:
+      m_GuidLow: 4513766500077296917
+      m_GuidHigh: 2535593474922868008
+    m_Size: {x: 0.05314286, y: 0.08442858}
+    m_SpecifySize: 1
+    m_Name: 0291_DS046-047_stem
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5207144468337755408
+      m_GuidHigh: 1796620265741616801
+    m_SerializedTextureGuid:
+      m_GuidLow: 8287912077689653239
+      m_GuidHigh: 14987450226604920377
+    m_Size: {x: 0.056428574, y: 0.057428572}
+    m_SpecifySize: 1
+    m_Name: 0292_DS046-047_nut
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5438145449662608743
+      m_GuidHigh: 10886026657592148375
+    m_SerializedTextureGuid:
+      m_GuidLow: 15556744805610798042
+      m_GuidHigh: 8156458993850124795
+    m_Size: {x: 0.14142857, y: 0.05214286}
+    m_SpecifySize: 1
+    m_Name: 0293_DS046-047_meadow
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5334838444251133514
+      m_GuidHigh: 7310464144918705329
+    m_SerializedTextureGuid:
+      m_GuidLow: 13944412535072622501
+      m_GuidHigh: 5511634231421955576
+    m_Size: {x: 0.12957144, y: 0.06714286}
+    m_SpecifySize: 1
+    m_Name: 0294_DS046-047_puddle
+    m_Texture: {fileID: 0}

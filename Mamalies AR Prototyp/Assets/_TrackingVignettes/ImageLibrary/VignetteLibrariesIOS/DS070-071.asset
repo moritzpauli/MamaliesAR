@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: DS070-071
+  m_EditorClassIdentifier: 
+  m_GuidLow: 4868882389253069332
+  m_GuidHigh: 14503623929944262066
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5244629496908204954
+      m_GuidHigh: 7680918833392383382
+    m_SerializedTextureGuid:
+      m_GuidLow: 4392210102868540363
+      m_GuidHigh: 14785826759264462968
+    m_Size: {x: 0.0822, y: 0.0779}
+    m_SpecifySize: 1
+    m_Name: 0520_DS070-071_dotted
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5695087801407357282
+      m_GuidHigh: 16973284762073494914
+    m_SerializedTextureGuid:
+      m_GuidLow: 852362073370283136
+      m_GuidHigh: 16862473663010443721
+    m_Size: {x: 0.10942858, y: 0.10328572}
+    m_SpecifySize: 1
+    m_Name: 0521_DS070-071_checked
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5495710605589425657
+      m_GuidHigh: 10322281377964357307
+    m_SerializedTextureGuid:
+      m_GuidLow: 8121338149161092747
+      m_GuidHigh: 363304753262290507
+    m_Size: {x: 0.09957144, y: 0.105571434}
+    m_SpecifySize: 1
+    m_Name: 0522_DS070-071_striped
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4785666306225762921
+      m_GuidHigh: 11819404909124944028
+    m_SerializedTextureGuid:
+      m_GuidLow: 12971766796499802673
+      m_GuidHigh: 10348717010255083560
+    m_Size: {x: 0.083000004, y: 0.093}
+    m_SpecifySize: 1
+    m_Name: 0523_DS070-071_t-shirt
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4712880005513808459
+      m_GuidHigh: 12453016849555314318
+    m_SerializedTextureGuid:
+      m_GuidLow: 10616352495866176129
+      m_GuidHigh: 11065272330422987690
+    m_Size: {x: 0.085, y: 0.17500001}
+    m_SpecifySize: 1
+    m_Name: 0524_DS070-071_todress
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5683243695829019183
+      m_GuidHigh: 7866940149841944497
+    m_SerializedTextureGuid:
+      m_GuidLow: 6693581277098531600
+      m_GuidHigh: 11500547259912498088
+    m_Size: {x: 0.07771429, y: 0.15257144}
+    m_SpecifySize: 1
+    m_Name: 0525_DS070-071_toundress
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4959564827117995386
+      m_GuidHigh: 9315150687557897094
+    m_SerializedTextureGuid:
+      m_GuidLow: 14516465216206114067
+      m_GuidHigh: 17045715902086517754
+    m_Size: {x: 0.13057144, y: 0.25785714}
+    m_SpecifySize: 1
+    m_Name: 0526_DS070-071_toosmall
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5155661898132854222
+      m_GuidHigh: 12414240324513166466
+    m_SerializedTextureGuid:
+      m_GuidLow: 8810238415760489112
+      m_GuidHigh: 4693265270421340891
+    m_Size: {x: 0.09542858, y: 0.116571434}
+    m_SpecifySize: 1
+    m_Name: 0527_DS070-071_totryon
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4616500149175974067
+      m_GuidHigh: 1473963536460280239
+    m_SerializedTextureGuid:
+      m_GuidLow: 8179724757572665624
+      m_GuidHigh: 7284781603622690152
+    m_Size: {x: 0.17257144, y: 0.31114286}
+    m_SpecifySize: 1
+    m_Name: 0528_DS070-071_toobig
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5725071279146289871
+      m_GuidHigh: 8986446609689357697
+    m_SerializedTextureGuid:
+      m_GuidLow: 3378895055547640844
+      m_GuidHigh: 4150996891586551546
+    m_Size: {x: 0.096857145, y: 0.065000005}
+    m_SpecifySize: 1
+    m_Name: 0529_DS070-071_tofit
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4976698802727781268
+      m_GuidHigh: 5424260508429437343
+    m_SerializedTextureGuid:
+      m_GuidLow: 14701123076787572390
+      m_GuidHigh: 6837443052339359674
+    m_Size: {x: 0.04914286, y: 0.06314286}
+    m_SpecifySize: 1
+    m_Name: 0530_DS070-071_pretty
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4913319641418837691
+      m_GuidHigh: 273385288148359603
+    m_SerializedTextureGuid:
+      m_GuidLow: 361634077043074910
+      m_GuidHigh: 3256938672378872251
+    m_Size: {x: 0.07571429, y: 0.05557143}
+    m_SpecifySize: 1
+    m_Name: 0531_DS070-071_ugly
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 4837142252014570397
+      m_GuidHigh: 10626840076005623698
+    m_SerializedTextureGuid:
+      m_GuidLow: 5752402398097720147
+      m_GuidHigh: 7275909090911725880
+    m_Size: {x: 0.16414286, y: 0.24757144}
+    m_SpecifySize: 1
+    m_Name: 0532_DS070-071_tolook
+    m_Texture: {fileID: 0}
