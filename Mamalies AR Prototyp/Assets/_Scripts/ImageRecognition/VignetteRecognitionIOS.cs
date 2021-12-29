@@ -598,13 +598,21 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void AddTrackedObject(ARTrackedImage image)
     {
-        print("Added tracked object: "+image.referenceImage.name);
-        GameObject trackedObject = Instantiate(trackingMarker);
-        trackedObject.transform.name = image.referenceImage.name;
-        trackedObject.transform.position = image.transform.position;
-        trackedObject.transform.rotation = image.transform.rotation;
-        trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
-        arTrackedImageObjectList.Add(trackedObject);
+        
+        if (char.IsDigit(image.referenceImage.name[0]))
+        {
+            print("Added tracked object: " + image.referenceImage.name);
+            GameObject trackedObject = Instantiate(trackingMarker);
+            trackedObject.transform.name = image.referenceImage.name;
+            trackedObject.transform.position = image.transform.position;
+            trackedObject.transform.rotation = image.transform.rotation;
+            trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
+            arTrackedImageObjectList.Add(trackedObject);
+        }
+        else
+        {
+            return;
+        }
     }
 
     private void UpdateTrackedObject(ARTrackedImage image)

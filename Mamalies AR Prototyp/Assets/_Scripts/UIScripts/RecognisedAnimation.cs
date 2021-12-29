@@ -41,10 +41,6 @@ public class RecognisedAnimation : MonoBehaviour
 
 	}
 
-    private void OnEnable()
-    {
-		PlayRecognisedAnimation();
-    }
 
     private void Update()
     {
