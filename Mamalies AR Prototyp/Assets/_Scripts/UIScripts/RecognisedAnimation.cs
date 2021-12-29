@@ -64,10 +64,10 @@ public class RecognisedAnimation : MonoBehaviour
 
     public void PlayRecognisedAnimation()
 	{
-		//StopAllCoroutines();
-		//StartCoroutine(AnimateRect());
-		textMesh.enabled = true;
-		Task rotateTask = RotateAsync();
+		StopAllCoroutines();
+		StartCoroutine(AnimateRect());
+		//textMesh.enabled = true;
+		//Task rotateTask = RotateAsync();
 		
 
 	}
