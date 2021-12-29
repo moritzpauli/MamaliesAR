@@ -406,7 +406,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             }
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
             {
                 //print(image.referenceImage.name + " LOST TRACKING");
                 //tracking = false;
@@ -459,7 +459,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         foreach (ARTrackedImage image in args.added)
         {
-            print(image.referenceImage.name + "ADDED");
+            //print(image.referenceImage.name + "ADDED");
             // add image to tracked images list
             if (char.IsDigit(image.referenceImage.name[0]))
             {

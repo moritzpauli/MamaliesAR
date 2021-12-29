@@ -2878,10 +2878,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0fcc374610a0f124aa7b4ffd1df3baac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  animationDuration: 10
-  targetScale: 3
+  animationDuration: 2
+  targetScale: 1.5
   scannedImageBackground: {fileID: 52529250}
   useJobs: 0
+  displayBackground: 0
 --- !u!1 &1910229614
 GameObject:
   m_ObjectHideFlags: 0

@@ -29,6 +29,9 @@ public class RecognisedAnimation : MonoBehaviour
 	[SerializeField]
 	private bool useJobs;
 
+	[SerializeField]
+	private bool displayBackground = false;
+
 	private void Start()
 	{
 		rTransform = GetComponent<RectTransform>();
@@ -37,6 +40,11 @@ public class RecognisedAnimation : MonoBehaviour
 		textMesh.enabled = false;
 
 	}
+
+    private void OnEnable()
+    {
+		PlayRecognisedAnimation();
+    }
 
     private void Update()
     {
@@ -74,23 +82,33 @@ public class RecognisedAnimation : MonoBehaviour
 
     private IEnumerator AnimateRect()
 	{
-		scannedImageBackground.gameObject.SetActive(true);
+		if (displayBackground)
+		{
+			scannedImageBackground.gameObject.SetActive(true);
+		}
 		float timer = 0;
 		rTransform.localScale = new Vector3(originalScale, originalScale, originalScale);
 		textMesh.alpha = 1.0f;
 		textMesh.enabled = true;
-		while(timer < animationDuration)
+		
+		while (timer < animationDuration)
 		{
-			rTransform.localScale = Vector3.Lerp(new Vector3(originalScale,originalScale,originalScale),new Vector3(targetScale,targetScale,targetScale),timer/animationDuration);
 			timer += Time.deltaTime;
-			if(timer < animationDuration * 0.8f)
+			rTransform.localScale = Vector3.Lerp(new Vector3(originalScale,originalScale,originalScale),new Vector3(targetScale,targetScale,targetScale),timer/animationDuration);
+			
+			if(timer > animationDuration * 0.65f)
 			{
-				textMesh.alpha = Mathf.Lerp(1.0f, 0,animationDuration*0.2f/ timer - animationDuration * 0.8f);
+				textMesh.alpha = Mathf.Lerp(1.0f, 0f, (timer - animationDuration * 0.65f) / (animationDuration * 0.35f));
+			
+				
 			}
 			yield return null;
 		}	
 		textMesh.enabled = false;
-		scannedImageBackground.gameObject.SetActive(false);
+		if (displayBackground)
+		{
+			scannedImageBackground.gameObject.SetActive(false);
+		}
 		yield return null;
 		
 	}
