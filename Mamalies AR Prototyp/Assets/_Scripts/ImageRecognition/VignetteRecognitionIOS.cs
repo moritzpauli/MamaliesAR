@@ -598,6 +598,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void AddTrackedObject(ARTrackedImage image)
     {
+        print("Added tracked object: "+image.referenceImage.name);
         GameObject trackedObject = Instantiate(trackingMarker);
         trackedObject.transform.name = image.referenceImage.name;
         trackedObject.transform.position = image.transform.position;
