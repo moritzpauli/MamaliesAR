@@ -152,9 +152,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
     [SerializeField]
-    private float loadNewLibraryTime = 1;
+    private float loadNewLibraryTime = 1.3f;
 
-    private float loadNewLibraryTimer = 1;
+    private float loadNewLibraryTimer;
 
     [SerializeField]
     private float noRaycastTime = 3f;
@@ -166,6 +166,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private void Awake()
     {
         scanTimer = 0;
+        loadNewLibraryTimer = loadNewLibraryTime;
         trackingLostTimer = trackingLostTime;
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
@@ -248,7 +249,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         TrackedImageScanningProcess();
 
-       // SwapImageLibraries();
+        SwapImageLibraries();
 
 
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
@@ -263,6 +264,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //}
     }
 
+
+    #region legacy testing functions
     public void SwapImageLibraryTest()
     {
         arTrackedImageObjectList.Clear();
@@ -297,7 +300,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     }
 
-
+    #endregion
 
     private IEnumerator ResetTracking()
     {
@@ -313,27 +316,28 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     public void SwapImageLibraries()
     {
-        StartCoroutine(AppendPageReferenceLibrary());
-        //if (!imagesChanged && !pageSelection)
-        //{
-        //    loadNewLibraryTimer -= Time.deltaTime;
-        //    if (loadNewLibraryTimer <= 0)
-        //    {
+        //StartCoroutine(AppendPageReferenceLibrary());
+        if (!imagesChanged && !pageSelection)
+        {
+            loadNewLibraryTimer -= Time.deltaTime;
+            if (loadNewLibraryTimer <= 0)
+            {
 
-        //        StartCoroutine(AppendPageReferenceLibrary());
-        //    }
-        //}
-        //else
-        //{
-        //    loadNewLibraryTimer = loadNewLibraryTime;
-        //}
+                StartCoroutine(AppendPageReferenceLibrary());
+            }
+        }
+        else
+        {
+            loadNewLibraryTimer = loadNewLibraryTime;
+        }
 
-        //imagesChanged = false;
+        imagesChanged = false;
     }
 
     private IEnumerator AppendPageReferenceLibrary()
     {
-
+        pageSelection = true;
+        print("Append Started");
         if (trackingTextureHandle.IsValid())
         {
             Addressables.Release(trackingTextureHandle);
@@ -355,9 +359,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
             print("ADDED TO LIBRARY - " + currentPage);
         }
 
-        DestroyTrackingObjects();
-        StartCoroutine(ResetTracking());
-        pageSelection = true;
+      
+        
         loadNewLibraryTimer = loadNewLibraryTime;
 
         yield return null;
@@ -530,14 +533,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 }
             }
 
-            currentPage = pageName;
-            pageSelection = false;
+            currentPage = pageName;            
             loadNewLibraryTimer = loadNewLibraryTime;
-            arTrackedImageManager.enabled = true;
-            //arTrackedImageManager.enabled = true;
-            //StartCoroutine(ResetTracking());
+            arTrackedImageManager.enabled = true;            
+            StartCoroutine(ResetTracking());
             DestroyTrackingObjects();
             print("Library Asset Loaded: " + pageName);
+            pageSelection = false;
         }
         //if (useMutableLibrary)
         //{
