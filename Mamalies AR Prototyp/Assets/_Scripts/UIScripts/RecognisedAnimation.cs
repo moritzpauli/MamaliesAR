@@ -85,7 +85,7 @@ public class RecognisedAnimation : MonoBehaviour
 			timer += Time.deltaTime;
 			if(timer < animationDuration * 0.8f)
 			{
-				textMesh.alpha = Mathf.Lerp(1.0f, 0,timer-animationDuration*0.8f/animationDuration*0.2f);
+				textMesh.alpha = Mathf.Lerp(1.0f, 0,animationDuration*0.2f/ timer - animationDuration * 0.8f);
 			}
 			yield return null;
 		}	
