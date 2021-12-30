@@ -1,7 +1,6 @@
 using System.Collections;
 using System.IO;
 using System.Collections.Generic;
-using UnityEditor;
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
@@ -80,8 +79,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private Vector2 screenCenter;
 
-    List<ARRaycastHit> rcHits = new List<ARRaycastHit>();
-
     List<ARTrackedImage> currentTrackedImageList = new List<ARTrackedImage>();
 
     private List<GameObject> arTrackedImageObjectList = new List<GameObject>();
@@ -108,8 +105,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private XRReferenceImageLibrary pagesLibrary;
-
-    private RuntimeReferenceImageLibrary runtimePagesLibrary;
 
 
     private bool imagesChanged = false;
@@ -156,8 +151,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private float loadNewLibraryTimer;
 
-    [SerializeField]
-    private float noRaycastTime = 3f;
+
 
 
 
@@ -265,42 +259,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     }
 
 
-    #region legacy testing functions
-    public void SwapImageLibraryTest()
-    {
-        arTrackedImageObjectList.Clear();
-        currentTrackedImageList.Clear();
-        print("swap libraries");
-        arTrackedImageManager.subsystem.Stop();
-        arTrackedImageManager.referenceLibrary = pagesLibrary;
-        arTrackedImageManager.subsystem.Start();
-        StartCoroutine(ResetTracking());
-        pageSelection = true;
-        print("New page first vignette: " + arTrackedImageManager.subsystem.imageLibrary[0].name);
-    }
-
-
-
-    private async void ConvertLibrariesAsync()
-    {
-        await Task.Delay(100);
-        for (int i = 0; i < imageLibrariesList.Count; i++)
-        {
-            runtimeImageLibrariesList.Add(arTrackedImageManager.CreateRuntimeLibrary(imageLibrariesList[i]));
-            await Task.Yield();
-            if (olderDevice)
-            {
-                await Task.Delay(30);
-            }
-
-        }
-        runtimePagesLibrary = arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
-        loadingPanel.SetActive(false);
-        await Task.Yield();
-
-    }
-
-    #endregion
 
     private IEnumerator ResetTracking()
     {
@@ -312,6 +270,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        scanCompleted = true;
     }
 
     public void SwapImageLibraries()
@@ -362,7 +321,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
       
         
         loadNewLibraryTimer = loadNewLibraryTime;
-
+        DestroyTrackingObjects();
         yield return null;
     }
 
@@ -397,12 +356,11 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //trackingIndicator.transform.localScale = new Vector3(image.referenceImage.size.x, 0.01f, image.referenceImage.size.y);
             ////trackingIndicator.transform.localScale = image.transform.localScale;
             //print(trackingIndicator.transform.position);
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited                )
             {
-                if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
-                {
+                
                     SelectNewPageLibrary(image.referenceImage.name);
-                }
+                
 
             }
 
@@ -469,7 +427,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             }
 
 
-            if (!char.IsDigit(image.referenceImage.name[0]) && image.referenceImage.name != currentPage)
+            if (!char.IsDigit(image.referenceImage.name[0]))
             {
                 SelectNewPageLibrary(image.referenceImage.name);
             }
@@ -512,86 +470,89 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void SelectNewPageLibrary(string pageName)
     {
-        pageRecognisedAnimation.PlayRecognisedAnimation();
-        print("tryselect");
-        if (pageName.Contains("x"))
+        if (!char.IsDigit(pageName[0]))
         {
-            pageName = pageName.Trim('x');
-        }
-        print("Select Page: " + pageName);
-        
-        arTrackedImageManager.enabled = false;
-        arTrackedImageManager.referenceLibrary = null;
-        if (!useMutableLibrary)
-        {
-            foreach (XRReferenceImageLibrary lib in imageLibrariesList)
+            pageRecognisedAnimation.PlayRecognisedAnimation();
+            print("tryselect");
+            if (pageName.Contains("x"))
             {
-                if (lib.name == pageName)
-                {
-                    arTrackedImageManager.referenceLibrary = lib;
-                    break;
-                }
+                pageName = pageName.Trim('x');
             }
+            print("Select Page: " + pageName);
 
-            currentPage = pageName;            
-            loadNewLibraryTimer = loadNewLibraryTime;
-            arTrackedImageManager.enabled = true;            
-            StartCoroutine(ResetTracking());
-            DestroyTrackingObjects();
-            print("Library Asset Loaded: " + pageName);
-            pageSelection = false;
+            arTrackedImageManager.enabled = false;
+            arTrackedImageManager.referenceLibrary = null;
+            if (!useMutableLibrary)
+            {
+                foreach (XRReferenceImageLibrary lib in imageLibrariesList)
+                {
+                    if (lib.name == pageName)
+                    {
+                        arTrackedImageManager.referenceLibrary = lib;
+                        break;
+                    }
+                }
+
+                currentPage = pageName;
+                loadNewLibraryTimer = loadNewLibraryTime;
+                arTrackedImageManager.enabled = true;
+                StartCoroutine(ResetTracking());
+                DestroyTrackingObjects();
+                print("Library Asset Loaded: " + pageName);
+                pageSelection = false;
+            }
+            //if (useMutableLibrary)
+            //{
+            //    currentPage = pageName;
+            //    mutableRuntimeLibrary = mutablePageReferenceLibrary;
+            //    arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+
+            //    if (trackingTextureHandle.IsValid())
+            //    {
+            //        Addressables.Release(trackingTextureHandle);
+
+            //    }
+            //    //if (pageReferenceTextureHandle.IsValid())
+            //    //{
+            //    //    Addressables.Release(pageReferenceTextureHandle);
+            //    //}
+
+            //    //foreach (Texture2D tex in pageReferenceImages)
+            //    //{
+            //    //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+            //    //}
+
+
+            //    //load in textures of current page
+            //    trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
+            //    yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+            //    print("LOADED - " + pageName);
+            //    foreach (Texture2D tex in trackingTextureHandle.Result)
+            //    {
+            //        AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+            //        //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
+            //    }
+
+            //    print("ADDED TO LIBRARY - " + pageName);
+
+            //    ////load in textures of page references
+            //    //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
+            //    //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
+            //    //print("LOADED - reference images");
+            //    //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
+            //    //{
+            //    //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
+            //    //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
+            //    //    addJobHandle.Complete();
+
+
+            //    //}
+
+            //    //print("ADDED TO LIBRARY - reference images");
+
+
+            //}
         }
-        //if (useMutableLibrary)
-        //{
-        //    currentPage = pageName;
-        //    mutableRuntimeLibrary = mutablePageReferenceLibrary;
-        //    arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
-
-        //    if (trackingTextureHandle.IsValid())
-        //    {
-        //        Addressables.Release(trackingTextureHandle);
-
-        //    }
-        //    //if (pageReferenceTextureHandle.IsValid())
-        //    //{
-        //    //    Addressables.Release(pageReferenceTextureHandle);
-        //    //}
-
-        //    //foreach (Texture2D tex in pageReferenceImages)
-        //    //{
-        //    //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-        //    //}
-
-
-        //    //load in textures of current page
-        //    trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
-        //    yield return new WaitUntil(() => trackingTextureHandle.IsDone);
-        //    print("LOADED - " + pageName);
-        //    foreach (Texture2D tex in trackingTextureHandle.Result)
-        //    {
-        //        AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-        //        //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
-        //    }
-
-        //    print("ADDED TO LIBRARY - " + pageName);
-
-        //    ////load in textures of page references
-        //    //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
-        //    //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
-        //    //print("LOADED - reference images");
-        //    //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
-        //    //{
-        //    //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
-        //    //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
-        //    //    addJobHandle.Complete();
-
-
-        //    //}
-
-        //    //print("ADDED TO LIBRARY - reference images");
-
-
-        //}
 
     }
 
@@ -727,7 +688,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
-        scanCompleted = true;
         StartCoroutine(ResetTracking());
         DestroyTrackingObjects();
     }
