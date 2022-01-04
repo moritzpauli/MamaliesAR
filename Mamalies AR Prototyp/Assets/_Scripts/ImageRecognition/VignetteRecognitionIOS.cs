@@ -265,18 +265,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private IEnumerator ResetTracking()
     {
-        //resetRunning = true;
-        //tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
-        //arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-        //Destroy(arTrackedImageManager);
-        //yield return new WaitForEndOfFrame();
-        //arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        //arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
-        //arTrackedImageManager.maxNumberOfMovingImages = 10;
-        //arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        resetRunning = true;
+        tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
+        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        Destroy(arTrackedImageManager);
+        yield return new WaitForEndOfFrame();
+        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
+        arTrackedImageManager.maxNumberOfMovingImages = 10;
+        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         scanCompleted = true;
         resetRunning = false;
-        yield return null;
     }
 
     public void SwapImageLibraries()
@@ -308,7 +307,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             Addressables.Release(trackingTextureHandle);
 
         }
-
+        arTrackedImageManager.enabled = false;
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
         if (currentPage != null && currentPage != "")
@@ -324,7 +323,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             print("ADDED TO LIBRARY - " + currentPage);
         }
 
-
+        arTrackedImageManager.enabled = true;
 
         loadNewLibraryTimer = loadNewLibraryTime;
         DestroyTrackingObjects();
