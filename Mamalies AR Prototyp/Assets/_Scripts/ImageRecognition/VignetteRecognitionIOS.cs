@@ -151,7 +151,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private float loadNewLibraryTimer;
 
-
+    private bool resetRunning = false;
 
 
 
@@ -236,14 +236,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void Update()
     {
-        HideScannedImage();
-        ArRaycast();
+        if (!resetRunning)
+        {
+            HideScannedImage();
+            ArRaycast();
 
-        CompareRaycastTrack();
+            CompareRaycastTrack();
 
-        TrackedImageScanningProcess();
+            TrackedImageScanningProcess();
 
-        SwapImageLibraries();
+            SwapImageLibraries();
+        }
 
 
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
@@ -262,15 +265,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private IEnumerator ResetTracking()
     {
-        tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
-        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-        Destroy(arTrackedImageManager);
-        yield return new WaitForEndOfFrame();
-        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
-        arTrackedImageManager.maxNumberOfMovingImages = 10;
-        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        //resetRunning = true;
+        //tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
+        //arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        //Destroy(arTrackedImageManager);
+        //yield return new WaitForEndOfFrame();
+        //arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        //arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
+        //arTrackedImageManager.maxNumberOfMovingImages = 10;
+        //arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         scanCompleted = true;
+        resetRunning = false;
     }
 
     public void SwapImageLibraries()
@@ -500,7 +505,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         print("Select Page: " + pageName);
 
         arTrackedImageManager.enabled = false;
-        arTrackedImageManager.referenceLibrary = null;
         if (!useMutableLibrary)
         {
             foreach (XRReferenceImageLibrary lib in imageLibrariesList)
