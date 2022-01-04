@@ -1,0 +1,17 @@
+ff50fb0a16bd4ee1a70028bb505b3d16|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0587_DS078-079_seasons.png|0.0866
+e085036250c448b89196b2eca67af10c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0588_DS078-079_spring.png|0.157286
+bb2c34b8faf7429c894ff61f079e289d|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0589_DS078-079_summer.png|0.156857
+510060e0ace94b928ddf6ab86b1f1985|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0590_DS078-079_autumn.png|0.157
+32de2ced535943dc889317d652735847|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0591_DS078-079_winter.png|0.159143
+2dcc8462b7144bb889a19c68b2bab3bf|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0592_DS078-079_march.png|0.0748572
+ce9963434f4640cc996636b602fcc92a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0593_DS078-079_april.png|0.0641429
+c5dda0fd891e4134b96dc00fd27238fc|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0594_DS078-079_may.png|0.0722857
+6615909e8d7f42468c33bf4448d1270c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0595_DS078-079_june.png|0.0681429
+b94846628cf64c588c328f3f109fa465|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0596_DS078-079_july.png|0.0745714
+d3ae102b3b994b90b1264f00ba980ab3|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0597_DS078-079_august.png|0.0701429
+ad9fb72d3e8e4ad88a8a12f5b5be7316|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0598_DS078-079_september.png|0.0828571
+c9adc468707e4c9ca0610378166dca14|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0599_DS078-079_october.png|0.0682857
+904823bb89cf4538868dd4394444d076|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0600_DS078-079_november.png|0.0777143
+249e87ea48a341a8a5d84dd8ffd78a51|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0601_DS078-079_december.png|0.0734286
+cf26f7e0d52440ffafdfb1c0fe0e01f9|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0602_DS078-079_january.png|0.069
+b72046d1bd304bd7bda713a35c4a90c3|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0603_DS078-079_february.png|0.0762857

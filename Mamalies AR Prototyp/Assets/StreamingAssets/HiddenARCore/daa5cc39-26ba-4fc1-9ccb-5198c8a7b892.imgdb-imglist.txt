@@ -1,0 +1,14 @@
+7f4c21f6d537433bbef22c71a2d8ad4f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0122_DS028-029_emotions.png|0.0652
+3b740333b4b84702994d4ef0ebf6963f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0123_DS028-029_tear.png|0.0661429
+c160f8f7e1e740b79bb1b214a38547c3|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0124_DS028-029_todislike.png|0.125571
+5120ff2ca7834098b4b438111e689c77|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0125_DS028-029_cheerful.png|0.191571
+e79bd45d3d8e4f84901e8c6c5645ed94|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0126_DS028-029_surprised.png|0.0998571
+d989e5f04eae4ccea2ac6eb35f3446f2|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0128_DS028-029_afraid.png|0.0861429
+27a7565925eb457b975c2f6a3e858951|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0129_DS028-029_tired.png|0.0847143
+986921678e8c481d9ff4662af513e826|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0130_DS028-029_angry.png|0.0914286
+d2769ab3794a438e8b589ae2f5f0f577|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0131_DS028-029_bored.png|0.0862857
+c4716ac6a5f54a77bba86320c357db7d|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0132_DS028-029_awake.png|0.172143
+5c04951a35094eed9ab2393613619376|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0133_DS028-029_beautiful.png|0.116286
+57c34f8a92b54bd685854d76b2711c5d|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0134_DS028-029_furious.png|0.141286
+4b9a238672e54d9facce6558b27c362a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0135_DS028-029_tolike.png|0.0968572
+a81f51f0e3874e149bed6131b3d154f8|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0136_DS028-029_excited.png|0.113429

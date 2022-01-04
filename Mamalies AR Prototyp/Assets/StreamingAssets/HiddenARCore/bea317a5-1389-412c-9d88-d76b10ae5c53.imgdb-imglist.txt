@@ -1,0 +1,14 @@
+aca6776ea3e44597a30e70b52ee09f45|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0763_DS094-095_house.png|0.0528
+ea615a4afe3a49358d74c00f4ba74913|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0764_DS094-095_doorbell.png|0.063
+4200561527fa4bfebac20fbb76648c63|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0765_DS094-095_housenumber.png|0.0747143
+020ec7a217104c819ce6f78db838aadd|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0766_DS094-095_postbox.png|0.069
+85c77e160caf4871b65c51383e5fd462|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0767_DS094-095_totidy.png|0.0765714
+8dbf6a404ad645fdaaf01eadc36df997|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0768_DS094-095_attic.png|0.0845714
+7a867f7ebd4a4091ab3c1a7331a1af41|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0769_DS094-095_roof.png|0.175143
+35ad69a2464e410b9b7e69a11ba52366|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0770_DS094-095_chimney.png|0.0732857
+acd0e720d81f4e20970d47379a660049|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0771_DS094-095_key.png|0.0885714
+f065cfb8859b4b41bd81de75677be0e9|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0772_DS094-095_tolock.png|0.113286
+06be5ff0a359440eb588e536a9cc9955|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0773_DS094-095_garage.png|0.114429
+f677e83ba2fc43a38e0f6c9dee42c4f7|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0774_DS094-095_basement.png|0.124714
+0634c2f3d7174976a720e856c3f855d7|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0775_DS094-095_stairs.png|0.118143
+85133cb0543a4c9dba6280dbe423f270|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\2003_DS094-095_house.png|0.284143

@@ -1,0 +1,11 @@
+2eb5aadff2f24ca7b3aaace67b248709|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0419_DS060-061_traveling.png|0.0587
+9dfd1cd52c944970ab5947095cadcc2c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0420_DS060-061_airplane.png|0.344286
+6bb9ad0cec2843a69a0789c93082f939|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0421_DS060-061_tofly.png|0.168714
+6924068b50b9436fa81caeda79dcb20d|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0422_DS060-061_bridge.png|0.171714
+48eb5277378340b2be631360a5e1fa39|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0423_DS060-061_vacation.png|0.171
+de8c3a39c64e4729ad4b4a6f1e284037|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0424_DS060-061_holidays.png|0.153143
+ee9b062377b243b7a09eeba386272dff|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0425_DS060-061_foreign.png|0.125143
+35a2b91ed3504673ad62d27ad8754d0d|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0426_DS060-061_tourists.png|0.162143
+bd80b507266a4d8581ed1ad9f2da1524|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0427_DS060-061_experience.png|0.0807143
+0ccb064b460a4e6ebe3ce26c4908ea6a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0428_DS060-061_suitcase.png|0.139571
+4ac833df8bb7447da93883bb095a333b|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0429_DS060-061_topack.png|0.125

@@ -1,0 +1,14 @@
+ef983fb54a864cbd8439ea7c4192cb9a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0266_DS044-045_fruit-headline.png|0.0492
+3c1a5adfeeae4409b01bb9d6ec267add|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0267_DS044-045_fruit.png|0.340286
+e6f4bd308c4a4d06a9b7f698c9f18351|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0268_DS044-045_raspberry.png|0.072
+5884569c21ef4ae0b3d2edc7cb8828df|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0269_DS044-045_orange.png|0.0852857
+0436f9038d4a4e4e9d0e472b99ed9c2a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0270_DS044-045_watermelon.png|0.0857143
+f39a7732d8074dda9dcc4e5ad33f2fba|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0271_DS044-045_strawberry.png|0.0981429
+1c3188b095b445d1a7e7bbc03df34dde|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0272_DS044-045_pear.png|0.0874286
+96f10d243f4a47af8420e54ff1f3f346|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0273_DS044-045_lemon.png|0.0885714
+d3940106500e4130af2b295ffaa74b09|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0274_DS044-045_apple.png|0.106429
+7853fd8091734262b9a97302432a60e1|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0275_DS044-045_plum.png|0.0914286
+1485af842e244dd09de2825bb17c3742|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0276_DS044-045_cherry.png|0.0575714
+3f5fa9dbf3f84d3eb0b41f2fe9207636|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0277_DS044-045_banana.png|0.0871429
+db6da57a742a4458af96d91e072c995c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0278_DS044-045_pineapple.png|0.130714
+159bf290ad9d4d98867d28a8dc1f568c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0279_DS044-045_peach.png|0.0821429

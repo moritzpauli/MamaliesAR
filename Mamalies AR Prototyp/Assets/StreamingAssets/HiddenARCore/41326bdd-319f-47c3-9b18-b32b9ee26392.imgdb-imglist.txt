@@ -1,0 +1,17 @@
+3f7198339c02483ab06528bc86b39ae0|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0295_DS048-049_water.png|0.0575
+0415259c3fa64693aad2bd3944e2b0f7|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0296_DS048-049_toangle.png|0.131429
+bfbdd6e6f0a24b9288efef3d7a2a0bb2|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0297_DS048-049_fishingrod.png|0.156286
+02db6687ab06428d8812a2a1493f7b13|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0298_DS048-049_tofish.png|0.113857
+e8db65c6fde941c5b3965ece45a3836b|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0299_DS048-049_fish.png|0.101857
+5fe24f62a6db482f997c84b1796a293e|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0300_DS048-049_boat.png|0.141571
+f37c1cfed28e47e59f578e25e28aaade|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0301_DS048-049_sail.png|0.0645714
+0092ba5487c64a698f077d2f5d30da14|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0302_DS048-049_tosail.png|0.119714
+7207e0855f15418d97ea5e207f12f298|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0303_DS048-049_ship.png|0.141143
+97dfd509d4c64511adda0a96c79027a6|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0304_DS048-049_sea.png|0.167571
+d36cb3f84e9a4ec69607d08673b0dcc3|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0305_DS048-049_beach.png|0.278
+8f3671f2dfe34bc0bd3eb65a3943bdd7|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0306_DS048-049_sand.png|0.143429
+605a354b83104115a509ba487b67b5de|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0307_DS048-049_spring.png|0.0867143
+9b75c27a257e4844acc3ce20a7e76fd0|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0308_DS048-049_river.png|0.130286
+6e8b4a32e31e4616acd6867b166a4561|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0309_DS048-049_lake.png|0.123571
+38700a3cfe40456abf0bcf69b092d85f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0310_DS048-049_flood.png|0.0964286
+24c34351cdbf4c63b641302f1ca512ff|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0311_DS048-049_lowtide.png|0.108714

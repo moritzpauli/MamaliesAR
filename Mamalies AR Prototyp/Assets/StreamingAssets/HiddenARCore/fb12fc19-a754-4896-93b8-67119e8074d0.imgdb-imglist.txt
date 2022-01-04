@@ -1,0 +1,17 @@
+14e3a2914d2b48989243f4d5de6dc664|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0533_DS072-073_shopping.png|0.0778
+b1594b4f96f24dcf8e79c214fc1eef5f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0534_DS072-073_bakery.png|0.110571
+aeec043d265d4465be7f63ba35794736|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0535_DS072-073_library.png|0.106714
+6315250e21b74d1f923e54383eaf0301|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0536_DS072-073_pharmacy.png|0.0971429
+3559fe4b8d644d739d92752dca3bc80a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0537_DS072-073_shop.png|0.120143
+71aeea27d4504756834142d5b152e486|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0538_DS072-073_kiosk.png|0.181857
+4188bc0a3dad4e1b8ba13c8dc30f5c7a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0539_DS072-073_supermarket.png|0.0887143
+919be05ca8574d9db57332496a6bf8a9|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0540_DS072-073_cinema.png|0.136714
+078dba283e3c4e5ca294aa469386ffb1|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0541_DS072-073_restaurant.png|0.100143
+30ed34f955064d58bf19df22e9e967bb|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0542_DS072-073_postoffice.png|0.127714
+5e7524c10b93421da6b65ad5891a072c|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0543_DS072-073_letter.png|0.0635714
+db588af391b44859afe1e1fc8a9977d6|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0544_DS072-073_package.png|0.0718571
+259400e051364151a284a83c088c56a5|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0545_DS072-073_permission.png|0.0654286
+c28dead3812c4a25a07a5c58a6d87e2e|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0546_DS072-073_gasstation.png|0.159714
+0a2d4896d42048698c5bbdfd34d2f657|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0547_DS072-073_bank.png|0.120429
+3095c5eac4424b1294b0cfa81f9f5b73|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0548_DS072-073_fittingroom.png|0.117143
+799561f63b294784a4472d68e562eef7|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0549_DS072-073_market.png|0.117857

@@ -1,0 +1,14 @@
+6a4e1b70388e4a719fca757bfba962ef|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0643_DS084-085_sport.png|0.0585
+f569a3211520462aaf7e01cd59cfa40f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0644_DS084-085_todogymnastics.png|0.163286
+d4c3b1dc3b4a4480a79b19c0264bd193|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0645_DS084-085_gymnastics.png|0.128571
+5c5c01c8a60041e7ae3229a8dbb97ccb|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0646_DS084-085_todance.png|0.109143
+9976cb4bfdeb4823a65767797f955343|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0647_DS084-085_third.png|0.0522857
+d755191e0d5640989131e6a8e3ad83e4|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0648_DS084-085_first.png|0.0644286
+8a3384dc826641c2b588a8299ad9cec4|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0649_DS084-085_second.png|0.0591429
+dfff4f2080e6468f884deb1629920ead|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0650_DS084-085_toplayfootball.png|0.111714
+2f883c1fa2c14dcfb4936bd5fb6dcea8|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0651_DS084-085_player.png|0.0797143
+ffb8eb80f1ed43c1b9660ad93998fca6|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0652_DS084-085_referee.png|0.0855714
+e5c36dca16f7440ca861ac633fb1906a|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0653_DS084-085_club.png|0.168286
+3d2ba48b974a450281c9604cd7f2a088|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0654_DS084-085_team.png|0.184857
+706ccfa424eb4c44a925274a4d5ce3ef|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0655_DS084-085_football.png|0.066
+a3503e9a48414a0182e0028b31f23445|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0656_DS084-085_sportsclub.png|0.0798571

@@ -1,0 +1,6 @@
+504ffcc5528045618f180ca4704e9249|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0218_DS038-039_zoo.png|0.3411
+387f36931dab4d77b2848d2612c4056b|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0219_DS038-039_wild.png|0.139857
+df88d790be6c4f2e845c87da23c4bb70|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0220_DS038-039_tobark.png|0.129714
+49d5403f26714fd2a6ad4df3f6face0f|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0221_DS038-039_tofly.png|0.099
+adbf415e7dca448c9af67d87242c69ab|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0222_DS038-039_tofeed.png|0.139714
+1ae749b53c8a448eaebcb26cb31b3e42|D:\UserDaten\MoritzArbeit\Projekte\CarlsenAR\Mamalies AR Prototyp\Assets\_TrackingVignettes\ProductionImages\0223_DS038-039_tobite.png|0.0902857
