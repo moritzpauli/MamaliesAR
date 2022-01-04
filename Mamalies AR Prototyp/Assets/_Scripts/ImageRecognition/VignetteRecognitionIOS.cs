@@ -276,6 +276,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         scanCompleted = true;
         resetRunning = false;
+        yield return null;
     }
 
     public void SwapImageLibraries()
