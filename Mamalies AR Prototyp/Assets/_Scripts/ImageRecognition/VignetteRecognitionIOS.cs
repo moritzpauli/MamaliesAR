@@ -378,7 +378,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
             {
                 //foreach (ARRaycastHit hit in rcHits)
                 //{
@@ -427,6 +427,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 currentTrackedImageList.Add(image);
 
+                if (pageSelection)
+                {
+                    SelectNewPageLibrary(image.referenceImage.name.Split('_')[1], false);
+                }
                 AddTrackedObject(image);
 
             }
