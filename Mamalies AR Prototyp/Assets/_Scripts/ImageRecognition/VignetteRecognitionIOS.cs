@@ -281,6 +281,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (!imagesChanged && !pageSelection)
         {
             loadNewLibraryTimer -= Time.deltaTime;
+            currentLibraryEntry.text = loadNewLibraryTimer.ToString();
             if (loadNewLibraryTimer <= 0)
             {
 
@@ -314,11 +315,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
             yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+            loadNewLibraryTimer = loadNewLibraryTime;
             print("LOADED - " + currentPage);
             foreach (Texture2D tex in trackingTextureHandle.Result)
             {
                 AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
                 addJobState.jobHandle.Complete();
+                loadNewLibraryTimer = loadNewLibraryTime;
             }
             print("ADDED TO LIBRARY - " + currentPage);
         }
@@ -374,7 +377,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
             {
 
 
