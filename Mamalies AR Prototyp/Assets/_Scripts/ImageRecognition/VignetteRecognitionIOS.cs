@@ -325,7 +325,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
         loadNewLibraryTimer = loadNewLibraryTime;
-        StartCoroutine(ResetTracking());
+        //StartCoroutine(ResetTracking());
+        resetTracking = true;
         DestroyTrackingObjects();
         yield return null;
     }
@@ -477,7 +478,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
             currentPage = pageName;
             loadNewLibraryTimer = loadNewLibraryTime;
             arTrackedImageManager.enabled = true;
-            StartCoroutine(ResetTracking());
+            //StartCoroutine(ResetTracking());
+            resetTracking = true;
             DestroyTrackingObjects();
             print("Library Asset Loaded: " + pageName);
             pageSelection = false;
