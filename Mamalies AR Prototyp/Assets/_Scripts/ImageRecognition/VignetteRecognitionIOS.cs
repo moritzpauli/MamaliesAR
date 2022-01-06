@@ -151,7 +151,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private float loadNewLibraryTimer;
 
-    private bool resetRunning = false;
+
 
 
 
@@ -236,17 +236,14 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private void Update()
     {
-        if (!resetRunning)
-        {
-            HideScannedImage();
-            ArRaycast();
+        HideScannedImage();
+        ArRaycast();
 
-            CompareRaycastTrack();
+        CompareRaycastTrack();
 
-            TrackedImageScanningProcess();
+        TrackedImageScanningProcess();
 
-            SwapImageLibraries();
-        }
+        SwapImageLibraries();
 
 
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
@@ -265,7 +262,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private IEnumerator ResetTracking()
     {
-        resetRunning = true;
         tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
         arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
         Destroy(arTrackedImageManager);
@@ -275,7 +271,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         scanCompleted = true;
-        resetRunning = false;
     }
 
     public void SwapImageLibraries()
@@ -307,7 +302,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             Addressables.Release(trackingTextureHandle);
 
         }
-        arTrackedImageManager.enabled = false;
+
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
         if (currentPage != null && currentPage != "")
@@ -323,8 +318,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
             print("ADDED TO LIBRARY - " + currentPage);
         }
 
-        arTrackedImageManager.enabled = true;
-
+      
+        
         loadNewLibraryTimer = loadNewLibraryTime;
         DestroyTrackingObjects();
         yield return null;
@@ -355,19 +350,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //Debug.Log("On Tracked Image Changed");
         foreach (ARTrackedImage image in args.updated)
         {
+
+            if (!char.IsDigit(image.referenceImage.name[0]))
+            {
+                SelectNewPageLibrary(image.referenceImage.name);
+            }
             ////UpdateTrackedObject(image);
             //trackingIndicator.transform.position = image.transform.position;
             //trackingIndicator.transform.rotation = image.transform.rotation;
             //trackingIndicator.transform.localScale = new Vector3(image.referenceImage.size.x, 0.01f, image.referenceImage.size.y);
             ////trackingIndicator.transform.localScale = image.transform.localScale;
             //print(trackingIndicator.transform.position);
-            if (image.referenceImage.name != currentPage && !char.IsDigit(image.referenceImage.name[0]))
-            {
 
-                SelectNewPageLibrary(image.referenceImage.name,true);
-
-
-            }
 
             if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
             {
@@ -383,7 +377,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
             {
                 //foreach (ARRaycastHit hit in rcHits)
                 //{
@@ -400,10 +394,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
                 if (!currentTrackedImageList.Contains(image) && char.IsDigit(image.referenceImage.name[0]))
                 {
-                    if (pageSelection)
-                    {
-                        SelectNewPageLibrary(image.referenceImage.name.Split('_')[1],false);
-                    }
                     currentTrackedImageList.Add(image);
                     AddTrackedObject(image);
                 }
@@ -432,21 +422,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 currentTrackedImageList.Add(image);
 
-                if (pageSelection)
-                {
-                    SelectNewPageLibrary(image.referenceImage.name.Split('_')[1], false);
-                }
                 AddTrackedObject(image);
-
             }
 
 
-            if (image.referenceImage.name != currentPage && !char.IsDigit(image.referenceImage.name[0]))
+            if (!char.IsDigit(image.referenceImage.name[0]))
             {
-
-                SelectNewPageLibrary(image.referenceImage.name,true);
-
-
+                SelectNewPageLibrary(image.referenceImage.name);
             }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
@@ -461,13 +443,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             RemoveTrackedObject(image);
             currentTrackedImageList.Remove(image);
-            if (image.referenceImage.name != currentPage && !char.IsDigit(image.referenceImage.name[0]))
-            {
 
-                SelectNewPageLibrary(image.referenceImage.name,true);
-
-
-            }
 
         }
 
@@ -491,98 +467,98 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-    private void SelectNewPageLibrary(string pageName, bool playAnimation)
+    private void SelectNewPageLibrary(string pageName)
     {
-        if (playAnimation)
+        if (!char.IsDigit(pageName[0]))
         {
             pageRecognisedAnimation.PlayRecognisedAnimation();
-        }       
-        print("tryselect");
-        if (pageName.Contains("x"))
-        {
-            pageName = pageName.Trim('x');
-        }
-        print("Select Page: " + pageName);
-
-        arTrackedImageManager.enabled = false;
-        if (!useMutableLibrary)
-        {
-            foreach (XRReferenceImageLibrary lib in imageLibrariesList)
+            print("tryselect");
+            if (pageName.Contains("x"))
             {
-                if (lib.name == pageName)
-                {
-                    arTrackedImageManager.referenceLibrary = lib;
-                    break;
-                }
+                pageName = pageName.Trim('x');
             }
+            print("Select Page: " + pageName);
 
-            currentPage = pageName;
-            loadNewLibraryTimer = loadNewLibraryTime;
-            arTrackedImageManager.enabled = true;
-            StartCoroutine(ResetTracking());
-            DestroyTrackingObjects();
-            print("Library Asset Loaded: " + pageName);
-            pageSelection = false;
+            arTrackedImageManager.enabled = false;
+            arTrackedImageManager.referenceLibrary = null;
+            if (!useMutableLibrary)
+            {
+                foreach (XRReferenceImageLibrary lib in imageLibrariesList)
+                {
+                    if (lib.name == pageName)
+                    {
+                        arTrackedImageManager.referenceLibrary = lib;
+                        break;
+                    }
+                }
+
+                currentPage = pageName;
+                loadNewLibraryTimer = loadNewLibraryTime;
+                arTrackedImageManager.enabled = true;
+                StartCoroutine(ResetTracking());
+                DestroyTrackingObjects();
+                print("Library Asset Loaded: " + pageName);
+                pageSelection = false;
+            }
+            //if (useMutableLibrary)
+            //{
+            //    currentPage = pageName;
+            //    mutableRuntimeLibrary = mutablePageReferenceLibrary;
+            //    arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+
+            //    if (trackingTextureHandle.IsValid())
+            //    {
+            //        Addressables.Release(trackingTextureHandle);
+
+            //    }
+            //    //if (pageReferenceTextureHandle.IsValid())
+            //    //{
+            //    //    Addressables.Release(pageReferenceTextureHandle);
+            //    //}
+
+            //    //foreach (Texture2D tex in pageReferenceImages)
+            //    //{
+            //    //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
+            //    //}
+
+
+            //    //load in textures of current page
+            //    trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
+            //    yield return new WaitUntil(() => trackingTextureHandle.IsDone);
+            //    print("LOADED - " + pageName);
+            //    foreach (Texture2D tex in trackingTextureHandle.Result)
+            //    {
+            //        AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
+            //        //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
+            //    }
+
+            //    print("ADDED TO LIBRARY - " + pageName);
+
+            //    ////load in textures of page references
+            //    //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
+            //    //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
+            //    //print("LOADED - reference images");
+            //    //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
+            //    //{
+            //    //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
+            //    //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
+            //    //    addJobHandle.Complete();
+
+
+            //    //}
+
+            //    //print("ADDED TO LIBRARY - reference images");
+
+
+            //}
         }
-        //if (useMutableLibrary)
-        //{
-        //    currentPage = pageName;
-        //    mutableRuntimeLibrary = mutablePageReferenceLibrary;
-        //    arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
-
-        //    if (trackingTextureHandle.IsValid())
-        //    {
-        //        Addressables.Release(trackingTextureHandle);
-
-        //    }
-        //    //if (pageReferenceTextureHandle.IsValid())
-        //    //{
-        //    //    Addressables.Release(pageReferenceTextureHandle);
-        //    //}
-
-        //    //foreach (Texture2D tex in pageReferenceImages)
-        //    //{
-        //    //	mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
-        //    //}
-
-
-        //    //load in textures of current page
-        //    trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(pageName, null);
-        //    yield return new WaitUntil(() => trackingTextureHandle.IsDone);
-        //    print("LOADED - " + pageName);
-        //    foreach (Texture2D tex in trackingTextureHandle.Result)
-        //    {
-        //        AddReferenceImageJobState addJobState = mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, (float)tex.width / 7f * 0.001f);
-        //        //yield return new WaitUntil(() => addJobState.jobHandle.IsCompleted);
-        //    }
-
-        //    print("ADDED TO LIBRARY - " + pageName);
-
-        //    ////load in textures of page references
-        //    //pageReferenceTextureHandle = Addressables.LoadAssetsAsync<Texture2D>("pageReference", null);
-        //    //yield return new WaitUntil(() => pageReferenceTextureHandle.IsDone);
-        //    //print("LOADED - reference images");
-        //    //foreach (Texture2D tex in pageReferenceTextureHandle.Result)
-        //    //{
-        //    //    Unity.Jobs.JobHandle addJobHandle =  mutableRuntimeLibrary.ScheduleAddImageJob(tex, tex.name, 0.2f);
-        //    //    yield return new WaitUntil(() => addJobHandle.IsCompleted);
-        //    //    addJobHandle.Complete();
-
-
-        //    //}
-
-        //    //print("ADDED TO LIBRARY - reference images");
-
-
-        //}
-
 
     }
 
 
     private void AddTrackedObject(ARTrackedImage image)
     {
-
+        
         if (char.IsDigit(image.referenceImage.name[0]))
         {
             print("Added tracked object: " + image.referenceImage.name);
