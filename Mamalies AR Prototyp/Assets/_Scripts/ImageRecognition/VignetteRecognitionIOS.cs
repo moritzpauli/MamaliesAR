@@ -350,19 +350,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //Debug.Log("On Tracked Image Changed");
         foreach (ARTrackedImage image in args.updated)
         {
+
+            if (!char.IsDigit(image.referenceImage.name[0]))
+            {
+                SelectNewPageLibrary(image.referenceImage.name);
+            }
             ////UpdateTrackedObject(image);
             //trackingIndicator.transform.position = image.transform.position;
             //trackingIndicator.transform.rotation = image.transform.rotation;
             //trackingIndicator.transform.localScale = new Vector3(image.referenceImage.size.x, 0.01f, image.referenceImage.size.y);
             ////trackingIndicator.transform.localScale = image.transform.localScale;
             //print(trackingIndicator.transform.position);
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited                )
-            {
-                
-                    SelectNewPageLibrary(image.referenceImage.name);
-                
 
-            }
 
             if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
             {
