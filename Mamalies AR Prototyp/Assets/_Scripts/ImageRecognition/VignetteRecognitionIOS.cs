@@ -267,7 +267,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        arTrackedImageManager.enabled = false;
         arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
+        arTrackedImageManager.enabled = true;
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
         resetTracking = true;
@@ -304,7 +306,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
+        arTrackedImageManager.enabled = false;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
+        arTrackedImageManager.enabled = true;
         if (currentPage != null && currentPage != "")
         {
             trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
