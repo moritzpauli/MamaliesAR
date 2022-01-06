@@ -148,6 +148,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private float loadNewLibraryTime = 1.3f;
+    [SerializeField]
+    private float loadNewLibraryTimeInitalDelay = 0.7f;
 
     private float loadNewLibraryTimer;
 
@@ -281,7 +283,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (!imagesChanged && !pageSelection)
         {
             loadNewLibraryTimer -= Time.deltaTime;
-            currentLibraryEntry.text = loadNewLibraryTimer.ToString();
+            
             if (loadNewLibraryTimer <= 0)
             {
 
@@ -294,6 +296,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
         imagesChanged = false;
+        currentLibraryEntry.text = loadNewLibraryTimer.ToString();
     }
 
     private IEnumerator AppendPageReferenceLibrary()
@@ -480,7 +483,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             }
 
             currentPage = pageName;
-            loadNewLibraryTimer = loadNewLibraryTime;
+            loadNewLibraryTimer = loadNewLibraryTime + loadNewLibraryTimeInitalDelay;
             arTrackedImageManager.enabled = true;
             //StartCoroutine(ResetTracking());
             resetTracking = true;
