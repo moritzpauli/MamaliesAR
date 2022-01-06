@@ -166,7 +166,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
         trackingLostTimer = trackingLostTime;
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
-        print(screenCenter);
         //arTrackedImageManager = GameObject.FindObjectOfType<ARTrackedImageManager>();
         voiceLinePlayer = GameObject.FindObjectOfType<VoiceLinePlayer>();
         viewFinderAnimation = GameObject.FindObjectOfType<ViewfinderAnimation>();
@@ -283,7 +282,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         if (!imagesChanged && !pageSelection)
         {
             loadNewLibraryTimer -= Time.deltaTime;
-            
+
             if (loadNewLibraryTimer <= 0)
             {
 
@@ -296,7 +295,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
         imagesChanged = false;
-        currentLibraryEntry.text = loadNewLibraryTimer.ToString();
+        if (currentLibraryEntry != null)
+        {
+            currentLibraryEntry.text = loadNewLibraryTimer.ToString();
+        }
     }
 
     private IEnumerator AppendPageReferenceLibrary()
@@ -364,6 +366,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
             if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
             {
+                print("PGREC: " + image.referenceImage.name);
                 SelectNewPageLibrary(image.referenceImage.name);
             }
 
@@ -380,7 +383,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking || image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
             {
 
 
@@ -417,6 +420,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
             {
                 SelectNewPageLibrary(image.referenceImage.name);
+                print("PGREC: " + image.referenceImage.name);
             }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
@@ -462,7 +466,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     {
 
         pageRecognisedAnimation.PlayRecognisedAnimation();
-        print("tryselect");
         if (pageName.Contains("x"))
         {
             pageName = pageName.Trim('x');
@@ -809,7 +812,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     /// <param name="image"></param>
     private IEnumerator DisplayScannedImage(ARTrackedImage image)
     {
-        print(image.referenceImage.name);
+        //print(image.referenceImage.name);
         // viewFinderAnimation.DeActivateViewfinder();
         scannedImageDisplayHorizontal.enabled = false;
         scannedImageDisplayVertical.enabled = false;
