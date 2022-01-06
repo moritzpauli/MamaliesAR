@@ -297,6 +297,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private IEnumerator AppendPageReferenceLibrary()
     {
+        loadNewLibraryTimer = loadNewLibraryTime;
         pageSelection = true;
         print("Append Started");
         if (trackingTextureHandle.IsValid())

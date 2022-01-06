@@ -92,9 +92,9 @@ public class RecognisedAnimation : MonoBehaviour
 			timer += Time.deltaTime;
 			rTransform.localScale = Vector3.Lerp(new Vector3(originalScale,originalScale,originalScale),new Vector3(targetScale,targetScale,targetScale),timer/animationDuration);
 			
-			if(timer > animationDuration * 0.75f)
+			if(timer > animationDuration * 0.8f)
 			{
-				textMesh.alpha = Mathf.Lerp(1.0f, 0f, (timer - animationDuration * 0.75f) / (animationDuration * 0.25f));
+				textMesh.alpha = Mathf.Lerp(1.0f, 0f, (timer - animationDuration * 0.8f) / (animationDuration * 0.2f));
 			
 				
 			}
