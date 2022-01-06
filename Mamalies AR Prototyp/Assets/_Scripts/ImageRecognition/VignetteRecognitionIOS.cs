@@ -63,7 +63,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private GameObject trackingMarker;
 
     //tracking process
-    private bool scanCompleted = false;
+    private bool resetTracking = false;
     bool tracking;
     bool imageSwap = true;
     private ARTrackedImage currentImage;
@@ -270,7 +270,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
         arTrackedImageManager.maxNumberOfMovingImages = 10;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        scanCompleted = true;
+        resetTracking = true;
     }
 
     public void SwapImageLibraries()
@@ -321,6 +321,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
         loadNewLibraryTimer = loadNewLibraryTime;
+        StartCoroutine(ResetTracking());
         DestroyTrackingObjects();
         yield return null;
     }
@@ -333,17 +334,18 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
         //print("any tracking change");
-        if (scanCompleted)
+        if (resetTracking)
         {
 
             args.removed.Clear();
             args.added.Clear();
             args.updated.Clear();
-            scanCompleted = false;
+            resetTracking = false;
 
 
         }
         imagesChanged = true;
+
 
         foreach (ARTrackedImage image in args.updated)
         {
@@ -663,8 +665,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
-        StartCoroutine(ResetTracking());
-        DestroyTrackingObjects();
+        //StartCoroutine(ResetTracking());
+        //DestroyTrackingObjects();
     }
 
     /// <summary>
