@@ -9344,8 +9344,7 @@ MonoBehaviour:
   - m_GUID: 59a44cdc10f0a984289ee2d44ef86924
     m_Address: Assets/_TrackingVignettes/ProductionImages/2004_DS058-059_world.png
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - DS058-059
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8005d9651cccfea41aebe0402e524aae
@@ -12680,11 +12679,10 @@ MonoBehaviour:
     - DS020-021
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: d98444bfd65232143bc217813e34ab50
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0052_DS020-021_head.png
+  - m_GUID: 5346ea2edd4c9f7498dffbf80bdbac11
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0251_DS042-043_vegetables.png
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - DS020-021
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 5fe5dae44d5c7e04dbfe600e9d862ee1
@@ -14542,11 +14540,10 @@ MonoBehaviour:
     - DS042-043
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 5346ea2edd4c9f7498dffbf80bdbac11
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0251_DS042-043_vegetables.png
+  - m_GUID: d98444bfd65232143bc217813e34ab50
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0052_DS020-021_head.png
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - DS042-043
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: cb756e258b3b0ee49bc1ca816b1ca8f9
