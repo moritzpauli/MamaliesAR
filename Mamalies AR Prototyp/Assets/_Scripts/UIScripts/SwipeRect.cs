@@ -51,8 +51,7 @@ public class SwipeRect : MonoBehaviour, IDragHandler, IEndDragHandler
     /// <param name="pData"></param>
     public void OnEndDrag(PointerEventData pData)
     {
-        float dragPercentage = (pData.pressPosition.x - pData.position.x) / stepWidth;
-        print(dragPercentage);
+        float dragPercentage = (pData.pressPosition.x - pData.position.x) / stepWidth;;
         if (Mathf.Abs(dragPercentage) > percentageThreshold)
         {
             Vector3 newPanelPosition = panelPosition;
