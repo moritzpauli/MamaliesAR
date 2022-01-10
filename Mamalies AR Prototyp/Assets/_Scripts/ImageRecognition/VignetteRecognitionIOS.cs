@@ -132,6 +132,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
     AsyncOperationHandle<IList<Texture2D>> trackingTextureHandle;
     AsyncOperationHandle<IList<Texture2D>> pageReferenceTextureHandle;
 
+    [SerializeField]
+    private ARTrackedImage placeHolderImage;
+
     //ios generation
 #if UNITY_IOS
     [SerializeField]
@@ -180,7 +183,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //	}
 
         mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
-
+        
 
 
 #if UNITY_IOS
@@ -261,20 +264,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-    private IEnumerator ResetTracking()
-    {
-        tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
-        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-        Destroy(arTrackedImageManager);
-        yield return new WaitForEndOfFrame();
-        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-        arTrackedImageManager.enabled = false;
-        arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
-        arTrackedImageManager.enabled = true;
-        arTrackedImageManager.maxNumberOfMovingImages = 10;
-        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-        resetTracking = true;
-    }
+    //private IEnumerator ResetTracking()
+    //{
+    //    tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
+    //    arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+    //    Destroy(arTrackedImageManager);
+    //    yield return new WaitForEndOfFrame();
+    //    arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+    //    arTrackedImageManager.enabled = false;
+    //    arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
+    //    arTrackedImageManager.enabled = true;
+    //    arTrackedImageManager.maxNumberOfMovingImages = 10;
+    //    arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+    //    resetTracking = true;
+    //}
 
     public void SwapImageLibraries()
     {
@@ -332,7 +335,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
 
-
+        arTrackedImageManager.subsystem.Start();
         loadNewLibraryTimer = loadNewLibraryTime;
         //StartCoroutine(ResetTracking());
         //resetTracking = true;
@@ -355,7 +358,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             args.added.Clear();
             args.updated.Clear();
             resetTracking = false;
-
+            print("CLEARED ALL TRACKING LISTS");
 
         }
         imagesChanged = true;
@@ -453,8 +456,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             DestroyImmediate(go);
         }
-        //arTrackedImageObjectList.Clear();
-        //currentTrackedImageList.Clear();
+        arTrackedImageObjectList.Clear();
+        currentTrackedImageList.Clear();
     }
 
 
