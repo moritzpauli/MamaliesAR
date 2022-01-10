@@ -317,7 +317,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
         //arTrackedImageManager.enabled = false;
-        arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
         //arTrackedImageManager.enabled = true;
         if (currentPage != null && currentPage != "")
         {
@@ -334,7 +333,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             print("ADDED TO LIBRARY - " + currentPage);
         }
 
-
+        arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
         arTrackedImageManager.subsystem.Start();
         loadNewLibraryTimer = loadNewLibraryTime;
         //StartCoroutine(ResetTracking());
