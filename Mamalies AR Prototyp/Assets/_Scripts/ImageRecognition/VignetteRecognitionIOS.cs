@@ -313,9 +313,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 
         mutableRuntimeLibrary = mutablePageReferenceLibrary;
-        arTrackedImageManager.enabled = false;
+        //arTrackedImageManager.enabled = false;
         arTrackedImageManager.subsystem.imageLibrary = mutableRuntimeLibrary;
-        arTrackedImageManager.enabled = true;
+        //arTrackedImageManager.enabled = true;
         if (currentPage != null && currentPage != "")
         {
             trackingTextureHandle = Addressables.LoadAssetsAsync<Texture2D>(currentPage, null);
