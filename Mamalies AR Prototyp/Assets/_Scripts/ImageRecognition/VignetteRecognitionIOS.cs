@@ -453,8 +453,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             DestroyImmediate(go);
         }
-        arTrackedImageObjectList.Clear();
-        currentTrackedImageList.Clear();
+        //arTrackedImageObjectList.Clear();
+        //currentTrackedImageList.Clear();
     }
 
 
