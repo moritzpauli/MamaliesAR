@@ -335,7 +335,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         loadNewLibraryTimer = loadNewLibraryTime;
         //StartCoroutine(ResetTracking());
-        resetTracking = true;
+        //resetTracking = true;
         DestroyTrackingObjects();
         yield return null;
     }
