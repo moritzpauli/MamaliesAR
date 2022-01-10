@@ -134,6 +134,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     [SerializeField]
     private ARTrackedImage placeHolderImage;
+    [SerializeField]
+    private GameObject placeHolderObject;
 
     //ios generation
 #if UNITY_IOS
@@ -338,7 +340,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         loadNewLibraryTimer = loadNewLibraryTime;
         //StartCoroutine(ResetTracking());
         //resetTracking = true;
-        //DestroyTrackingObjects();
+        DestroyTrackingObjects();
         yield return null;
     }
 
@@ -428,7 +430,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-
+            if(placeHolderImage == null)
+            {
+                placeHolderImage = image;
+            }
 
         }
 
@@ -448,15 +453,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
     {
         foreach (GameObject go in arTrackedImageObjectList)
         {
-            DestroyImmediate(go);
+            Destroy(go);
         }
         GameObject[] tempMarkers = GameObject.FindGameObjectsWithTag("arMarker");
         foreach (GameObject go in tempMarkers)
         {
-            DestroyImmediate(go);
+            Destroy(go);
         }
         arTrackedImageObjectList.Clear();
         currentTrackedImageList.Clear();
+        arTrackedImageObjectList.Add(placeHolderObject);
+        currentTrackedImageList.Add(placeHolderImage);
     }
 
 
