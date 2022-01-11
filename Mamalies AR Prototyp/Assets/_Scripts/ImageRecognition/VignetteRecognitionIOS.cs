@@ -66,8 +66,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private bool resetTracking = false;
     bool tracking;
     bool imageSwap = true;
-    private ARTrackedImage currentImage;
-    private ARTrackedImage previousImage;
+    private string currentImage;
+    private string previousImage;
     private float trackingLostTime = 0.2f;
     private float imageChangedTime = 0.4f;
     private float trackingLostTimer;
@@ -79,7 +79,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private Vector2 screenCenter;
 
-    List<ARTrackedImage> currentTrackedImageList = new List<ARTrackedImage>();
 
     private List<GameObject> arTrackedImageObjectList = new List<GameObject>();
 
@@ -185,7 +184,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //	}
 
         mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
-        
+
 
 
 #if UNITY_IOS
@@ -364,59 +363,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         imagesChanged = true;
 
-
-        foreach (ARTrackedImage image in args.updated)
-        {
-
-            if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
-            {
-                print("PGREC: " + image.referenceImage.name);
-                SelectNewPageLibrary(image.referenceImage.name);
-            }
-
-
-
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
-            {
-
-
-                RemoveTrackedObject(image);
-                currentTrackedImageList.Remove(image);
-
-            }
-
-
-
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
-            {
-
-
-
-                UpdateTrackedObject(image);
-
-
-                if (!currentTrackedImageList.Contains(image) && char.IsDigit(image.referenceImage.name[0]))
-                {
-                    currentTrackedImageList.Add(image);
-                    AddTrackedObject(image);
-                }
-
-
-            }
-
-
-
-        }
-
-
         foreach (ARTrackedImage image in args.added)
         {
             //print(image.referenceImage.name + "ADDED");
             // add image to tracked images list
             if (char.IsDigit(image.referenceImage.name[0]))
             {
-                currentTrackedImageList.Add(image);
-
                 AddTrackedObject(image);
             }
 
@@ -430,20 +382,52 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-            if(placeHolderImage == null)
+            if (placeHolderImage == null)
             {
                 placeHolderImage = image;
             }
 
         }
 
+
+        foreach (ARTrackedImage image in args.updated)
+        {
+            if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
+            {
+                print("PGREC: " + image.referenceImage.name);
+                SelectNewPageLibrary(image.referenceImage.name);
+            }
+
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
+            {
+                RemoveTrackedObject(image);
+            }
+
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
+            {
+                UpdateTrackedObject(image);
+                if (char.IsDigit(image.referenceImage.name[0]))
+                {
+                    bool objectAdded = false;
+                    foreach (GameObject gObject in arTrackedImageObjectList)
+                    {
+                        if(gObject.name == image.referenceImage.name)
+                        {
+                            objectAdded = true;
+                        }
+                    }
+
+                    if (!objectAdded)
+                    {
+                        AddTrackedObject(image);
+                    }
+                }
+            }
+        }
+
         foreach (ARTrackedImage image in args.removed)
         {
-
             RemoveTrackedObject(image);
-            currentTrackedImageList.Remove(image);
-
-
         }
 
 
@@ -461,9 +445,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
             Destroy(go);
         }
         arTrackedImageObjectList.Clear();
-        currentTrackedImageList.Clear();
-        arTrackedImageObjectList.Add(placeHolderObject);
-        currentTrackedImageList.Add(placeHolderImage);
     }
 
 
@@ -633,13 +614,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
             {
                 raycastIdText.text = physicsRaycastHit.transform.gameObject.GetInstanceID().ToString();
             }
-            foreach (ARTrackedImage image in currentTrackedImageList)
+            foreach (GameObject gObject in arTrackedImageObjectList)
             {
-                if (image.referenceImage.name == physicsRaycastHit.transform.name)
+                if (gObject.name == physicsRaycastHit.transform.name)
                 {
                     if (trackableNameText != null)
                     {
-                        trackableNameText.text = image.referenceImage.name;
+                        trackableNameText.text = gObject.name;
                     }
                 }
             }
@@ -663,12 +644,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         if (physicsRaycastHit.transform != null)
         {
-            foreach (ARTrackedImage image in currentTrackedImageList)
+            foreach (GameObject gObject in arTrackedImageObjectList)
             {
-                if (image.referenceImage.name == physicsRaycastHit.transform.name)
+                if (gObject.name == physicsRaycastHit.transform.name)
                 {
                     tracking = true;
-                    currentImage = image;
+                    currentImage = gObject.name;
                 }
 
             }
@@ -713,10 +694,10 @@ public class VignetteRecognitionIOS : MonoBehaviour
                     }
 
 
-                    if (currentImage.referenceImage.name[0] == '#')
+                    if (currentImage[0] == '#')
                     {
                         loadingData = true;
-                        string filePath = testingImagesPath + currentImage.referenceImage.name.Substring(1) + ".png";
+                        string filePath = testingImagesPath + currentImage.Substring(1) + ".png";
                         textureHandle = Addressables.LoadAssetAsync<Sprite>(filePath);
                         textureHandle.Completed += (operation) =>
                         {
@@ -728,7 +709,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                     else
                     {
                         loadingData = true;
-                        string filePath = productionImagesPath + currentImage.referenceImage.name + ".png";
+                        string filePath = productionImagesPath + currentImage + ".png";
                         textureHandle = Addressables.LoadAssetAsync<Sprite>(filePath);
                         textureHandle.Completed += (operation) =>
                         {
@@ -754,8 +735,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 if (scanTimer > scanTime)
                 {
 
-                    ScanCompleted(currentImage.referenceImage.name);
-                    StartCoroutine(DisplayScannedImage(currentImage));
+                    ScanCompleted(currentImage);
+                    StartCoroutine(DisplayScannedImage());
                     //#if UNITY_ANDROID || UNITY_IOS
 
                     //                    Handheld.Vibrate();
@@ -818,8 +799,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
     /// Converts the reference image to a sprite, adjusts the size of the Image(Gameobject) rects to fit the reference 
     /// images aspect ratio and displays it
     /// </summary>
-    /// <param name="image"></param>
-    private IEnumerator DisplayScannedImage(ARTrackedImage image)
+    /// <param name="imageName"></param>
+    private IEnumerator DisplayScannedImage()
     {
         //print(image.referenceImage.name);
         // viewFinderAnimation.DeActivateViewfinder();
