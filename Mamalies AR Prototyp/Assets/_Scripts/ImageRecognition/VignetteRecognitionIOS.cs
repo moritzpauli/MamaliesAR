@@ -156,6 +156,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private float loadNewLibraryTimeInitalDelay = 0.7f;
 
     private float loadNewLibraryTimer;
+    private float pageSelectionClearTimer;
 
 
 
@@ -167,6 +168,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     {
         scanTimer = 0;
         loadNewLibraryTimer = loadNewLibraryTime;
+        pageSelectionClearTimer = loadNewLibraryTime;
         trackingLostTimer = trackingLostTime;
         trackingProgressBar.fillAmount = 0;
         screenCenter = new Vector2(Screen.currentResolution.width / 2, Screen.currentResolution.height / 2);
@@ -250,7 +252,15 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         SwapImageLibraries();
 
-
+        if (pageSelection)
+        {
+            pageSelectionClearTimer -= Time.deltaTime;
+            if (pageSelectionClearTimer <= 0)
+            {
+                pageSelectionClearTimer = loadNewLibraryTime;
+                DestroyTrackingObjects();
+            }
+        }
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
         //if (arTrackedImageManager.subsystem.imageLibrary != null)
         //{
@@ -308,6 +318,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private IEnumerator AppendPageReferenceLibrary()
     {
         loadNewLibraryTimer = loadNewLibraryTime;
+        pageSelectionClearTimer = loadNewLibraryTime;
         pageSelection = true;
         print("Append Started");
         if (trackingTextureHandle.IsValid())
