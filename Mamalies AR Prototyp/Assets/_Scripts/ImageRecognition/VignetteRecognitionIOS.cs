@@ -247,17 +247,17 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         TrackedImageScanningProcess();
 
-        SwapImageLibraries();
+       // SwapImageLibraries();
 
-        if (pageSelection)
-        {
-            pageSelectionClearTimer -= Time.deltaTime;
-            if (pageSelectionClearTimer <= 0)
-            {
-                pageSelectionClearTimer = loadNewLibraryTime;
-                DestroyTrackingObjects();
-            }
-        }
+        //if (pageSelection)
+        //{
+        //    pageSelectionClearTimer -= Time.deltaTime;
+        //    if (pageSelectionClearTimer <= 0)
+        //    {
+        //        pageSelectionClearTimer = loadNewLibraryTime;
+        //        DestroyTrackingObjects();
+        //    }
+        //}
         //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
         //if (arTrackedImageManager.subsystem.imageLibrary != null)
         //{
