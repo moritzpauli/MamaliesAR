@@ -50,7 +50,8 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     private Image scannedImageDisplayVertical;
     [SerializeField]
     private GameObject scannedImageBackground;
-
+    [SerializeField]
+    private RecognisedAnimation pageRecognisedAnimation;
 
     // func
     [SerializeField]
@@ -66,6 +67,7 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     private float imageChangedTime = 0.4f;
     private float trackingLostTimer;
     private float imageChangedTimer;
+    private string currentPage;
 
     private ARTrackedImageManager arTrackedImageManager;
     private ARRaycastManager arRaycastManager;
@@ -217,7 +219,11 @@ public class VignetteRecognitionAndroid : MonoBehaviour
             // add image to tracked images list
             currentTrackedImageList.Add(image);
 
-
+            if(image.referenceImage.name.Split('_')[1] != currentPage)
+            {
+                StartCoroutine(FauxPageSwap());
+                currentPage = image.referenceImage.name.Split('_')[1];
+            }
 
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
@@ -234,7 +240,6 @@ public class VignetteRecognitionAndroid : MonoBehaviour
 
 
     }
-
 
 
 
@@ -488,7 +493,13 @@ public class VignetteRecognitionAndroid : MonoBehaviour
     }
 
 
-
+    private IEnumerator FauxPageSwap()
+    {
+        arTrackedImageManager.enabled = false;
+        yield return new WaitForSeconds(0.6f);
+        arTrackedImageManager.enabled = true;
+        pageRecognisedAnimation.PlayRecognisedAnimation();
+    }
 
 
 

@@ -4,8 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using Unity.Mathematics;
-using Unity.Jobs;
-using Unity.Burst;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using System.Threading.Tasks;
 
@@ -32,6 +30,9 @@ public class RecognisedAnimation : MonoBehaviour
 	[SerializeField]
 	private bool displayBackground = false;
 
+	[SerializeField]
+	private AudioSource recognisedConfirmationSound;
+
 	private void Start()
 	{
 		rTransform = GetComponent<RectTransform>();
@@ -42,34 +43,35 @@ public class RecognisedAnimation : MonoBehaviour
 	}
                                                                                                                                                                                                                                                                                                                                                                                                                           
 
-    private void Update()
-    {
-		float startTime = Time.realtimeSinceStartup;
-		//LoadTestTask();
-		LoadTestTaskJob();
-		//Debug.Log((Time.realtimeSinceStartup - startTime) * 1000 + "ms");
-    }
+  //  private void Update()
+  //  {
+		////float startTime = Time.realtimeSinceStartup;
+		////LoadTestTask();
+		////LoadTestTaskJob();
+		////Debug.Log((Time.realtimeSinceStartup - startTime) * 1000 + "ms");
+  //  }
 
-	private void LoadTestTask()
-    {
-		float value = 0f;
-		for(int i = 0; i < 500000; i++)
-        {
-			value = math.exp10(math.sqrt(value));
-        }
-    }
+	//private void LoadTestTask()
+ //   {
+	//	float value = 0f;
+	//	for(int i = 0; i < 500000; i++)
+ //       {
+	//		value = math.exp10(math.sqrt(value));
+ //       }
+ //   }
 
-	private JobHandle LoadTestTaskJob()
-    {
-		LoadTestJob job = new LoadTestJob();
-		return job.Schedule();
-    }
+	//private JobHandle LoadTestTaskJob()
+ //   {
+	//	LoadTestJob job = new LoadTestJob();
+	//	return job.Schedule();
+ //   }
 	
 
     public void PlayRecognisedAnimation()
 	{
 		StopAllCoroutines();
 		StartCoroutine(AnimateRect());
+		recognisedConfirmationSound.Play();
 		//textMesh.enabled = true;
 		//Task rotateTask = RotateAsync();
 		
@@ -128,33 +130,33 @@ public class RecognisedAnimation : MonoBehaviour
     #endregion
 }
 
-public struct LoadTestJob : IJob
-{
-	public void Execute()
-    {
-		float value = 0f;
-		for (int i = 0; i < 500000; i++)
-		{
-			value = math.exp10(math.sqrt(value));
-		}
-	}
-}
+//public struct LoadTestJob : IJob
+//{
+//	public void Execute()
+//    {
+//		float value = 0f;
+//		for (int i = 0; i < 500000; i++)
+//		{
+//			value = math.exp10(math.sqrt(value));
+//		}
+//	}
+//}
 
 
-public struct AnimateMessageJob : IJob
-{
+//public struct AnimateMessageJob : IJob
+//{
 
 
-	private float rotateTimer;
-	public void Execute()
-    {
-		rotateTimer = 2.0f;
-		while (rotateTimer > 0)
-		{
-			GameObject text = GameObject.FindGameObjectWithTag("pageMessage");
-			text.transform.eulerAngles += new Vector3(Time.deltaTime, Time.deltaTime, Time.deltaTime);
-			rotateTimer -= Time.deltaTime;
-			Debug.Log(rotateTimer);
-		}
-    }
-}
+//	private float rotateTimer;
+//	public void Execute()
+//    {
+//		rotateTimer = 2.0f;
+//		while (rotateTimer > 0)
+//		{
+//			GameObject text = GameObject.FindGameObjectWithTag("pageMessage");
+//			text.transform.eulerAngles += new Vector3(Time.deltaTime, Time.deltaTime, Time.deltaTime);
+//			rotateTimer -= Time.deltaTime;
+//			Debug.Log(rotateTimer);
+//		}
+//    }
+//}

@@ -184,7 +184,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
 
-
+        print(arTrackedImageManager.referenceLibrary[0].name);
 
 #if UNITY_IOS
         foreach(DeviceGeneration generation in inferiorDevices)
