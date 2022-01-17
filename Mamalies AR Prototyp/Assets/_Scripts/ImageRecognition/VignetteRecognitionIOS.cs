@@ -131,10 +131,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     AsyncOperationHandle<IList<Texture2D>> trackingTextureHandle;
     AsyncOperationHandle<IList<Texture2D>> pageReferenceTextureHandle;
 
-    [SerializeField]
-    private ARTrackedImage placeHolderImage;
-    [SerializeField]
-    private GameObject placeHolderObject;
+  
 
     //ios generation
 #if UNITY_IOS
@@ -393,10 +390,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-            if (placeHolderImage == null)
-            {
-                placeHolderImage = image;
-            }
+            
 
         }
 
