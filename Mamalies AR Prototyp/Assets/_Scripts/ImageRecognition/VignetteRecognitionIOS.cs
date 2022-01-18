@@ -247,7 +247,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         TrackedImageScanningProcess();
 
-       // SwapImageLibraries();
+        SwapImageLibraries();
 
         //if (pageSelection)
         //{
