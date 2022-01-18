@@ -160,7 +160,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private float loadNewLibraryTimer;
     private float pageSelectionClearTimer;
 
-
+    [SerializeField]
+    private Texture2D testTex;
 
 
 
@@ -212,6 +213,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
             }
         }
 #endif
+
+        print(testTex.format + "TEXFORM");
     }
 
     //#if UNITY_EDITOR
@@ -266,25 +269,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         SwapImageLibraries();
 
-        //if (pageSelection)
-        //{
-        //    pageSelectionClearTimer -= Time.deltaTime;
-        //    if (pageSelectionClearTimer <= 0)
-        //    {
-        //        pageSelectionClearTimer = loadNewLibraryTime;
-        //        DestroyTrackingObjects();
-        //    }
-        //}
-        //raycastIdText.text = arTrackedImageManager.referenceLibrary[0].texture.name;
-        //if (arTrackedImageManager.subsystem.imageLibrary != null)
-        //{
-        //	currentLibraryEntry.text = arTrackedImageManager.subsystem.imageLibrary[0].name;
-
-        //}
-        //else
-        //{
-        //	currentLibraryEntry.text = "No current subsystem library set";
-        //}
+   
     }
 
 
