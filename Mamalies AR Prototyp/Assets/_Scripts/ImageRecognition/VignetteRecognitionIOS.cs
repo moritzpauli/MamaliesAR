@@ -604,16 +604,6 @@ public class VignetteRecognitionIOS : MonoBehaviour
     }
 
 
-    //private void PhysicsRaycastTest()
-    //{
-    //    RaycastHit testHit;
-    //    Ray testRay = arCamera.ScreenPointToRay(new Vector3(screenCenter.x, screenCenter.y, 0f));
-    //    if (Physics.Raycast(testRay, out testHit))
-    //    {
-    //        print(testHit.transform.name);
-    //    }
-    //}
-
     /// <summary>
     /// Cast an AR ray 
     /// </summary>
