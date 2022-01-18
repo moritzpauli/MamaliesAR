@@ -115,7 +115,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     private bool pageSelection = false;
 
-    private MutableRuntimeReferenceImageLibrary mutablePageReferenceLibrary;
+    private MutableRuntimeReferenceImageLibrary mutableSinglePageLibrary;
+    private MutableRuntimeReferenceImageLibrary mutableDoublePageLibrary;
 
     private MutableRuntimeReferenceImageLibrary mutableRuntimeLibrary;
 
@@ -189,18 +190,16 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //	}
 
 
-        if (!useDoublePages)
-        {
-            mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(singlePagesLibrary);
-        }
-        else
-        {
-            mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(doublePagesLibrary);
-        }
+       
+        
+            mutableSinglePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(singlePagesLibrary);
+        
+            mutableDoublePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(doublePagesLibrary);
+        
 
-        for(int i = 0; i < mutablePageReferenceLibrary.supportedTextureFormatCount; i++)
+        for(int i = 0; i < mutableSinglePageLibrary.supportedTextureFormatCount; i++)
         {
-            print(mutablePageReferenceLibrary.GetSupportedTextureFormatAt(i));
+            print(mutableSinglePageLibrary.GetSupportedTextureFormatAt(i));
         }
         print(arTrackedImageManager.referenceLibrary[0].name);
 
@@ -326,7 +325,14 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         }
 
-        mutableRuntimeLibrary = mutablePageReferenceLibrary;
+        if (!doublePagesLibrary)
+        {
+            mutableRuntimeLibrary = mutableSinglePageLibrary;
+        }
+        else
+        {
+            mutableRuntimeLibrary = mutableDoublePageLibrary;
+        }
         //arTrackedImageManager.enabled = false;
         //arTrackedImageManager.enabled = true;
         if (currentPage != null && currentPage != "")
@@ -858,10 +864,14 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
+
     #endregion
 
 
-
+    public void ChangePageReferenceLibrary(bool usedouble)
+    {
+        useDoublePages = usedouble;
+    }
 
 
 }
