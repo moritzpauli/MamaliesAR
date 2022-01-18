@@ -1842,7 +1842,9 @@ MonoBehaviour:
   - {fileID: 11400000, guid: af38d431c38cab7449176f0fed518be1, type: 2}
   - {fileID: 11400000, guid: cba6beeb31571aa4ab22e48fae896057, type: 2}
   - {fileID: 11400000, guid: bd42bf1eedb37594eb1d7997e7900755, type: 2}
-  pagesLibrary: {fileID: 11400000, guid: 814aa73bc9517c84dbcb9fda9fe549c0, type: 2}
+  singlePagesLibrary: {fileID: 11400000, guid: 814aa73bc9517c84dbcb9fda9fe549c0, type: 2}
+  doublePagesLibrary: {fileID: 11400000, guid: 84cabfe1069292f43bb55d720349e09d, type: 2}
+  useDoublePages: 0
   startupConvertLibraries: 0
   pageReferenceImages: []
   currentPage: 

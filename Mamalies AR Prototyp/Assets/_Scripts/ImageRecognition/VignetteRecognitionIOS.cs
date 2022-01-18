@@ -103,7 +103,12 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private List<RuntimeReferenceImageLibrary> runtimeImageLibrariesList = new List<RuntimeReferenceImageLibrary>();
 
     [SerializeField]
-    private XRReferenceImageLibrary pagesLibrary;
+    private XRReferenceImageLibrary singlePagesLibrary;
+    [SerializeField]
+    private XRReferenceImageLibrary doublePagesLibrary;
+
+    [SerializeField]
+    private bool useDoublePages = false;
 
 
     private bool imagesChanged = false;
@@ -182,8 +187,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //		mutableRuntimeLibrary.ScheduleAddImageWithValidationJob(tex, tex.name, 0.2f);
         //	}
 
-        mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(pagesLibrary);
 
+        if (!useDoublePages)
+        {
+            mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(singlePagesLibrary);
+        }
+        else
+        {
+            mutablePageReferenceLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(doublePagesLibrary);
+        }
+
+        for(int i = 0; i < mutablePageReferenceLibrary.supportedTextureFormatCount; i++)
+        {
+            print(mutablePageReferenceLibrary.GetSupportedTextureFormatAt(i));
+        }
         print(arTrackedImageManager.referenceLibrary[0].name);
 
 #if UNITY_IOS
