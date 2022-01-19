@@ -9344,7 +9344,8 @@ MonoBehaviour:
   - m_GUID: 59a44cdc10f0a984289ee2d44ef86924
     m_Address: Assets/_TrackingVignettes/ProductionImages/2004_DS058-059_world.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - DS058-059
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 8005d9651cccfea41aebe0402e524aae
@@ -12458,7 +12459,8 @@ MonoBehaviour:
   - m_GUID: 88aea894c95f09e41a70867638f39dad
     m_Address: Assets/_TrackingVignettes/ProductionImages/0976_DS112-113_twenty-five.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - DS112-113
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e1c8058e4d00fce4d8488765a1a41f2b
@@ -12681,9 +12683,10 @@ MonoBehaviour:
   - m_GUID: 5346ea2edd4c9f7498dffbf80bdbac11
     m_Address: Assets/_TrackingVignettes/ProductionImages/0251_DS042-043_vegetables.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_SerializedLabels:
+    - DS042-043
+    m_MainAsset: {fileID: 2800000, guid: 5346ea2edd4c9f7498dffbf80bdbac11, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 5346ea2edd4c9f7498dffbf80bdbac11, type: 3}
   - m_GUID: 5fe5dae44d5c7e04dbfe600e9d862ee1
     m_Address: Assets/_TrackingVignettes/ProductionImages/0041_DS018-019_back.png
     m_ReadOnly: 0
@@ -12981,9 +12984,10 @@ MonoBehaviour:
   - m_GUID: bee88d606e96c6f43b115776a197e580
     m_Address: Assets/_TrackingVignettes/ProductionImages/0978_DS112-113_twenty-seven.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: bee88d606e96c6f43b115776a197e580, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: bee88d606e96c6f43b115776a197e580, type: 3}
   - m_GUID: 9e24bd2afe50da94d94d6f2b8a7a7410
     m_Address: Assets/_TrackingVignettes/ProductionImages/0482_DS066-067_trousers.png
     m_ReadOnly: 0
@@ -14541,9 +14545,10 @@ MonoBehaviour:
   - m_GUID: d98444bfd65232143bc217813e34ab50
     m_Address: Assets/_TrackingVignettes/ProductionImages/0052_DS020-021_head.png
     m_ReadOnly: 0
-    m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_SerializedLabels:
+    - DS020-021
+    m_MainAsset: {fileID: 2800000, guid: d98444bfd65232143bc217813e34ab50, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: d98444bfd65232143bc217813e34ab50, type: 3}
   - m_GUID: cb756e258b3b0ee49bc1ca816b1ca8f9
     m_Address: Assets/_TrackingVignettes/ProductionImages/0250_DS042-043_vegetables-headline.png
     m_ReadOnly: 0
@@ -16515,8 +16520,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/DS120-121.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 11400000, guid: bd42bf1eedb37594eb1d7997e7900755, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: bd42bf1eedb37594eb1d7997e7900755, type: 2}
   - m_GUID: cba6beeb31571aa4ab22e48fae896057
     m_Address: Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/DS118-119.asset
     m_ReadOnly: 0
@@ -16533,8 +16538,8 @@ MonoBehaviour:
     m_Address: Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/DS114-115.asset
     m_ReadOnly: 0
     m_SerializedLabels: []
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 11400000, guid: d40e43467611266408b42ac608c2599c, type: 2}
+    m_TargetAsset: {fileID: 11400000, guid: d40e43467611266408b42ac608c2599c, type: 2}
   - m_GUID: 8f76c25f98470c3459620def31d04a6d
     m_Address: Assets/_TrackingVignettes/ImageLibrary/VignetteLibrariesIOS/DS112-113.asset
     m_ReadOnly: 0
