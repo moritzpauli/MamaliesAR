@@ -411,7 +411,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 SelectNewPageLibrary(image.referenceImage.name);
             }
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None && image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None /*&& image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited*/)
             {
                 RemoveTrackedObject(image);
             }
