@@ -12455,11 +12455,10 @@ MonoBehaviour:
     - DS048-049
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: e7bd08a131afe1040a9a9da4e3b70c47
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0958_DS112-113_seven 1.png
+  - m_GUID: 88aea894c95f09e41a70867638f39dad
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0976_DS112-113_twenty-five.png
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - DS112-113
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: e1c8058e4d00fce4d8488765a1a41f2b
@@ -12979,11 +12978,10 @@ MonoBehaviour:
     - DS018-019
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: c5a4a2bc00ff1764bbfc860e9742ba26
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0956_DS112-113_five 1.png
+  - m_GUID: bee88d606e96c6f43b115776a197e580
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0978_DS112-113_twenty-seven.png
     m_ReadOnly: 0
-    m_SerializedLabels:
-    - DS112-113
+    m_SerializedLabels: []
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: 9e24bd2afe50da94d94d6f2b8a7a7410
