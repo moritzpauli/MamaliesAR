@@ -1,5 +1,5 @@
+using System;
 using System.Collections;
-using System.IO;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -8,8 +8,6 @@ using UnityEngine.XR.ARSubsystems;
 using UnityEngine.XR.ARFoundation;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
-using System.Threading.Tasks;
-using UnityEngine.Jobs;
 #if UNITY_IOS
 using UnityEngine.iOS;
 #endif
@@ -273,20 +271,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
 
-    //private IEnumerator ResetTracking()
-    //{
-    //    tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
-    //    arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
-    //    Destroy(arTrackedImageManager);
-    //    yield return new WaitForEndOfFrame();
-    //    arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
-    //    arTrackedImageManager.enabled = false;
-    //    arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
-    //    arTrackedImageManager.enabled = true;
-    //    arTrackedImageManager.maxNumberOfMovingImages = 10;
-    //    arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
-    //    resetTracking = true;
-    //}
+    private IEnumerator ResetTracking()
+    {
+        tempLibrary = arTrackedImageManager.subsystem.imageLibrary;
+        arTrackedImageManager.trackedImagesChanged -= OnTrackedImageChanged;
+        Destroy(arTrackedImageManager);
+        yield return new WaitForEndOfFrame();
+        arTrackedImageManager = trackingManagerGameobject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        arTrackedImageManager.enabled = false;
+        arTrackedImageManager.subsystem.imageLibrary = tempLibrary;
+        arTrackedImageManager.enabled = true;
+        arTrackedImageManager.maxNumberOfMovingImages = 10;
+        arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
+        resetTracking = true;
+    }
 
     public void SwapImageLibraries()
     {
@@ -366,6 +364,8 @@ public class VignetteRecognitionIOS : MonoBehaviour
     /// <param name="args"></param>
     private void OnTrackedImageChanged(ARTrackedImagesChangedEventArgs args)
     {
+      
+
         //print("any tracking change");
         if (resetTracking)
         {
@@ -379,68 +379,89 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
         imagesChanged = true;
 
-        foreach (ARTrackedImage image in args.added)
+
+        try
         {
-            //print(image.referenceImage.name + "ADDED");
-            // add image to tracked images list
-            if (char.IsDigit(image.referenceImage.name[0]))
+            foreach (ARTrackedImage image in args.added)
             {
-                AddTrackedObject(image);
-            }
-
-
-            if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
-            {
-                SelectNewPageLibrary(image.referenceImage.name);
-                print("PGREC: " + image.referenceImage.name);
-            }
-
-            //Debug.Log(image.referenceImage.name + " ADDED");
-            // addedTrackablesDebug.text += " " + image.referenceImage.name;
-
-
-
-        }
-
-
-        foreach (ARTrackedImage image in args.updated)
-        {
-            if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
-            {
-                print("PGREC: " + image.referenceImage.name);
-                SelectNewPageLibrary(image.referenceImage.name);
-            }
-
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None /*&& image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited*/)
-            {
-                RemoveTrackedObject(image);
-            }
-
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
-            {
-                UpdateTrackedObject(image);
+                //print(image.referenceImage.name + "ADDED");
+                // add image to tracked images list
                 if (char.IsDigit(image.referenceImage.name[0]))
                 {
-                    bool objectAdded = false;
-                    foreach (GameObject gObject in arTrackedImageObjectList)
-                    {
-                        if (gObject.name == image.referenceImage.name)
-                        {
-                            objectAdded = true;
-                        }
-                    }
+                    AddTrackedObject(image);
+                }
 
-                    if (!objectAdded)
+
+                if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
+                {
+                    SelectNewPageLibrary(image.referenceImage.name);
+                    print("PGREC: " + image.referenceImage.name);
+                }
+
+                //Debug.Log(image.referenceImage.name + " ADDED");
+                // addedTrackablesDebug.text += " " + image.referenceImage.name;
+            }
+        }
+        catch(NullReferenceException exception)
+        {
+            print("RESET" + exception.Message );
+            StartCoroutine(ResetTracking());
+        }
+
+        try
+        {
+            foreach (ARTrackedImage image in args.updated)
+            {
+                if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
+                {
+                    print("PGREC: " + image.referenceImage.name);
+                    SelectNewPageLibrary(image.referenceImage.name);
+                }
+
+                if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None && image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
+                {
+                    RemoveTrackedObject(image);
+                }
+
+                if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
+                {
+                    UpdateTrackedObject(image);
+                    if (char.IsDigit(image.referenceImage.name[0]))
                     {
-                        AddTrackedObject(image);
+                        bool objectAdded = false;
+                        foreach (GameObject gObject in arTrackedImageObjectList)
+                        {
+                            if (gObject.name == image.referenceImage.name)
+                            {
+                                objectAdded = true;
+                            }
+                        }
+
+                        if (!objectAdded)
+                        {
+                            AddTrackedObject(image);
+                        }
                     }
                 }
             }
         }
-
-        foreach (ARTrackedImage image in args.removed)
+        catch (NullReferenceException exception)
         {
-            RemoveTrackedObject(image);
+            print("RESET" + exception.Message);
+            StartCoroutine(ResetTracking());
+        }
+
+        try
+        {
+            foreach (ARTrackedImage image in args.removed)
+            {
+                RemoveTrackedObject(image);
+            }
+        }
+        catch (NullReferenceException exception)
+        {
+            print("RESET" + exception.Message);
+            StartCoroutine(ResetTracking());
         }
 
 
