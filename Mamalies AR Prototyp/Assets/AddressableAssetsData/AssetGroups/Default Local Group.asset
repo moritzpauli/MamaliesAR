@@ -7876,15 +7876,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 8300000, guid: e513a1dde4cad2243b7eb488a59f0a80, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: e513a1dde4cad2243b7eb488a59f0a80, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: e4afe48ddb37585469b55e7c70f5b9fc
     m_Address: Assets/_VoiceLines/de/de_0781_DS096-097_toplant.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
   - m_GUID: a07f965c49159e2459af157b0e6df261
     m_Address: Assets/_VoiceLines/de/de_0721_DS090-091_comb.mp3
     m_ReadOnly: 0
@@ -9528,8 +9528,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 6366b45c603441a459fb021e56462a8a, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 6366b45c603441a459fb021e56462a8a, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: eb5c6b8ed5a88fe4fbbeb6b6ac072e5f
     m_Address: Assets/_TrackingVignettes/ProductionImages/1051_DS114-115_loud.png
     m_ReadOnly: 0
@@ -9598,8 +9598,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: a8a289321ac4bc644935e709b311c621, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: a8a289321ac4bc644935e709b311c621, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 57d80bf2b02deeb4aa13b68d8e2bb51e
     m_Address: Assets/_TrackingVignettes/ProductionImages/0792_DS098-099_tohave.png
     m_ReadOnly: 0
@@ -9619,8 +9619,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: fcd227a329accbe4b8bef70fefc187a4, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: fcd227a329accbe4b8bef70fefc187a4, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 376443bfbea046a44a6b2bac2b720715
     m_Address: Assets/_TrackingVignettes/ProductionImages/0909_DS108-109_stupid.png
     m_ReadOnly: 0
@@ -9640,8 +9640,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 0e278d94fe23da14ab434cb7513e5deb, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 0e278d94fe23da14ab434cb7513e5deb, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: b76349be31f6d2b43ac296a8b07f4b08
     m_Address: Assets/_TrackingVignettes/ProductionImages/1109_DS120-121_outside.png
     m_ReadOnly: 0
@@ -9654,8 +9654,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 80a806dddcfd62e4882104620756d9dd, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 80a806dddcfd62e4882104620756d9dd, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 7da7116d9f78e114aae0e0350b9e2c77
     m_Address: Assets/_TrackingVignettes/ProductionImages/0788_DS098-099_present.png
     m_ReadOnly: 0
@@ -9717,8 +9717,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 0cd5e9dcd6deea64b92e116945cd9f53, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 0cd5e9dcd6deea64b92e116945cd9f53, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: b8b358a2c9aa75846b0333a621f8df2d
     m_Address: Assets/_TrackingVignettes/ProductionImages/0923_DS110-111_ruler.png
     m_ReadOnly: 0
@@ -9780,8 +9780,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: bc69160ee3fa42b49ad16bebfef15321, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: bc69160ee3fa42b49ad16bebfef15321, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 54901292a89632c40ab7c3d294e3d62f
     m_Address: Assets/_TrackingVignettes/ProductionImages/0773_DS094-095_garage.png
     m_ReadOnly: 0
@@ -9801,8 +9801,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: eb789811d5af8f240b86cc580b4c5dd1, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: eb789811d5af8f240b86cc580b4c5dd1, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 3b7fef3f9f275254f9a62a20709a4ae2
     m_Address: Assets/_TrackingVignettes/ProductionImages/0863_DS104-105_todraw.png
     m_ReadOnly: 0
@@ -9850,15 +9850,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 26c2b2be28ff16c49a3cbbf376117134, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 26c2b2be28ff16c49a3cbbf376117134, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: dbe6ca1486001544ab77f5ff52c15b16
     m_Address: Assets/_TrackingVignettes/ProductionImages/0999_DS112-113_sixty.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: dbe6ca1486001544ab77f5ff52c15b16, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: dbe6ca1486001544ab77f5ff52c15b16, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 84e168d2e2beded48b291956cc0b2584
     m_Address: Assets/_TrackingVignettes/ProductionImages/1060_DS114-115_clean.png
     m_ReadOnly: 0
@@ -9906,8 +9906,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: c5f5866f0467e1546a65dd248a3355eb, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: c5f5866f0467e1546a65dd248a3355eb, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: b68a1e2996d94e746814fd11a62f6a5f
     m_Address: Assets/_TrackingVignettes/ProductionImages/0777_DS096-097_garden.png
     m_ReadOnly: 0
@@ -9962,8 +9962,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: baf2f485a2cabd44f8afd7d84b62c039, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: baf2f485a2cabd44f8afd7d84b62c039, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 932d73a5510d6b14893253ae646bfa64
     m_Address: Assets/_TrackingVignettes/ProductionImages/1093_DS118-119_toshake.png
     m_ReadOnly: 0
@@ -10004,8 +10004,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: a8152548c6bb40d42967d86256efddfc, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: a8152548c6bb40d42967d86256efddfc, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 143b38585aba8cf4a899dc801dfa452f
     m_Address: Assets/_TrackingVignettes/ProductionImages/0785_DS096-097_shovel.png
     m_ReadOnly: 0
@@ -10060,8 +10060,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: e2b4fc5bf23709c4999fc5ae0e1a8983, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: e2b4fc5bf23709c4999fc5ae0e1a8983, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: ad608f165b2cefe46a35ad61251f40d7
     m_Address: Assets/_TrackingVignettes/ProductionImages/1057_DS114-115_empty.png
     m_ReadOnly: 0
@@ -10074,8 +10074,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 925a2ce860ff8a342bdc9f4bc2bc19bb, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 925a2ce860ff8a342bdc9f4bc2bc19bb, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 2f9e5e67ed356334685a78afe69fc935
     m_Address: Assets/_TrackingVignettes/ProductionImages/1048_DS114-115_happy.png
     m_ReadOnly: 0
@@ -10144,8 +10144,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: db205f2b147df4740b212a7f70a4d50b, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: db205f2b147df4740b212a7f70a4d50b, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: cfc94145d5de41e4692a60e885f53e26
     m_Address: Assets/_TrackingVignettes/ProductionImages/0897_DS106-107_grades.png
     m_ReadOnly: 0
@@ -10242,15 +10242,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 62f3082aa07d234458cb0c36fd4e7924, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 62f3082aa07d234458cb0c36fd4e7924, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: a21d694bdacd3a042a41985c7dedb219
     m_Address: Assets/_TrackingVignettes/ProductionImages/0981_DS112-113_thirty.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: a21d694bdacd3a042a41985c7dedb219, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: a21d694bdacd3a042a41985c7dedb219, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 12fe4e8f6f0fb1240a9b2f343a4b2f67
     m_Address: Assets/_TrackingVignettes/ProductionImages/0744_DS092-093_toglow.png
     m_ReadOnly: 0
@@ -10361,8 +10361,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 8ff94e9da5567ce4da988849e8933b05, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 8ff94e9da5567ce4da988849e8933b05, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 90ffa4aa86698ea42b7ca20ba8a89cdf
     m_Address: Assets/_TrackingVignettes/ProductionImages/0813_DS100-101_atnight.png
     m_ReadOnly: 0
@@ -10410,8 +10410,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 5d47adfadc9adb64183a66f9881ba3d5, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 5d47adfadc9adb64183a66f9881ba3d5, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 73a8c78af5560554eb76efec9a4f1f71
     m_Address: Assets/_TrackingVignettes/ProductionImages/1114_DS120-121_under.png
     m_ReadOnly: 0
@@ -10424,8 +10424,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: b5edc376772e27f419ea7f6421ae5ab7, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: b5edc376772e27f419ea7f6421ae5ab7, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: a4b7a042b7d84f84cae8dc053c6d30a3
     m_Address: Assets/_TrackingVignettes/ProductionImages/0881_DS106-107_totell.png
     m_ReadOnly: 0
@@ -10501,8 +10501,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: 4e73df5d981ca7f4e8dac3df2de6ae07, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: 4e73df5d981ca7f4e8dac3df2de6ae07, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 59f52c01038d55f48831e52895568036
     m_Address: Assets/_TrackingVignettes/ProductionImages/0926_DS110-111_colouredpencil.png
     m_ReadOnly: 0
@@ -10599,8 +10599,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS112-113
-    m_MainAsset: {fileID: 2800000, guid: d5e8f45834ec3c74aacc4fcfbc5daf56, type: 3}
-    m_TargetAsset: {fileID: 2800000, guid: d5e8f45834ec3c74aacc4fcfbc5daf56, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 36d51553b9a4336458f56e450ae0dd89
     m_Address: Assets/_TrackingVignettes/ProductionImages/0921_DS108-109_heavy.png
     m_ReadOnly: 0
