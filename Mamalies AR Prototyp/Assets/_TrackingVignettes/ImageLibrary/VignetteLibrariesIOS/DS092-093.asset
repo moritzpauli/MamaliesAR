@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS092-093
   m_EditorClassIdentifier: 
-  m_GuidLow: 5142896730750241702
-  m_GuidHigh: 11815876314483382975
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5289269056895448485
+  m_GuidHigh: 16945727012179945629
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5682075446541111147
-      m_GuidHigh: 5002277395315508866
+      m_GuidLow: 5453482890286033466
+      m_GuidHigh: 17194419748472396422
     m_SerializedTextureGuid:
       m_GuidLow: 68730384353611117
       m_GuidHigh: 9958563018953812041
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0735_DS092-093_showercurtain
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5174201196633098829
-      m_GuidHigh: 15449547999893770900
+      m_GuidLow: 5074062412228097186
+      m_GuidHigh: 4958489283084830883
     m_SerializedTextureGuid:
       m_GuidLow: 10620837043739622958
       m_GuidHigh: 16035304677479496043
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0736_DS092-093_shower
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4946293497597660786
-      m_GuidHigh: 4114306739392733060
+      m_GuidLow: 5347520809624398734
+      m_GuidHigh: 8384972566878123430
     m_SerializedTextureGuid:
       m_GuidLow: 447111060089531671
       m_GuidHigh: 3054634492733324472
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0737_DS092-093_bathrobe
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4659656596032690373
-      m_GuidHigh: 16741577591708692891
+      m_GuidLow: 5264778266628491896
+      m_GuidHigh: 17650646923939716234
     m_SerializedTextureGuid:
       m_GuidLow: 4428308791167172031
       m_GuidHigh: 108684346527619931
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0738_DS092-093_towels
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5525924350484739645
-      m_GuidHigh: 15187611672345509534
+      m_GuidLow: 5702482028045186231
+      m_GuidHigh: 10696627864842526113
     m_SerializedTextureGuid:
       m_GuidLow: 16070034302309967117
       m_GuidHigh: 9767374299075589322
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0739_DS092-093_toapplymakeup
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5545442194110809201
-      m_GuidHigh: 10884541448076665751
+      m_GuidLow: 5187442597251558092
+      m_GuidHigh: 2324349890998302874
     m_SerializedTextureGuid:
       m_GuidLow: 7161963774499655920
       m_GuidHigh: 9962892389198090761
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0740_DS092-093_soap
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4876470223117232762
-      m_GuidHigh: 2312635699875126716
+      m_GuidLow: 5392271412721934965
+      m_GuidHigh: 14731875170469244092
     m_SerializedTextureGuid:
       m_GuidLow: 811840209842856439
       m_GuidHigh: 12355837473806488680
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0741_DS092-093_facecloth
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5516950926028798967
-      m_GuidHigh: 9628368718935059386
+      m_GuidLow: 4712681360441332017
+      m_GuidHigh: 1434553910444449922
     m_SerializedTextureGuid:
       m_GuidLow: 15070322674209907365
       m_GuidHigh: 2747672164451285401
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0742_DS092-093_cottonstick
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4795759867052058066
-      m_GuidHigh: 11506873735719923086
+      m_GuidLow: 5338561757523799328
+      m_GuidHigh: 1898749066562399159
     m_SerializedTextureGuid:
       m_GuidLow: 10715278000941180353
       m_GuidHigh: 10838950046078290616
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0743_DS092-093_tocomb
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5521721416879035054
-      m_GuidHigh: 6869713948465459637
+      m_GuidLow: 4944360529806914027
+      m_GuidHigh: 17550510465157578122
     m_SerializedTextureGuid:
       m_GuidLow: 12764449354408677007
       m_GuidHigh: 7435244223167699722
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0744_DS092-093_toglow
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5216016533368424581
-      m_GuidHigh: 2168871740820435093
+      m_GuidLow: 5109024708963889178
+      m_GuidHigh: 5494773302772133806
     m_SerializedTextureGuid:
       m_GuidLow: 4784126838497162749
       m_GuidHigh: 10457751095705615545
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0745_DS092-093_lightbulb
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5018377606131363800
-      m_GuidHigh: 18346448313105342101
+      m_GuidLow: 5661807176132776286
+      m_GuidHigh: 4031650717237817750
     m_SerializedTextureGuid:
       m_GuidLow: 3698855552932753963
       m_GuidHigh: 6882869228280887928
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0746_DS092-093_socket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4835652679608158177
-      m_GuidHigh: 3009589243639670703
+      m_GuidLow: 5279864177399784903
+      m_GuidHigh: 352610640875058876
     m_SerializedTextureGuid:
       m_GuidLow: 3410459318530128897
       m_GuidHigh: 5964599221887886793
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0747_DS092-093_electricity
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4827222218533200621
-      m_GuidHigh: 14853404743873802409
+      m_GuidLow: 5615199835007025998
+      m_GuidHigh: 9452515198271159172
     m_SerializedTextureGuid:
       m_GuidLow: 12296080201316280837
       m_GuidHigh: 13489389231347268905
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0748_DS092-093_lightswitch
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5075823857978656783
-      m_GuidHigh: 9951708032914401195
+      m_GuidLow: 5733594213230191782
+      m_GuidHigh: 3998698876953715862
     m_SerializedTextureGuid:
       m_GuidLow: 17227526520547302117
       m_GuidHigh: 13020276440113162680
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0749_DS092-093_heating
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5657698052966339037
-      m_GuidHigh: 4936786024818487972
+      m_GuidLow: 4630132627880387133
+      m_GuidHigh: 6158437230262632119
     m_SerializedTextureGuid:
       m_GuidLow: 7995069123824479808
       m_GuidHigh: 8553789635472020953
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0750_DS092-093_wardrobe
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5629566604495019935
-      m_GuidHigh: 10510174360772571298
+      m_GuidLow: 5318290573385503250
+      m_GuidHigh: 14098019676810451126
     m_SerializedTextureGuid:
       m_GuidLow: 3892412663077971371
       m_GuidHigh: 10963015576665293499
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0751_DS092-093_vacuumcleaner
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5437245011835223935
-      m_GuidHigh: 7855804418624999598
+      m_GuidLow: 4890645221677206069
+      m_GuidHigh: 8947903783462012083
     m_SerializedTextureGuid:
       m_GuidLow: 18056056999651835152
       m_GuidHigh: 15448550652600711770
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0752_DS092-093_armchair
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4994416041361996296
-      m_GuidHigh: 12819428051643071133
+      m_GuidLow: 5504390025162504474
+      m_GuidHigh: 12490337959181944727
     m_SerializedTextureGuid:
       m_GuidLow: 3379080698600424736
       m_GuidHigh: 12893518057186592393
@@ -208,8 +206,8 @@ MonoBehaviour:
     m_Name: 0753_DS092-093_sofa
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4652285058102881281
-      m_GuidHigh: 2767813028840042154
+      m_GuidLow: 5000408799183160851
+      m_GuidHigh: 89867319692094094
     m_SerializedTextureGuid:
       m_GuidLow: 17412181977310043878
       m_GuidHigh: 15295216094926773610
@@ -218,8 +216,8 @@ MonoBehaviour:
     m_Name: 0754_DS092-093_chair
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5362452558377732352
-      m_GuidHigh: 16437335710163482259
+      m_GuidLow: 4802531122648292261
+      m_GuidHigh: 6628010307386284171
     m_SerializedTextureGuid:
       m_GuidLow: 2550340129705496149
       m_GuidHigh: 13876926401836922315
@@ -228,8 +226,8 @@ MonoBehaviour:
     m_Name: 0755_DS092-093_carpet
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5365476863356051651
-      m_GuidHigh: 12270908426219722936
+      m_GuidLow: 5231617243885771210
+      m_GuidHigh: 14280853036168579482
     m_SerializedTextureGuid:
       m_GuidLow: 14349859648695053532
       m_GuidHigh: 10474597078743320714
@@ -238,8 +236,8 @@ MonoBehaviour:
     m_Name: 0756_DS092-093_vase
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5708699640077909330
-      m_GuidHigh: 11610387876703522468
+      m_GuidLow: 5223421689993215869
+      m_GuidHigh: 5045164260760954538
     m_SerializedTextureGuid:
       m_GuidLow: 5680305844090443873
       m_GuidHigh: 3693476263035601816
@@ -248,8 +246,8 @@ MonoBehaviour:
     m_Name: 0757_DS092-093_remote
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5358259847699231179
-      m_GuidHigh: 14254615576920169605
+      m_GuidLow: 4727779192274066512
+      m_GuidHigh: 11089618034620269503
     m_SerializedTextureGuid:
       m_GuidLow: 10508304478663016185
       m_GuidHigh: 11057264768509316746
@@ -258,8 +256,8 @@ MonoBehaviour:
     m_Name: 0758_DS092-093_radio
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5004416985703978143
-      m_GuidHigh: 1100406949870238122
+      m_GuidLow: 5445208334233672079
+      m_GuidHigh: 12417750652680601988
     m_SerializedTextureGuid:
       m_GuidLow: 7252095687125406550
       m_GuidHigh: 16420344010858999993
@@ -268,8 +266,8 @@ MonoBehaviour:
     m_Name: 0759_DS092-093_laptop
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5263364917873078777
-      m_GuidHigh: 17395629344150822024
+      m_GuidLow: 5438838902663458156
+      m_GuidHigh: 15335573210704656278
     m_SerializedTextureGuid:
       m_GuidLow: 1946786156936671722
       m_GuidHigh: 15599430346186295066
@@ -278,8 +276,8 @@ MonoBehaviour:
     m_Name: 0760_DS092-093_towatchtelevision
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4631780506946604116
-      m_GuidHigh: 10855985956076378545
+      m_GuidLow: 4954435016867297160
+      m_GuidHigh: 10359976617135483054
     m_SerializedTextureGuid:
       m_GuidLow: 6743172965283281588
       m_GuidHigh: 8337388558844667129
@@ -288,8 +286,8 @@ MonoBehaviour:
     m_Name: 0761_DS092-093_television
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5736950568867243084
-      m_GuidHigh: 4654129415495436446
+      m_GuidLow: 5559852188708859820
+      m_GuidHigh: 12369421542297568388
     m_SerializedTextureGuid:
       m_GuidLow: 10679192882847914690
       m_GuidHigh: 17059785177933552473

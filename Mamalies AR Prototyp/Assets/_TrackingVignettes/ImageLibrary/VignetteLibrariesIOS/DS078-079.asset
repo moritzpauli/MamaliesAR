@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS078-079
   m_EditorClassIdentifier: 
-  m_GuidLow: 5334673713425560297
-  m_GuidHigh: 1517138175549388460
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5382302990799569356
+  m_GuidHigh: 14735093077331676607
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5683849210006403850
-      m_GuidHigh: 1602537444709236903
+      m_GuidLow: 5143377196817966974
+      m_GuidHigh: 8017946009022459782
     m_SerializedTextureGuid:
       m_GuidLow: 16912165383738486963
       m_GuidHigh: 1396319819076904745
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0587_DS078-079_seasons
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5240026972956197730
-      m_GuidHigh: 932661455196690065
+      m_GuidLow: 5581899961304807202
+      m_GuidHigh: 14780992482564617361
     m_SerializedTextureGuid:
       m_GuidLow: 11557465768728382202
       m_GuidHigh: 17984226721088997723
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0588_DS078-079_spring
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4799987244774208696
-      m_GuidHigh: 11324475016461307785
+      m_GuidLow: 4987192917853490647
+      m_GuidHigh: 14218207481368339077
     m_SerializedTextureGuid:
       m_GuidLow: 6594502780975794271
       m_GuidHigh: 13747372140080208715
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0589_DS078-079_summer
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5445605017530687712
-      m_GuidHigh: 9590731428978155405
+      m_GuidLow: 5374976838036146841
+      m_GuidHigh: 7840434860227589778
     m_SerializedTextureGuid:
       m_GuidLow: 4716453851049968972
       m_GuidHigh: 17755787322613474361
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0590_DS078-079_autumn
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4889874937988132077
-      m_GuidHigh: 5140985774259803016
+      m_GuidLow: 5562988967384936811
+      m_GuidHigh: 8683377637960130203
     m_SerializedTextureGuid:
       m_GuidLow: 1933171472801527563
       m_GuidHigh: 9724702462463308747
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0591_DS078-079_winter
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5456312245854962786
-      m_GuidHigh: 13813589757497483657
+      m_GuidLow: 5071083769394429258
+      m_GuidHigh: 11023143195300959411
     m_SerializedTextureGuid:
       m_GuidLow: 712799962733842020
       m_GuidHigh: 5787147611908357562
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0592_DS078-079_march
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4669194079208825667
-      m_GuidHigh: 3083272508488967833
+      m_GuidLow: 4927137339757690330
+      m_GuidHigh: 15221462733875955380
     m_SerializedTextureGuid:
       m_GuidLow: 10102816652549115775
       m_GuidHigh: 10748447250024159881
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0593_DS078-079_april
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4698531076515930365
-      m_GuidHigh: 18174402542786604473
+      m_GuidLow: 5061745010204304616
+      m_GuidHigh: 11506656477625038003
     m_SerializedTextureGuid:
       m_GuidLow: 3090810407629670923
       m_GuidHigh: 10041706796837660507
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0594_DS078-079_may
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4775660033186042014
-      m_GuidHigh: 875898760868082572
+      m_GuidLow: 4851729645629329035
+      m_GuidHigh: 15114629182420792249
     m_SerializedTextureGuid:
       m_GuidLow: 7873472502702427779
       m_GuidHigh: 12012386463710857784
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0595_DS078-079_june
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5501301936131425890
-      m_GuidHigh: 7324153786145911436
+      m_GuidLow: 5348722514591654297
+      m_GuidHigh: 1374134871612518794
     m_SerializedTextureGuid:
       m_GuidLow: 2554754766836001070
       m_GuidHigh: 2667619145312880344
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0596_DS078-079_july
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5444917481358364715
-      m_GuidHigh: 12901292007192733361
+      m_GuidLow: 4952894422644555639
+      m_GuidHigh: 4761703930863959455
     m_SerializedTextureGuid:
       m_GuidLow: 3491457578774222714
       m_GuidHigh: 160267136931391480
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0597_DS078-079_august
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5393129336295372589
-      m_GuidHigh: 1617846379866131082
+      m_GuidLow: 4871224052507970463
+      m_GuidHigh: 6169357723778679215
     m_SerializedTextureGuid:
       m_GuidLow: 3176194217923127531
       m_GuidHigh: 6031279569347098491
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0598_DS078-079_september
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5520410933101184104
-      m_GuidHigh: 1498129769324306848
+      m_GuidLow: 5006464127053381168
+      m_GuidHigh: 4723413060670887846
     m_SerializedTextureGuid:
       m_GuidLow: 13322973122544038892
       m_GuidHigh: 9987358426033287513
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0599_DS078-079_october
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4987888111884706747
-      m_GuidHigh: 8561417951450008966
+      m_GuidLow: 5566477198437374600
+      m_GuidHigh: 17201970987030122636
     m_SerializedTextureGuid:
       m_GuidLow: 7391576403228071733
       m_GuidHigh: 10235946547250390347
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0600_DS078-079_november
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4731111274083944426
-      m_GuidHigh: 5875746157703846053
+      m_GuidLow: 4729039430869276777
+      m_GuidHigh: 1998753727100591003
     m_SerializedTextureGuid:
       m_GuidLow: 13007629112570700801
       m_GuidHigh: 17497283095241831976
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0601_DS078-079_december
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4683696491559581664
-      m_GuidHigh: 17942638877738131375
+      m_GuidLow: 4787785883544566386
+      m_GuidHigh: 2762628387293122707
     m_SerializedTextureGuid:
       m_GuidLow: 6099003443402427484
       m_GuidHigh: 14500240563634117674
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0602_DS078-079_january
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5465044689765811921
-      m_GuidHigh: 14091844995775702973
+      m_GuidLow: 5334928797977782408
+      m_GuidHigh: 18039020681574502573
     m_SerializedTextureGuid:
       m_GuidLow: 13845361787536143222
       m_GuidHigh: 383818580053110041

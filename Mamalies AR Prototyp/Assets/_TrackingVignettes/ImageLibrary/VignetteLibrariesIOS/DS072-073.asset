@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS072-073
   m_EditorClassIdentifier: 
-  m_GuidLow: 5230552000668826649
-  m_GuidHigh: 15020772073572645011
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5046217155724937558
+  m_GuidHigh: 6542895803793014930
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5231015814620226193
-      m_GuidHigh: 7261612253021225874
+      m_GuidLow: 4705881866328855861
+      m_GuidHigh: 3610108872440389767
     m_SerializedTextureGuid:
       m_GuidLow: 5558594412019495555
       m_GuidHigh: 17921111981796820648
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0533_DS072-073_shopping
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5606866030201228111
-      m_GuidHigh: 6912778021065881998
+      m_GuidLow: 5299628267424321338
+      m_GuidHigh: 14141218033936008378
     m_SerializedTextureGuid:
       m_GuidLow: 654238342890889830
       m_GuidHigh: 5316648076813555641
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0534_DS072-073_bakery
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4928387551035393085
-      m_GuidHigh: 3911228073061875646
+      m_GuidLow: 4996188857846142121
+      m_GuidHigh: 13214894171874067633
     m_SerializedTextureGuid:
       m_GuidLow: 15115356922630616853
       m_GuidHigh: 16388553647372154552
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0535_DS072-073_library
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5557197536723543310
-      m_GuidHigh: 73094700735938194
+      m_GuidLow: 5046448632518714126
+      m_GuidHigh: 13739469628318191005
     m_SerializedTextureGuid:
       m_GuidLow: 15160346660385994252
       m_GuidHigh: 1917190864119010345
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0536_DS072-073_pharmacy
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5580959824773512779
-      m_GuidHigh: 776936675253523101
+      m_GuidLow: 4713383413249331967
+      m_GuidHigh: 8410028605877468826
     m_SerializedTextureGuid:
       m_GuidLow: 13268963583544906789
       m_GuidHigh: 14245164262454969801
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0537_DS072-073_shop
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5140529466659760679
-      m_GuidHigh: 9719984819512951171
+      m_GuidLow: 4892175160391957538
+      m_GuidHigh: 6091941886734568631
     m_SerializedTextureGuid:
       m_GuidLow: 11079998739256926472
       m_GuidHigh: 12948101580849529609
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0538_DS072-073_kiosk
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5628159973667683338
-      m_GuidHigh: 8816939503047188875
+      m_GuidLow: 4614157732582291458
+      m_GuidHigh: 631203373506645951
     m_SerializedTextureGuid:
       m_GuidLow: 12949235587454333663
       m_GuidHigh: 3958277558598215179
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0539_DS072-073_supermarket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5592811406322557020
-      m_GuidHigh: 12247657290872812469
+      m_GuidLow: 4812883188207943721
+      m_GuidHigh: 18017610280866623917
     m_SerializedTextureGuid:
       m_GuidLow: 1865658636435729941
       m_GuidHigh: 13333881601165574171
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0540_DS072-073_cinema
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5646456460361447976
-      m_GuidHigh: 12826118230878360738
+      m_GuidLow: 5633952340484536318
+      m_GuidHigh: 2490114265684570014
     m_SerializedTextureGuid:
       m_GuidLow: 12169883222987661988
       m_GuidHigh: 12096356895724401080
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0541_DS072-073_restaurant
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5573298023950005497
-      m_GuidHigh: 13504019195215419839
+      m_GuidLow: 5716993709118122275
+      m_GuidHigh: 3004070603194864544
     m_SerializedTextureGuid:
       m_GuidLow: 17731981302090139669
       m_GuidHigh: 13866527163924620440
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0542_DS072-073_postoffice
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4763976708400686273
-      m_GuidHigh: 3172533641798137510
+      m_GuidLow: 5192169814198926198
+      m_GuidHigh: 8848227691296978062
     m_SerializedTextureGuid:
       m_GuidLow: 15655643827049369783
       m_GuidHigh: 690203917270587754
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0543_DS072-073_letter
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5213358249618213619
-      m_GuidHigh: 15453989468572344751
+      m_GuidLow: 5705416252153822405
+      m_GuidHigh: 7800527529563497144
     m_SerializedTextureGuid:
       m_GuidLow: 3230300107742716183
       m_GuidHigh: 2865722367750630904
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0544_DS072-073_package
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4706632378579419360
-      m_GuidHigh: 11913863831260529826
+      m_GuidLow: 4729880224358939627
+      m_GuidHigh: 7352048045011013265
     m_SerializedTextureGuid:
       m_GuidLow: 6932372310519850740
       m_GuidHigh: 13782847813277761178
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0545_DS072-073_permission
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5342818562187586259
-      m_GuidHigh: 3350353381768854176
+      m_GuidLow: 4635785919507711365
+      m_GuidHigh: 3875201560069769623
     m_SerializedTextureGuid:
       m_GuidLow: 15209876993948317052
       m_GuidHigh: 8312095346514345771
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0546_DS072-073_gasstation
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5217934877360212118
-      m_GuidHigh: 6338484650607729548
+      m_GuidLow: 5756156639464112145
+      m_GuidHigh: 4001469138105981335
     m_SerializedTextureGuid:
       m_GuidLow: 2964595390556285776
       m_GuidHigh: 11540534686537315032
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0547_DS072-073_bank
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5409601890987394538
-      m_GuidHigh: 8312412495567368340
+      m_GuidLow: 5106590566608862347
+      m_GuidHigh: 9831365328530402742
     m_SerializedTextureGuid:
       m_GuidLow: 15840333371457858524
       m_GuidHigh: 15349706914112405353
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0548_DS072-073_fittingroom
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5153308922938221046
-      m_GuidHigh: 17865325509260167076
+      m_GuidLow: 5624041512306005026
+      m_GuidHigh: 1959232549885737146
     m_SerializedTextureGuid:
       m_GuidLow: 10260457145038821540
       m_GuidHigh: 2963846422705699577

@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS068-069
   m_EditorClassIdentifier: 
-  m_GuidLow: 4975494717936021322
-  m_GuidHigh: 17479354359380401570
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5327289534427139589
+  m_GuidHigh: 8511040522510929808
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5607958262329130431
-      m_GuidHigh: 7146621114640627083
+      m_GuidLow: 4781407231752979428
+      m_GuidHigh: 11584661145295149233
     m_SerializedTextureGuid:
       m_GuidLow: 7423321875415597337
       m_GuidHigh: 13941816477967886200
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0495_DS068-069_belt
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5751613686230466425
-      m_GuidHigh: 3882092534833888675
+      m_GuidLow: 5556451079502041279
+      m_GuidHigh: 10831031980259269806
     m_SerializedTextureGuid:
       m_GuidLow: 16772665450338755521
       m_GuidHigh: 16265978550796955946
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0496_DS068-069_scarf
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4665151598268821782
-      m_GuidHigh: 11381180080073274763
+      m_GuidLow: 5733646161016220135
+      m_GuidHigh: 1892744339946666390
     m_SerializedTextureGuid:
       m_GuidLow: 4157978914100903996
       m_GuidHigh: 5756643575718244425
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0497_DS068-069_hat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5388154722480795892
-      m_GuidHigh: 5626135734901749169
+      m_GuidLow: 4748385406107241397
+      m_GuidHigh: 6067515139383443342
     m_SerializedTextureGuid:
       m_GuidLow: 12575319958380322688
       m_GuidHigh: 15497799532682943098
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0498_DS068-069_beanie
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4677652406913704454
-      m_GuidHigh: 7971216438728688517
+      m_GuidLow: 5143046074381815390
+      m_GuidHigh: 9257173773380734854
     m_SerializedTextureGuid:
       m_GuidLow: 2770932885802144874
       m_GuidHigh: 130509813914113979
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0499_DS068-069_towear
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4984288069953985245
-      m_GuidHigh: 11340829493583663748
+      m_GuidLow: 4772211740955081878
+      m_GuidHigh: 5803316405655798206
     m_SerializedTextureGuid:
       m_GuidLow: 15854021376808083600
       m_GuidHigh: 7999709863262899227
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0500_DS068-069_rainjacket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5225803917007035225
-      m_GuidHigh: 7005736607313250732
+      m_GuidLow: 4743818261886250550
+      m_GuidHigh: 6274315095816080574
     m_SerializedTextureGuid:
       m_GuidLow: 16191704549084829408
       m_GuidHigh: 16167221413573267928
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0501_DS068-069_coat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4815135190915477860
-      m_GuidHigh: 17204973585885957249
+      m_GuidLow: 5709993037441943354
+      m_GuidHigh: 6891408460265708450
     m_SerializedTextureGuid:
       m_GuidLow: 18186879324047698306
       m_GuidHigh: 11525426292321790457
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0502_DS068-069_backpack
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5165468038960651633
-      m_GuidHigh: 5895031069980374691
+      m_GuidLow: 5692086837221659695
+      m_GuidHigh: 14239626876674685836
     m_SerializedTextureGuid:
       m_GuidLow: 4766051144591927763
       m_GuidHigh: 11593574934705991258
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0503_DS068-069_skirt
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5169145288681443135
-      m_GuidHigh: 16956051640140166276
+      m_GuidLow: 5290060616737797417
+      m_GuidHigh: 9460331791274096824
     m_SerializedTextureGuid:
       m_GuidLow: 8206924207864459348
       m_GuidHigh: 15791811351804717641
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0504_DS068-069_raincoat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4804099765483447188
-      m_GuidHigh: 4847591534815212185
+      m_GuidLow: 5131960257777779819
+      m_GuidHigh: 9644478651564798869
     m_SerializedTextureGuid:
       m_GuidLow: 5905491690851443406
       m_GuidHigh: 78803772388851435
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0505_DS068-069_raintrousers
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4921971074772533208
-      m_GuidHigh: 1839186918365034644
+      m_GuidLow: 4700896753360148398
+      m_GuidHigh: 14050673438912244904
     m_SerializedTextureGuid:
       m_GuidLow: 2532198012293628565
       m_GuidHigh: 6494172715241247864
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0506_DS068-069_hood
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5616587402065070028
-      m_GuidHigh: 14254598061094467749
+      m_GuidLow: 5302280076866971174
+      m_GuidHigh: 17827573420291740071
     m_SerializedTextureGuid:
       m_GuidLow: 11062115659888123178
       m_GuidHigh: 17853748593576597288
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0507_DS068-069_handbag
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5387393670162170277
-      m_GuidHigh: 3187732270888600449
+      m_GuidLow: 4716169577305269373
+      m_GuidHigh: 9108182066943086980
     m_SerializedTextureGuid:
       m_GuidLow: 17542682045605709432
       m_GuidHigh: 15517270004452056858
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0508_DS068-069_boots
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4962630614016831400
-      m_GuidHigh: 6199399481138896573
+      m_GuidLow: 5660615184109824732
+      m_GuidHigh: 2875037642951630503
     m_SerializedTextureGuid:
       m_GuidLow: 7945721112303443710
       m_GuidHigh: 12244841609673689851
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0509_DS068-069_zipper
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4696005707568658374
-      m_GuidHigh: 14863658978789503650
+      m_GuidLow: 5281438690019954015
+      m_GuidHigh: 4191933681084149385
     m_SerializedTextureGuid:
       m_GuidLow: 9711025049576225737
       m_GuidHigh: 7378953087738009256
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0510_DS068-069_tozip
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4675114832788429286
-      m_GuidHigh: 4278893192253709478
+      m_GuidLow: 4931503873900612402
+      m_GuidHigh: 17148054145771312531
     m_SerializedTextureGuid:
       m_GuidLow: 17835495885633045118
       m_GuidHigh: 11387830662934827384
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0511_DS068-069_slippers
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4694116664921733842
-      m_GuidHigh: 11809468337583214261
+      m_GuidLow: 5090025224518848387
+      m_GuidHigh: 871283046935998902
     m_SerializedTextureGuid:
       m_GuidLow: 17993129862716771978
       m_GuidHigh: 1177038540814629385
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0512_DS068-069_shoelace
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5147238195550158615
-      m_GuidHigh: 16048757423096112770
+      m_GuidLow: 5707581264685312284
+      m_GuidHigh: 14310621764501787822
     m_SerializedTextureGuid:
       m_GuidLow: 5256978722785216226
       m_GuidHigh: 10323400167804236153
@@ -208,8 +206,8 @@ MonoBehaviour:
     m_Name: 0513_DS068-069_button
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5334762616932047023
-      m_GuidHigh: 14089649401862263486
+      m_GuidLow: 4957845364638014474
+      m_GuidHigh: 1612891291349681807
     m_SerializedTextureGuid:
       m_GuidLow: 7481617764154012962
       m_GuidHigh: 3615558770447852139
@@ -218,8 +216,8 @@ MonoBehaviour:
     m_Name: 0514_DS068-069_ring
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5270260872547384059
-      m_GuidHigh: 13809652714218050447
+      m_GuidLow: 5503598170489936413
+      m_GuidHigh: 14739688639328257703
     m_SerializedTextureGuid:
       m_GuidLow: 14246181295620677915
       m_GuidHigh: 12550768269374346587
@@ -228,8 +226,8 @@ MonoBehaviour:
     m_Name: 0515_DS068-069_watch
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5668316757146080000
-      m_GuidHigh: 1317088696670322829
+      m_GuidLow: 5218787160549072962
+      m_GuidHigh: 17522985179287592091
     m_SerializedTextureGuid:
       m_GuidLow: 14417155675876471132
       m_GuidHigh: 8458951232175810907
@@ -238,8 +236,8 @@ MonoBehaviour:
     m_Name: 0516_DS068-069_necklace
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5601800366048703124
-      m_GuidHigh: 17461901427841264050
+      m_GuidLow: 5077342918245693029
+      m_GuidHigh: 5759667118716237185
     m_SerializedTextureGuid:
       m_GuidLow: 8648181013841613339
       m_GuidHigh: 699508030381819914
@@ -248,8 +246,8 @@ MonoBehaviour:
     m_Name: 0517_DS068-069_earring
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5394891491132592340
-      m_GuidHigh: 8791846856942497436
+      m_GuidLow: 5594440874893082656
+      m_GuidHigh: 9853387689143152543
     m_SerializedTextureGuid:
       m_GuidLow: 14408268447295017421
       m_GuidHigh: 4189048341342172249
@@ -258,8 +256,8 @@ MonoBehaviour:
     m_Name: 0518_DS068-069_tie
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4699910123484224442
-      m_GuidHigh: 1932780762545989777
+      m_GuidLow: 5235490140110153890
+      m_GuidHigh: 8759808051625578919
     m_SerializedTextureGuid:
       m_GuidLow: 8891405276755637108
       m_GuidHigh: 15922279048009261146

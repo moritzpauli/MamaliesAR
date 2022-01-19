@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS042-043
   m_EditorClassIdentifier: 
-  m_GuidLow: 4955731134164034110
-  m_GuidHigh: 374589796189652890
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4736954736277529332
+  m_GuidHigh: 5340728837940030871
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4623910963361973482
-      m_GuidHigh: 14435085526176010930
+      m_GuidLow: 4797919835326983992
+      m_GuidHigh: 6083518903609125535
     m_SerializedTextureGuid:
       m_GuidLow: 1073135700153822757
       m_GuidHigh: 17989659959596073371
@@ -28,18 +26,18 @@ MonoBehaviour:
     m_Name: 0250_DS042-043_vegetables-headline
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4837473314895922532
-      m_GuidHigh: 4723542431259383469
+      m_GuidLow: 5013320802395233229
+      m_GuidHigh: 12607340509720686735
     m_SerializedTextureGuid:
       m_GuidLow: 11490051869213387310
       m_GuidHigh: 1273633639107387288
-    m_Size: {x: 0.33757144, y: 0.33785716}
+    m_Size: {x: 0.33800003, y: 0.39885718}
     m_SpecifySize: 1
     m_Name: 0251_DS042-043_vegetables
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4862920843355526181
-      m_GuidHigh: 16470391620266441654
+      m_GuidLow: 4977838405064272589
+      m_GuidHigh: 774612212501287590
     m_SerializedTextureGuid:
       m_GuidLow: 996451427557263159
       m_GuidHigh: 13094788043212515243
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0252_DS042-043_mushroom
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5561685068841982802
-      m_GuidHigh: 5969774831670892953
+      m_GuidLow: 5621133113938468108
+      m_GuidHigh: 797502826423186061
     m_SerializedTextureGuid:
       m_GuidLow: 10886392015448658737
       m_GuidHigh: 17410790630455905592
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0253_DS042-043_garlic
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5561615412304223661
-      m_GuidHigh: 14020100052115137925
+      m_GuidLow: 4877030487855007349
+      m_GuidHigh: 10799442003609504675
     m_SerializedTextureGuid:
       m_GuidLow: 9179565910467974801
       m_GuidHigh: 5475062319520500523
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0254_DS042-043_sweetpotato
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5006653643944663440
-      m_GuidHigh: 5804023166887063683
+      m_GuidLow: 5664775760998642626
+      m_GuidHigh: 1317164577834832525
     m_SerializedTextureGuid:
       m_GuidLow: 15628760275718344955
       m_GuidHigh: 2671028729668010857
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0255_DS042-043_broccoli
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5289857867054999177
-      m_GuidHigh: 12258377420805106098
+      m_GuidLow: 5286303562476214472
+      m_GuidHigh: 15720372286734263936
     m_SerializedTextureGuid:
       m_GuidLow: 4522967380333903223
       m_GuidHigh: 11770962565657055321
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0256_DS042-043_bellpepper
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4750013408259375799
-      m_GuidHigh: 6318069027657909165
+      m_GuidLow: 4901854565984744854
+      m_GuidHigh: 2020130267237661610
     m_SerializedTextureGuid:
       m_GuidLow: 10341575767808269598
       m_GuidHigh: 13338222008427449674
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0257_DS042-043_cucumbers
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5670396654492463891
-      m_GuidHigh: 6555190379576445611
+      m_GuidLow: 4807792990867186161
+      m_GuidHigh: 18240928915831325355
     m_SerializedTextureGuid:
       m_GuidLow: 7206910646783568068
       m_GuidHigh: 13257252637257975017
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0258_DS042-043_greenbeans
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4752779236778189472
-      m_GuidHigh: 11345408843342111620
+      m_GuidLow: 4677952642486377083
+      m_GuidHigh: 5881650803082001293
     m_SerializedTextureGuid:
       m_GuidLow: 17196147492726210028
       m_GuidHigh: 2896691157705799737
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0259_DS042-043_tomatoes
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5474050812987450253
-      m_GuidHigh: 14463106335565023366
+      m_GuidLow: 5731459364695369832
+      m_GuidHigh: 3405608993245158591
     m_SerializedTextureGuid:
       m_GuidLow: 16547507315291952510
       m_GuidHigh: 11268761207161909945
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0260_DS042-043_cauliflower
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5134739301426143182
-      m_GuidHigh: 3694602659178068393
+      m_GuidLow: 5336012404962900268
+      m_GuidHigh: 7237254459277677210
     m_SerializedTextureGuid:
       m_GuidLow: 13863257359560732280
       m_GuidHigh: 18301350264285707290
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0261_DS042-043_peas
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5505648697908289553
-      m_GuidHigh: 702786518986365597
+      m_GuidLow: 5082550071190337393
+      m_GuidHigh: 9396990081307608997
     m_SerializedTextureGuid:
       m_GuidLow: 8170846169753106745
       m_GuidHigh: 15636406173650190456
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0262_DS042-043_carrots
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4809420504683703836
-      m_GuidHigh: 933406897054456735
+      m_GuidLow: 5395581333795702023
+      m_GuidHigh: 16016426018050361730
     m_SerializedTextureGuid:
       m_GuidLow: 16484313861326075729
       m_GuidHigh: 12522576841767697464
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0263_DS042-043_salad
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5013311042727673035
-      m_GuidHigh: 8422987292260860089
+      m_GuidLow: 4969710788003030543
+      m_GuidHigh: 17801833847113539973
     m_SerializedTextureGuid:
       m_GuidLow: 5437075655748972379
       m_GuidHigh: 14519121630805274905
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0264_DS042-043_onion
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5361237410853360212
-      m_GuidHigh: 15803792264143826596
+      m_GuidLow: 5364332983642277137
+      m_GuidHigh: 13275253736707224992
     m_SerializedTextureGuid:
       m_GuidLow: 1289194771340206147
       m_GuidHigh: 798152978640587832

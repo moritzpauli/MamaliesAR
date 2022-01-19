@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS026-027
   m_EditorClassIdentifier: 
-  m_GuidLow: 5118948061288748838
-  m_GuidHigh: 10011866459445053881
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4938252936369414724
+  m_GuidHigh: 5053757958758113701
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5054939721154691140
-      m_GuidHigh: 9021505616128765588
+      m_GuidLow: 5658703570856123190
+      m_GuidHigh: 4445849235322523010
     m_SerializedTextureGuid:
       m_GuidLow: 2090937624806408570
       m_GuidHigh: 14341500496690394408
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0103_DS026-027_stories
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5604145306134429309
-      m_GuidHigh: 17005137129150069905
+      m_GuidLow: 5601899076098986970
+      m_GuidHigh: 18240735797762827422
     m_SerializedTextureGuid:
       m_GuidLow: 13777852808982012092
       m_GuidHigh: 16849441031758828298
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0104_DS026-027_todisguise
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4814448146869344025
-      m_GuidHigh: 12618324176522189995
+      m_GuidLow: 5634876691910280916
+      m_GuidHigh: 8928719858364354228
     m_SerializedTextureGuid:
       m_GuidLow: 16813199132737325305
       m_GuidHigh: 11253132721859458088
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0105_DS026-027_hero
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5286127596343239444
-      m_GuidHigh: 304875215874412964
+      m_GuidLow: 5030071657479990106
+      m_GuidHigh: 17049989332172278163
     m_SerializedTextureGuid:
       m_GuidLow: 17434740810442920815
       m_GuidHigh: 17179316431599261755
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0106_DS026-027_witch
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4646767126569148544
-      m_GuidHigh: 2114294918545955975
+      m_GuidLow: 5031198851916152776
+      m_GuidHigh: 7362565963027376274
     m_SerializedTextureGuid:
       m_GuidLow: 13863360527829277079
       m_GuidHigh: 14176360094531158907
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0107_DS026-027_devil
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5311045488173572995
-      m_GuidHigh: 15621842080574274998
+      m_GuidLow: 5271566401855590983
+      m_GuidHigh: 1836007312635654792
     m_SerializedTextureGuid:
       m_GuidLow: 5464214073198637699
       m_GuidHigh: 16978302920777217003
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0108_DS026-027_ghost
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5579423010062687925
-      m_GuidHigh: 6908177883099697829
+      m_GuidLow: 5077502233526410931
+      m_GuidHigh: 2522133936444284068
     m_SerializedTextureGuid:
       m_GuidLow: 1680972717417127317
       m_GuidHigh: 4434455469382849563
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0109_DS026-027_castle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5052823165021283147
-      m_GuidHigh: 4890452408538114706
+      m_GuidLow: 5383354853572745377
+      m_GuidHigh: 9424295749374570890
     m_SerializedTextureGuid:
       m_GuidLow: 6135283107824253195
       m_GuidHigh: 5106658230645816427
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0110_DS026-027_sword
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4951403861049907137
-      m_GuidHigh: 1758145185011248803
+      m_GuidLow: 4754348531783726904
+      m_GuidHigh: 18195396971775417227
     m_SerializedTextureGuid:
       m_GuidLow: 2298181922705296267
       m_GuidHigh: 780085967206339146
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0111_DS026-027_dragon
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5474876213498125524
-      m_GuidHigh: 1047062296298806410
+      m_GuidLow: 5505248503391216236
+      m_GuidHigh: 6670696796703160250
     m_SerializedTextureGuid:
       m_GuidLow: 18078724743004764667
       m_GuidHigh: 380754278136853288
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0112_DS026-027_fortress
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5013233944836832183
-      m_GuidHigh: 4344987554115382158
+      m_GuidLow: 5145758419799900410
+      m_GuidHigh: 13863818250985277089
     m_SerializedTextureGuid:
       m_GuidLow: 577621785445730843
       m_GuidHigh: 1667467652826643257
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0113_DS026-027_crown
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5119384068156633891
-      m_GuidHigh: 7500881810714135199
+      m_GuidLow: 5489234620455792490
+      m_GuidHigh: 3407220482252072124
     m_SerializedTextureGuid:
       m_GuidLow: 15741245344556165607
       m_GuidHigh: 11124281417844589307
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0114_DS026-027_king
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5047348599707367128
-      m_GuidHigh: 11643951408954265525
+      m_GuidLow: 5571459643891196114
+      m_GuidHigh: 3988438866479469707
     m_SerializedTextureGuid:
       m_GuidLow: 17029400466847115764
       m_GuidHigh: 14705447659286921499
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0115_DS026-027_queen
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4900752257683056246
-      m_GuidHigh: 5999164162987301052
+      m_GuidLow: 4859199614225371695
+      m_GuidHigh: 4838412648882812344
     m_SerializedTextureGuid:
       m_GuidLow: 9625464161490510539
       m_GuidHigh: 13535347727245791944
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0116_DS026-027_princess
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5137594284788619287
-      m_GuidHigh: 12570264248525596325
+      m_GuidLow: 5591670749732444556
+      m_GuidHigh: 12490600471994715266
     m_SerializedTextureGuid:
       m_GuidLow: 3586241176198066417
       m_GuidHigh: 13401310412597463864
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0117_DS026-027_prince
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5258825661270698725
-      m_GuidHigh: 7022477522972765317
+      m_GuidLow: 4913451126384634362
+      m_GuidHigh: 5808022713886672012
     m_SerializedTextureGuid:
       m_GuidLow: 10728768047998118305
       m_GuidHigh: 2429506749362007099
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0118_DS026-027_tofight
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5097201472655326362
-      m_GuidHigh: 17499292494881059992
+      m_GuidLow: 4845906443283315057
+      m_GuidHigh: 8023360095375740849
     m_SerializedTextureGuid:
       m_GuidLow: 12917582582372934866
       m_GuidHigh: 5031481070675045835
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0119_DS026-027_story
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4922701645268896558
-      m_GuidHigh: 13846858024043977626
+      m_GuidLow: 5417294473931628499
+      m_GuidHigh: 7986290445412470972
     m_SerializedTextureGuid:
       m_GuidLow: 11904243804100533463
       m_GuidHigh: 4851001429613227466
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0120_DS026-027_fairytale
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4875904076779290097
-      m_GuidHigh: 12884732672515752348
+      m_GuidLow: 5449363003919210571
+      m_GuidHigh: 1015460602392793476
     m_SerializedTextureGuid:
       m_GuidLow: 9877798513370065813
       m_GuidHigh: 12007527000930886488

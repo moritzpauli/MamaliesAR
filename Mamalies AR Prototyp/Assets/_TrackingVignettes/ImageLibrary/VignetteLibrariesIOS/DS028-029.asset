@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS028-029
   m_EditorClassIdentifier: 
-  m_GuidLow: 5746917183475534905
-  m_GuidHigh: 10572384605243034524
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5600530607804341753
+  m_GuidHigh: 9326418912427450775
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4844700258502713846
-      m_GuidHigh: 5741483292162323134
+      m_GuidLow: 5425269534568078210
+      m_GuidHigh: 12796882808903233953
     m_SerializedTextureGuid:
       m_GuidLow: 8508621173438454512
       m_GuidHigh: 14722357515160889450
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0122_DS028-029_emotions
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5116850830010745651
-      m_GuidHigh: 4582121164105469337
+      m_GuidLow: 4779964244997478882
+      m_GuidHigh: 13201629048037340818
     m_SerializedTextureGuid:
       m_GuidLow: 6450549194157673750
       m_GuidHigh: 8437802005008943195
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0123_DS028-029_tear
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4663444324663490807
-      m_GuidHigh: 14071362496215822747
+      m_GuidLow: 5492449919650572186
+      m_GuidHigh: 16530803367833812106
     m_SerializedTextureGuid:
       m_GuidLow: 4140153081379709291
       m_GuidHigh: 1187838601428805099
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0124_DS028-029_todislike
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4654654397331078956
-      m_GuidHigh: 8618878265227523252
+      m_GuidLow: 5422431387017492100
+      m_GuidHigh: 17935084051189698715
     m_SerializedTextureGuid:
       m_GuidLow: 460603916152624362
       m_GuidHigh: 18135245011767991544
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0125_DS028-029_cheerful
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5729772309902513245
-      m_GuidHigh: 10731309724584386192
+      m_GuidLow: 4924639397905901163
+      m_GuidHigh: 7304734950042787206
     m_SerializedTextureGuid:
       m_GuidLow: 15808842600919772355
       m_GuidHigh: 14468962546985823465
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0126_DS028-029_surprised
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5534447504965887472
-      m_GuidHigh: 17457698591185218722
+      m_GuidLow: 5497129298400447496
+      m_GuidHigh: 9722136370629606078
     m_SerializedTextureGuid:
       m_GuidLow: 3928407868295178382
       m_GuidHigh: 7605950074512559754
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0128_DS028-029_afraid
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5006637102665258585
-      m_GuidHigh: 5875373691997478039
+      m_GuidLow: 5409146657245722104
+      m_GuidHigh: 18055899698641903501
     m_SerializedTextureGuid:
       m_GuidLow: 3095117394458892410
       m_GuidHigh: 2047936527542334696
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0129_DS028-029_tired
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5196466279559012711
-      m_GuidHigh: 2803512711737439391
+      m_GuidLow: 4620763888694796876
+      m_GuidHigh: 14456816476051041419
     m_SerializedTextureGuid:
       m_GuidLow: 2401641655958472802
       m_GuidHigh: 2261581797870948952
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0130_DS028-029_angry
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4867961609499613875
-      m_GuidHigh: 8644079998666954891
+      m_GuidLow: 4842417904721804540
+      m_GuidHigh: 2029699567161474694
     m_SerializedTextureGuid:
       m_GuidLow: 8049328427967079959
       m_GuidHigh: 16286181183817773658
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0131_DS028-029_bored
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5365939956016573126
-      m_GuidHigh: 9068938770214267067
+      m_GuidLow: 5338426451347776607
+      m_GuidHigh: 14291887826036628920
     m_SerializedTextureGuid:
       m_GuidLow: 10710842049874804022
       m_GuidHigh: 16917687901956826843
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0132_DS028-029_awake
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5687260218753586458
-      m_GuidHigh: 8544279653193986714
+      m_GuidLow: 4963279550967987965
+      m_GuidHigh: 3011553678621325702
     m_SerializedTextureGuid:
       m_GuidLow: 17515628128866877986
       m_GuidHigh: 11772679832746190552
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0133_DS028-029_beautiful
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5464716505419829130
-      m_GuidHigh: 6709362556178105733
+      m_GuidLow: 5122462187766753963
+      m_GuidHigh: 1509886377549466244
     m_SerializedTextureGuid:
       m_GuidLow: 7274516614088094619
       m_GuidHigh: 10018476306423772280
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0134_DS028-029_furious
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5593315591358915462
-      m_GuidHigh: 3041755703764438700
+      m_GuidLow: 5147380206332032608
+      m_GuidHigh: 14907203446946196408
     m_SerializedTextureGuid:
       m_GuidLow: 12016942082532277882
       m_GuidHigh: 6006142369200595752
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0135_DS028-029_tolike
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5626372006273307120
-      m_GuidHigh: 17894157787007675803
+      m_GuidLow: 4746671397112735555
+      m_GuidHigh: 6733256184619761294
     m_SerializedTextureGuid:
       m_GuidLow: 1136210959261462649
       m_GuidHigh: 228705878294120504

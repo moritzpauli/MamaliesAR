@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS056-057
   m_EditorClassIdentifier: 
-  m_GuidLow: 5632211916342630213
-  m_GuidHigh: 4181991281635523724
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4678029927030295480
+  m_GuidHigh: 16669280783750716810
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4697953507845141568
-      m_GuidHigh: 16479939392559260340
+      m_GuidLow: 4899437821644308180
+      m_GuidHigh: 16969639713449148809
     m_SerializedTextureGuid:
       m_GuidLow: 4648966136268426909
       m_GuidHigh: 283270047883749977
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0381_DS056-057_dangerous
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5314910398743466117
-      m_GuidHigh: 4048169824733732540
+      m_GuidLow: 5463422884400526141
+      m_GuidHigh: 16965953086301251753
     m_SerializedTextureGuid:
       m_GuidLow: 5441680449252904788
       m_GuidHigh: 406991268625351147
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0382_DS056-057_danger
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5740865867321310966
-      m_GuidHigh: 5858884868937767828
+      m_GuidLow: 4855903646542501433
+      m_GuidHigh: 7296114270330579092
     m_SerializedTextureGuid:
       m_GuidLow: 757788717447744928
       m_GuidHigh: 2318222583400632842
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0383_DS056-057_bike
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5065997900579064959
-      m_GuidHigh: 4876774063853497244
+      m_GuidLow: 4681269359051312703
+      m_GuidHigh: 6853388584213755839
     m_SerializedTextureGuid:
       m_GuidLow: 3500520453623375392
       m_GuidHigh: 15376840158331143752
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0384_DS056-057_toride
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5176226675819854031
-      m_GuidHigh: 1970542496651579024
+      m_GuidLow: 5758098456056463526
+      m_GuidHigh: 1162831753155725471
     m_SerializedTextureGuid:
       m_GuidLow: 7495347204811209735
       m_GuidHigh: 526117783609355304
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0385_DS056-057_tricycle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5343937471352188343
-      m_GuidHigh: 147674170753464460
+      m_GuidLow: 4826617645861395032
+      m_GuidHigh: 3329839239034488720
     m_SerializedTextureGuid:
       m_GuidLow: 12075499961259892798
       m_GuidHigh: 11092596523900960779
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0386_DS056-057_scooter
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5504040532581342593
-      m_GuidHigh: 2106276146124896408
+      m_GuidLow: 4926117047114993026
+      m_GuidHigh: 17852059305168037005
     m_SerializedTextureGuid:
       m_GuidLow: 17637462980627161323
       m_GuidHigh: 15593225037176575368
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0387_DS056-057_pedestrian
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4800544311996336008
-      m_GuidHigh: 2718210920602089868
+      m_GuidLow: 5666085228307313174
+      m_GuidHigh: 6562893810294808992
     m_SerializedTextureGuid:
       m_GuidLow: 13169664461125859013
       m_GuidHigh: 1333346085131844248
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0388_DS056-057_prohibition
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5025480812710175373
-      m_GuidHigh: 4790875345969285026
+      m_GuidLow: 4896474308975750041
+      m_GuidHigh: 6545117527090269592
     m_SerializedTextureGuid:
       m_GuidLow: 14876626474367202369
       m_GuidHigh: 14659677001557138331
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0389_DS056-057_rightofway
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4736444998531239352
-      m_GuidHigh: 17791789045765776523
+      m_GuidLow: 4674472548696759602
+      m_GuidHigh: 5204038502543342507
     m_SerializedTextureGuid:
       m_GuidLow: 3955344209496240848
       m_GuidHigh: 16243007692259224283
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0390_DS056-057_straightahead
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5691451700692171270
-      m_GuidHigh: 8434148008874237597
+      m_GuidLow: 5618054033475479893
+      m_GuidHigh: 2261103142524485807
     m_SerializedTextureGuid:
       m_GuidLow: 17678007857175050548
       m_GuidHigh: 12149958429980457897
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0391_DS056-057_ticket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5189648917439120613
-      m_GuidHigh: 18368556174557356950
+      m_GuidLow: 5572442223104348548
+      m_GuidHigh: 1782621299020511127
     m_SerializedTextureGuid:
       m_GuidLow: 528250504180553281
       m_GuidHigh: 11246466261400538825
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0392_DS056-057_timetable
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5545806750355722843
-      m_GuidHigh: 2813064634879740812
+      m_GuidLow: 5270591214485287652
+      m_GuidHigh: 5129935709574951816
     m_SerializedTextureGuid:
       m_GuidLow: 86710028266756056
       m_GuidHigh: 6346832172087323611
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0393_DS056-057_togetoff
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4933940704343731188
-      m_GuidHigh: 7517026383671728799
+      m_GuidLow: 4935858067050279562
+      m_GuidHigh: 2197793717144587966
     m_SerializedTextureGuid:
       m_GuidLow: 17943720752100999484
       m_GuidHigh: 15238989401427575465
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0394_DS056-057_toenter
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4748901452254415637
-      m_GuidHigh: 1698009129972018097
+      m_GuidLow: 5341776903315549590
+      m_GuidHigh: 6811667862569477292
     m_SerializedTextureGuid:
       m_GuidLow: 12994020224377761218
       m_GuidHigh: 6417168614934352377
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0395_DS056-057_onewaystreet
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5552564524452116751
-      m_GuidHigh: 4911617985133434798
+      m_GuidLow: 4950502203937600664
+      m_GuidHigh: 3031751648273243822
     m_SerializedTextureGuid:
       m_GuidLow: 7616945045649378836
       m_GuidHigh: 17636580321096613704
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0396_DS056-057_caution
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5454816484224545960
-      m_GuidHigh: 9502293465078153625
+      m_GuidLow: 5534456907708100593
+      m_GuidHigh: 2090654841327348114
     m_SerializedTextureGuid:
       m_GuidLow: 12633768990318027166
       m_GuidHigh: 4221307828549345385
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0397_DS056-057_toreverse
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5695953022236972252
-      m_GuidHigh: 7399732866917680049
+      m_GuidLow: 5387268218910109324
+      m_GuidHigh: 6859642645786679427
     m_SerializedTextureGuid:
       m_GuidLow: 4230028697078745523
       m_GuidHigh: 17512517291938576746
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0398_DS056-057_motorcycle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5521276729993708795
-      m_GuidHigh: 9178079502905371279
+      m_GuidLow: 4615656630665353312
+      m_GuidHigh: 1379449017346610579
     m_SerializedTextureGuid:
       m_GuidLow: 17650893929835337555
       m_GuidHigh: 13839066363819939770
@@ -208,8 +206,8 @@ MonoBehaviour:
     m_Name: 0399_DS056-057_motorcyclehelmet
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5619235768462747823
-      m_GuidHigh: 10559466487421445006
+      m_GuidLow: 5494342774478610016
+      m_GuidHigh: 10350199597607170483
     m_SerializedTextureGuid:
       m_GuidLow: 4631034099027772327
       m_GuidHigh: 10265501863092856698
@@ -218,8 +216,8 @@ MonoBehaviour:
     m_Name: 0400_DS056-057_stopsign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5029371036748939784
-      m_GuidHigh: 3960618181310570431
+      m_GuidLow: 5637691508799283948
+      m_GuidHigh: 9174228317121483437
     m_SerializedTextureGuid:
       m_GuidLow: 7206929498355766597
       m_GuidHigh: 10038530850600618635
@@ -228,8 +226,8 @@ MonoBehaviour:
     m_Name: 0401_DS056-057_distance
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5062927054435644833
-      m_GuidHigh: 8027003544010571943
+      m_GuidLow: 5584936124918406975
+      m_GuidHigh: 11087939505645263006
     m_SerializedTextureGuid:
       m_GuidLow: 12057370688180891373
       m_GuidHigh: 5792247781773642986
@@ -238,8 +236,8 @@ MonoBehaviour:
     m_Name: 0402_DS056-057_motorwaysign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5040615991893939166
-      m_GuidHigh: 6793666157179338635
+      m_GuidLow: 4989208293419853957
+      m_GuidHigh: 10075258662731462591
     m_SerializedTextureGuid:
       m_GuidLow: 16489044591038259231
       m_GuidHigh: 16289012666712094776
@@ -248,8 +246,8 @@ MonoBehaviour:
     m_Name: 0403_DS056-057_busstop
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5423891836763920250
-      m_GuidHigh: 14153924965151754680
+      m_GuidLow: 5156037567569347632
+      m_GuidHigh: 3437428026038755729
     m_SerializedTextureGuid:
       m_GuidLow: 15709841601715433891
       m_GuidHigh: 6913552701941916955
@@ -258,8 +256,8 @@ MonoBehaviour:
     m_Name: 0404_DS056-057_subwaysign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5152196855923490833
-      m_GuidHigh: 15457182772207497905
+      m_GuidLow: 5658338118640327103
+      m_GuidHigh: 6763229751534567055
     m_SerializedTextureGuid:
       m_GuidLow: 13165274790725002839
       m_GuidHigh: 11148726451793539226
@@ -268,8 +266,8 @@ MonoBehaviour:
     m_Name: 0405_DS056-057_S-Bahnsign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4845819342208241980
-      m_GuidHigh: 8130178968893044874
+      m_GuidLow: 5686369226334126726
+      m_GuidHigh: 8791481911200392883
     m_SerializedTextureGuid:
       m_GuidLow: 8711179507597969494
       m_GuidHigh: 10950618802116731401

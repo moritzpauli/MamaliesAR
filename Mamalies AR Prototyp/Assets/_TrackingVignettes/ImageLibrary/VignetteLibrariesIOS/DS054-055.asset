@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS054-055
   m_EditorClassIdentifier: 
-  m_GuidLow: 5142428496041165784
-  m_GuidHigh: 12550161396385781181
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4788550425239027757
+  m_GuidHigh: 10598434556683237516
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4758934301002015502
-      m_GuidHigh: 360544055850006190
+      m_GuidLow: 5727322876250982285
+      m_GuidHigh: 12475929972383859113
     m_SerializedTextureGuid:
       m_GuidLow: 1775757423852929331
       m_GuidHigh: 12036136510327351195
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0363_DS054-055_traffic-headline
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5382520336185904940
-      m_GuidHigh: 8364487654965522352
+      m_GuidLow: 5251689117287070876
+      m_GuidHigh: 9148662476949188521
     m_SerializedTextureGuid:
       m_GuidLow: 6058559130670249227
       m_GuidHigh: 3752317920771748955
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0364_DS054-055_traffic
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4818985374007827450
-      m_GuidHigh: 5940229939973662369
+      m_GuidLow: 4708882028332352053
+      m_GuidHigh: 7363290164182874518
     m_SerializedTextureGuid:
       m_GuidLow: 7229477742184370370
       m_GuidHigh: 7462370475245543064
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0365_DS054-055_bus
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5714428981833052748
-      m_GuidHigh: 12101962952023991724
+      m_GuidLow: 5626718540953211922
+      m_GuidHigh: 442795426550524083
     m_SerializedTextureGuid:
       m_GuidLow: 15241548066529247946
       m_GuidHigh: 2826538176920679352
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0366_DS054-055_car
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4773651721509095297
-      m_GuidHigh: 10641041393203799454
+      m_GuidLow: 5087683489774715069
+      m_GuidHigh: 11403599198335445182
     m_SerializedTextureGuid:
       m_GuidLow: 7468331579370674801
       m_GuidHigh: 7371268705134838714
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0367_DS054-055_tram
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5349652758674742113
-      m_GuidHigh: 9988622758124799156
+      m_GuidLow: 5362410055745806222
+      m_GuidHigh: 9998914149254234516
     m_SerializedTextureGuid:
       m_GuidLow: 17069919746099748826
       m_GuidHigh: 12778052555296526827
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0368_DS054-055_ambulance
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5642579397048643644
-      m_GuidHigh: 17441964579370765460
+      m_GuidLow: 5228134455278155264
+      m_GuidHigh: 8512548908209929645
     m_SerializedTextureGuid:
       m_GuidLow: 8923036397537868582
       m_GuidHigh: 17859547181742320600
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0369_DS054-055_taxi
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4826228863625050911
-      m_GuidHigh: 10155904601286935966
+      m_GuidLow: 5182537029212306076
+      m_GuidHigh: 16083184081609503633
     m_SerializedTextureGuid:
       m_GuidLow: 10589303315158790764
       m_GuidHigh: 8769129942260843336
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0370_DS054-055_drive
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5283579315774968507
-      m_GuidHigh: 1235833356806096036
+      m_GuidLow: 5459873365513513686
+      m_GuidHigh: 12636480440118656138
     m_SerializedTextureGuid:
       m_GuidLow: 7999568305683231100
       m_GuidHigh: 1596621808615833688
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0371_DS054-055_street
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5634918182405692844
-      m_GuidHigh: 1433139558332428419
+      m_GuidLow: 5667824052891388298
+      m_GuidHigh: 6186948271615433606
     m_SerializedTextureGuid:
       m_GuidLow: 3370084819054024074
       m_GuidHigh: 10034485931837852840
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0372_DS054-055_tocross
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5631587992797897673
-      m_GuidHigh: 14216359887966834103
+      m_GuidLow: 5023092674793235227
+      m_GuidHigh: 12998370103792319616
     m_SerializedTextureGuid:
       m_GuidLow: 5004639285471144651
       m_GuidHigh: 10547258446486121465
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0373_DS054-055_zebracrossing
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5453032904449200484
-      m_GuidHigh: 7626170394294357132
+      m_GuidLow: 5124724571431690647
+      m_GuidHigh: 7084073683612496831
     m_SerializedTextureGuid:
       m_GuidLow: 6576420956577481970
       m_GuidHigh: 3653619395678057705
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0374_DS054-055_trafficlight
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4972285461162121253
-      m_GuidHigh: 10948396617625134502
+      m_GuidLow: 5677176124777596097
+      m_GuidHigh: 2755167326356024247
     m_SerializedTextureGuid:
       m_GuidLow: 12642875658919998342
       m_GuidHigh: 18192325857444536378
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0375_DS054-055_trafficsign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5653289541965643444
-      m_GuidHigh: 5569689063391885472
+      m_GuidLow: 4636274475185588556
+      m_GuidHigh: 14098438230635036801
     m_SerializedTextureGuid:
       m_GuidLow: 8720227697906448192
       m_GuidHigh: 6411369613187383530
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0376_DS054-055_subway
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4960481247432381179
-      m_GuidHigh: 5101990805665763246
+      m_GuidLow: 5638329177232489335
+      m_GuidHigh: 4777164781941085363
     m_SerializedTextureGuid:
       m_GuidLow: 1172136844610844439
       m_GuidHigh: 14707415463205334218
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0377_DS054-055_fireservice
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5252420114090798665
-      m_GuidHigh: 11937821394063627163
+      m_GuidLow: 5452652109388286022
+      m_GuidHigh: 12977315916333481864
     m_SerializedTextureGuid:
       m_GuidLow: 15957461687577426088
       m_GuidHigh: 8573671960503325275
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0378_DS054-055_garbagetruck
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5419428917689980692
-      m_GuidHigh: 4699835895441607858
+      m_GuidLow: 5071780774638420647
+      m_GuidHigh: 4786928208807556273
     m_SerializedTextureGuid:
       m_GuidLow: 9035505396216968426
       m_GuidHigh: 706506283957563064
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0379_DS054-055_policecar
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4998378703419102469
-      m_GuidHigh: 10372614578335166614
+      m_GuidLow: 4864841158132006706
+      m_GuidHigh: 13043440627937502081
     m_SerializedTextureGuid:
       m_GuidLow: 14196485455719369709
       m_GuidHigh: 9992791523004168760

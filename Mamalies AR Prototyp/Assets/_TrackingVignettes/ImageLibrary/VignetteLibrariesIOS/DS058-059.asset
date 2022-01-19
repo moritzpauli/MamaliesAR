@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS058-059
   m_EditorClassIdentifier: 
-  m_GuidLow: 5622825391550097508
-  m_GuidHigh: 9439302668717565842
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5502135524178800021
+  m_GuidHigh: 7540534769341777577
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4752790206263109943
-      m_GuidHigh: 8296845695930762923
+      m_GuidLow: 5587284809482326755
+      m_GuidHigh: 475718551232498867
     m_SerializedTextureGuid:
       m_GuidLow: 2671917426556291400
       m_GuidHigh: 7872649635791444489
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0407_DS058-059_world
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5620011825326138948
-      m_GuidHigh: 611200086234718339
+      m_GuidLow: 5167433887579990095
+      m_GuidHigh: 8005984916108793506
     m_SerializedTextureGuid:
       m_GuidLow: 14264239040788487805
       m_GuidHigh: 1859313592334786507
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0408_DS058-059_earth
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5694429308401458855
-      m_GuidHigh: 3119952763853614761
+      m_GuidLow: 5318808955433777127
+      m_GuidHigh: 12848351850559333307
     m_SerializedTextureGuid:
       m_GuidLow: 2878947149683684485
       m_GuidHigh: 13382580979768945050
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0409_DS058-059_country
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5048993655742362197
-      m_GuidHigh: 16723821379823558066
+      m_GuidLow: 4809590467697684792
+      m_GuidHigh: 11130296327129979027
     m_SerializedTextureGuid:
       m_GuidLow: 5387460754510585973
       m_GuidHigh: 12249170556738818281
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0410_DS058-059_passport
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5658895886491276835
-      m_GuidHigh: 7263394148875313301
+      m_GuidLow: 4918334894803941747
+      m_GuidHigh: 4672716302156177847
     m_SerializedTextureGuid:
       m_GuidLow: 15845066014129297784
       m_GuidHigh: 2764502336522756553
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0411_DS058-059_city
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4845737056755297353
-      m_GuidHigh: 11325777588133215406
+      m_GuidLow: 4796755618998871664
+      m_GuidHigh: 8284891271715936958
     m_SerializedTextureGuid:
       m_GuidLow: 12084438978949851240
       m_GuidHigh: 6707415933869051336
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0412_DS058-059_capital
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5651452366616425702
-      m_GuidHigh: 15081686406715397775
+      m_GuidLow: 5182736801389246216
+      m_GuidHigh: 2441751635361594270
     m_SerializedTextureGuid:
       m_GuidLow: 2991681648795210126
       m_GuidHigh: 6500741665180234219
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0413_DS058-059_village
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5098680131232587933
-      m_GuidHigh: 2924446196674876808
+      m_GuidLow: 5450825243305937289
+      m_GuidHigh: 12721476930762542480
     m_SerializedTextureGuid:
       m_GuidLow: 2036877586927957836
       m_GuidHigh: 394061831472368603
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0414_DS058-059_todiscover
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4768051012856874421
-      m_GuidHigh: 16999528262344818110
+      m_GuidLow: 5322418000140266109
+      m_GuidHigh: 14246084523049169068
     m_SerializedTextureGuid:
       m_GuidLow: 12296091757243313630
       m_GuidHigh: 5671324839207932330
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0415_DS058-059_planet
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4956512360479209400
-      m_GuidHigh: 18382641179485192361
+      m_GuidLow: 5453431332034761300
+      m_GuidHigh: 12660332698654335666
     m_SerializedTextureGuid:
       m_GuidLow: 13007597658989199494
       m_GuidHigh: 5139789538193937833
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0416_DS058-059_harbour
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4848379312188995396
-      m_GuidHigh: 14279521094428812698
+      m_GuidLow: 5484171361885911018
+      m_GuidHigh: 14689432991824754562
     m_SerializedTextureGuid:
       m_GuidLow: 9832693210431516617
       m_GuidHigh: 18105564686897781771
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0417_DS058-059_mountains
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4729790133792157938
-      m_GuidHigh: 8658840346014250661
+      m_GuidLow: 5711993496681595834
+      m_GuidHigh: 4706056909352926868
     m_SerializedTextureGuid:
       m_GuidLow: 3005121560229577662
       m_GuidHigh: 3935492182732044216
@@ -138,12 +136,12 @@ MonoBehaviour:
     m_Name: 0418_DS058-059_desert
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5679879833682198472
-      m_GuidHigh: 11092311314108277425
+      m_GuidLow: 5761622737156832901
+      m_GuidHigh: 17161354199724743826
     m_SerializedTextureGuid:
       m_GuidLow: 12214906713817763036
       m_GuidHigh: 2623901275382783528
-    m_Size: {x: 0.294, y: 0.28857145}
+    m_Size: {x: 0.2894286, y: 0.30057144}
     m_SpecifySize: 1
     m_Name: 2004_DS058-059_world
     m_Texture: {fileID: 0}

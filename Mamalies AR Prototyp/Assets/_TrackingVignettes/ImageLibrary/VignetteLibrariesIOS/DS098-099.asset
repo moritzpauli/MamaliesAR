@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS098-099
   m_EditorClassIdentifier: 
-  m_GuidLow: 5650456549397389690
-  m_GuidHigh: 10361042157043151755
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4628272379608196933
+  m_GuidHigh: 15696754269071543476
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5455805168438057728
-      m_GuidHigh: 4771902551671357330
+      m_GuidLow: 5162705083887784781
+      m_GuidHigh: 6464134735477861787
     m_SerializedTextureGuid:
       m_GuidLow: 7427761928041092437
       m_GuidHigh: 3890147921958524233
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0127_DS098-099_wish
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4976808503698900965
-      m_GuidHigh: 2751255718829843903
+      m_GuidLow: 4810236645638024748
+      m_GuidHigh: 12647488546696552634
     m_SerializedTextureGuid:
       m_GuidLow: 3342973914963404800
       m_GuidHigh: 5702172466936000409
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0786_DS098-099_celebrations
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5445095014331117425
-      m_GuidHigh: 10900102782625911182
+      m_GuidLow: 5342655433500209379
+      m_GuidHigh: 9878698861480888453
     m_SerializedTextureGuid:
       m_GuidLow: 16227815437917765143
       m_GuidHigh: 5848601395977199256
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0787_DS098-099_tothank
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5001424611282520197
-      m_GuidHigh: 711579517798175369
+      m_GuidLow: 4831138456886454861
+      m_GuidHigh: 8215765812866969276
     m_SerializedTextureGuid:
       m_GuidLow: 16218763497920991597
       m_GuidHigh: 8587412360474452138
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0788_DS098-099_present
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5125476465632294101
-      m_GuidHigh: 8537345730086999445
+      m_GuidLow: 5038768818605979443
+      m_GuidHigh: 2477904597465362865
     m_SerializedTextureGuid:
       m_GuidLow: 13899311277380107851
       m_GuidHigh: 3454250343969842331
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0789_DS098-099_great
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4927482072606259889
-      m_GuidHigh: 10003454925190328728
+      m_GuidLow: 5563661417125485196
+      m_GuidHigh: 13644725808585779129
     m_SerializedTextureGuid:
       m_GuidLow: 15295377754867487855
       m_GuidHigh: 5322178660591807483
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0790_DS098-099_towish
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5112191340506438587
-      m_GuidHigh: 9703678144986135186
+      m_GuidLow: 5702474415420983376
+      m_GuidHigh: 12227224695668977847
     m_SerializedTextureGuid:
       m_GuidLow: 5090318091612108888
       m_GuidHigh: 12295732340104947113
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0791_DS098-099_birthday
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5720620904883517631
-      m_GuidHigh: 11791619447300874413
+      m_GuidLow: 5246666111127415415
+      m_GuidHigh: 11252425790286428059
     m_SerializedTextureGuid:
       m_GuidLow: 17200566585628560370
       m_GuidHigh: 2212722683185337258
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0792_DS098-099_tohave
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4893366117484118022
-      m_GuidHigh: 4557788226199857845
+      m_GuidLow: 4875616922616644519
+      m_GuidHigh: 3559691209780035751
     m_SerializedTextureGuid:
       m_GuidLow: 6738590790914775541
       m_GuidHigh: 11907813923621882761
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0793_DS098-099_togift
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5589958190311310398
-      m_GuidHigh: 3716901052459430276
+      m_GuidLow: 4905286983426153253
+      m_GuidHigh: 16324215386379636875
     m_SerializedTextureGuid:
       m_GuidLow: 16876349297448609857
       m_GuidHigh: 8105623143940262696
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0794_DS098-099_toget
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5543705955967695912
-      m_GuidHigh: 9875918357284577936
+      m_GuidLow: 5068633084005968720
+      m_GuidHigh: 7899881548129090969
     m_SerializedTextureGuid:
       m_GuidLow: 1050629798492147744
       m_GuidHigh: 13317242523306681704
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0795_DS098-099_fun
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5069710816005798688
-      m_GuidHigh: 9614734371858030252
+      m_GuidLow: 4803573460783619521
+      m_GuidHigh: 4112393915469018790
     m_SerializedTextureGuid:
       m_GuidLow: 3707771253030849979
       m_GuidHigh: 13689172536768664073
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0796_DS098-099_packaging
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4918857770521368563
-      m_GuidHigh: 4573606605259311264
+      m_GuidLow: 5518945724016854566
+      m_GuidHigh: 5270349888802157211
     m_SerializedTextureGuid:
       m_GuidLow: 13516670595015006614
       m_GuidHigh: 13659543312546705562
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0797_DS098-099_towrap
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5502140610537489097
-      m_GuidHigh: 6134404701757892775
+      m_GuidLow: 5431525771155503064
+      m_GuidHigh: 11210959613651623862
     m_SerializedTextureGuid:
       m_GuidLow: 13404010879189983338
       m_GuidHigh: 11799265003800231643
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0798_DS098-099_riddle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5010597223745645575
-      m_GuidHigh: 15779031581173715585
+      m_GuidLow: 5405866782922864799
+      m_GuidHigh: 14177306146248366981
     m_SerializedTextureGuid:
       m_GuidLow: 3419375858436140714
       m_GuidHigh: 1570296370329524153
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0799_DS098-099_toguess
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5265548517937081913
-      m_GuidHigh: 9055749067679842435
+      m_GuidLow: 5457304975679992379
+      m_GuidHigh: 4828091161886761393
     m_SerializedTextureGuid:
       m_GuidLow: 4865105371494235287
       m_GuidHigh: 13299019791023868971
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0800_DS098-099_halloween
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4864225292099676651
-      m_GuidHigh: 15051265643433706932
+      m_GuidLow: 5101450865145352718
+      m_GuidHigh: 4602834152518583440
     m_SerializedTextureGuid:
       m_GuidLow: 1708171162244663737
       m_GuidHigh: 17501576032544078474
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0801_DS098-099_cake
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4877015631884995059
-      m_GuidHigh: 12963605773217650588
+      m_GuidLow: 4991996016157748531
+      m_GuidHigh: 6307828339497284265
     m_SerializedTextureGuid:
       m_GuidLow: 18348822446461016421
       m_GuidHigh: 12558940869486504730
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0802_DS098-099_christmas
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5568156331357202582
-      m_GuidHigh: 3105756720620500665
+      m_GuidLow: 5080614111612249794
+      m_GuidHigh: 3385190611137063587
     m_SerializedTextureGuid:
       m_GuidLow: 14804660526191310804
       m_GuidHigh: 7706917332764671513

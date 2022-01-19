@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS038-039
   m_EditorClassIdentifier: 
-  m_GuidLow: 5443535348239475333
-  m_GuidHigh: 10272594610019957911
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5058421951379588875
+  m_GuidHigh: 3770812371960691111
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4999367772414672069
-      m_GuidHigh: 5301385957064054927
+      m_GuidLow: 5375686176397424887
+      m_GuidHigh: 12835882418689638021
     m_SerializedTextureGuid:
       m_GuidLow: 17097040633186984964
       m_GuidHigh: 12143136977034925114
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0218_DS038-039_zoo
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5581962884373493395
-      m_GuidHigh: 7711785519177106610
+      m_GuidLow: 4967164810976913729
+      m_GuidHigh: 1090970010379907258
     m_SerializedTextureGuid:
       m_GuidLow: 7418743773811869209
       m_GuidHigh: 9859217968249088938
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0219_DS038-039_wild
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5705707152741029776
-      m_GuidHigh: 8123302011162025092
+      m_GuidLow: 5584497188329939638
+      m_GuidHigh: 15680295240386722965
     m_SerializedTextureGuid:
       m_GuidLow: 10039837147376975040
       m_GuidHigh: 11008133122029842106
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0220_DS038-039_tobark
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5751701942117417023
-      m_GuidHigh: 1139123694322167206
+      m_GuidLow: 5674014288061293320
+      m_GuidHigh: 15984901403049165472
     m_SerializedTextureGuid:
       m_GuidLow: 6954948376272766014
       m_GuidHigh: 10437210720184818379
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0221_DS038-039_tofly
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4939461200770449758
-      m_GuidHigh: 12351451988443920026
+      m_GuidLow: 4845747901727554188
+      m_GuidHigh: 5819538791230411160
     m_SerializedTextureGuid:
       m_GuidLow: 17250100652280675852
       m_GuidHigh: 8775928728887239897
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0222_DS038-039_tofeed
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4939952405126531509
-      m_GuidHigh: 4773283112496053422
+      m_GuidLow: 5696818589028152141
+      m_GuidHigh: 12049746614159572881
     m_SerializedTextureGuid:
       m_GuidLow: 1744138840116941479
       m_GuidHigh: 6946423308609603257

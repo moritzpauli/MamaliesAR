@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS040-041
   m_EditorClassIdentifier: 
-  m_GuidLow: 4909547740532487615
-  m_GuidHigh: 12827518427021941672
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4784625278878464557
+  m_GuidHigh: 17970923664855363493
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5653800204225585715
-      m_GuidHigh: 12892145485314934673
+      m_GuidLow: 5410896495927651747
+      m_GuidHigh: 15798441562190135716
     m_SerializedTextureGuid:
       m_GuidLow: 16281793962074206292
       m_GuidHigh: 3656597046551411978
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0224_DS040-041_farm-headline
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5503729357102820890
-      m_GuidHigh: 824333007532007810
+      m_GuidLow: 5553183119909150068
+      m_GuidHigh: 8975994697153676679
     m_SerializedTextureGuid:
       m_GuidLow: 8882308922088806239
       m_GuidHigh: 18149170906195462888
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0225_DS040-041_cloud
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5112519856375301715
-      m_GuidHigh: 14196464815965463225
+      m_GuidLow: 4951444441403347743
+      m_GuidHigh: 4503088015564237755
     m_SerializedTextureGuid:
       m_GuidLow: 10215406285137648513
       m_GuidHigh: 2339973227649186059
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0226_DS040-041_stable
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5501644664603556090
-      m_GuidHigh: 3057437701824901533
+      m_GuidLow: 5561814728139858472
+      m_GuidHigh: 14793059864436591516
     m_SerializedTextureGuid:
       m_GuidLow: 14160664888287107182
       m_GuidHigh: 2670899867200372920
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0227_DS040-041_toheat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4623543523945249912
-      m_GuidHigh: 4237276278679099570
+      m_GuidLow: 5437291745082468674
+      m_GuidHigh: 10313672674908169658
     m_SerializedTextureGuid:
       m_GuidLow: 16615057380103161607
       m_GuidHigh: 10358407977366244808
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0228_DS040-041_farm
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5549877002173245500
-      m_GuidHigh: 15425674310790727602
+      m_GuidLow: 5664280931388086640
+      m_GuidHigh: 2102219860389174179
     m_SerializedTextureGuid:
       m_GuidLow: 3968942908652840227
       m_GuidHigh: 1233274782700910761
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0229_DS040-041_sheep
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5301496878798445763
-      m_GuidHigh: 2272019984273931428
+      m_GuidLow: 4622270356281251410
+      m_GuidHigh: 17181688458015133119
     m_SerializedTextureGuid:
       m_GuidLow: 7472608393560778399
       m_GuidHigh: 1769349967930976856
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0230_DS040-041_lamb
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5374386892587431556
-      m_GuidHigh: 10499743023603107476
+      m_GuidLow: 4954572823660837849
+      m_GuidHigh: 11822440086591080596
     m_SerializedTextureGuid:
       m_GuidLow: 9418343109786881951
       m_GuidHigh: 14566908054337304200
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0231_DS040-041_calf
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4731737148343629900
-      m_GuidHigh: 1746561570897243310
+      m_GuidLow: 4970451432722745109
+      m_GuidHigh: 12242412165618863490
     m_SerializedTextureGuid:
       m_GuidLow: 17713977988299249365
       m_GuidHigh: 9746879460432023899
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0232_DS040-041_cat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5227623823947415755
-      m_GuidHigh: 15397552021354409625
+      m_GuidLow: 5150679371281450592
+      m_GuidHigh: 2909998394392926393
     m_SerializedTextureGuid:
       m_GuidLow: 7310712434570041810
       m_GuidHigh: 16893503975477199243
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0233_DS040-041_chicken
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5274198551859180581
-      m_GuidHigh: 7338423773407565701
+      m_GuidLow: 4949205084776316342
+      m_GuidHigh: 17554926792705692050
     m_SerializedTextureGuid:
       m_GuidLow: 10972120880875488444
       m_GuidHigh: 3489110002194430056
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0234_DS040-041_goose
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4866708555659929922
-      m_GuidHigh: 11485848325098628765
+      m_GuidLow: 5548373481053314188
+      m_GuidHigh: 848171509393539974
     m_SerializedTextureGuid:
       m_GuidLow: 9058007039760580308
       m_GuidHigh: 15752970588246192714
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0235_DS040-041_beak
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5177979909267703088
-      m_GuidHigh: 11042011364614952091
+      m_GuidLow: 4886539123241393925
+      m_GuidHigh: 14144320849541148600
     m_SerializedTextureGuid:
       m_GuidLow: 5247884940133894425
       m_GuidHigh: 14070540290507918715
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0236_DS040-041_caged
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5411928516677727681
-      m_GuidHigh: 14918163545037181323
+      m_GuidLow: 5400661767600496413
+      m_GuidHigh: 2494327046085563794
     m_SerializedTextureGuid:
       m_GuidLow: 13449075487257535640
       m_GuidHigh: 17832014037703998744
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0237_DS040-041_field
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4758712451405675024
-      m_GuidHigh: 1382947350537396366
+      m_GuidLow: 4817375879053107197
+      m_GuidHigh: 11306885648863176868
     m_SerializedTextureGuid:
       m_GuidLow: 2789050067376210010
       m_GuidHigh: 11735960619375674138
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0238_DS040-041_mill
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5215758974799679205
-      m_GuidHigh: 16972550417229664160
+      m_GuidLow: 4925481583553988458
+      m_GuidHigh: 17480761064112201148
     m_SerializedTextureGuid:
       m_GuidLow: 3748180162162947048
       m_GuidHigh: 12576437987063093513
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0239_DS040-041_wheat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5259751291135232325
-      m_GuidHigh: 1094050421853579702
+      m_GuidLow: 5479822597510066553
+      m_GuidHigh: 9481070583161082513
     m_SerializedTextureGuid:
       m_GuidLow: 12516734330815901499
       m_GuidHigh: 11878591506576997851
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0240_DS040-041_hay
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4740142151125886620
-      m_GuidHigh: 17575046888125780396
+      m_GuidLow: 5069425522245749037
+      m_GuidHigh: 11678236058950453911
     m_SerializedTextureGuid:
       m_GuidLow: 9184234672828660174
       m_GuidHigh: 2115302336832927352
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0241_DS040-041_tail
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5078316644290492328
-      m_GuidHigh: 13793105740343461767
+      m_GuidLow: 5141523545816915167
+      m_GuidHigh: 8296997340950608028
     m_SerializedTextureGuid:
       m_GuidLow: 17966130973889480133
       m_GuidHigh: 12323316809919049881
@@ -208,8 +206,8 @@ MonoBehaviour:
     m_Name: 0242_DS040-041_fur
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5169429822106289664
-      m_GuidHigh: 5374118776111450805
+      m_GuidLow: 4778146896734393970
+      m_GuidHigh: 17508469890374244524
     m_SerializedTextureGuid:
       m_GuidLow: 17191375664012737558
       m_GuidHigh: 11179340002176989067
@@ -218,8 +216,8 @@ MonoBehaviour:
     m_Name: 0243_DS040-041_snout
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5685481929747810306
-      m_GuidHigh: 2984840664395862418
+      m_GuidLow: 5272505458052185198
+      m_GuidHigh: 15482476099409127342
     m_SerializedTextureGuid:
       m_GuidLow: 9900164033796923131
       m_GuidHigh: 17008450521097253242
@@ -228,8 +226,8 @@ MonoBehaviour:
     m_Name: 0244_DS040-041_corn
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4865457398917040748
-      m_GuidHigh: 3579345493426968999
+      m_GuidLow: 4776645463868329696
+      m_GuidHigh: 4377406580416365706
     m_SerializedTextureGuid:
       m_GuidLow: 8625556455918094539
       m_GuidHigh: 14708515858890769594
@@ -238,8 +236,8 @@ MonoBehaviour:
     m_Name: 0245_DS040-041_dirt
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5283200861056136948
-      m_GuidHigh: 2031096149289445770
+      m_GuidLow: 5646825790821605780
+      m_GuidHigh: 9739318478262980539
     m_SerializedTextureGuid:
       m_GuidLow: 8661573299813956340
       m_GuidHigh: 12245966382628942457
@@ -248,8 +246,8 @@ MonoBehaviour:
     m_Name: 0246_DS040-041_fire
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5458121202609915672
-      m_GuidHigh: 7206226319689282688
+      m_GuidLow: 5344209340691647761
+      m_GuidHigh: 17097032137979991717
     m_SerializedTextureGuid:
       m_GuidLow: 9066896082443764272
       m_GuidHigh: 7549847222644313816
@@ -258,8 +256,8 @@ MonoBehaviour:
     m_Name: 0247_DS040-041_toburn
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4807294092275459760
-      m_GuidHigh: 6778902590882530987
+      m_GuidLow: 5172905176444007166
+      m_GuidHigh: 3473901978328956310
     m_SerializedTextureGuid:
       m_GuidLow: 5743403885477313948
       m_GuidHigh: 12455169027561486874
@@ -268,8 +266,8 @@ MonoBehaviour:
     m_Name: 0248_DS040-041_flower
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4634926894795470174
-      m_GuidHigh: 15434746750054514864
+      m_GuidLow: 4811546182658931698
+      m_GuidHigh: 14459886387475188396
     m_SerializedTextureGuid:
       m_GuidLow: 17524633432444052689
       m_GuidHigh: 8978445692172959368

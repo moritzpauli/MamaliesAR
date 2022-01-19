@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS050-051
   m_EditorClassIdentifier: 
-  m_GuidLow: 5453667511098444769
-  m_GuidHigh: 5486267099783560587
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5493712804346808943
+  m_GuidHigh: 4113391348274703789
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4997832944873282076
-      m_GuidHigh: 15094277891075346329
+      m_GuidLow: 5535046509467164798
+      m_GuidHigh: 9155121813986072987
     m_SerializedTextureGuid:
       m_GuidLow: 4513745603385273572
       m_GuidHigh: 18337330882644959304
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0312_DS050-051_summer
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5035459701123653099
-      m_GuidHigh: 11439927472265688220
+      m_GuidLow: 5300304481691985836
+      m_GuidHigh: 8930985853628377507
     m_SerializedTextureGuid:
       m_GuidLow: 17885076493512892238
       m_GuidHigh: 2400645798933936712
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0313_DS050-051_toshine
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5398319639838121042
-      m_GuidHigh: 1682960061998314132
+      m_GuidLow: 4821953226813262465
+      m_GuidHigh: 11012468613118425010
     m_SerializedTextureGuid:
       m_GuidLow: 10355010175215977407
       m_GuidHigh: 2801707123482102875
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0314_DS050-051_sun
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5332687469701642188
-      m_GuidHigh: 17086002161118757519
+      m_GuidLow: 5115984592831685042
+      m_GuidHigh: 15085611886699172737
     m_SerializedTextureGuid:
       m_GuidLow: 18002128080978593970
       m_GuidHigh: 2137801441257096955
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0315_DS050-051_heat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5171765431398528061
-      m_GuidHigh: 7533048580741747109
+      m_GuidLow: 4867723278550625975
+      m_GuidHigh: 3335517066316325558
     m_SerializedTextureGuid:
       m_GuidLow: 11327883699319583984
       m_GuidHigh: 3175574558539121675
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0316_DS050-051_tosweat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5600994059675574291
-      m_GuidHigh: 13078755954186843807
+      m_GuidLow: 4828696072455880872
+      m_GuidHigh: 8673889244587026561
     m_SerializedTextureGuid:
       m_GuidLow: 7333171819826025250
       m_GuidHigh: 8061936003593859288
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0317_DS050-051_warmth
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5246996869032320540
-      m_GuidHigh: 9157718151371680683
+      m_GuidLow: 5141390036751262814
+      m_GuidHigh: 8083051110489965984
     m_SerializedTextureGuid:
       m_GuidLow: 13624714957953890696
       m_GuidHigh: 17747266342814097017
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0318_DS050-051_shadow
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5480699576434722217
-      m_GuidHigh: 13124317047547461781
+      m_GuidLow: 4858469495448277922
+      m_GuidHigh: 4574010870303259791
     m_SerializedTextureGuid:
       m_GuidLow: 16723256240444338139
       m_GuidHigh: 10065919224612061144
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0319_DS050-051_temperature
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5141820946754205975
-      m_GuidHigh: 2679615294161302434
+      m_GuidLow: 4977720733709574222
+      m_GuidHigh: 11971133498254710915
     m_SerializedTextureGuid:
       m_GuidLow: 16146541543011589730
       m_GuidHigh: 17525621621483323176
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0320_DS050-051_food
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5549363151299881573
-      m_GuidHigh: 3310218512837902003
+      m_GuidLow: 4827592479256813077
+      m_GuidHigh: 14266618134205106350
     m_SerializedTextureGuid:
       m_GuidLow: 5072334348843951097
       m_GuidHigh: 8085012140968391371
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0321_DS050-051_delicious
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5186617013709846754
-      m_GuidHigh: 1979219431375887761
+      m_GuidLow: 4723841912984764719
+      m_GuidHigh: 5755614144829080728
     m_SerializedTextureGuid:
       m_GuidLow: 8684107484068826123
       m_GuidHigh: 8910435773119469672
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0322_DS050-051_disgusting
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5541093791308215753
-      m_GuidHigh: 9658683668070103691
+      m_GuidLow: 5671002469347554945
+      m_GuidHigh: 2369658621836920755
     m_SerializedTextureGuid:
       m_GuidLow: 15385671831658308157
       m_GuidHigh: 6994209954383490298
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0323_DS050-051_cutlery
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5553680128828805747
-      m_GuidHigh: 4428932819207868858
+      m_GuidLow: 4691525752108131004
+      m_GuidHigh: 11160214184630777516
     m_SerializedTextureGuid:
       m_GuidLow: 9571459466423734205
       m_GuidHigh: 15493857358013619177
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0324_DS050-051_glass
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5470656815055341465
-      m_GuidHigh: 4085262131208860309
+      m_GuidLow: 5264699464600558638
+      m_GuidHigh: 4163988740071056566
     m_SerializedTextureGuid:
       m_GuidLow: 13232859941644724040
       m_GuidHigh: 8851805907228585080
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0325_DS050-051_bowl
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4934391919448453852
-      m_GuidHigh: 2891556864761595267
+      m_GuidLow: 5442318740418903273
+      m_GuidHigh: 12869789860841387917
     m_SerializedTextureGuid:
       m_GuidLow: 2752977381968542473
       m_GuidHigh: 7510378355394673944
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0326_DS050-051_thirst
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5492183788628135039
-      m_GuidHigh: 3050457681127037832
+      m_GuidLow: 5436668757073871130
+      m_GuidHigh: 13052160085935201209
     m_SerializedTextureGuid:
       m_GuidLow: 8513040324836157622
       m_GuidHigh: 1492613145580153019
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0327_DS050-051_hunger
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5381427010716503208
-      m_GuidHigh: 17180963502615927941
+      m_GuidLow: 5013326307414026521
+      m_GuidHigh: 16564376761859090865
     m_SerializedTextureGuid:
       m_GuidLow: 3869877845767817911
       m_GuidHigh: 4937775483679899576
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0328_DS050-051_dish
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4737836881967551460
-      m_GuidHigh: 10004180811253362326
+      m_GuidLow: 5373189913962827947
+      m_GuidHigh: 9129053287330648227
     m_SerializedTextureGuid:
       m_GuidLow: 13345454417717331922
       m_GuidHigh: 1847800270101613243

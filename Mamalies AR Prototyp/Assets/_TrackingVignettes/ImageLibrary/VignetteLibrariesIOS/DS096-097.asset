@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS096-097
   m_EditorClassIdentifier: 
-  m_GuidLow: 5421576591181559313
-  m_GuidHigh: 2734865811393374644
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 4768381500487525936
+  m_GuidHigh: 11257920839639203989
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4626712774781024861
-      m_GuidHigh: 6439629818935812537
+      m_GuidLow: 5025055589496530132
+      m_GuidHigh: 14642466021460050586
     m_SerializedTextureGuid:
       m_GuidLow: 6454853132927553683
       m_GuidHigh: 13705390549126871450
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0776_DS096-097_garden-headline
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5612499148962643486
-      m_GuidHigh: 5061302351221854096
+      m_GuidLow: 5093399949491506606
+      m_GuidHigh: 7379939293028540313
     m_SerializedTextureGuid:
       m_GuidLow: 5653309294071389737
       m_GuidHigh: 6875360171447358568
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0777_DS096-097_garden
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4781712629905993724
-      m_GuidHigh: 14396617481601437854
+      m_GuidLow: 5017929139012200250
+      m_GuidHigh: 13701657324423928718
     m_SerializedTextureGuid:
       m_GuidLow: 16542995390360609907
       m_GuidHigh: 15304809400978531211
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0778_DS096-097_lawn
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5002124769426187161
-      m_GuidHigh: 6099681362255040658
+      m_GuidLow: 5083043115205569149
+      m_GuidHigh: 6765224185188648113
     m_SerializedTextureGuid:
       m_GuidLow: 492203117117911250
       m_GuidHigh: 12833665292288821096
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0779_DS096-097_fence
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5009380602858890060
-      m_GuidHigh: 17683067888162741417
+      m_GuidLow: 5363371104725983972
+      m_GuidHigh: 16595711612836968625
     m_SerializedTextureGuid:
       m_GuidLow: 8287997393830124145
       m_GuidHigh: 3476838662474032392
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0780_DS096-097_wheelbarrow
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4825997728969868203
-      m_GuidHigh: 17032230521560758197
+      m_GuidLow: 5531655149857273917
+      m_GuidHigh: 17741434916702366395
     m_SerializedTextureGuid:
       m_GuidLow: 1397334713713675550
       m_GuidHigh: 12748670005503952186
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0781_DS096-097_toplant
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5356341691707984223
-      m_GuidHigh: 5051784510570025111
+      m_GuidLow: 5061032842397682934
+      m_GuidHigh: 3798731296449049776
     m_SerializedTextureGuid:
       m_GuidLow: 2077338942386978743
       m_GuidHigh: 10936488957803381961
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0782_DS096-097_wateringcan
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5019275319340704561
-      m_GuidHigh: 1174082829099280057
+      m_GuidLow: 5675598325279395518
+      m_GuidHigh: 6375919769871813541
     m_SerializedTextureGuid:
       m_GuidLow: 167938809782831515
       m_GuidHigh: 17502544249298455371
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0783_DS096-097_gardenhose
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4846374521769858534
-      m_GuidHigh: 3527332421490091935
+      m_GuidLow: 4672713974162755002
+      m_GuidHigh: 17956749450757035181
     m_SerializedTextureGuid:
       m_GuidLow: 6193749530018468044
       m_GuidHigh: 7399683564062333400
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0784_DS096-097_bucket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4727089478797256285
-      m_GuidHigh: 1447109195376586374
+      m_GuidLow: 4965726969776224141
+      m_GuidHigh: 7642728646842835371
     m_SerializedTextureGuid:
       m_GuidLow: 10156842814877153368
       m_GuidHigh: 3406403697798584744

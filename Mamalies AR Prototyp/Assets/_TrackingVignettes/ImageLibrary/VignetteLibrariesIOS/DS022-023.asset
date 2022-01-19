@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS022-023
   m_EditorClassIdentifier: 
-  m_GuidLow: 5428521984400958156
-  m_GuidHigh: 6182609763381332147
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5140901689877825546
+  m_GuidHigh: 15661719426112964003
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5369412605318027055
-      m_GuidHigh: 946024139003863426
+      m_GuidLow: 4987498033781480272
+      m_GuidHigh: 14452711303628462514
     m_SerializedTextureGuid:
       m_GuidLow: 7724897433185188235
       m_GuidHigh: 11739893690739854008
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0073_DS022-023_professions
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5390774547673871087
-      m_GuidHigh: 4468734971038082191
+      m_GuidLow: 5106653631315391125
+      m_GuidHigh: 16370100018918335912
     m_SerializedTextureGuid:
       m_GuidLow: 15772914555645763007
       m_GuidHigh: 6101081501515986459
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0074_DS022-023_profession
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5750009280768951403
-      m_GuidHigh: 17868388783742838173
+      m_GuidLow: 5736100658936800404
+      m_GuidHigh: 15192945520958212247
     m_SerializedTextureGuid:
       m_GuidLow: 2446724071645782391
       m_GuidHigh: 15232986555404561914
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0075_DS022-023_garbageman
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5630906880592601037
-      m_GuidHigh: 18082598809159989945
+      m_GuidLow: 5256129045827514698
+      m_GuidHigh: 2757408091414291111
     m_SerializedTextureGuid:
       m_GuidLow: 17308675341951632461
       m_GuidHigh: 5129085377048528377
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0076_DS022-023_postman
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5214758309609107383
-      m_GuidHigh: 3306184939106038170
+      m_GuidLow: 5107940592038684163
+      m_GuidHigh: 10037705121009723294
     m_SerializedTextureGuid:
       m_GuidLow: 2068469658988660857
       m_GuidHigh: 9921818311424036234
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0077_DS022-023_firefighter
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5662784313169601142
-      m_GuidHigh: 9466181353389302458
+      m_GuidLow: 5350350957527110043
+      m_GuidHigh: 6482232147904171663
     m_SerializedTextureGuid:
       m_GuidLow: 7616885613475610322
       m_GuidHigh: 2906261762189361769
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0078_DS022-023_constructionworker
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4655103194294955798
-      m_GuidHigh: 7013634956469167787
+      m_GuidLow: 5507864821445723209
+      m_GuidHigh: 11843656675835951503
     m_SerializedTextureGuid:
       m_GuidLow: 4396784784801293877
       m_GuidHigh: 18356075206782070299
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0079_DS022-023_nurseryschoolteacher
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5617120445761068167
-      m_GuidHigh: 14427240908141318552
+      m_GuidLow: 4616416967262580346
+      m_GuidHigh: 10582102325335434399
     m_SerializedTextureGuid:
       m_GuidLow: 6621507352821505562
       m_GuidHigh: 15413798498808218024
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0080_DS022-023_salesman
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5106206239311302025
-      m_GuidHigh: 12069281910903541917
+      m_GuidLow: 5383898535357298994
+      m_GuidHigh: 12573078349080477323
     m_SerializedTextureGuid:
       m_GuidLow: 10476548041707523333
       m_GuidHigh: 10315722433332355306
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0081_DS022-023_judge
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5119140239431774807
-      m_GuidHigh: 7490554821423702954
+      m_GuidLow: 4616745972176795548
+      m_GuidHigh: 14220889476267789195
     m_SerializedTextureGuid:
       m_GuidLow: 13836329122672476594
       m_GuidHigh: 1046955555855829626
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0082_DS022-023_hairdresser
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5494843155514539444
-      m_GuidHigh: 8690380681285610399
+      m_GuidLow: 4691974273064801645
+      m_GuidHigh: 4337772336946996411
     m_SerializedTextureGuid:
       m_GuidLow: 16006995153134734761
       m_GuidHigh: 6530921091881766571
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0083_DS022-023_journalist
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4936819334087480781
-      m_GuidHigh: 16092648895386757311
+      m_GuidLow: 5689555787678291549
+      m_GuidHigh: 16712166344167761557
     m_SerializedTextureGuid:
       m_GuidLow: 12030351323718494948
       m_GuidHigh: 4502627402180468728
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0084_DS022-023_lawyer
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4671244797862250135
-      m_GuidHigh: 967580070184768189
+      m_GuidLow: 5126308960103331455
+      m_GuidHigh: 9961399691035028362
     m_SerializedTextureGuid:
       m_GuidLow: 9449945599395212538
       m_GuidHigh: 6270877845108586872
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0085_DS022-023_policewoman
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5623824702933798648
-      m_GuidHigh: 4229686237760723081
+      m_GuidLow: 5152403674913370425
+      m_GuidHigh: 13771514447705008529
     m_SerializedTextureGuid:
       m_GuidLow: 8440896078532808209
       m_GuidHigh: 2499527150769650939

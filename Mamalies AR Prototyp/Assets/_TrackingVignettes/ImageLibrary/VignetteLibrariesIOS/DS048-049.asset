@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS048-049
   m_EditorClassIdentifier: 
-  m_GuidLow: 5171031357214845917
-  m_GuidHigh: 10548523921197701275
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5117284407397362915
+  m_GuidHigh: 18310049550597612934
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5204643852848306227
-      m_GuidHigh: 16184445602173052336
+      m_GuidLow: 4659190563050752173
+      m_GuidHigh: 16443509223589081499
     m_SerializedTextureGuid:
       m_GuidLow: 12620324418891715605
       m_GuidHigh: 16096421144946946331
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0295_DS048-049_water
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5085478386497037724
-      m_GuidHigh: 17848014105923670698
+      m_GuidLow: 5583098291789647662
+      m_GuidHigh: 18104190622758363310
     m_SerializedTextureGuid:
       m_GuidLow: 14813701274381100624
       m_GuidHigh: 1648052426254794043
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0296_DS048-049_toangle
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5445679481236608742
-      m_GuidHigh: 12829394668008501128
+      m_GuidLow: 5069474015278906706
+      m_GuidHigh: 1733756509193317047
     m_SerializedTextureGuid:
       m_GuidLow: 16678054695869717733
       m_GuidHigh: 9634971970995330025
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0297_DS048-049_fishingrod
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4795677220525532807
-      m_GuidHigh: 1403785294332957320
+      m_GuidLow: 5524558764533118891
+      m_GuidHigh: 11231626626949603496
     m_SerializedTextureGuid:
       m_GuidLow: 9981308392079577864
       m_GuidHigh: 5078111172494687803
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0298_DS048-049_tofish
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4739473363953214918
-      m_GuidHigh: 7747215304217761459
+      m_GuidLow: 4735255235517523163
+      m_GuidHigh: 10459255721146173628
     m_SerializedTextureGuid:
       m_GuidLow: 10620781046089226516
       m_GuidHigh: 8801098637904721242
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0299_DS048-049_fish
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5201559555772927842
-      m_GuidHigh: 4479228375298505881
+      m_GuidLow: 5475793602841201851
+      m_GuidHigh: 9615242355594000566
     m_SerializedTextureGuid:
       m_GuidLow: 16281651370632774716
       m_GuidHigh: 14988008818886437531
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0300_DS048-049_boat
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5180778457771810046
-      m_GuidHigh: 16044789326358140831
+      m_GuidLow: 5636416114231233921
+      m_GuidHigh: 14902425325359231927
     m_SerializedTextureGuid:
       m_GuidLow: 14642344325207774817
       m_GuidHigh: 16190510481962287608
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0301_DS048-049_sail
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5361966115844176468
-      m_GuidHigh: 1502566602468296591
+      m_GuidLow: 4821574681835207665
+      m_GuidHigh: 5073344944590910087
     m_SerializedTextureGuid:
       m_GuidLow: 17691482186082033409
       m_GuidHigh: 6678153453888229497
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0302_DS048-049_tosail
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4723536129893589125
-      m_GuidHigh: 11020891575342262935
+      m_GuidLow: 4666331494817102076
+      m_GuidHigh: 6878724430946603688
     m_SerializedTextureGuid:
       m_GuidLow: 2811448402831574565
       m_GuidHigh: 6184666185755480793
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0303_DS048-049_ship
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4976993012637750537
-      m_GuidHigh: 11972697321277938349
+      m_GuidLow: 5354187529223245026
+      m_GuidHigh: 14914140333629872000
     m_SerializedTextureGuid:
       m_GuidLow: 16741175654446560494
       m_GuidHigh: 9047652643589807850
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0304_DS048-049_sea
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5676310807226135544
-      m_GuidHigh: 14113349342501799830
+      m_GuidLow: 4785397789615820084
+      m_GuidHigh: 14132649244517535417
     m_SerializedTextureGuid:
       m_GuidLow: 18024744652166235933
       m_GuidHigh: 5667615335019035722
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0305_DS048-049_beach
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5458608916826321394
-      m_GuidHigh: 15545655402366910141
+      m_GuidLow: 5057353417685034223
+      m_GuidHigh: 6587636909050846891
     m_SerializedTextureGuid:
       m_GuidLow: 6553896452652641991
       m_GuidHigh: 15711028911277719946
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0306_DS048-049_sand
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4689798693335479627
-      m_GuidHigh: 16047846626403420581
+      m_GuidLow: 5593834538917530700
+      m_GuidHigh: 4802987951031726722
     m_SerializedTextureGuid:
       m_GuidLow: 15579222869508291608
       m_GuidHigh: 10957811979482061403
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0307_DS048-049_spring
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5207328294851428986
-      m_GuidHigh: 15019477987299869612
+      m_GuidLow: 5186340650532154375
+      m_GuidHigh: 6434211732046100626
     m_SerializedTextureGuid:
       m_GuidLow: 18222774658431190414
       m_GuidHigh: 3107383281008986328
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0308_DS048-049_river
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5050473751985736242
-      m_GuidHigh: 7009125039866304172
+      m_GuidLow: 5498346257245653305
+      m_GuidHigh: 7525154777544372626
     m_SerializedTextureGuid:
       m_GuidLow: 8157342664199984328
       m_GuidHigh: 12176196147239885242
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0309_DS048-049_lake
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5002089887926585916
-      m_GuidHigh: 6906431314959731647
+      m_GuidLow: 5176506399145531862
+      m_GuidHigh: 7194434585655693459
     m_SerializedTextureGuid:
       m_GuidLow: 17916478894268529630
       m_GuidHigh: 16441822819324406987
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0310_DS048-049_flood
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5504469390416102225
-      m_GuidHigh: 18379934569721774518
+      m_GuidLow: 4741189530796658031
+      m_GuidHigh: 14674742340554444936
     m_SerializedTextureGuid:
       m_GuidLow: 10021820323068184579
       m_GuidHigh: 14130925491896487785

@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS060-061
   m_EditorClassIdentifier: 
-  m_GuidLow: 4927088415795895370
-  m_GuidHigh: 3978841285872973954
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5280242459495496184
+  m_GuidHigh: 10100103345878637985
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 5523650589972867807
-      m_GuidHigh: 686557582766942899
+      m_GuidLow: 5435757586142183491
+      m_GuidHigh: 5846709048074221489
     m_SerializedTextureGuid:
       m_GuidLow: 8918527400617768291
       m_GuidHigh: 14456436128196839563
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0419_DS060-061_traveling
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5291778578977725653
-      m_GuidHigh: 3228145643722070443
+      m_GuidLow: 5346110615801826519
+      m_GuidHigh: 225251829945360302
     m_SerializedTextureGuid:
       m_GuidLow: 10404568900554952400
       m_GuidHigh: 17154570881224240088
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0420_DS060-061_airplane
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4874843305025318156
-      m_GuidHigh: 4177513275414087578
+      m_GuidLow: 4622642507397388684
+      m_GuidHigh: 9713469079152818077
     m_SerializedTextureGuid:
       m_GuidLow: 11737700520854735555
       m_GuidHigh: 4323421194664005515
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0421_DS060-061_tofly
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4859191280219195019
-      m_GuidHigh: 987093684265557160
+      m_GuidLow: 5229025221922508190
+      m_GuidHigh: 16765232760592751780
     m_SerializedTextureGuid:
       m_GuidLow: 17006973784024249989
       m_GuidHigh: 18099224497874932618
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0422_DS060-061_bridge
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4661849601285509751
-      m_GuidHigh: 4177899704737293246
+      m_GuidLow: 5415980529856225356
+      m_GuidHigh: 1618109319543287193
     m_SerializedTextureGuid:
       m_GuidLow: 15610827574326622500
       m_GuidHigh: 5705159338821319864
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0423_DS060-061_vacation
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5127847692781500985
-      m_GuidHigh: 3981226181776788397
+      m_GuidLow: 5483120423997257658
+      m_GuidHigh: 6317821439966587038
     m_SerializedTextureGuid:
       m_GuidLow: 15322453231972500842
       m_GuidHigh: 3829488106214211225
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0424_DS060-061_holidays
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4879500331670242851
-      m_GuidHigh: 18387396312852831904
+      m_GuidLow: 5293774081417655594
+      m_GuidHigh: 4005501737587947914
     m_SerializedTextureGuid:
       m_GuidLow: 14358806528011671925
       m_GuidHigh: 9605012638177393049
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0425_DS060-061_foreign
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5076633546427382046
-      m_GuidHigh: 958551868333777581
+      m_GuidLow: 5007730363398280352
+      m_GuidHigh: 6578456964892642974
     m_SerializedTextureGuid:
       m_GuidLow: 6193749148570790137
       m_GuidHigh: 10785694190404847656
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0426_DS060-061_tourists
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5585913152710685959
-      m_GuidHigh: 2600225096435690881
+      m_GuidLow: 4808676554687713344
+      m_GuidHigh: 7809253276605676208
     m_SerializedTextureGuid:
       m_GuidLow: 5558816460119252123
       m_GuidHigh: 12095132011112321435
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0427_DS060-061_experience
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5651531591374800459
-      m_GuidHigh: 7703979224023055550
+      m_GuidLow: 4937140732463559186
+      m_GuidHigh: 4109150564336411796
     m_SerializedTextureGuid:
       m_GuidLow: 2406153723586728274
       m_GuidHigh: 9755957610552812856
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0428_DS060-061_suitcase
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4935254386017842143
-      m_GuidHigh: 4265852269897136297
+      m_GuidLow: 5045651562464912983
+      m_GuidHigh: 6876099047522477979
     m_SerializedTextureGuid:
       m_GuidLow: 8715661185538897515
       m_GuidHigh: 12869671290810259643

@@ -12,14 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DS066-067
   m_EditorClassIdentifier: 
-  m_GuidLow: 5139475183213034143
-  m_GuidHigh: 4727030261849449647
-  m_DataStore:
-    m_Storage: []
+  m_GuidLow: 5554975026587744453
+  m_GuidHigh: 9088225868662392509
   m_Images:
   - m_SerializedGuid:
-      m_GuidLow: 4732734764025612827
-      m_GuidHigh: 11528244147641948571
+      m_GuidLow: 4790306010161454702
+      m_GuidHigh: 12088166895817590438
     m_SerializedTextureGuid:
       m_GuidLow: 3248341932401424201
       m_GuidHigh: 2095289288604981928
@@ -28,8 +26,8 @@ MonoBehaviour:
     m_Name: 0475_DS066-067_clothes
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5338706219748531669
-      m_GuidHigh: 3064534126806110601
+      m_GuidLow: 4948584533088935610
+      m_GuidHigh: 2252652252324944263
     m_SerializedTextureGuid:
       m_GuidLow: 12386250444814552923
       m_GuidHigh: 15319513321540275497
@@ -38,8 +36,8 @@ MonoBehaviour:
     m_Name: 0476_DS066-067_tights
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4982432975633020624
-      m_GuidHigh: 10357771389509931927
+      m_GuidLow: 4683296139618683460
+      m_GuidHigh: 8007341596521206706
     m_SerializedTextureGuid:
       m_GuidLow: 14660458458844786004
       m_GuidHigh: 9761324699547959067
@@ -48,8 +46,8 @@ MonoBehaviour:
     m_Name: 0477_DS066-067_bathingsuit
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5369301999308344472
-      m_GuidHigh: 11915586833305323677
+      m_GuidLow: 5053275279146032035
+      m_GuidHigh: 6595871144854435724
     m_SerializedTextureGuid:
       m_GuidLow: 11989711038713508515
       m_GuidHigh: 6316421954675933241
@@ -58,8 +56,8 @@ MonoBehaviour:
     m_Name: 0478_DS066-067_blouse
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5536642323870018137
-      m_GuidHigh: 8458379179388608912
+      m_GuidLow: 5663084061860392966
+      m_GuidHigh: 10114486158495122360
     m_SerializedTextureGuid:
       m_GuidLow: 18159891828716598932
       m_GuidHigh: 5194443477354447944
@@ -68,8 +66,8 @@ MonoBehaviour:
     m_Name: 0479_DS066-067_sweater
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5411590040414460453
-      m_GuidHigh: 4678362575728676489
+      m_GuidLow: 5530714621922984457
+      m_GuidHigh: 8729017435211591299
     m_SerializedTextureGuid:
       m_GuidLow: 9274249906855044873
       m_GuidHigh: 2145038238064523099
@@ -78,8 +76,8 @@ MonoBehaviour:
     m_Name: 0480_DS066-067_dress
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5414393586262426148
-      m_GuidHigh: 5259537102126777730
+      m_GuidLow: 4910659339287405636
+      m_GuidHigh: 6526036625874650277
     m_SerializedTextureGuid:
       m_GuidLow: 6405378576573925954
       m_GuidHigh: 13400038998510179225
@@ -88,8 +86,8 @@ MonoBehaviour:
     m_Name: 0481_DS066-067_underwear
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5427319536643386729
-      m_GuidHigh: 15895997017826538884
+      m_GuidLow: 4768422669574564598
+      m_GuidHigh: 13105932769877576088
     m_SerializedTextureGuid:
       m_GuidLow: 15750493419025513770
       m_GuidHigh: 1185707335758073305
@@ -98,8 +96,8 @@ MonoBehaviour:
     m_Name: 0482_DS066-067_trousers
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4833405448970066399
-      m_GuidHigh: 10112799255826414499
+      m_GuidLow: 5548955187080164057
+      m_GuidHigh: 11277569806090502531
     m_SerializedTextureGuid:
       m_GuidLow: 13827236975413634751
       m_GuidHigh: 2580998427845482250
@@ -108,8 +106,8 @@ MonoBehaviour:
     m_Name: 0483_DS066-067_sandals
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4854362149627859516
-      m_GuidHigh: 7707618180075024566
+      m_GuidLow: 5482143327716631385
+      m_GuidHigh: 17588924415966174116
     m_SerializedTextureGuid:
       m_GuidLow: 13439918557456505457
       m_GuidHigh: 11423770349903454296
@@ -118,8 +116,8 @@ MonoBehaviour:
     m_Name: 0484_DS066-067_sneaker
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5296170244930859012
-      m_GuidHigh: 16718810502465490560
+      m_GuidLow: 5109480962109081580
+      m_GuidHigh: 2156551117156779691
     m_SerializedTextureGuid:
       m_GuidLow: 4230021322107380748
       m_GuidHigh: 7089869108906401544
@@ -128,8 +126,8 @@ MonoBehaviour:
     m_Name: 0485_DS066-067_glove
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5737792374942286822
-      m_GuidHigh: 14490253701461357490
+      m_GuidLow: 5061411324000636931
+      m_GuidHigh: 12558421117318706360
     m_SerializedTextureGuid:
       m_GuidLow: 12813891131887363846
       m_GuidHigh: 13719154070254991034
@@ -138,8 +136,8 @@ MonoBehaviour:
     m_Name: 0486_DS066-067_shirt
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5228001946242182142
-      m_GuidHigh: 14235126106922106527
+      m_GuidLow: 5318581822191449964
+      m_GuidHigh: 3856952768521871779
     m_SerializedTextureGuid:
       m_GuidLow: 14124421572363393603
       m_GuidHigh: 4888332157314500539
@@ -148,8 +146,8 @@ MonoBehaviour:
     m_Name: 0487_DS066-067_jacket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4738284389921192728
-      m_GuidHigh: 3679037052904559291
+      m_GuidLow: 5603875392313359301
+      m_GuidHigh: 9057887803742121104
     m_SerializedTextureGuid:
       m_GuidLow: 8463478091323294741
       m_GuidHigh: 16436832037736954715
@@ -158,8 +156,8 @@ MonoBehaviour:
     m_Name: 0488_DS066-067_pocket
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4630753479012967126
-      m_GuidHigh: 6884500188691923890
+      m_GuidLow: 4955770360939946616
+      m_GuidHigh: 7253867311011695295
     m_SerializedTextureGuid:
       m_GuidLow: 631688467188233367
       m_GuidHigh: 6909920585398772584
@@ -168,8 +166,8 @@ MonoBehaviour:
     m_Name: 0489_DS066-067_pyjamas
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4660215170786470491
-      m_GuidHigh: 9410877082475270591
+      m_GuidLow: 5030915728577446098
+      m_GuidHigh: 15454090144196000669
     m_SerializedTextureGuid:
       m_GuidLow: 208561622864491840
       m_GuidHigh: 12116703507091099386
@@ -178,8 +176,8 @@ MonoBehaviour:
     m_Name: 0490_DS066-067_jeans
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4993570916012806336
-      m_GuidHigh: 16739837350786728383
+      m_GuidLow: 5078382912489206202
+      m_GuidHigh: 7515720263533923464
     m_SerializedTextureGuid:
       m_GuidLow: 13205850062590522401
       m_GuidHigh: 1573316310969189067
@@ -188,8 +186,8 @@ MonoBehaviour:
     m_Name: 0491_DS066-067_bathingtrunks
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5571595363129495191
-      m_GuidHigh: 11163168203250416812
+      m_GuidLow: 5523936225693329212
+      m_GuidHigh: 9841631733808486584
     m_SerializedTextureGuid:
       m_GuidLow: 16664627903548160968
       m_GuidHigh: 3901299543077964650
@@ -198,8 +196,8 @@ MonoBehaviour:
     m_Name: 0492_DS066-067_socks
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 5404712920356856250
-      m_GuidHigh: 1194719099203315109
+      m_GuidLow: 5336243035315602837
+      m_GuidHigh: 7063823930187662505
     m_SerializedTextureGuid:
       m_GuidLow: 3072715731832155429
       m_GuidHigh: 16245665518064292985
@@ -208,8 +206,8 @@ MonoBehaviour:
     m_Name: 0493_DS066-067_shoe
     m_Texture: {fileID: 0}
   - m_SerializedGuid:
-      m_GuidLow: 4782753885378645076
-      m_GuidHigh: 6409599809916782256
+      m_GuidLow: 5542365450076618646
+      m_GuidHigh: 2809294831201139884
     m_SerializedTextureGuid:
       m_GuidLow: 10719777387430131233
       m_GuidHigh: 5862204772224882088
