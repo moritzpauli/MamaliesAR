@@ -411,7 +411,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 SelectNewPageLibrary(image.referenceImage.name);
             }
 
-            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None)
+            if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None && image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
             {
                 RemoveTrackedObject(image);
             }
@@ -675,7 +675,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         scanTimer = 0;
         voiceLinePlayer.PlayVoiceLine(vignetteName);
         //StartCoroutine(ResetTracking());
-        //DestroyTrackingObjects();
+        DestroyTrackingObjects();
     }
 
     /// <summary>

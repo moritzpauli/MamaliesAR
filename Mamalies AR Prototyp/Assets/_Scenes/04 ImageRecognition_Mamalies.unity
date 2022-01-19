@@ -2003,7 +2003,7 @@ MonoBehaviour:
   useMutableLibrary: 0
   loadingPanel: {fileID: 1962522510}
   loadNewLibraryTime: 1
-  loadNewLibraryTimeInitalDelay: 0.6
+  loadNewLibraryTimeInitalDelay: 0.7
   testTex: {fileID: 2800000, guid: d6149c5f7358c0a45bfc6c04d4bfb4e5, type: 3}
 --- !u!1 &1114040580
 GameObject:
