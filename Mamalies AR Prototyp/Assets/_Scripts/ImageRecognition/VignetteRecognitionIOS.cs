@@ -137,7 +137,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
     AsyncOperationHandle<IList<Texture2D>> trackingTextureHandle;
     AsyncOperationHandle<IList<Texture2D>> pageReferenceTextureHandle;
 
-  
+
 
     //ios generation
 #if UNITY_IOS
@@ -190,14 +190,14 @@ public class VignetteRecognitionIOS : MonoBehaviour
         //	}
 
 
-       
-        
-            mutableSinglePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(singlePagesLibrary);
-        
-            mutableDoublePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(doublePagesLibrary);
-        
 
-        for(int i = 0; i < mutableSinglePageLibrary.supportedTextureFormatCount; i++)
+
+        mutableSinglePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(singlePagesLibrary);
+
+        mutableDoublePageLibrary = (MutableRuntimeReferenceImageLibrary)arTrackedImageManager.CreateRuntimeLibrary(doublePagesLibrary);
+
+
+        for (int i = 0; i < mutableSinglePageLibrary.supportedTextureFormatCount; i++)
         {
             print(mutableSinglePageLibrary.GetSupportedTextureFormatAt(i));
         }
@@ -268,7 +268,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         SwapImageLibraries();
 
-   
+
     }
 
 
@@ -325,7 +325,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         }
 
-        if (!doublePagesLibrary)
+        if (!useDoublePages)
         {
             mutableRuntimeLibrary = mutableSinglePageLibrary;
         }
@@ -398,7 +398,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             //Debug.Log(image.referenceImage.name + " ADDED");
             // addedTrackablesDebug.text += " " + image.referenceImage.name;
 
-            
+
 
         }
 
@@ -424,7 +424,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                     bool objectAdded = false;
                     foreach (GameObject gObject in arTrackedImageObjectList)
                     {
-                        if(gObject.name == image.referenceImage.name)
+                        if (gObject.name == image.referenceImage.name)
                         {
                             objectAdded = true;
                         }
