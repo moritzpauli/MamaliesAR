@@ -135,4 +135,9 @@ public class VoiceLinePlayer : MonoBehaviour
             //Addressables.Release(clipHandle.Result);
         }
     }
+
+    public void SetReadingInterval(float newInterval)
+    {
+        timeBetweenLanguages = newInterval;
+    }
 }

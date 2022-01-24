@@ -99,7 +99,7 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8584469165667726771}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -376,7 +376,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 230, y: 455}
+  m_AnchoredPosition: {x: 191.49, y: 459}
   m_SizeDelta: {x: 576.54004, y: 85.20203}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &8584469166570928917
@@ -407,7 +407,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Tutorial DE
+  m_text: 'Tutorial
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea559dc6b2f92944c8b8fb4f07a8da00, type: 2}
   m_sharedMaterial: {fileID: 977489294684788868, guid: ea559dc6b2f92944c8b8fb4f07a8da00, type: 2}
