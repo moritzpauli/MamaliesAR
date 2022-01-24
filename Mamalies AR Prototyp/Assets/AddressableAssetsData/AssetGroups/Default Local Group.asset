@@ -5029,13 +5029,6 @@ MonoBehaviour:
     - de
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
-  - m_GUID: 98497cd0bf1811c46863f43d9b111dc5
-    m_Address: Assets/_VoiceLines/de/de_0687_DS088-089_living room.mp3
-    m_ReadOnly: 0
-    m_SerializedLabels:
-    - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
   - m_GUID: 522e80635c2eda14385c7f8c89404ad0
     m_Address: Assets/_VoiceLines/de/de_0061_DS020-021_glasses.mp3
     m_ReadOnly: 0
@@ -7883,8 +7876,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: a07f965c49159e2459af157b0e6df261
     m_Address: Assets/_VoiceLines/de/de_0721_DS090-091_comb.mp3
     m_ReadOnly: 0
@@ -7911,15 +7904,15 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 86430af96d83ab745920f589971ece12, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 86430af96d83ab745920f589971ece12, type: 3}
   - m_GUID: b8b7e6513d2a05c4ea34c6d77ea9708a
     m_Address: Assets/_VoiceLines/de/de_0218_DS038-039_zoo.mp3
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: b8b7e6513d2a05c4ea34c6d77ea9708a, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: b8b7e6513d2a05c4ea34c6d77ea9708a, type: 3}
   - m_GUID: 882cbe3e767bc604e9279ec1e6da14d2
     m_Address: Assets/_TrackingVignettes/ProductionImages/0882_DS106-107_tospeak.png
     m_ReadOnly: 0
@@ -15758,8 +15751,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 57cba785ff1e88c45847152a51a6808b, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 57cba785ff1e88c45847152a51a6808b, type: 3}
   - m_GUID: 2075485a28284554c8aef70627c7de07
     m_Address: Assets/_TrackingVignettes/ProductionImages/0002_DS016-017_parents.png
     m_ReadOnly: 0
@@ -16514,6 +16507,13 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - pageReference
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
+  - m_GUID: 98497cd0bf1811c46863f43d9b111dc5
+    m_Address: Assets/_VoiceLines/de/de_0687_DS088-089_living-room.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - de
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   m_ReadOnly: 0
