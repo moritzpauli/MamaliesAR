@@ -970,7 +970,7 @@ MonoBehaviour:
     reporterScrollerSkin: {fileID: 11400000, guid: 1cc68832d00d3284a9324a4dc05be753, type: 2}
   size: {x: 32, y: 32}
   maxSize: 20
-  numOfCircleToShow: 0
+  numOfCircleToShow: 1
   Initialized: 0
 --- !u!4 &223974229
 Transform:
