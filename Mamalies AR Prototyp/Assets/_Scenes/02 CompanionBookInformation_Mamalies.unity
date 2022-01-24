@@ -1635,7 +1635,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fede48b3596921746a7777e2be944b5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainMenuSceneName: 03 MainMenu_Mamalies
+  mainMenuSceneName: 03 StartTutorialPage_Mamalies
 --- !u!4 &2086750589
 Transform:
   m_ObjectHideFlags: 0

@@ -13,12 +13,23 @@ public class LanguageButton : MonoBehaviour
     private GameObject selectedNumberOne;
     private GameObject selectedNumberTwo;
 
+    [SerializeField]
+    private bool tutorialButton;
+
     private void Start()
     {
         background = transform.GetChild(0).gameObject;
         selectedOrder = transform.GetChild(2).gameObject;
         selectedNumberOne = transform.GetChild(2).GetChild(0).gameObject;
         selectedNumberTwo = transform.GetChild(2).GetChild(1).gameObject;
+        if (tutorialButton && !selected)
+        {
+            DeselectButton();
+        }
+        if (tutorialButton)
+        {
+            selectedOrder.SetActive(false);
+        }
     }
 
     //sets variables and visually selects button
@@ -28,17 +39,20 @@ public class LanguageButton : MonoBehaviour
 
 
         background.SetActive(true);
-        selectedOrder.SetActive(true);
+        if (!tutorialButton)
+        {
+            selectedOrder.SetActive(true);
 
-        if (first)
-        {
-            selectedNumberOne.SetActive(true);
-            selectedNumberTwo.SetActive(false);
-        }
-        else
-        {
-            selectedNumberOne.SetActive(false);
-            selectedNumberTwo.SetActive(true);
+            if (first)
+            {
+                selectedNumberOne.SetActive(true);
+                selectedNumberTwo.SetActive(false);
+            }
+            else
+            {
+                selectedNumberOne.SetActive(false);
+                selectedNumberTwo.SetActive(true);
+            }
         }
     }
 

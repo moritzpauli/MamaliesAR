@@ -6,26 +6,48 @@ using UnityEngine.SceneManagement;
 public class CompanionInformationManager : MonoBehaviour
 {
     private string doShowCompanionInformationKey = "doShowCompanionInformation";
+    private string doShowStartupTutorialKey = "doShowStartupTutorial";
 
     [Tooltip("The scene that will be loaded after this scene")]
     [SerializeField]
     public string mainMenuSceneName;
+
+    [SerializeField]
+    private bool tutorialPage;
 
     /// <summary>
     /// Checks if player prefers to not see the companion book information again
     /// </summary>
     void Start()
     {
-        if (!PlayerPrefs.HasKey(doShowCompanionInformationKey))
+        if (!tutorialPage)
         {
-            PlayerPrefs.SetInt(doShowCompanionInformationKey, 1);
+            if (!PlayerPrefs.HasKey(doShowCompanionInformationKey))
+            {
+                PlayerPrefs.SetInt(doShowCompanionInformationKey, 1);
+            }
+            else
+            {
+                if (PlayerPrefs.GetInt(doShowCompanionInformationKey) == 0)
+                {
+                    //SceneManager.LoadScene(mainMenuSceneName);
+                    SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+                }
+            }
         }
         else
         {
-            if (PlayerPrefs.GetInt(doShowCompanionInformationKey) == 0)
+            if (!PlayerPrefs.HasKey(doShowStartupTutorialKey))
             {
-                //SceneManager.LoadScene(mainMenuSceneName);
-                SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+                PlayerPrefs.SetInt(doShowStartupTutorialKey, 1);
+            }
+            else
+            {
+                if (PlayerPrefs.GetInt(doShowStartupTutorialKey) == 0)
+                {
+                    //SceneManager.LoadScene(mainMenuSceneName);
+                    SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+                }
             }
         }
     }
@@ -39,13 +61,27 @@ public class CompanionInformationManager : MonoBehaviour
     
     public void SetCompanionMessagePlayerPrefs(bool dontShowAgain)
     {
-        if (dontShowAgain)
+        if (!tutorialPage)
         {
-            PlayerPrefs.SetInt(doShowCompanionInformationKey, 0);
+            if (dontShowAgain)
+            {
+                PlayerPrefs.SetInt(doShowCompanionInformationKey, 0);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(doShowCompanionInformationKey, 1);
+            }
         }
         else
         {
-            PlayerPrefs.SetInt(doShowCompanionInformationKey, 1);
+            if (dontShowAgain)
+            {
+                PlayerPrefs.SetInt(doShowStartupTutorialKey, 0);
+            }
+            else
+            {
+                PlayerPrefs.SetInt(doShowStartupTutorialKey, 1);
+            }
         }
     }
 }

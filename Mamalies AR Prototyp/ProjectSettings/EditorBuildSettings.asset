@@ -7,16 +7,19 @@ EditorBuildSettings:
   m_Scenes:
   - enabled: 1
     path: Assets/_Scenes/01 Splashscreen_Mamalies.unity
-    guid: a5d0c0298d006cf4aaf462a4ba5d005f
+    guid: 6aa1aa5bf95fcc94f8d29652675fbe02
   - enabled: 1
     path: Assets/_Scenes/02 CompanionBookInformation_Mamalies.unity
-    guid: 63e84ee898a23de45aaed07c2f936b80
+    guid: 9db2c68ffa2e10d488d80656cdc557df
   - enabled: 1
-    path: Assets/_Scenes/03 MainMenu_Mamalies.unity
-    guid: aff209c2ff0a2e3478e760c097841c5b
+    path: Assets/_Scenes/03 StartTutorialPage_Mamalies.unity
+    guid: e81633bad3e9614409de2627e202b5db
   - enabled: 1
-    path: Assets/_Scenes/04 ImageRecognition_Mamalies.unity
-    guid: 5f612922b29c3cd40b1318a2b71f9cd1
+    path: Assets/_Scenes/04 MainMenu_Mamalies.unity
+    guid: 7f0a2814bc8343443afe1bd1e2f190df
+  - enabled: 1
+    path: Assets/_Scenes/05 ImageRecognition_Mamalies.unity
+    guid: 40b1b4d884d501d4b83af50ab6129b85
   m_configObjects:
     Unity.XR.WindowsMR.Settings: {fileID: 11400000, guid: 744b813df90924c169af73489b8325de, type: 2}
     UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 007e58b6044829749b1aee97f9b15aa6, type: 2}
