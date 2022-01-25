@@ -10,10 +10,15 @@ public class StartupTutorialManager : MonoBehaviour
     private LanguageButton[] tutorialLanguageButtons;
 
     [SerializeField]
-    private GameObject[] tutorialTextFields;
+    private GameObject[] tutorialTexts;
 
     [SerializeField]
     private ScrollRect tutorialScroll;
+
+    [SerializeField]
+    private Canvas canvas;
+
+
 
     private void Start()
     {
@@ -22,17 +27,22 @@ public class StartupTutorialManager : MonoBehaviour
         {
             if (button.selected)
             {
-                startSelected = button.name;
+                startSelected = button.gameObject.name.ToLower();
                 break;
             }
         }
 
-        foreach(GameObject go in tutorialTextFields)
+        foreach(GameObject go in tutorialTexts)
         {
-            if(go.name == startSelected)
+            if(go.name.ToLower() == startSelected)
             {
                 go.SetActive(true);
-                break;
+                tutorialScroll.content = go.GetComponent<RectTransform>();
+                
+            }
+            else
+            {
+                go.SetActive(false);
             }
         }
     }
@@ -47,7 +57,7 @@ public class StartupTutorialManager : MonoBehaviour
     {
         foreach (LanguageButton button in tutorialLanguageButtons)
         {
-            if (button.name != lang)
+            if (button.gameObject.name.ToLower() != lang)
             {
                 button.DeselectButton();
             }
@@ -57,19 +67,19 @@ public class StartupTutorialManager : MonoBehaviour
             }
         }
 
-        foreach (GameObject go in tutorialTextFields)
+        foreach (GameObject go in tutorialTexts)
         {
-            if (go.name != lang)
+            if (go.name.ToLower() != lang)
             {
                 go.SetActive(false);
             }
             else
             {
                 go.SetActive(true);
+                tutorialScroll.content = go.GetComponent<RectTransform>();
             }
         }
 
-        //TODO-TEST correctly recalculate the scroll size
-        tutorialScroll.GraphicUpdateComplete();
+       // tutorialScroll.Rebuild(CanvasUpdate.LatePreRender);
     }
 }

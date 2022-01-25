@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &8685696326768333117
+--- !u!1 &4414902568929258116
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,24 +8,24 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 8685696326768333106}
-  - component: {fileID: 8685696326768333104}
-  - component: {fileID: 8685696326768333107}
+  - component: {fileID: 4414902568929258123}
+  - component: {fileID: 4414902568929258121}
+  - component: {fileID: 4414902568929258122}
   m_Layer: 5
-  m_Name: AL
+  m_Name: EN
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &8685696326768333106
+--- !u!224 &4414902568929258123
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8685696326768333117}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_GameObject: {fileID: 4414902568929258116}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -34,24 +34,24 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -729.8522}
-  m_SizeDelta: {x: 0, y: 1459.7041}
+  m_AnchoredPosition: {x: 0, y: -518.6662}
+  m_SizeDelta: {x: 0, y: 1037.332}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &8685696326768333104
+--- !u!222 &4414902568929258121
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8685696326768333117}
+  m_GameObject: {fileID: 4414902568929258116}
   m_CullTransparentMesh: 1
---- !u!114 &8685696326768333107
+--- !u!114 &4414902568929258122
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8685696326768333117}
+  m_GameObject: {fileID: 4414902568929258116}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -65,7 +65,67 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: asDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSasDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+  m_text: 'Over a year passed. I received letters from my
+
+    father. He was worried
+    about me. But I couldn''t
+
+    stop. I couldn''t write back. I had to finish
+    my great
+
+    project.
+
+    Then, one dark night in November, I came to
+
+    the
+    end of all my work. It was one o''clock in the
+
+    morning. The rain fell against
+    the window. My
+
+    candle was nearly burned out. I put together all
+
+    my
+    instruments, so I could give life to the thing on
+
+    my table. Then I saw the
+    creature''s yellow eyes
+
+    open. It breathed hard, and its arms and legs
+
+    shook.
+
+    How
+    can I describe this thing I had worked so
+
+    hard to make? He was very tall.
+    I had chosen his
+
+    face as beautiful. Beautiful? How wrong could I
+
+    have
+    been? His long hair was black and shiny. His
+
+    teeth were white and perfect.
+    But these things
+
+    made the rest of him seem even more horrible. His
+
+    yellow
+    skin barely covered what was underneath
+
+    it. His yellow eyes almost matched
+    the color of his
+
+    skin. He had straight black lips.
+
+    This was what I
+    had worked on for almost two
+
+    years. For this, I had gone without sleep and
+
+    almost
+    destroyed my health. I had worked for a'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: ea559dc6b2f92944c8b8fb4f07a8da00, type: 2}
   m_sharedMaterial: {fileID: 977489294684788868, guid: ea559dc6b2f92944c8b8fb4f07a8da00, type: 2}
