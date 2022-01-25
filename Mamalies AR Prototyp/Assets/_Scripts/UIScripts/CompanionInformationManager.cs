@@ -13,6 +13,9 @@ public class CompanionInformationManager : MonoBehaviour
     public string mainMenuSceneName;
 
     [SerializeField]
+    private string tutorailSceneName = "03 StartTutorialPage_Mamalies";
+
+    [SerializeField]
     private bool tutorialPage;
 
     /// <summary>
@@ -55,7 +58,22 @@ public class CompanionInformationManager : MonoBehaviour
     public void LoadMainMenu()
     {
         //SceneManager.LoadScene(mainMenuSceneName);
-        SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+        if (tutorialPage)
+        {          
+            SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+        }
+        else
+        {
+            if (!PlayerPrefs.HasKey(doShowStartupTutorialKey) || PlayerPrefs.GetInt(doShowStartupTutorialKey) == 1)
+            {
+                SceneManager.LoadScene(tutorailSceneName);
+            }
+            else
+            {
+                SceneManager.LoadSceneAsync(mainMenuSceneName, LoadSceneMode.Single);
+            }
+            
+        }
     }
 
     

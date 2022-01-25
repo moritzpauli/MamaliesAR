@@ -23,9 +23,11 @@ public class SplashScreenLogoFade : MonoBehaviour
     [SerializeField]
     private string companionInfoSceneName = "02 CompanionBookInformation_Mamalies";
     [SerializeField]
-    private string mainMenuSceneName = "03 MainMenu_Mamalies";
+    private string tutorialSceneName = "03 StartTutorialPage_Mamalies";
     [SerializeField]
-    private string trackingSceneName = "04 ImageRecognition_Mamalies";
+    private string mainMenuSceneName = "04 MainMenu_Mamalies";
+    [SerializeField]
+    private string trackingSceneName = "05 ImageRecognition_Mamalies";
 
     [Tooltip("The time it takes to load a new scene when no splash screen Animation is selected")]
     [SerializeField]
@@ -34,6 +36,7 @@ public class SplashScreenLogoFade : MonoBehaviour
     private float fallbackTimer = 0;
 
     private string doShowCompanionInformationKey = "doShowCompanionInformation";
+    private string doShowStartupTutorialKey = "doShowStartupTutorial";
 
     // debug
     [SerializeField]
@@ -95,9 +98,14 @@ public class SplashScreenLogoFade : MonoBehaviour
         {
             SceneManager.LoadScene(companionInfoSceneName);
         }
+        else if(!PlayerPrefs.HasKey(doShowStartupTutorialKey) || PlayerPrefs.GetInt(doShowStartupTutorialKey) == 1)
+        {
+            SceneManager.LoadScene(tutorialSceneName);
+        }
         else
         {
             SceneManager.LoadScene(mainMenuSceneName);
         }
+
     }
 }

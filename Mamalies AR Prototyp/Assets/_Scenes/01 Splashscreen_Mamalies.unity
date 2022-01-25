@@ -964,8 +964,9 @@ MonoBehaviour:
   zoomSpeed: 0.6
   fadeSpeed: 0.6
   companionInfoSceneName: 02 CompanionBookInformation_Mamalies
-  mainMenuSceneName: 03 MainMenu_Mamalies
-  trackingSceneName: 04 ImageRecognition_Mamalies
+  tutorialSceneName: 03 StartTutorialPage_Mamalies
+  mainMenuSceneName: 04 MainMenu_Mamalies
+  trackingSceneName: 05 ImageRecognition_Mamalies
   fallbackTransationTime: 3
   loadTracking: 0
 --- !u!4 &1729091443
