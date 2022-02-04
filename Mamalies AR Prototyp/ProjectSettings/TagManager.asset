@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 2
   tags:
   - arMarker
+  - arHelper
   layers:
   - Default
   - TransparentFX
