@@ -79,6 +79,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
 
     private List<GameObject> arTrackedImageObjectList = new List<GameObject>();
+    private List<GameObject> arTrackingHelperObjectList = new List<GameObject>();
 
     private GameObject trackingManagerGameobject;
 
@@ -391,7 +392,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 }
                 if(image.referenceImage.name[0] == 'M')
                 {
-
+                    AddTrackingHelper(image);
                 }
 
 
@@ -424,27 +425,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.None && image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Limited)
                 {
                     RemoveTrackedObject(image);
+                    RemoveTrackingHelperObject(image);
                 }
 
                 if (image.trackingState == UnityEngine.XR.ARSubsystems.TrackingState.Tracking)
                 {
                     UpdateTrackedObject(image);
-                    if (char.IsDigit(image.referenceImage.name[0]))
-                    {
-                        bool objectAdded = false;
-                        foreach (GameObject gObject in arTrackedImageObjectList)
-                        {
-                            if (gObject.name == image.referenceImage.name)
-                            {
-                                objectAdded = true;
-                            }
-                        }
-
-                        if (!objectAdded)
-                        {
-                            AddTrackedObject(image);
-                        }
-                    }
+                    UpdateTrackingHelper(image);
                 }
             }
         }
@@ -459,6 +446,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             foreach (ARTrackedImage image in args.removed)
             {
                 RemoveTrackedObject(image);
+                RemoveTrackingHelperObject(image);
             }
         }
         catch (NullReferenceException exception)
@@ -586,6 +574,38 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 trackingHelper.transform.position = image.transform.position;
                 trackingHelper.transform.rotation = image.transform.rotation;
                 trackingHelper.transform.localScale = new Vector3(image.referenceImage.size.x, 0.004f, image.referenceImage.size.y);
+                arTrackingHelperObjectList.Add(trackingHelper);
+            }
+        }
+    }
+
+    private void UpdateTrackingHelper(ARTrackedImage image)
+    {
+        bool imageExists = false;
+        foreach (GameObject gObject in arTrackingHelperObjectList)
+        {
+            if (gObject.name == image.referenceImage.name)
+            {
+                gObject.transform.position = image.transform.position;
+                gObject.transform.rotation = image.transform.rotation;
+                //print("Update Tracking: " + image.referenceImage.name);
+                imageExists = true;
+            }
+        }
+        if (!imageExists)
+        {
+            AddTrackingHelper(image);
+        }
+    }
+
+    private void RemoveTrackingHelperObject(ARTrackedImage image)
+    {
+        for (int i = 0; i < arTrackingHelperObjectList.Count; i++)
+        {
+            if (arTrackingHelperObjectList[i].name == image.referenceImage.name)
+            {
+                Destroy(arTrackedImageObjectList[i]);
+                arTrackingHelperObjectList.RemoveAt(i);
             }
         }
     }
@@ -640,6 +660,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             }
         }
     }
+
 
 
     /// <summary>
