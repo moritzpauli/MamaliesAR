@@ -3225,6 +3225,10 @@ MonoBehaviour:
   loadNewLibraryTimeInitalDelay: 0.9
   trackingHelperPrefabs:
   - {fileID: 283470326668218820, guid: 4670d942e7989984d9548eb406326f6a, type: 3}
+  - {fileID: 5411098241987347538, guid: 35c760e11c2c6bb43969fa905dbc4d52, type: 3}
+  - {fileID: 5017282553064360365, guid: 6f79dc86bca791a46b5931cad334b81f, type: 3}
+  - {fileID: 4075673721255039521, guid: 307497ef5a5db4041b1fdc31614c6e75, type: 3}
+  - {fileID: 2309444738362993088, guid: e449f8fcd64e2ea42bdfefb731bed33a, type: 3}
 --- !u!1 &1114040580
 GameObject:
   m_ObjectHideFlags: 0

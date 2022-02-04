@@ -717,7 +717,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
         if (physicsRaycastHit.transform != null)
         {
-            if (physicsRaycastHit.transform.parent.tag == "arHelper")
+            if (physicsRaycastHit.transform.parent != null && physicsRaycastHit.transform.parent.tag == "arHelper")
             {
                 tracking = true;
                 currentImage = physicsRaycastHit.transform.gameObject.name;
