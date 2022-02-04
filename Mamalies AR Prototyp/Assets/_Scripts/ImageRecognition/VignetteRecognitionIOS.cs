@@ -464,11 +464,21 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             Destroy(go);
         }
+        foreach (GameObject go in arTrackingHelperObjectList)
+        {
+            Destroy(go);
+        }
         GameObject[] tempMarkers = GameObject.FindGameObjectsWithTag("arMarker");
         foreach (GameObject go in tempMarkers)
         {
             Destroy(go);
         }
+        GameObject[] tempHelpers = GameObject.FindGameObjectsWithTag("arHelper");
+        foreach(GameObject go in tempHelpers)
+        {
+            Destroy(go);
+        }
+        arTrackingHelperObjectList.Clear();
         arTrackedImageObjectList.Clear();
     }
 
