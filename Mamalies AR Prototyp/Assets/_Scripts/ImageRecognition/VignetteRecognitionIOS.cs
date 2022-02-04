@@ -416,7 +416,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         {
             foreach (ARTrackedImage image in args.updated)
             {
-                if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
+                if (image.referenceImage.name[0] == 'D' && pageSelection && currentPage != image.referenceImage.name)
                 {
                     print("PGREC: " + image.referenceImage.name);
                     SelectNewPageLibrary(image.referenceImage.name);
