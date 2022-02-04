@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
   m_Name: DoublePageReferenceLibrary
   m_EditorClassIdentifier: 
-  m_GuidLow: 5569283224719659195
-  m_GuidHigh: 8817939292214827914
+  m_GuidLow: 5253306223345281572
+  m_GuidHigh: 9531692796332404895
   m_Images: []

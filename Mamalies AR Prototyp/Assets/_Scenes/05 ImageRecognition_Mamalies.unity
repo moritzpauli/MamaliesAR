@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 814aa73bc9517c84dbcb9fda9fe549c0, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
@@ -3096,7 +3096,7 @@ MonoBehaviour:
   scanTime: 2
   animateViewfinder: 1
   maxMovingImages: 1
-  referenceImageLibrary: {fileID: 0}
+  referenceImageLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   trackingProgressBar: {fileID: 165585585}
   scannedImageDisplayHorizontal: {fileID: 1131181905}
   scannedImageDisplayVertical: {fileID: 253964037}
@@ -3124,7 +3124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073355956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 768f930a7097aa74caf27e0fd0dbb22c, type: 3}
   m_Name: 
@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073355956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15361fb17ea39154f8539673482905e4, type: 3}
   m_Name: 
@@ -3214,7 +3214,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: cba6beeb31571aa4ab22e48fae896057, type: 2}
   - {fileID: 11400000, guid: bd42bf1eedb37594eb1d7997e7900755, type: 2}
   singlePagesLibrary: {fileID: 11400000, guid: 814aa73bc9517c84dbcb9fda9fe549c0, type: 2}
-  doublePagesLibrary: {fileID: 11400000, guid: 84cabfe1069292f43bb55d720349e09d, type: 2}
+  doublePagesLibrary: {fileID: 0}
   useDoublePages: 0
   startupConvertLibraries: 0
   pageReferenceImages: []

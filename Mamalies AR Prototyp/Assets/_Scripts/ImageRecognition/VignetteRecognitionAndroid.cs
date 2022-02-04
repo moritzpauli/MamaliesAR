@@ -140,7 +140,9 @@ public class VignetteRecognitionAndroid : MonoBehaviour
         Destroy(arTrackedImageManager);
         yield return new WaitForEndOfFrame();
         arTrackedImageManager = arRaycastManager.gameObject.AddComponent(typeof(ARTrackedImageManager)) as ARTrackedImageManager;
+        arTrackedImageManager.enabled = false;
         arTrackedImageManager.referenceLibrary = referenceImageLibrary;
+        arTrackedImageManager.enabled = true;
         arTrackedImageManager.maxNumberOfMovingImages = maxMovingImages;
         arTrackedImageManager.trackedImagesChanged += OnTrackedImageChanged;
 
@@ -495,10 +497,11 @@ public class VignetteRecognitionAndroid : MonoBehaviour
 
     private IEnumerator FauxPageSwap()
     {
-        arTrackedImageManager.enabled = false;
-        yield return new WaitForSeconds(0.6f);
-        arTrackedImageManager.enabled = true;
+        arTrackedImageManager.subsystem.Stop();
+        yield return new WaitForSeconds(0.5f);
+        arTrackedImageManager.subsystem.Start();
         pageRecognisedAnimation.PlayRecognisedAnimation();
+        StartCoroutine(ReInstantiateImageManager());
     }
 
 
