@@ -571,6 +571,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             if(image.referenceImage.name == helper.name)
             {
                 GameObject trackingHelper = Instantiate(helper);
+                trackingHelper.gameObject.name = image.referenceImage.name;
                 trackingHelper.transform.position = image.transform.position;
                 trackingHelper.transform.rotation = image.transform.rotation;
                 trackingHelper.transform.localScale = new Vector3(image.referenceImage.size.x, 0.004f, image.referenceImage.size.y);
