@@ -785,3 +785,13 @@ MonoBehaviour:
     m_SpecifySize: 1
     m_Name: 1033_DS112-113_tight
     m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5298633069412781610
+      m_GuidHigh: 3527385354854389652
+    m_SerializedTextureGuid:
+      m_GuidLow: 8630250390220961478
+      m_GuidHigh: 15079290615437101547
+    m_Size: {x: 0, y: 0}
+    m_SpecifySize: 0
+    m_Name: M_numbers_012_101112_202122
+    m_Texture: {fileID: 0}

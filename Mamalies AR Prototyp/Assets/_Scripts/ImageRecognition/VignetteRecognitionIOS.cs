@@ -159,10 +159,9 @@ public class VignetteRecognitionIOS : MonoBehaviour
     private float loadNewLibraryTimer;
     private float pageSelectionClearTimer;
 
+
     [SerializeField]
-    private Texture2D testTex;
-
-
+    private GameObject[] trackingHelperPrefabs;
 
     #region Initiation
 
@@ -211,7 +210,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
         }
 #endif
 
-        print(testTex.format + "TEXFORM");
+
     }
 
     //#if UNITY_EDITOR
@@ -390,9 +389,13 @@ public class VignetteRecognitionIOS : MonoBehaviour
                 {
                     AddTrackedObject(image);
                 }
+                if(image.referenceImage.name[0] == 'M')
+                {
+
+                }
 
 
-                if (!char.IsDigit(image.referenceImage.name[0]) && pageSelection && currentPage != image.referenceImage.name)
+                if (image.referenceImage.name[0] == 'D' && pageSelection && currentPage != image.referenceImage.name)
                 {
                     SelectNewPageLibrary(image.referenceImage.name);
                     print("PGREC: " + image.referenceImage.name);
@@ -573,6 +576,20 @@ public class VignetteRecognitionIOS : MonoBehaviour
 
     }
 
+    private void AddTrackingHelper(ARTrackedImage image)
+    {
+        foreach(GameObject helper in trackingHelperPrefabs)
+        {
+            if(image.referenceImage.name == helper.name)
+            {
+                GameObject trackingHelper = Instantiate(helper);
+                trackingHelper.transform.position = image.transform.position;
+                trackingHelper.transform.rotation = image.transform.rotation;
+                trackingHelper.transform.localScale = new Vector3(image.referenceImage.size.x, 0.004f, image.referenceImage.size.y);
+            }
+        }
+    }
+
 
     private void AddTrackedObject(ARTrackedImage image)
     {
@@ -584,7 +601,7 @@ public class VignetteRecognitionIOS : MonoBehaviour
             trackedObject.transform.name = image.referenceImage.name;
             trackedObject.transform.position = image.transform.position;
             trackedObject.transform.rotation = image.transform.rotation;
-            trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.005f, image.referenceImage.size.y);
+            trackedObject.transform.localScale = new Vector3(image.referenceImage.size.x, 0.006f, image.referenceImage.size.y);
             arTrackedImageObjectList.Add(trackedObject);
         }
         else

@@ -7876,8 +7876,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: e4afe48ddb37585469b55e7c70f5b9fc, type: 3}
   - m_GUID: a07f965c49159e2459af157b0e6df261
     m_Address: Assets/_VoiceLines/de/de_0721_DS090-091_comb.mp3
     m_ReadOnly: 0
@@ -7897,8 +7897,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 8300000, guid: abffe1f5ee82a2044b6de740d76ddd5a, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: abffe1f5ee82a2044b6de740d76ddd5a, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 86430af96d83ab745920f589971ece12
     m_Address: Assets/_VoiceLines/de/de_0487_DS066-067_jacket.mp3
     m_ReadOnly: 0
@@ -7911,8 +7911,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 8300000, guid: b8b7e6513d2a05c4ea34c6d77ea9708a, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: b8b7e6513d2a05c4ea34c6d77ea9708a, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 882cbe3e767bc604e9279ec1e6da14d2
     m_Address: Assets/_TrackingVignettes/ProductionImages/0882_DS106-107_tospeak.png
     m_ReadOnly: 0
@@ -10868,7 +10868,7 @@ MonoBehaviour:
     m_MainAsset: {fileID: 0}
     m_TargetAsset: {fileID: 0}
   - m_GUID: f3afcf0f2c72faf4c893afc7d494686a
-    m_Address: Assets/_TrackingVignettes/ProductionImages/0695_DS088-089_blanket.png
+    m_Address: Assets/_TrackingVignettes/ProductionImages/0695_DS088-089_ceiling.png
     m_ReadOnly: 0
     m_SerializedLabels:
     - DS088-089
@@ -15751,8 +15751,8 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 8300000, guid: 57cba785ff1e88c45847152a51a6808b, type: 3}
-    m_TargetAsset: {fileID: 8300000, guid: 57cba785ff1e88c45847152a51a6808b, type: 3}
+    m_MainAsset: {fileID: 0}
+    m_TargetAsset: {fileID: 0}
   - m_GUID: 2075485a28284554c8aef70627c7de07
     m_Address: Assets/_TrackingVignettes/ProductionImages/0002_DS016-017_parents.png
     m_ReadOnly: 0
@@ -16514,8 +16514,43 @@ MonoBehaviour:
     m_ReadOnly: 0
     m_SerializedLabels:
     - de
-    m_MainAsset: {fileID: 0}
-    m_TargetAsset: {fileID: 0}
+    m_MainAsset: {fileID: 8300000, guid: 98497cd0bf1811c46863f43d9b111dc5, type: 3}
+    m_TargetAsset: {fileID: 8300000, guid: 98497cd0bf1811c46863f43d9b111dc5, type: 3}
+  - m_GUID: ff78a74a4d605a34b9f75b7e7eb6e213
+    m_Address: Assets/_TrackingVignettes/TrackingHelpers/M_numbers_30313233_40414243_50515253.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: ff78a74a4d605a34b9f75b7e7eb6e213, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: ff78a74a4d605a34b9f75b7e7eb6e213, type: 3}
+  - m_GUID: 33bd5517f2cf8fa4d98a118a07befe8d
+    m_Address: Assets/_TrackingVignettes/TrackingHelpers/M_numbers_789_171819_272829.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: 33bd5517f2cf8fa4d98a118a07befe8d, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 33bd5517f2cf8fa4d98a118a07befe8d, type: 3}
+  - m_GUID: cdb3aafff04305e4e89bc07cf153bd7c
+    m_Address: Assets/_TrackingVignettes/TrackingHelpers/M_numbers_60616263_70717273_80818283_90919293.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: cdb3aafff04305e4e89bc07cf153bd7c, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: cdb3aafff04305e4e89bc07cf153bd7c, type: 3}
+  - m_GUID: 3fcbf6c6cf0177c4eb8902d6eb6644d1
+    m_Address: Assets/_TrackingVignettes/TrackingHelpers/M_numbers_012_101112_202122.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: 3fcbf6c6cf0177c4eb8902d6eb6644d1, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 3fcbf6c6cf0177c4eb8902d6eb6644d1, type: 3}
+  - m_GUID: 7bfe47748feea0c4bb15eb29aa72d1c8
+    m_Address: Assets/_TrackingVignettes/TrackingHelpers/M_numbers_3456_13141516_23242526.png
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - DS112-113
+    m_MainAsset: {fileID: 2800000, guid: 7bfe47748feea0c4bb15eb29aa72d1c8, type: 3}
+    m_TargetAsset: {fileID: 2800000, guid: 7bfe47748feea0c4bb15eb29aa72d1c8, type: 3}
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2de0f4561e300aa4d8b22b9b2aafd1c9, type: 2}
   m_SchemaSet:
