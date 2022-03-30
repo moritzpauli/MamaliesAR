@@ -70,12 +70,12 @@ MonoBehaviour:
     m_Bottom: 50
   m_ChildAlignment: 0
   m_Spacing: 40
-  m_ChildForceExpandWidth: 1
-  m_ChildForceExpandHeight: 1
+  m_ChildForceExpandWidth: 0
+  m_ChildForceExpandHeight: 0
   m_ChildControlWidth: 1
   m_ChildControlHeight: 1
   m_ChildScaleWidth: 0
-  m_ChildScaleHeight: 1
+  m_ChildScaleHeight: 0
   m_ReverseArrangement: 0
 --- !u!1001 &185011129
 PrefabInstance:
@@ -751,6 +751,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Step1
       objectReference: {fileID: 0}
+    - target: {fileID: 3265168326399362304, guid: 07c3532a68c3729498dde685a9313655, type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 35b1b3ff2b20c614ebe61500394b9778, type: 2}
+    - target: {fileID: 3265168326399362304, guid: 07c3532a68c3729498dde685a9313655, type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 3312862690502531834, guid: 35b1b3ff2b20c614ebe61500394b9778, type: 2}
     - target: {fileID: 7051703951244294751, guid: 07c3532a68c3729498dde685a9313655, type: 3}
       propertyPath: m_RootOrder
       value: 0
