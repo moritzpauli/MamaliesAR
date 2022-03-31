@@ -1988,7 +1988,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_SerializedLibrary: {fileID: 11400000, guid: 814aa73bc9517c84dbcb9fda9fe549c0, type: 2}
+  m_SerializedLibrary: {fileID: 11400000, guid: 72980676fabde374999cdf4778211c15, type: 2}
   m_MaxNumberOfMovingImages: 10
   m_TrackedImagePrefab: {fileID: 0}
 --- !u!114 &624744559
@@ -3124,7 +3124,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073355956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 768f930a7097aa74caf27e0fd0dbb22c, type: 3}
   m_Name: 
@@ -3138,7 +3138,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073355956}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 15361fb17ea39154f8539673482905e4, type: 3}
   m_Name: 

@@ -798,6 +798,14 @@
       <Project>{1A0FAA7F-E9D2-6CBC-ED70-0BE121324D87}</Project>
       <Name>Assembly-CSharp</Name>
     </ProjectReference>
+    <ProjectReference Include="RTLTMPro-Editor.csproj">
+      <Project>{7121AC31-06D2-4E52-3207-0C871789D180}</Project>
+      <Name>RTLTMPro-Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="RTLTMPro.csproj">
+      <Project>{CA415B78-9D4B-F781-1ED1-EEFC11F0CBF3}</Project>
+      <Name>RTLTMPro</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

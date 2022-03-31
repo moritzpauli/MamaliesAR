@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>latest</LangVersion>
+    <LangVersion>8.0</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,25 +53,28 @@
     <UnityVersion>2021.1.15f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\EnglishNumbers.cs" />
+    <Analyzer Include="D:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\TashkeelCharacters.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RichTextFixer.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RTLTextMeshPro3D.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RTLSupport.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\FarsiNumbers.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\EnglishNumbers.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RTLTextMeshPro.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\ArabicGeneralLetters.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\GlyphFixer.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\TashkeelFixer.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\ArabicIsolatedLetters.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\FastStringBuilder.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\TashkeelLocation.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Char32Utils.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\LigatureFixer.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\ArabicGeneralLetters.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\TashkeelCharacters.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RTLTextMeshPro.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RTLTextMeshPro3D.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\GlyphTable.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\RichTextFixer.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\FarsiNumbers.cs" />
+    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\HinduNumbers.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\TextUtils.cs" />
     <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\SpecialCharacters.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Types\HinduNumbers.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\GlyphFixer.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\TashkeelLocation.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\TashkeelFixer.cs" />
-    <Compile Include="Assets\RTLTMPro\Scripts\Runtime\Char32Utils.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\RTLTMPro\Scripts\Runtime\RTLTMPro.asmdef" />
