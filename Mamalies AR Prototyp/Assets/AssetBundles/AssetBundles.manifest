@@ -1,10 +1,26 @@
 ManifestFileVersion: 0
-CRC: 3427063921
+CRC: 111072829
 AssetBundleManifest:
   AssetBundleInfos:
     Info_0:
-      Name: de_voicelines
+      Name: textureassetbundle
       Dependencies: {}
     Info_1:
-      Name: en_voicelines
+      Name: sceneassetbundle
+      Dependencies:
+        Dependency_0: textureassetbundle
+    Info_2:
+      Name: voicelines
+      Dependencies: {}
+    Info_3:
+      Name: trackingvignettes
+      Dependencies: {}
+    Info_4:
+      Name: scenes
+      Dependencies:
+        Dependency_0: voicelines
+        Dependency_1: trackingvignettes
+        Dependency_2: misc
+    Info_5:
+      Name: misc
       Dependencies: {}

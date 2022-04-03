@@ -1,0 +1,497 @@
+ManifestFileVersion: 0
+CRC: 2161754483
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 37e2ceca21bc285b5f690ea59eaa6bd8
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ac16e5c88ae95970c1604004dd3ad21a
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 49
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 84
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 12001, guid: 0000000000000000e000000000000000, type: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: ab2114bdc8544297b417dfefe9f1e410, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 307a736764ebbce44b54d72f8467b6fd, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 23c72ca5c023765439329585d988578b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 3245ec927659c4140ac4f8d17403cc18, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: bf2edee5c58d82540a51f03df9d42094, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d236b7d11115f2143951f1e14045df39, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 9541d86e2fd84c1d9990edf0852d74ab, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4c3631f5e58749a59194e0cf6baf6d5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a18c4d6661b404073b154020b9e2d993, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 54d21f6ece3b46479f0c328f8c6007e0, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2705215ac5b84b70bacc50632be6e391, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0b2db86121404754db890f4c8dfe81b2, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 84a92b25f83d49b9bc132d206b370281, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 899c54efeace73346a0a16faa3afe726, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: d7fd9488000d3734a9e00ee676215985, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 97c23e3b12dc18c42a140437e53d3951, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: aaa35d42835ae7843af018e161c45856, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0ae4d376c05df421b98c5b39b25b0d29, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 06042c85f885b4d1886f3ca5a1074eca, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 572910c10080c0945a0ef731ccedc739, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: c6199fb6640743e43ba76362f0cc36f5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e679265d16d650945812b915bb9d5cc3, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: a140b66429c96344083035352cb7c898, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+- Class: 225
+  Script: {instanceID: 0}
+- Class: 329
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text Image
+  1.png
+- Assets/UISprites/Testing/trashCan.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/Default Sprite Asset.asset
+- Assets/Settings/UniversalRP-MediumQuality.asset
+- Assets/Settings/ARUniversalRenderPipelineAsset_Renderer.asset
+- Assets/UISprites/Testing/spinner-6-444990.png
+- Assets/UISprites/Testing/1024px-OOjs_UI_icon_cancel.svg.png
+- Assets/UISprites/UI Slices/Button_Cancel.png
+- Assets/RTLTMPro/Ranges/HebrewLetters.txt
+- Assets/XR/Loaders/AR Core Loader.asset
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/time.png
+- Assets/TextMesh Pro/Examples & Extras/Materials/Small Crate_diffuse.mat
+- Assets/Videos/You Have No Authority Here, Jackie Weaver (Official Remix).mp4
+- Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset
+- Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset
+- Assets/_Prefabs/AR/TrackingHelpers/0951_DS112-113_zero.prefab
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Oswald Bold SDF.asset
+- Assets/UISprites/UI Slices/Button_MainMenu4.png
+- Assets/UISprites/UI Slices/Loading.png
+- Assets/UISprites/Fonts/NotoSans/NotoSansThai-Bold.ttf
+- Assets/UISprites/Viewfinder/auswahl-quadratischer-rand.png
+- Assets/UISprites/UI Slices/Button_BlueLang3.png
+- Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset
+- Assets/_Prefabs/AR/TrackingHelpers/M_numbers_60616263_70717273_80818283_90919293.prefab
+- Assets/Materials/UIMaskMaterial.mat
+- Assets/UISprites/AppIcons/MAMALIES__IOS 167.png
+- Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
+- Assets/UISprites/UI Slices/Button_Home.png
+- Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+- Assets/AddressableAssetsData/AddressableAssetSettings.asset
+- Assets/UISprites/UI Slices/ScanMenuBorders.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 108.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF Fixed.shader
+- Assets/RTLTMPro/Fonts/seguisli.ttf
+- Assets/UISprites/UI Slices/Button_Start_Type.png
+- Assets/UISprites/UI Slices/Graph_Book_Page.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/buildFrom.png
+- Assets/RTLTMPro/Ranges/ArabicAll.txt
+- Assets/UISprites/UI Slices/Button_Menu.png
+- Assets/Videos/TutorialVideo.mov
+- Assets/RTLTMPro/Ranges/ArabicDigits.txt
+- Assets/UISprites/Testing/exclamation-mark-2653300-2202972.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF
+  - Drop Shadow.mat
+- Assets/UISprites/AppIcons/MAMALIES__Android BG 162 .png
+- Assets/Unity-Logs-Viewer/Reporter/Images/info.png
+- Assets/_Prefabs/UI/Warning.prefab
+- Assets/ExternalDependencyManager/Editor/CHANGELOG.md
+- Assets/AssetBundles/de_voicelines.manifest
+- Assets/Unity-Logs-Viewer/Reporter/Images/UnityIcon.png
+- Assets/Videos/VideoRenderTexture.renderTexture
+- Assets/Materials/TrackingHelperParent.mat
+- Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+- Assets/UISprites/UI Slices/Icon_Volume.png
+- Assets/UISprites/UI Slices/Button_Start_NoStartType.png
+- Assets/UISprites/UI Slices/Button_MainMenu5_Type.png
+- Assets/AssetBundles/en_voicelines.manifest
+- Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+- Assets/UISprites/UI Slices/BG_Pink.png
+- Assets/AssetBundles/misc.manifest
+- Assets/UISprites/UI Slices/Buttom_Play.png
+- Assets/UISprites/UI Slices/Button_Lang5.png
+- Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
+- Assets/Rendering/UniversalRenderPipelineAsset.asset
+- Assets/UISprites/UI Slices/Window_MainMenu.png
+- Assets/UISprites/AppIcons/MAMALIES__Android BG324 .png
+- Assets/UISprites/Testing/black-check-tick-icon-4.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/date.png
+- Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+- Assets/UISprites/UI Slices/Icon_Language.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/fps.png
+- Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+- Assets/Unity-Logs-Viewer/Reporter/Images/clear.png
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF-Mobile Masking Fixed.shader
+- Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Diagonal.psd
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_right_arraw.png
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+- Assets/UISprites/UI Slices/Graph_scrollBar.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal  72.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/timer_1.png
+- Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+- Assets/TextMesh Pro/Sprites/EmojiOne.png
+- Assets/UISprites/AppIcons/MAMALIES__IOS 152.png
+- Assets/AssetBundles/textureassetbundle.manifest
+- Assets/XR/Loaders/AR Kit Loader.asset
+- Assets/UISprites/UI Slices/Button_MainMenu7_Type.png
+- Assets/Materials/Uimat.mat
+- Assets/UISprites/UI Slices/Button_MainMenu3.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 162.png
+- Assets/UISprites/AppIcons/MAMALIES__IOS 1024.png
+- Assets/UISprites/UI Slices/AR-Reading-App_133.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/odd_log.png
+- Assets/UISprites/UI Slices/Button_BlueLang1.png
+- Assets/RTLTMPro/Fonts/segoeui.ttf
+- Assets/UISprites/AppIcons/MAMALIES__IOS 76.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/clear.png
+- Assets/UISprites/UI Slices/Icon_2Lang.png
+- Assets/UISprites/Viewfinder/cameraViewfinder.png
+- Assets/Rendering/UniversalRenderPipelineAsset_Renderer.asset
+- Assets/Settings/UniversalRP-LowQuality.asset
+- Assets/UISprites/Testing/home.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/GCMem.png
+- Assets/UISprites/UI Slices/BG_Top_PhotoMode.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+  SDF - Metalic Green.mat
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_thumb.png
+- Assets/UISprites/UI Slices/Button_BlueLang5.png
+- Assets/ExternalDependencyManager/Editor/external-dependency-manager_version-1.2.169_manifest.txt
+- Assets/XR/XRGeneralSettings.asset
+- Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_normal.jpg
+- Assets/_Prefabs/UI/DeTutorial.prefab
+- Assets/RTLTMPro/Fonts/seguibl.ttf
+- Assets/AssetBundles/scenes.manifest
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+  SDF - Overlay.mat
+- Assets/AddressableAssetsData/DefaultObject.asset
+- Assets/RTLTMPro/Fonts/segoeuisl.ttf
+- Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_ContentUpdateGroupSchema.asset
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_down_arraw.png
+- Assets/UISprites/AppIcons/MAMALIES__Android BG 432 .png
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold - OFL.txt
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/info.png
+- Assets/XR/Settings/AR Kit Settings.asset
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 81.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/selected.png
+- Assets/AssetBundles/voicelines.manifest
+- Assets/TextMesh Pro/Sprites/EmojiOne.json
+- Assets/UISprites/Testing/724933.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/log.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/scene.png
+- Assets/XR/Settings/Magic Leap Settings.asset
+- Assets/RTLTMPro/Fonts/segoeui Arabic Glow SDF.mat
+- Assets/UISprites/UI Slices/Download_Bar.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/clearOnSceneLoaded.png
+- Assets/UISprites/UI Slices/TickBox_BookPage.png
+- Assets/XR/Settings/Windows MR Package Settings.asset
+- Assets/TextMesh Pro/Examples & Extras/Textures/Floor Tiles 1 - diffuse.jpg
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot21.png
+- Assets/UISprites/UI Slices/Window_DownloadConfirmation.png
+- Assets/UISprites/Ani_Reticule_900pxw/Sprite_Focus_460x340_30fps.png
+- Assets/AddressableAssetsData/AssetGroups/Schemas/Built In Data_PlayerDataGroupSchema.asset
+- Assets/_Prefabs/AR/TrackingMarker.prefab
+- Assets/RTLTMPro/Fonts/segoeuii.ttf
+- Assets/UISprites/AppIcons/MAMALIES__Android BG 81.png
+- Assets/UISprites/Viewfinder/viewfinder2.png
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Electronic Highway Sign.TTF
+- Assets/Unity-Logs-Viewer/Reporter/Images/Save.png
+- Assets/UISprites/UI Slices/Button_MainMenu7.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/LiberationSans
+  SDF - Soft Mask.mat
+- Assets/Materials/UIMaskedMaterial.mat
+- Assets/Unity-Logs-Viewer/Reporter/Images/error_icon.png
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+- Assets/TextMesh Pro/Examples & Extras/Resources/Sprite Assets/DropCap Numbers.asset
+- Assets/Settings/ARUniversalRenderPipelineAsset.asset
+- Assets/RTLTMPro/Ranges/ASCIIDigits.txt
+- Assets/Unity-Logs-Viewer/Reporter/Images/even_log.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal 36.png
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+- Assets/RTLTMPro/Fonts/seguibli.ttf
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
+- Assets/ExternalDependencyManager/Editor/README.md
+- Assets/Settings/ForwardRenderer.asset
+- Assets/TextMesh Pro/Examples & Extras/Textures/Mask Zig-n-Zag.psd
+- Assets/UISprites/UI Slices/Button_MainMenu3_Type.png
+- Assets/AddressableAssetsData/DataBuilders/BuildScriptFastMode.asset
+- Assets/UISprites/UI Slices/Button_MainMenu5.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 48.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Light to
+  Dark Green - Vertical.asset
+- Assets/UISprites/Ani_Reticule_900pxw/Legacy Large/Focus_SpriteSheet.png
+- Assets/UISprites/Fonts/NotoSans/NotoSansSC-Bold.otf
+- Assets/UISprites/UI Slices/Window_LanguageScrollSelect.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/bar.png
+- Assets/_Prefabs/UI/TutorialTexts/Step1.prefab
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_left_arraw.png
+- Assets/RTLTMPro/Fonts/seguisbi.ttf
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_vertical_back.png
+- Assets/TextMesh Pro/Resources/TMP Settings.asset
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/clearOnNewScene.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_up_arraw.png
+- Assets/UISprites/UI Slices/Button_Lang2.png
+- Assets/RTLTMPro/Fonts/segoeui SDF Hebrew.asset
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot11.png
+- Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+- Assets/TextMesh Pro/Examples & Extras/Textures/Brushed Metal 3.jpg
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal  96.png
+- Assets/Materials/TestMat.mat
+- Assets/UISprites/UI Slices/Button_BlueLang4.png
+- Assets/UISprites/Fonts/NotoSans/NotoSansArabic-Bold.ttf
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal  144.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/fps.png
+- Assets/RTLTMPro/Fonts/segoeui SDF Arabic.asset
+- Assets/UISprites/UI Slices/Button_BlueLang2.png
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF-Surface-Mobile Fixed.shader
+- Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Logo Scene.mat
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Glow.mat
+- Assets/UISprites/UI Slices/Button_MainMenu8.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Circle.psd
+- Assets/AddressableAssetsData/AssetGroups/Schemas/Default Local Group_BundledAssetGroupSchema.asset
+- Assets/UISprites/UI Slices/Logo_Mamalies.png
+- Assets/UISprites/Fonts/NotoSans/NotoSansArabic-Bold SDF.asset
+- Assets/RTLTMPro/Fonts/segoeuiz.ttf
+- Assets/UISprites/UI Slices/Graph_Tutorial.png
+- Assets/Materials/UiMatHLSL.mat
+- Assets/_Prefabs/UI/FR.prefab
+- Assets/AddressableAssetsData/AssetGroups/Default Local Group.asset
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 192.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF
+  - Surface.mat
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 144.png
+- Assets/UISprites/UI Slices/Splash_Screen.png
+- Assets/_Prefabs/UI/TutorialTexts/EN.prefab
+- Assets/Unity-Logs-Viewer/Reporter/Images/warning_icon.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/copy.png
+- Assets/_Prefabs/AR/TrackingHelpers/M_numbers_3456_13141516_23242526.prefab
+- Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Horizontal (Color).jpg
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF -
+  Outline.mat
+- Assets/RTLTMPro/Ranges/ArabicLetters.txt
+- Assets/AddressableAssetsData/AssetGroups/Built In Data.asset
+- Assets/RTLTMPro/Fonts/seguili.ttf
+- Assets/UISprites/Testing/1200px-Info_icon-72a7cf.svg.png
+- Assets/UISprites/UI Slices/Window_GetBook.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF Logo.mat
+- Assets/UISprites/UI Slices/ArrowButton_BookPage.png
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+- Assets/RTLTMPro/Resources/Sprites/Github.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Yellow to
+  Orange - Vertical.asset
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
+- Assets/_Prefabs/AR/TrackingHelpers/M_numbers_789_171819_272829.prefab
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF Overlay Fixed.shader
+- Assets/UISprites/UI Slices/NumberBG.png
+- Assets/UISprites/Fonts/AvenirLTStd-Roman SDF.asset
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Oswald-Bold.ttf
+- Assets/RTLTMPro/Fonts/seguisb.ttf
+- Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+- Assets/AddressableAssetsData/AssetGroupTemplates/Packed Assets.asset
+- Assets/UISprites/UI Slices/Button_Lang1.png
+- Assets/XR/Settings/AR Core Settings.asset
+- Assets/TextMesh Pro/Examples & Extras/Sprites/DropCap Numbers.psd
+- Assets/UISprites/UI Slices/Window_Language.png
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
+- Assets/UISprites/Fonts/NotoSans/NotoSansSC-Bold SDF_Custom.asset
+- Assets/UISprites/UI Slices/Button_MainMenu1_Type.png
+- Assets/AddressableAssetsData/AssetGroups/Schemas/RemoteAssets_ContentUpdateGroupSchema.asset
+- Assets/AssetBundles/trackingvignettes.manifest
+- Assets/Unity-Logs-Viewer/Reporter/Images/memory.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/search.png
+- Assets/TextMesh Pro/Examples & Extras/Materials/Ground - Surface Shader Scene.mat
+- Assets/Settings/SampleSceneProfile.asset
+- Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to
+  Purple - Vertical.asset
+- Assets/UISprites/UI Slices/Stop.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/back.png
+- Assets/Materials/TestMatLit.mat
+- Assets/UISprites/Ani_Reticule_900pxw/Sprite_Locked_460x340_30fps.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Quad.psd
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF-Mobile Fixed.shader
+- Assets/UISprites/UI Slices/Window_ForMenuPopups.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/screenShot3.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 216.png
+- Assets/UISprites/Ani_Reticule_900pxw/ViewfinderAnimation.anim
+- Assets/TextMesh Pro/Examples & Extras/Textures/Fruit Jelly (B&W).jpg
+- Assets/UISprites/UI Slices/Button_MainMenu8_Type.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Diagonal (Color).jpg
+- Assets/UISprites/UI Slices/Button_MainMenu1.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to
+  Light Green - Vertical.asset
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/error.png
+- Assets/Materials/AlphaUi.mat
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF -
+  Drop Shadow.mat
+- Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+- Assets/RTLTMPro/Ranges/ArabicTashkil.txt
+- Assets/_Prefabs/AR/TrackingMarkerMat.mat
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 36.png
+- Assets/UISprites/Fonts/NotoSans/NotoSansThai-Bold SDF.asset
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/collapse.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Floor Cement.jpg
+- Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+- Assets/Settings/UniversalRP-HighQuality.asset
+- Assets/TextMesh Pro/Examples & Extras/Sprites/Default Sprites.png
+- Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+- Assets/XR/Loaders/Windows MR Loader.asset
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_thumb.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Small Crate_diffuse.jpg
+- Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+- Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+- Assets/Unity-Logs-Viewer/Reporter/Images/collapse.png
+- Assets/UISprites/Fonts/AvenirLTStd-Book SDF.asset
+- Assets/UISprites/AppIcons/MAMALIES__IOS 180.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 432.png
+- Assets/UISprites/UI Slices/Icon_1Lang.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/scroller_horizental_back.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Roboto-Bold SDF.asset
+- Assets/Unity-Logs-Viewer/Reporter/Images/reporterScrollerSkin.guiskin
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/warning.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal  48.png
+- Assets/Materials/TrackingHelper.mat
+- Assets/AddressableAssetsData/AssetGroups/RemoteAssets.asset
+- Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
+- Assets/TextMesh Pro/Examples & Extras/Textures/Text Overflow - Linked Text UI Screenshot.png
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop
+  Shadow.mat
+- Assets/UISprites/UI Slices/Info_Graph.png
+- Assets/UISprites/Ani_Reticule_900pxw/Legacy Large/Locked_SpriteSheet.png
+- Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+- Assets/UISprites/AppIcons/MAMALIES__Android BG 216 .png
+- Assets/_Prefabs/AR/TrackingHelpers/M_numbers_30313233_40414243_50515253.prefab
+- Assets/UISprites/AppIcons/MAMALIES__Android Normal 192.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/button_active.png
+- Assets/UISprites/Viewfinder/crosshair.png
+- Assets/RTLTMPro/Resources/Sprites/Github.asset
+- Assets/TextMesh Pro/Examples & Extras/Materials/Crate - Surface Shader Scene.mat
+- Assets/UISprites/UI Slices/Button_Lang4.png
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF-Mobile Overlay Fixed.shader
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny
+  Days.mat
+- Assets/TextMesh Pro/Examples & Extras/Textures/Sunny Days - Seamless.jpg
+- Assets/UISprites/UI Slices/Button_MainMenu2.png
+- Assets/AssetBundles/sceneassetbundle.manifest
+- Assets/UISprites/Fonts/NotoSans/NotoSans-Bold.ttf
+- Assets/UISprites/Fonts/NotoSans/NotoSans-Bold SDF.asset
+- Assets/UISprites/UI Slices/LoadingBG.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/ComputerIcon.png
+- Assets/AddressableAssetsData/AssetGroups/Schemas/RemoteAssets_BundledAssetGroupSchema.asset
+- Assets/UISprites/UI Slices/AR-Reading-App-newloadingbar_184.png
+- Assets/RTLTMPro/Fonts/segoeui Arabic Outline SDF.mat
+- Assets/AssetBundles/AssetBundles.manifest
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers - OFL.txt
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+- Assets/UISprites/UI Slices/Button_Lang3.png
+- Assets/UISprites/UI Slices/Button_MainMenu2_Type.png
+- Assets/UISprites/MamaLiesLogo.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Wipe Pattern - Radial Double.psd
+- Assets/UISprites/Ani_Reticule_900pxw/Viewfinder.controller
+- Assets/UISprites/UI Slices/Graph_Subtitle.png
+- Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+- Assets/Unity-Logs-Viewer/Reporter/Images/log_icon.png
+- Assets/UISprites/UI Slices/Button_MainMenu6.png
+- Assets/UISprites/UI Slices/Button_Trash_87_82.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/software.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 96.png
+- Assets/TextMesh Pro/Examples & Extras/Textures/Gradient Vertical (Color).jpg
+- Assets/RTLTMPro/Fonts/segoeuil.ttf
+- Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+- Assets/UISprites/UI Slices/Button_Confirm.png
+- Assets/UISprites/UI Slices/Button_MainMenu6_Type.png
+- Assets/Unity-Logs-Viewer/ReporterDocumentation/index.htm
+- Assets/RTLTMPro/Fonts/segoeuib.ttf
+- Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Electronic Highway
+  Sign SDF.asset
+- Assets/UISprites/UI Slices/VignetteWindow_LightBlue.png
+- Assets/UISprites/UI Slices/Button_Return.png
+- Assets/UISprites/UI Slices/BG_Down_PhotoMode.png
+- Assets/UISprites/AppIcons/MAMALIES__Android Round 72.png
+- Assets/_Prefabs/AR/TrackingHelpers/M_numbers_012_101112_202122.prefab
+- Assets/UISprites/AppIcons/MAMALIES__Android Foreground 324.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/chart.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/graphicCard.png
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Anton OFL.txt
+- Assets/UISprites/UI Slices/Download_Window.png
+- Assets/Unity-Logs-Viewer/README.md
+- Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
+- Assets/Videos/VID_20211119_180507.mp4
+- Assets/Unity-Logs-Viewer/Reporter/Images/user.png
+- Assets/RTLTMPro/Resources/Shaders/TMP_SDF-Surface Fixed.shader
+- Assets/UISprites/AppIcons/MAMALIES__IOS 120.png
+- Assets/UISprites/AppIcons/MAMALIES__Android BG 108.png
+- Assets/UISprites/Fonts/AvenirLTStd-Black SDF.asset
+- Assets/UISprites/UI Slices/Button_MainMenu4_Type.png
+- Assets/UISprites/UI Slices/Button_Start_Type_Gray.png
+- Assets/Unity-Logs-Viewer/Reporter/Images/close.png
+- Assets/UISprites/Testing/basicSprite.png
+- Assets/UISprites/UI Slices/AR-Reading-App_131.png
+Dependencies: []
